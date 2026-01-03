@@ -1,6 +1,9 @@
 let currentAudio = null;
 let currentSlug = '';
 let playingSentenceId = null;
+let allBlocks = [];
+let articleGlossary = [];
+let currentModalIndex = -1;
 
 async function loadArticle() {
     const params = new URLSearchParams(window.location.search);
@@ -22,9 +25,12 @@ async function loadArticle() {
         const translation = await transRes.json();
         const glossaryData = await glossaryRes.json();
 
+        allBlocks = article.blocks;
+        articleGlossary = glossaryData.glossary || [];
+
         renderArticle(article, translation.translations);
-        renderGlossary(glossaryData.glossary);
-        setupAudio(article.blocks);
+        renderGlossary(articleGlossary);
+        setupAudio(allBlocks);
     } catch (error) {
         console.error('Error loading article:', error);
         document.getElementById('app').innerHTML = '<div class="error">Error loading article content.</div>';
@@ -35,7 +41,7 @@ function renderArticle(article, translations) {
     const app = document.getElementById('app');
     let html = '';
 
-    article.blocks.forEach(block => {
+    article.blocks.forEach((block, index) => {
         if (block.type === 'title') {
             html += `
                 <header>
@@ -57,7 +63,7 @@ function renderArticle(article, translations) {
         } else if (block.type === 'sentence') {
             const trans = translations[block.id] || '';
             html += `
-                <span class="sentence" data-id="${block.id}" onclick="playSentence(${block.id})">
+                <span class="sentence" data-id="${block.id}" onclick="openModal(${index})">
                     ${block.text}
                     ${trans ? `<span class="translation-overlay">${trans}</span>` : ''}
                 </span> `;
@@ -79,7 +85,6 @@ function setupAudio(blocks) {
     if (!playAllBtn) return;
 
     const playableBlocks = blocks.filter(b => b.type === 'sentence' || b.type === 'heading' || b.type === 'title');
-    let currentIndex = 0;
 
     playAllBtn.onclick = () => {
         if (currentAudio && !currentAudio.paused) {
@@ -107,11 +112,15 @@ async function playSentence(id) {
     const el = document.querySelector(`[data-id="${id}"]`);
     if (el) el.classList.add('playing');
 
+    const modalPlayBtn = document.getElementById('modal-play-pause');
+    if (modalPlayBtn) modalPlayBtn.innerHTML = '<span class="icon">⏸</span> Pause';
+
     currentAudio.play().catch(err => console.error('Audio play failed:', err));
 
     currentAudio.onended = () => {
         if (el) el.classList.remove('playing');
         playingSentenceId = null;
+        if (modalPlayBtn) modalPlayBtn.innerHTML = '<span class="icon">▶</span> Play Again';
     };
 }
 
@@ -154,9 +163,11 @@ function renderGlossary(glossary) {
     if (!glossary || !Array.isArray(glossary) || glossary.length === 0) return;
 
     glossarySection.style.display = 'block';
-    let html = '';
+    glossaryList.innerHTML = generateGlossaryHTML(glossary);
+}
 
-    glossary.forEach(entry => {
+function generateGlossaryHTML(glossary) {
+    return glossary.map(entry => {
         const itemHtml = entry.items.map(item => {
             const wordSlug = item.word.toLowerCase().replace(/[^a-z0-9]/g, '-');
             return `
@@ -167,7 +178,7 @@ function renderGlossary(glossary) {
             `;
         }).join('<span class="separator">/</span>');
 
-        html += `
+        return `
             <div class="glossary-item">
                 <div class="glossary-term-container">
                     <div class="glossary-terms">${itemHtml}</div>
@@ -175,22 +186,13 @@ function renderGlossary(glossary) {
                 <div class="glossary-definition">${entry.explanation}</div>
             </div>
         `;
-    });
-
-    glossaryList.innerHTML = html;
+    }).join('');
 }
 
 function jumpToSentence(id) {
-    const el = document.querySelector(`[data-id="${id}"]`);
-    if (el) {
-        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        // Visual feedback
-        el.classList.add('playing');
-        setTimeout(() => {
-            if (playingSentenceId !== id) {
-                el.classList.remove('playing');
-            }
-        }, 2000);
+    const index = allBlocks.findIndex(b => b.id === id);
+    if (index !== -1) {
+        openModal(index);
     }
 }
 
@@ -203,9 +205,105 @@ async function playGlossaryWord(wordSlug) {
     currentAudio.play().catch(err => console.error('Glossary audio failed:', err));
 }
 
-// Expose functions to window for inline onclick handlers (Vite module scope fix)
+// Modal Logic
+function openModal(index) {
+    currentModalIndex = index;
+    const modal = document.getElementById('study-modal');
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+    updateModalContent();
+    playSentence(allBlocks[index].id);
+}
+
+function closeModal() {
+    const modal = document.getElementById('study-modal');
+    modal.style.display = 'none';
+    document.body.style.overflow = '';
+    if (currentAudio) currentAudio.pause();
+}
+
+function updateModalContent() {
+    const block = allBlocks[currentModalIndex];
+    if (!block || block.type !== 'sentence') return;
+
+    document.getElementById('modal-english').innerText = block.text;
+
+    // Get translation
+    const sentenceEl = document.querySelector(`.sentence[data-id="${block.id}"]`);
+    const translationOverlay = sentenceEl.querySelector('.translation-overlay');
+    document.getElementById('modal-translation').innerText = translationOverlay ? translationOverlay.innerText : '';
+
+    // Filter glossary
+    const relevantGlossary = articleGlossary.filter(entry =>
+        entry.items.some(item => item.sentenceId === block.id)
+    );
+
+    const glossaryContainer = document.getElementById('modal-glossary');
+    if (relevantGlossary.length > 0) {
+        glossaryContainer.style.display = 'block';
+        glossaryContainer.innerHTML = '<h4>Key Vocabulary</h4>' + generateGlossaryHTML(relevantGlossary);
+    } else {
+        glossaryContainer.style.display = 'none';
+    }
+
+    // Play button
+    const playBtn = document.getElementById('modal-play-pause');
+    playBtn.onclick = () => {
+        if (currentAudio && !currentAudio.paused) {
+            currentAudio.pause();
+            playBtn.innerHTML = '<span class="icon">▶</span> Play';
+        } else {
+            playSentence(block.id);
+            playBtn.innerHTML = '<span class="icon">⏸</span> Pause';
+        }
+    };
+}
+
+function nextSentence() {
+    let nextIndex = currentModalIndex + 1;
+    while (nextIndex < allBlocks.length && allBlocks[nextIndex].type !== 'sentence') {
+        nextIndex++;
+    }
+    if (nextIndex < allBlocks.length) {
+        currentModalIndex = nextIndex;
+        updateModalContent();
+        playSentence(allBlocks[currentModalIndex].id);
+    }
+}
+
+function prevSentence() {
+    let prevIndex = currentModalIndex - 1;
+    while (prevIndex >= 0 && allBlocks[prevIndex].type !== 'sentence') {
+        prevIndex--;
+    }
+    if (prevIndex >= 0) {
+        currentModalIndex = prevIndex;
+        updateModalContent();
+        playSentence(allBlocks[currentModalIndex].id);
+    }
+}
+
+// Global exposure
+window.openModal = openModal;
+window.closeModal = closeModal;
+window.nextSentence = nextSentence;
+window.prevSentence = prevSentence;
 window.playSentence = playSentence;
 window.jumpToSentence = jumpToSentence;
 window.playGlossaryWord = playGlossaryWord;
+
+// Keyboard shortcuts
+document.addEventListener('keydown', (e) => {
+    const modal = document.getElementById('study-modal');
+    if (modal && modal.style.display === 'flex') {
+        if (e.key === 'ArrowRight') nextSentence();
+        if (e.key === 'ArrowLeft') prevSentence();
+        if (e.key === 'Escape') closeModal();
+        if (e.key === ' ') {
+            e.preventDefault();
+            document.getElementById('modal-play-pause').click();
+        }
+    }
+});
 
 loadArticle();

@@ -326,3 +326,159 @@ article h2 {
     box-shadow: 0 0 0 2px var(--accent);
     border-radius: 4px;
 }
+
+/* Sentential Study Modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 10, 20, 0.95);
+    backdrop-filter: blur(20px);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    animation: modalFadeIn 0.3s ease;
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.modal-close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.modal-close:hover {
+    color: #fff;
+}
+
+.modal-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s;
+    padding: 2rem;
+    z-index: 1010;
+}
+
+.modal-nav:hover {
+    color: var(--primary);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.nav-prev {
+    left: 2rem;
+}
+
+.nav-next {
+    right: 2rem;
+}
+
+.modal-content {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    z-index: 1005;
+}
+
+.modal-text-en {
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+
+.modal-text-ja {
+    font-size: 1.4rem;
+    color: var(--text-muted);
+    margin-bottom: 3rem;
+    line-height: 1.6;
+}
+
+.btn-play-large {
+    background: var(--primary);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 4px 15px rgba(109, 40, 217, 0.4);
+    margin-bottom: 3rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-play-large:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(109, 40, 217, 0.6);
+    background: var(--primary-hover);
+}
+
+.modal-glossary-subset {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 1rem;
+    border: 1px solid var(--glass-border);
+}
+
+.modal-glossary-subset h4 {
+    color: var(--accent);
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.modal-glossary-subset .glossary-item {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+@media (max-width: 768px) {
+    .modal-text-en {
+        font-size: 1.5rem;
+    }
+
+    .modal-text-ja {
+        font-size: 1.1rem;
+    }
+
+    .modal-nav {
+        display: none;
+    }
+}

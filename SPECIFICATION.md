@@ -56,7 +56,23 @@ Defines vocabulary highlights as an ordered array.
 
 - **Interaction Rules**: 
   - Each `word` is individually clickable for **high-quality pronunciation** (Static MP3).
-  - Each `word` has a small **"Jump" icon** next to it to scroll the article to its specific `sentenceId`.
+  - Each `word` has a small **"Jump" icon** next to it to scroll the article up to its specific `sentenceId` (triggers modal).
+
+---
+
+## 3. Sentential Study Modal
+A focused learning view triggered by clicking any sentence.
+
+- **Content**:
+  - **English Sentence**: Large, clear display for focused study.
+  - **Translation**: High-contrast display below the English text.
+  - **Audio**: Play/Pause button for the block's pre-rendered MP3.
+  - **Navigation**: "Previous" and "Next" arrows to move through the article's sentences sequentially.
+  - **Glossary Filter**: Lists glossary items that specifically belong to the current `sentenceId`.
+- **Logic**:
+  - Triggered by clicking any `.sentence` in the main article.
+  - State (current sentence) persists within the modal during navigation.
+  - Keyboard: `ArrowLeft` / `ArrowRight` for navigation, `Space` for toggle play.
 
 ---
 
