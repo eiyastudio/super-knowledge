@@ -1,0 +1,119 @@
+{
+    "slug": "the-fool",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "0. The Fool"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "A Threshold Marked by Zero"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered zero, the Fool stands outside the ordered sequence of the major arcana, occupying a liminal position between potential and manifestation."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "Zero is not absence but suspension — a space in which all paths are possible yet none have been chosen.",
+            "paragraph_end": true
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "This numerical void grants the Fool an unusual privilege: freedom from precedent."
+        },
+        {
+            "id": 5,
+            "type": "heading",
+            "text": "A Portrait of Radical Openness"
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "The figure’s upward gaze and unguarded posture depict a consciousness unweighted by memory or expectation."
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "This is not naïveté alone, but a radical openness to experience — a willingness to meet the world before categories and assumptions have congealed."
+        },
+        {
+            "id": 8,
+            "type": "heading",
+            "text": "The Dialectic of Freedom and Risk"
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "Every symbol surrounding the Fool speaks in paired meanings."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "The cliff suggests both a vista and a precipice; the pack may hold tools or mere trinkets; the loyal dog may warn or encourage."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "The card therefore dramatizes a fundamental tension: freedom liberates, but liberation erodes structure."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "The Fool’s journey begins precisely at that fault line where possibility becomes indistinguishable from danger."
+        },
+        {
+            "id": 13,
+            "type": "heading",
+            "text": "The First Step as an Existential Gesture"
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "The Fool’s step forward is less a physical movement than an existential declaration."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "It embodies the intuition that certainty is overrated and that growth often demands a leap made before the mind has supplied a rationale."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "This gesture illustrates a paradox: progress sometimes requires the suspension of judgment, not its intensification."
+        },
+        {
+            "id": 17,
+            "type": "heading",
+            "text": "An Invitation to Begin Again"
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "Ultimately, the Fool is not advocating recklessness but renewal."
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "The card calls for a temporary abdication of the self we have accumulated — roles, narratives, and defensive routines — so that a more authentic trajectory can emerge."
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "To draw the Fool is to be reminded that, at any moment, one may choose to begin not from experience but from possibility, and that this choice carries both peril and promise in equal measure."
+        }
+    ]
+}
