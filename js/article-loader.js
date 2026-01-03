@@ -39,6 +39,11 @@ function renderArticle(article, translations) {
         if (block.type === 'title') {
             html += `
                 <header>
+                    ${article.meta && article.meta.image ? `
+                        <div class="featured-image-container" style="--bg-image: url('${article.meta.image}')">
+                            <img src="${article.meta.image}" alt="${block.text}" class="featured-image">
+                        </div>
+                    ` : ''}
                     <h1>${block.text}</h1>
                     <div class="controls">
                         <button id="play-all" class="btn-play">

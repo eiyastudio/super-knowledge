@@ -88,6 +88,53 @@ h1 {
     box-shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.5);
 }
 
+.featured-image-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    aspect-ratio: 16 / 9;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Blurred background effect */
+.featured-image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+    filter: blur(20px) brightness(0.4);
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+
+.featured-image {
+    position: relative;
+    max-width: 100%;
+    max-height: 90%;
+    object-fit: contain;
+    z-index: 1;
+    filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.2));
+    /* Subtle gold glow */
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.featured-image-container:hover .featured-image {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 30px rgba(255, 215, 0, 0.4));
+}
+
 article h2 {
     font-size: 2rem;
     margin: 2.5rem 0 1rem;

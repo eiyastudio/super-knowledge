@@ -22,6 +22,7 @@ Defines the English narrative and block structure.
 | :--- | :--- | :--- |
 | `slug` | `string` | URL-friendly identifier. |
 | `meta.tags` | `array` | Category tags (e.g., `major-arcana`). |
+| `meta.image` | `string` | Path to the featured image (e.g., `images/articles/the-fool.jpg`). |
 | `blocks` | `array` | List of content objects (Title, Heading, Sentence). |
 
 **Block Properties**:
