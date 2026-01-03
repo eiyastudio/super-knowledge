@@ -10,7 +10,8 @@ let chatHistory = [];
 const steps = {
     1: { id: 'EN', prompt: 'SYSTEM_PROMPT_EN' },
     2: { id: 'JA', prompt: 'SYSTEM_PROMPT_JA' },
-    3: { id: 'GLOSSARY', prompt: 'SYSTEM_PROMPT_GLOSSARY' }
+    3: { id: 'GLOSSARY', prompt: 'SYSTEM_PROMPT_GLOSSARY' },
+    4: { id: 'FORMAT', prompt: 'SYSTEM_PROMPT_FORMAT' }
 };
 
 const dom = {
@@ -29,6 +30,7 @@ const dom = {
 };
 
 let selectedStyleReferences = [];
+let approvedText = { en: '', ja: '', glossary: '' };
 
 // Initialize
 fetchArticles();
@@ -97,7 +99,7 @@ async function sendMessage(overrideText = null) {
             }
         }
 
-        contextualMessage = `New Article Subject: ${text}${referenceContext}\n\nTask: Propose a Title and Slug, then generate the English content. Follow the style of the references provided above.`;
+        contextualMessage = `New Article Subject: ${text}${referenceContext}\n\nTask: Propose a Title and Slug, then generate the English content. Follow the style of the references provided above.\n\nCRITICAL: Output ONLY natural English text in Markdown. Do NOT use JSON or ID mapping at this stage.`;
     }
 
     try {
@@ -145,28 +147,27 @@ function updatePreview(text) {
             currentSlug = slugMatch[1].toLowerCase();
             dom.slugUI.innerText = `Slug: ${currentSlug}`;
         }
-
-        const blocks = parseMarkdownToBlocks(text);
-        currentData = { slug: currentSlug, meta: { language: 'en-US', version: 1, tags: ['tarot'] }, blocks };
-        dom.contentContainer.innerHTML = renderJSON(currentData);
+        dom.contentContainer.innerHTML = `<div style="white-space: pre-wrap;">${text}</div>`;
+        approvedText.en = text;
         dom.approveBtn.style.display = 'block';
     } else if (currentStep === 2) {
-        try {
-            const json = JSON.parse(text.match(/\{[\s\S]*\}/)[0]);
-            currentTranslation = { language: 'ja-JP', translations: json };
-            dom.contentContainer.innerHTML = renderJSON(currentTranslation);
-            dom.approveBtn.style.display = 'block';
-        } catch (e) {
-            dom.contentContainer.innerHTML = `<p>Error parsing JSON translation. Please check the AI output.</p><pre>${text}</pre>`;
-        }
+        dom.contentContainer.innerHTML = `<div style="white-space: pre-wrap;">${text}</div>`;
+        approvedText.ja = text;
+        dom.approveBtn.style.display = 'block';
     } else if (currentStep === 3) {
+        dom.contentContainer.innerHTML = `<div style="white-space: pre-wrap;">${text}</div>`;
+        approvedText.glossary = text;
+        dom.approveBtn.style.display = 'block';
+    } else if (currentStep === 4) {
         try {
             const json = JSON.parse(text.match(/\{[\s\S]*\}/)[0]);
-            currentGlossary = { language: 'ja-JP', target: 'english-learners', ...json };
-            dom.contentContainer.innerHTML = renderJSON(currentGlossary);
+            currentData = json.content;
+            currentTranslation = json.translation;
+            currentGlossary = json.glossary;
+            dom.contentContainer.innerHTML = renderJSON(json);
             dom.saveBtn.style.display = 'block';
         } catch (e) {
-            dom.contentContainer.innerHTML = `<p>Error parsing Glossary JSON.</p><pre>${text}</pre>`;
+            dom.contentContainer.innerHTML = `<p>Error parsing technical JSON. Please check the AI output.</p><pre>${text}</pre>`;
         }
     }
 }
@@ -208,9 +209,26 @@ dom.approveBtn.onclick = () => {
     if (currentStep === 1) {
         currentStep = 2;
         addChatBubble('ai', 'English approved! Now generating/refining the Japanese translation...');
+        sendMessage("Generate the Japanese translation for the approved English text.");
     } else if (currentStep === 2) {
         currentStep = 3;
         addChatBubble('ai', 'Translation approved! Now generating the glossary...');
+        sendMessage("Generate the glossary for the approved English and Japanese text.");
+    } else if (currentStep === 3) {
+        currentStep = 4;
+        addChatBubble('ai', 'Glossary approved! Converting everything to JSON format...');
+        const payload = `Convert these approved texts into JSON.
+English Article:
+${approvedText.en}
+
+Japanese Translation:
+${approvedText.ja}
+
+Glossary:
+${approvedText.glossary}
+
+Reminder: use 'paragraph_end' only at the end of paragraphs, and 'line_break' for manual breaks inside.`;
+        sendMessage(payload);
     }
     dom.approveBtn.style.display = 'none';
     updateStepUI();

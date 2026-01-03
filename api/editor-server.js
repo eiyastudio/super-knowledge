@@ -18,22 +18,38 @@ const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
 
 // --- LLM Prompts ---
 
-const SYSTEM_PROMPT_EN = `You are a professional content creator for an English learning service. 
-Your goal is to create high-quality, philosophical, and insightful articles about Tarot cards.
-Structure the article into logical blocks: title, headings, and sentences.
-Each sentence should be meaningful and at an advanced English level.
-Avoid fluff. Focus on the esoteric and psychological meaning of the card.
-Return the result as a raw text with markdown-like headers (# for title, ## for subheadings).`;
+const SYSTEM_PROMPT_EN = `You are a professional content creator. 
+Your goal is to write a high-quality, philosophical article about Tarot in natural English.
+Use Markdown (# for title, ## for headings). 
 
-const SYSTEM_PROMPT_JA = `You are a translator specializing in esoteric and psychological texts.
-Translate the following English tarot article into natural, high-quality Japanese.
-Maintain the dignified and philosophical tone.
-Return strictly the translation of each sentence, mapping them as a JSON object where keys are the sequence numbers starting from 0.`;
+CRITICAL: Do NOT use JSON or any numbering for sentences. Write it as a natural, readable article. 
+The style references provided are in JSON format, but you must output NATURAL English text only.`;
+
+const SYSTEM_PROMPT_JA = `You are a professional translator. 
+Translate the English article into natural, dignified Japanese. 
+
+CRITICAL: Do NOT use JSON or any ID mapping. Write the translation as a natural Japanese narrative in paragraphs.
+Focus on the philosophical flow. The final JSON formatting will happen in a later step.`;
 
 const SYSTEM_PROMPT_GLOSSARY = `You are an English teacher. 
-Select 10-15 advanced vocabulary words or phrases from the provided text that would be challenging for English learners.
-Explain them in Japanese, focusing on the specific context of the article.
-Return a JSON object: { "glossary": { "term": { "text": "explanation" } } }.`;
+Provide a list of 10-15 key terms from the text with Japanese explanations. 
+
+CRITICAL: Do NOT use JSON. Return a simple, readable list of terms and their meanings.`;
+
+const SYSTEM_PROMPT_FORMAT = `You are a technical data formatter. 
+Convert the approved English article, Japanese translation, and Glossary into the exact JSON structure required.
+
+JSON BLOCK RULES:
+- 'type': 'title', 'heading', or 'sentence'.
+- 'paragraph_end': Set to true ONLY to separate paragraphs. OMIT if the next block is a heading or title.
+- 'line_break': Set to true ONLY for internal line breaks that don't end a paragraph.
+
+Structures:
+- 'content': { "slug": "...", "meta": {...}, "blocks": [...] }
+- 'translation': { "language": "ja-JP", "translations": { "0": "translation0", "1": "translation1" } }
+- 'glossary': { "glossary": { "term": { "text": "explanation", "sentences": [id] } } }
+
+Return ALL three objects in one JSON structure. Use the English blocks as the source of truth for sentence IDs.`;
 
 // --- Endpoints ---
 
@@ -66,6 +82,7 @@ app.post('/api/chat', async (req, res) => {
     let actualPrompt = SYSTEM_PROMPT_EN;
     if (systemPrompt.includes('JA')) actualPrompt = SYSTEM_PROMPT_JA;
     if (systemPrompt.includes('GLOSSARY')) actualPrompt = SYSTEM_PROMPT_GLOSSARY;
+    if (systemPrompt.includes('FORMAT')) actualPrompt = SYSTEM_PROMPT_FORMAT;
 
     try {
         const chat = model.startChat({
