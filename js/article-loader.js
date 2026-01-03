@@ -56,6 +56,9 @@ function renderArticle(article, translations) {
                     ${block.text}
                     ${trans ? `<span class="translation-overlay">${trans}</span>` : ''}
                 </span> `;
+            if (block.line_break) {
+                html += '<br>';
+            }
             if (block.paragraph_end) {
                 html += '<div class="paragraph"></div>';
             }

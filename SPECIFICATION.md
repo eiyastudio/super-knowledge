@@ -1,95 +1,70 @@
 # Technical Specification: Arcana English
 
-This document provides a comprehensive overview of the design, features, and technical implementation of the Arcana English web service.
+This document defines the architecture, data structures, and content standards for the Arcana English web service.
 
 ---
 
-## 1. Project Overview
-Arcana English is a Blinkist-inspired web service designed for English learners. It provides short, high-quality articles (focused on Tarot) with integrated learning tools like hover-to-translate and speech synthesis.
-
-### Key Principles
-- **Privacy & Security**: 100% static project with no runtime database. API keys are strictly local.
-- **Premium UX**: Modern, immersive design using dark mode, glassmorphism, and smooth animations.
-- **Static First**: All content and assets are pre-loaded or pre-generated to ensure speed and Vercel compatibility.
+## 1. Project Philosophy
+Arcana English is a premium, static-first learning platform. It emphasizes:
+- **Dignified Content**: Philosophical and esoteric articles (Tarot) written at an advanced level.
+- **Visual Immersion**: A "dark-themed glassmorphism" aesthetic that matches the mystical subject matter.
+- **Zero Runtime Overhead**: No database; strictly JSON-based content served as static assets.
 
 ---
 
-## 2. Technical Stack
-- **Frontend**: Vanilla HTML5, CSS3, and JavaScript (ES6+).
-- **Build Tool**: [Vite](https://vitejs.dev/) for development and production bundling.
-- **Backend (Static CLI)**: Node.js with `@google-cloud/text-to-speech` for audio generation.
-- **Storage**: JSON files for content; MP3 files for audio.
+## 2. Data Structures (The "Three-JSON" Model)
+Each article is defined by three distinct JSON files located in `public/data/articles/`.
+
+### 2.1 Content Schema (`{slug}.json`)
+Defines the English narrative and block structure.
+
+| Property | Type | Description |
+| :--- | :--- | :--- |
+| `slug` | `string` | URL-friendly identifier. |
+| `meta.tags` | `array` | Category tags (e.g., `major-arcana`). |
+| `blocks` | `array` | List of content objects (Title, Heading, Sentence). |
+
+**Block Properties**:
+- `id`: (Integer) Unique ID used for translation mapping and audio file naming.
+- `type`: One of `title`, `heading`, or `sentence`.
+- `text`: The raw text content.
+- `paragraph_end`: (Boolean)
+  - `true`: When the sentence definitively ends a paragraph.
+  - `false`: Omitted or set to false if the next block is another sentence in the same paragraph OR a `heading`/`title`.
+- `line_break`: (Boolean) Set to `true` to force a line break (`<br>`) within a paragraph narrative.
+
+### 2.2 Translation Schema (`{slug}.translation.ja.json`)
+Maps block IDs to Japanese translations.
+- **Format**: `{ "language": "ja-JP", "translations": { "0": "...", "1": "..." } }`
+- **Quality Standard**: Use dignified, esoteric Japanese (e.g., "Sensual" -> "官能", "Architect" -> "建築家").
+
+### 2.3 Glossary Schema (`{slug}.glossary.ja.json`)
+Defines vocabulary highlights.
+- **Property**: `glossary > {term} > text`: Detailed explanation in Japanese.
+- **Property**: `glossary > {term} > sentences`: Array of block IDs where the term appears.
 
 ---
 
-## 3. Directory Structure
-```text
-super-knowlege/
-├── public/
-│   ├── data/
-│   │   └── articles/           # Article content in JSON
-│   └── audio/                  # Per-article audio directories
-│       └── {slug}/             # MP3 files named by block ID
-├── js/
-│   └── article-loader.js       # Main frontend rendering and audio logic
-├── scripts/
-│   └── generate-audio.js       # CLI tool for pre-generating TTS audio
-├── .env                        # Local secrets (API Keys) - Git ignored
-├── index.html                  # Landing page
-├── article.html                # Dynamic article viewer template
-└── style.css                   # Global styles and animations
-```
+## 3. Audio Specification (Gemini-TTS)
+Narration is pre-generated using Google Cloud's Gemini-powered Text-to-Speech.
+
+- **Model**: `gemini-2.5-pro-tts`
+- **Voice**: `Charon`
+- **Style Prompt**: *"Narrate this in a calm, authoritative, and dignified tone, suitable for a professional philosophical lecture on tarot and esoteric mysteries."*
+- **Storage**: `public/audio/{slug}/{id}.mp3`
 
 ---
 
-## 4. Features & Specifications
-
-### 4.1 Article Rendering
-Articles are loaded dynamically based on a `slug` query parameter (e.g., `article.html?slug=the-fool`).
-- **Data Source**: Fetches three JSON files per article:
-  - `the-fool.json`: Structure and English text blocks.
-  - `the-fool.translation.ja.json`: Sentence-level mappings to Japanese.
-  - `the-fool.glossary.ja.json`: Vocabulary definitions.
-- **Block Types**:
-  - `title`: Main header of the article.
-  - `heading`: Section headers.
-  - `sentence`: Interactive text units.
-
-### 4.2 Learning Tools
-- **Hover Translation**: Sentences use a CSS-driven overlay to show Japanese text on hover.
-- **Glossary**: Automatically populated at the bottom of the article. Terms are highlighted in the article and detailed in the glossary section.
-
-### 4.3 Read-Aloud (TTS) System
-- **AudioManager**: A custom JavaScript state machine in `article-loader.js` that:
-  - Sequences playback of sentences.
-  - Highlights the current sentence with the `.playing` CSS class.
-  - Handles Pause/Resume and manual "jump" to any sentence.
-- **Static Generation Tool**: 
-  - Uses Google Cloud Neural2 voices.
-  - Saves audio to `public/audio/{slug}/{id}.mp3`.
-  - Check for existing files before generating to save API costs.
+## 4. Content Creation Workflow
+As the assistant, I handle the formatting of articles to ensure high standards:
+1. **Drafting**: Create natural English and Japanese narratives.
+2. **Formatting**: Manually convert text into the Three-JSON structure, strictly following the `paragraph_end` rules.
+3. **Audio**: Run the generation script with the specific Style Prompt.
+4. **Integration**: Update `index.html` with the new article card.
 
 ---
 
-## 5. Development Guide
-
-### Adding a New Article
-1. Create `new-article.json`, `new-article.translation.ja.json`, and `new-article.glossary.ja.json` in `public/data/articles/`.
-2. Add a link to the new slug in `index.html`.
-3. Run the audio generator:
-   ```bash
-   node scripts/generate-audio.js new-article
-   ```
-
-### Security & Deployment
-- **API Keys**: Stored in `.env` as `GOOGLE_API_KEY`. Never commit this file.
-- **Vercel**: The project is ready for Vercel. Folders like `public/audio` are served as static assets.
-- **Filesystem**: Vercel's runtime is read-only. **All audio must be generated locally and committed to Git before deployment.**
-
----
-
-## 6. CSS Design Tokens
-- **Primary**: `#6366f1` (Indigo)
-- **Accent**: `#f59e0b` (Amber)
-- **Background**: `#0f172a` (Slate-900)
-- **Glass**: `rgba(255, 255, 255, 0.05)` with `backdrop-filter: blur(10px)`
+## 5. Design & CSS
+- **Typography**: Inter (Variable), focus on readability and weight.
+- **Layout**: Slate-900 background with deep indigo primary elements. 
+- **Animations**: Use `.fade-in` for content entry and `.playing` for active sentence highlighting.
