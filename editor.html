@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcana Editor | AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .editor-container {
+            display: flex;
+            width: 100%;
+        }
+
+        /* Left: Sidebar/Chat */
+        .sidebar {
+            width: 400px;
+            background: var(--surface);
+            border-right: 1px solid var(--glass-border);
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+        }
+
+        .chat-history {
+            flex-grow: 1;
+            overflow-y: auto;
+            margin-bottom: 1rem;
+            padding-right: 0.5rem;
+        }
+
+        .chat-bubble {
+            margin-bottom: 1rem;
+            padding: 0.75rem 1rem;
+            border-radius: 1rem;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .chat-bubble.user {
+            background: var(--primary);
+            align-self: flex-end;
+        }
+
+        .chat-bubble.ai {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+        }
+
+        .chat-input {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .chat-input textarea {
+            flex-grow: 1;
+            background: var(--bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 0.5rem;
+            color: white;
+            padding: 0.5rem;
+            resize: none;
+            height: 60px;
+        }
+
+        /* Right: Main Content/Preview */
+        .main-editor {
+            flex-grow: 1;
+            padding: 2rem;
+            overflow-y: auto;
+            background: var(--bg);
+        }
+
+        .status-bar {
+            background: var(--surface);
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .step-indicator {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+
+        .step {
+            color: var(--text-muted);
+            cursor: pointer;
+        }
+
+        .step.active {
+            color: var(--accent);
+            border-bottom: 2px solid var(--accent);
+        }
+
+        .editor-preview {
+            background: var(--surface);
+            padding: 2rem;
+            border-radius: 1rem;
+            min-height: 400px;
+            white-space: pre-wrap;
+        }
+
+        .json-preview {
+            font-family: monospace;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .actions {
+            margin-top: 2rem;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .btn-action {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-weight: 700;
+        }
+
+        .btn-action.primary {
+            background: var(--primary);
+            border: none;
+        }
+
+        .btn-action:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="editor-container">
+        <div class="sidebar">
+            <h2 style="margin-bottom: 0.5rem;">AI Editor</h2>
+
+            <div
+                style="margin-bottom: 1.5rem; padding: 1rem; background: var(--bg); border: 1px solid var(--glass-border); border-radius: 0.5rem;">
+                <label
+                    style="display: block; font-size: 0.75rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--accent);">STYLE
+                    REFERENCES</label>
+                <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem;">
+                    <select id="article-select"
+                        style="flex-grow: 1; background: var(--surface); border: 1px solid var(--glass-border); color: white; border-radius: 0.25rem; font-size: 0.8rem; padding: 0.25rem;">
+                        <option value="">Select Article...</option>
+                    </select>
+                    <button id="add-ref-btn" class="btn-action"
+                        style="padding: 0.25rem 0.5rem; font-size: 0.8rem;">Add</button>
+                </div>
+                <div id="selected-refs-list" style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+                    <!-- Tags will appear here -->
+                </div>
+            </div>
+
+            <div id="chat-history" class="chat-history">
+                <div class="chat-bubble ai">Welcome! What is the theme for the new article? (e.g., "The Empress"). You
+                    can also paste reference texts.</div>
+            </div>
+            <div class="chat-input">
+                <textarea id="user-input" placeholder="Refine or answer..."></textarea>
+                <button id="send-btn" class="btn-action primary">Send</button>
+            </div>
+        </div>
+
+        <div class="main-editor">
+            <div class="status-bar">
+                <div class="step-indicator">
+                    <span class="step active" data-step="1">1. English</span>
+                    <span class="step" data-step="2">2. Translation</span>
+                    <span class="step" data-step="3">3. Glossary</span>
+                </div>
+                <div id="file-slug-ui" style="font-size: 0.8rem; color: var(--text-muted);">Slug: [none]</div>
+            </div>
+
+            <div id="content-container" class="editor-preview">
+                (Generate English content first...)
+            </div>
+
+            <div class="actions">
+                <button id="btn-approve" class="btn-action primary" style="display:none;">Approve & Next</button>
+                <button id="btn-save" class="btn-action" style="display:none;">Save to Disk</button>
+                <button id="btn-audio" class="btn-action" style="display:none;">Generate Audio</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="js/editor.js"></script>
+</body>
+
+</html>
