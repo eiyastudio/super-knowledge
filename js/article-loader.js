@@ -206,6 +206,8 @@ async function playGlossaryWord(wordSlug) {
 }
 
 // Modal Logic
+let currentSentenceTranslation = '';
+
 function openModal(index) {
     currentModalIndex = index;
     const modal = document.getElementById('study-modal');
@@ -239,32 +241,19 @@ function updateModalContent() {
     relevantGlossary.forEach(entry => {
         entry.items.forEach(item => {
             if (item.sentenceId === sentenceId) {
-                // Use regex for whole-word matching to avoid partial replacements
                 const escapedWord = item.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
                 const regex = new RegExp(`\\b(${escapedWord})\\b`, 'gi');
-                decoratedText = decoratedText.replace(regex, `<span class="glossary-link" onclick="selectGlossaryWord('$1')">$1</span>`);
+                decoratedText = decoratedText.replace(regex, `<span class="glossary-link" onclick="event.stopPropagation(); selectGlossaryWord('$1')">$1</span>`);
             }
         });
     });
     document.getElementById('modal-english').innerHTML = decoratedText;
 
-    // Get translation
+    // Cache and set initial translation
     const sentenceEl = document.querySelector(`.sentence[data-id="${sentenceId}"]`);
     const translationOverlay = sentenceEl.querySelector('.translation-overlay');
-    document.getElementById('modal-translation').innerText = translationOverlay ? translationOverlay.innerText : '';
-
-    // Render initial glossary area (hint or first term)
-    const glossaryContainer = document.getElementById('modal-glossary');
-    if (relevantGlossary.length > 0) {
-        glossaryContainer.style.display = 'block';
-        glossaryContainer.innerHTML = `<div class="glossary-hint">Click a <span style="color:var(--accent)">yellow word</span> above to see its definition.</div>`;
-    } else {
-        glossaryContainer.style.display = 'none';
-    }
-
-    // Reset scroll
-    const modalBody = document.querySelector('.modal-body');
-    if (modalBody) modalBody.scrollTop = 0;
+    currentSentenceTranslation = translationOverlay ? translationOverlay.innerText : '';
+    resetToTranslation();
 
     // Play button
     const playBtn = document.getElementById('modal-play-pause');
@@ -279,6 +268,14 @@ function updateModalContent() {
     };
 }
 
+function resetToTranslation() {
+    document.querySelectorAll('.glossary-link').forEach(el => el.classList.remove('active'));
+    const infoContent = document.getElementById('modal-info-content');
+    if (infoContent) {
+        infoContent.innerHTML = `<div class="modal-text-ja">${currentSentenceTranslation}</div>`;
+    }
+}
+
 function selectGlossaryWord(word) {
     // Highlight active link
     document.querySelectorAll('.glossary-link').forEach(el => {
@@ -291,19 +288,22 @@ function selectGlossaryWord(word) {
 
     if (entry) {
         const wordSlug = word.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-$/, '');
-        const glossaryContainer = document.getElementById('modal-glossary');
+        const infoContent = document.getElementById('modal-info-content');
 
-        glossaryContainer.innerHTML = `
-            <div class="glossary-detail-card">
-                <div class="glossary-detail-header">
-                    <div class="glossary-detail-title">${word}</div>
-                    <button class="btn-play" onclick="playGlossaryWord('${wordSlug}')" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
-                        <span class="icon">🔊</span> Hear it
-                    </button>
+        if (infoContent) {
+            infoContent.innerHTML = `
+                <div class="glossary-detail-card">
+                    <div class="glossary-detail-header">
+                        <div class="glossary-detail-title">${word}</div>
+                        <button class="btn-play" onclick="playGlossaryWord('${wordSlug}')" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
+                            <span class="icon">🔊</span> Listen
+                        </button>
+                    </div>
+                    <div class="glossary-detail-explanation">${entry.explanation}</div>
+                    <button class="btn-back-translation" onclick="resetToTranslation()">← Back to translation</button>
                 </div>
-                <div class="glossary-detail-explanation">${entry.explanation}</div>
-            </div>
-        `;
+            `;
+        }
     }
 }
 
@@ -340,6 +340,7 @@ window.playSentence = playSentence;
 window.jumpToSentence = jumpToSentence;
 window.playGlossaryWord = playGlossaryWord;
 window.selectGlossaryWord = selectGlossaryWord;
+window.resetToTranslation = resetToTranslation;
 
 // Keyboard shortcuts
 document.addEventListener('keydown', (e) => {
