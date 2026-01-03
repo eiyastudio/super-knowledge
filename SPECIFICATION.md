@@ -54,18 +54,21 @@ Defines vocabulary highlights as an ordered array.
     - `sentenceId`: The block ID to jump to for this specific word.
 
 - **Interaction Rules**: 
-  - Each `word` is individually clickable for **instant pronunciation** (Web Speech API).
-  - Each `word` can have a small **"Jump" icon** next to it to scroll the article to its specific `sentenceId`.
+  - Each `word` is individually clickable for **high-quality pronunciation** (Static MP3).
+  - Each `word` has a small **"Jump" icon** next to it to scroll the article to its specific `sentenceId`.
 
 ---
 
 ## 3. Audio Specification (Gemini-TTS)
 Narration is pre-generated using Google Cloud's Gemini-powered Text-to-Speech.
 
-- **Model**: `gemini-2.5-pro-tts`
-- **Voice**: `Charon`
-- **Style Prompt**: *"Narrate this in a calm, authoritative, and dignified tone, suitable for a professional philosophical lecture on tarot and esoteric mysteries."*
-- **Storage**: `public/audio/{slug}/{id}.mp3`
+- **Model**: `Neural2` / `gemini-2.5-pro-tts` (Project Dependent)
+- **Voice**: `en-US-Neural2-F` / `Charon`
+- **Article Narration Prompt**: *"Narrate this in a calm, authoritative, and dignified tone, suitable for a professional philosophical lecture on tarot and esoteric mysteries."*
+- **Glossary Pronunciation Prompt**: *"Pronounce this word clearly and naturally as if it were part of a high-quality academic dictionary entry. Ensure the tone is dignified and the articulation is perfect."*
+- **Storage**: 
+  - Article Blocks: `public/audio/{slug}/{id}.mp3`
+  - Glossary Words: `public/audio/{slug}/glossary/{word_slug}.mp3`
 
 ---
 

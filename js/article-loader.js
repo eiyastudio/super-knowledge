@@ -153,9 +153,10 @@ function renderGlossary(glossary) {
 
     glossary.forEach(entry => {
         const itemHtml = entry.items.map(item => {
+            const wordSlug = item.word.toLowerCase().replace(/[^a-z0-9]/g, '-');
             return `
                 <div class="glossary-word-group">
-                    <span class="glossary-word" onclick="speakWord('${item.word.replace(/'/g, "\\'")}')">${item.word}</span>
+                    <span class="glossary-word" onclick="playGlossaryWord('${wordSlug}')">${item.word}</span>
                     <button class="btn-jump" onclick="event.stopPropagation(); jumpToSentence(${item.sentenceId})" title="Jump to sentence">↗</button>
                 </div>
             `;
@@ -188,20 +189,18 @@ function jumpToSentence(id) {
     }
 }
 
-function speakWord(text) {
-    // Stop any current speech
-    window.speechSynthesis.cancel();
-
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'en-US';
-    utterance.rate = 0.9;
-
-    // Attempt to find a high-quality Google voice if available in the browser
-    const voices = window.speechSynthesis.getVoices();
-    const googleVoice = voices.find(v => v.name.includes('Google US English'));
-    if (googleVoice) utterance.voice = googleVoice;
-
-    window.speechSynthesis.speak(utterance);
+async function playGlossaryWord(wordSlug) {
+    if (currentAudio) {
+        currentAudio.pause();
+    }
+    const audioUrl = `audio/${currentSlug}/glossary/${wordSlug}.mp3`;
+    currentAudio = new Audio(audioUrl);
+    currentAudio.play().catch(err => console.error('Glossary audio failed:', err));
 }
+
+// Expose functions to window for inline onclick handlers (Vite module scope fix)
+window.playSentence = playSentence;
+window.jumpToSentence = jumpToSentence;
+window.playGlossaryWord = playGlossaryWord;
 
 loadArticle();

@@ -9,48 +9,65 @@ const client = new textToSpeech.TextToSpeechClient({
 
 async function generateAudio(slug) {
     const articlePath = path.join(__dirname, '../public/data/articles', `${slug}.json`);
+    const glossaryPath = path.join(__dirname, '../public/data/articles', `${slug}.glossary.ja.json`);
     const outputDir = path.join(__dirname, '../public/audio', slug);
+    const glossaryOutputDir = path.join(outputDir, 'glossary');
 
-    if (!fs.existsSync(articlePath)) {
-        console.error(`Article not found: ${articlePath}`);
-        return;
+    // 1. Process Main Article
+    if (fs.existsSync(articlePath)) {
+        await fs.ensureDir(outputDir);
+        const article = await fs.readJson(articlePath);
+        console.log(`Generating article audio for: ${slug}...`);
+
+        for (const block of article.blocks) {
+            if (['sentence', 'title', 'heading'].includes(block.type)) {
+                const filePath = path.join(outputDir, `${block.id}.mp3`);
+                if (fs.existsSync(filePath)) continue;
+
+                console.log(`Processing Block ${block.id}: ${block.text.substring(0, 30)}...`);
+                await synthesize(block.text, filePath, "Narrate this in a calm, authoritative, and dignified tone, suitable for a professional philosophical lecture on tarot and esoteric mysteries.");
+            }
+        }
     }
 
-    await fs.ensureDir(outputDir);
-    const article = await fs.readJson(articlePath);
+    // 2. Process Glossary
+    if (fs.existsSync(glossaryPath)) {
+        await fs.ensureDir(glossaryOutputDir);
+        const glossaryData = await fs.readJson(glossaryPath);
+        console.log(`Generating glossary audio for: ${slug}...`);
 
-    console.log(`Generating audio for: ${slug}...`);
+        const entries = Array.isArray(glossaryData.glossary) ? glossaryData.glossary : [];
+        for (const entry of entries) {
+            for (const item of entry.items) {
+                const word = item.word;
+                const wordSlug = word.toLowerCase().replace(/[^a-z0-9]/g, '-');
+                const filePath = path.join(glossaryOutputDir, `${wordSlug}.mp3`);
 
-    for (const block of article.blocks) {
-        if (block.type === 'sentence' || block.type === 'title' || block.type === 'heading') {
-            const fileName = `${block.id}.mp3`;
-            const filePath = path.join(outputDir, fileName);
+                if (fs.existsSync(filePath)) continue;
 
-            if (fs.existsSync(filePath)) {
-                console.log(`Skipping existing: ${fileName}`);
-                continue;
-            }
-
-            console.log(`Processing: ${block.text.substring(0, 30)}...`);
-
-            const request = {
-                input: { text: block.text },
-                voice: { languageCode: 'en-US', name: 'en-US-Neural2-F' },
-                audioConfig: { audioEncoding: 'MP3', speakingRate: 0.9 },
-            };
-
-            try {
-                // The client.synthesizeSpeech handles the mapping
-                const [response] = await client.synthesizeSpeech(request);
-                await fs.writeFile(filePath, response.audioContent, 'binary');
-                console.log(`Saved: ${fileName}`);
-            } catch (err) {
-                console.error(`Error generating ${fileName}:`, err);
+                console.log(`Processing Word: ${word}...`);
+                await synthesize(word, filePath, "Pronounce this word clearly and naturally as if it were part of a high-quality academic dictionary entry. Ensure the tone is dignified and the articulation is perfect.");
             }
         }
     }
 
     console.log('Finished!');
+}
+
+async function synthesize(text, filePath, prompt) {
+    const request = {
+        input: { text },
+        voice: { languageCode: 'en-US', name: 'en-US-Neural2-F' },
+        audioConfig: { audioEncoding: 'MP3', speakingRate: 0.9 },
+    };
+
+    try {
+        const [response] = await client.synthesizeSpeech(request);
+        await fs.writeFile(filePath, response.audioContent, 'binary');
+        console.log(`Saved: ${filePath}`);
+    } catch (err) {
+        console.error(`Error generating audio for "${text.substring(0, 20)}":`, err.message);
+    }
 }
 
 const slug = process.argv[2];
