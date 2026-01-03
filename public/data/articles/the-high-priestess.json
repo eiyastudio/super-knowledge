@@ -1,0 +1,142 @@
+{
+    "slug": "the-high-priestess",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "2. The High Priestess"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Keeper of the Unseen"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered two, the High Priestess resides at the threshold of the subconscious, serving as the counterpoise to the Magician’s assertive will."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "Where he is action, she is stillness; where he is the spark, she is the womb."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "She represents the vast, fertile silence that antedates all manifestation—the arcane knowledge that is ineffable, only felt."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "Her domain is not the daylight of reason, but the moonlight of intuition.",
+            "paragraph_end": true
+        },
+        {
+            "id": 6,
+            "type": "heading",
+            "text": "The Guardian of the Veil"
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "She is stationed between two pillars, one black and one white, marking the entrance to a sacred temple."
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "These pillars symbolize the duality of nature—light and dark, mercy and severity—and she sits as the third term, the equilibrium that holds them in suspension."
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "Behind her stretches a veil adorned with pomegranates, guarding the deeper mysteries from the profane."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "She suggests that true wisdom requires transcending the binary to reach the unity beyond.",
+            "paragraph_end": true
+        },
+        {
+            "id": 11,
+            "type": "heading",
+            "text": "The Scroll of Silent Law"
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "In her hands rests the scroll of the Tora, partly concealed within her robes."
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "This signifies that the highest knowledge is never fully revealed to the exoteric gaze; it is always partially hidden, requiring the seeker to look inward."
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "Unlike the Magician who enunciates intention, the High Priestess embodies the understanding that some truths are diminished when constrained by language."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "She teaches the power of the implicit.",
+            "paragraph_end": true
+        },
+        {
+            "id": 16,
+            "type": "heading",
+            "text": "The Agency of Receptivity"
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "The moon at her feet and the fluid lines of her robe connect her to the tides of water and memory."
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "Her power is not force, but receptivity—the capacity to allow things to germinate in their own time."
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "She represents the principle of gestation, reminding us that constant activity can impede growth."
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "In her silence, she is not empty, but full of latency waiting to be born.",
+            "paragraph_end": true
+        },
+        {
+            "id": 21,
+            "type": "heading",
+            "text": "An Invitation to Listen"
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "Drawing the High Priestess is a call to withdraw from the cacophony of the external world and trust the voice that speaks without words."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "It asks you to value your intuition over your logic, and to respect the enigmas you cannot yet explain."
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "She invites you to linger at the threshold, knowing that sometimes the most profound action is to simply sit and wait for the truth to surface."
+        }
+    ]
+}

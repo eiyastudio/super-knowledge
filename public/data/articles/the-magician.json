@@ -1,0 +1,133 @@
+{
+    "slug": "the-magician",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "1. The Magician"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "A Threshold Claimed by Will"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered one, the Magician stands at the very point where potential first condenses into intention."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "If the Fool embodies unbounded possibility, the Magician is the moment that possibility acquires direction."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "One is the first mark upon the blank field — not yet a structure, but the decisive gesture that inaugurates order.",
+            "paragraph_end": true
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "Here, creation begins not through accumulation, but through focus."
+        },
+        {
+            "id": 6,
+            "type": "heading",
+            "text": "A Conduit Between Realms"
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "The Magician’s posture, with one hand raised and the other extended downward, frames him as a living channel between the unseen and the material."
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "His stance communicates a consciousness alert to both realms, wielding attention as a transformative instrument.",
+            "paragraph_end": true
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "This is not merely symbolic prowess, but the claim that reality is shaped wherever awareness is deliberately applied."
+        },
+        {
+            "id": 10,
+            "type": "heading",
+            "text": "The Grammar of Intention"
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "The tools arrayed before the Magician are less implements than linguistic elements — symbols of the mind’s ability to articulate desire into form."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "They signify that intention has a syntax, and that manifestation follows from the disciplined ordering of thought.",
+            "paragraph_end": true
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "Power here is neither force nor domination, but the ability to name what one seeks without fragmentation or doubt."
+        },
+        {
+            "id": 14,
+            "type": "heading",
+            "text": "The Paradox of Mastery"
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "Even as the Magician appears sovereign, his authority is contingent."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "To channel power is to risk being shaped by it; to focus is to exclude, and every exclusion narrows the range of what might have been.",
+            "paragraph_end": true
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "His confidence therefore conceals a tension: mastery requires commitment, yet commitment inevitably constrains."
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "The Magician stands exactly where creation and limitation become indistinguishable."
+        },
+        {
+            "id": 19,
+            "type": "heading",
+            "text": "An Invitation to Declare One’s Aim"
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "This card does not command action for its own sake, but clarity."
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "It asks for the articulation of one’s true aim — stripped of noise, hesitation, and borrowed narratives — so that the world may answer in kind.",
+            "paragraph_end": true
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "To draw the Magician is to be reminded that intention is the first architecture of reality, and that the power to begin lies not in possessing tools, but in deciding what they are for."
+        }
+    ]
+}
