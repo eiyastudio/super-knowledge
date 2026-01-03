@@ -120,9 +120,36 @@ async function playSentence(id) {
     currentAudio.onended = () => {
         if (el) el.classList.remove('playing');
         playingSentenceId = null;
-        if (modalPlayBtn) modalPlayBtn.innerHTML = '<span class="icon">▶</span> Play Again';
+
+        currentRepetition++;
+
+        if (currentRepetition < repeatCount) {
+            // Repeat the same sentence
+            setTimeout(() => {
+                // Check if still in modal/same sentence to avoid ghost play
+                if (document.getElementById('study-modal').style.display === 'flex') {
+                    playSentence(id, true); // Pass true to indicate it's a repetition
+                }
+            }, 600);
+        } else {
+            // Repetitions finished
+            if (modalPlayBtn) modalPlayBtn.innerHTML = '<span class="icon">▶</span> Play Again';
+
+            if (isAutoMode) {
+                setTimeout(() => {
+                    if (isAutoMode) nextSentence();
+                }, 1000); // Natural pause between sentences
+            }
+        }
     };
 }
+
+// Overload playSentence to support repetition tracking
+const originalPlaySentence = playSentence;
+playSentence = function (id, isRepetition = false) {
+    if (!isRepetition) currentRepetition = 0;
+    return originalPlaySentence(id);
+};
 
 function playSequence(blocks, index) {
     if (index >= blocks.length) {
@@ -207,6 +234,31 @@ async function playGlossaryWord(wordSlug) {
 
 // Modal Logic
 let currentSentenceTranslation = '';
+let isAutoMode = false;
+let repeatCount = 1;
+let currentRepetition = 0;
+
+function toggleRepeatMode() {
+    repeatCount = (repeatCount % 3) + 1;
+    const btn = document.getElementById('modal-repeat-toggle');
+    if (btn) {
+        btn.innerText = `Repeat: ${repeatCount}x`;
+    }
+}
+
+function toggleAutoMode() {
+    isAutoMode = !isAutoMode;
+    const btn = document.getElementById('modal-auto-toggle');
+    if (btn) {
+        btn.classList.toggle('active', isAutoMode);
+        btn.innerText = `Auto Mode: ${isAutoMode ? 'ON' : 'OFF'}`;
+    }
+    // If auto mode turned on and nothing is playing, start playing
+    if (isAutoMode && (!currentAudio || currentAudio.paused)) {
+        currentRepetition = 0; // Reset for a clean start
+        playSentence(allBlocks[currentModalIndex].id);
+    }
+}
 
 function openModal(index) {
     currentModalIndex = index;
@@ -222,6 +274,14 @@ function closeModal() {
     modal.style.display = 'none';
     document.body.style.overflow = '';
     if (currentAudio) currentAudio.pause();
+
+    // Stop auto mode
+    isAutoMode = false;
+    const btn = document.getElementById('modal-auto-toggle');
+    if (btn) {
+        btn.classList.remove('active');
+        btn.innerText = 'Auto Mode: OFF';
+    }
 }
 
 function updateModalContent() {
@@ -341,6 +401,8 @@ window.jumpToSentence = jumpToSentence;
 window.playGlossaryWord = playGlossaryWord;
 window.selectGlossaryWord = selectGlossaryWord;
 window.resetToTranslation = resetToTranslation;
+window.toggleAutoMode = toggleAutoMode;
+window.toggleRepeatMode = toggleRepeatMode;
 
 // Keyboard shortcuts
 document.addEventListener('keydown', (e) => {

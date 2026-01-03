@@ -30,17 +30,20 @@
 
     <!-- Sentential Study Modal -->
     <div id="study-modal" class="modal-overlay" style="display: none;">
+        <button id="modal-play-pause" class="btn-play-corner">
+            <span class="icon">▶</span> Play
+        </button>
+        <button id="modal-auto-toggle" class="btn-auto-toggle" onclick="toggleAutoMode()">
+            Auto Mode: OFF
+        </button>
+        <button id="modal-repeat-toggle" class="btn-repeat-toggle" onclick="toggleRepeatMode()">
+            Repeat: 1x
+        </button>
         <button class="modal-close" onclick="closeModal()">×</button>
         <div class="modal-nav nav-prev" onclick="prevSentence()">‹</div>
         <div class="modal-content">
             <div class="modal-section-en">
                 <div id="modal-english" class="modal-text-en" onclick="resetToTranslation()"></div>
-            </div>
-
-            <div class="modal-controls">
-                <button id="modal-play-pause" class="btn-play-large">
-                    <span class="icon">▶</span> Play
-                </button>
             </div>
 
             <div class="modal-info-area">

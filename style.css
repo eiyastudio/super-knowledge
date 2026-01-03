@@ -396,26 +396,122 @@ article h2 {
     right: 2rem;
 }
 
+/* Interactive Words (Yellow Links) */
+.glossary-link {
+    color: var(--accent);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+    font-weight: 700;
+}
+
+.glossary-link:hover {
+    background: rgba(245, 158, 11, 0.1);
+    border-bottom-color: var(--accent);
+    text-shadow: 0 0 10px rgba(245, 158, 11, 0.5);
+}
+
+.glossary-link.active {
+    background: rgba(245, 158, 11, 0.2);
+    border-bottom-color: var(--accent);
+}
+
 .modal-content {
-    max-width: 900px;
-    width: 100%;
-    /* No fixed height for container itself, but blocks inside will have constraints */
+    max-width: 1000px;
+    /* Slightly wider for better sentence flow */
+    width: 90%;
+    margin-top: 4rem;
+    /* Buffer for corner buttons */
+}
+
+.btn-play-corner {
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    background: transparent;
-    z-index: 1005;
+    gap: 0.5rem;
+    transition: all 0.2s;
+    z-index: 1010;
+}
+
+.btn-play-corner:hover {
+    background: var(--primary);
+    transform: scale(1.05);
+}
+
+.btn-auto-toggle {
+    position: fixed;
+    top: 2rem;
+    left: 11rem;
+    /* Positioned to the right of the play button */
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    color: rgba(255, 255, 255, 0.6);
+    padding: 0.8rem 1.2rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+    z-index: 1010;
+}
+
+.btn-auto-toggle.active {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+}
+
+.btn-auto-toggle:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.btn-repeat-toggle {
+    position: fixed;
+    top: 2rem;
+    left: 21rem;
+    /* Positioned to the right of the auto toggle */
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    color: #fff;
+    padding: 0.8rem 1.2rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+    z-index: 1010;
+}
+
+.btn-repeat-toggle:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: var(--accent);
 }
 
 .modal-section-en {
     width: 100%;
-    min-height: 180px;
-    /* Stabilizes position of play button */
+    min-height: 120px;
+    /* Reduced to allow more space */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin-bottom: 2rem;
+    padding: 0 4rem;
 }
 
 .modal-text-en {
@@ -424,11 +520,6 @@ article h2 {
     line-height: 1.4;
     color: #fff;
     cursor: default;
-}
-
-.modal-controls {
-    text-align: center;
-    margin-bottom: 3rem;
 }
 
 /* Info Area (Switches between Translation and Glossary) */
@@ -440,6 +531,7 @@ article h2 {
     align-items: flex-start;
     justify-content: center;
     position: relative;
+    padding-bottom: 4rem;
 }
 
 .info-content {
@@ -456,13 +548,14 @@ article h2 {
 }
 
 .glossary-detail-card {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(245, 158, 11, 0.05);
     backdrop-filter: blur(10px);
     border-radius: 1.5rem;
     padding: 2rem 2.5rem;
-    border: 1px solid var(--glass-border);
+    border: 1px solid rgba(245, 158, 11, 0.2);
     width: 100%;
     text-align: left;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .glossary-detail-header {
@@ -504,8 +597,16 @@ article h2 {
 }
 
 @media (max-width: 768px) {
+    .btn-play-corner {
+        top: 1rem;
+        left: 1rem;
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+
     .modal-section-en {
-        min-height: 120px;
+        min-height: 100px;
+        padding: 0 1rem;
     }
 
     .modal-text-en {
