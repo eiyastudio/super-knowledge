@@ -189,3 +189,44 @@ article h2 {
 .fade-in {
     animation: fadeIn 0.8s ease-out forwards;
 }
+
+/* Playback Controls */
+.controls {
+    margin: 1.5rem 0 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-play {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.2s;
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+}
+
+.btn-play:hover {
+    background: var(--primary-hover);
+    transform: scale(1.05);
+}
+
+.btn-play:active {
+    transform: scale(0.95);
+}
+
+.sentence {
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.sentence.playing {
+    background-color: rgba(245, 158, 11, 0.2);
+    box-shadow: 0 0 0 2px var(--accent);
+    border-radius: 4px;
+}

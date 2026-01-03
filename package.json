@@ -14,5 +14,10 @@
   "description": "",
   "devDependencies": {
     "vite": "^7.3.0"
+  },
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^6.4.0",
+    "dotenv": "^17.2.3",
+    "fs-extra": "^11.3.3"
   }
 }
