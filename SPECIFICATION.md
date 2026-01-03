@@ -39,9 +39,23 @@ Maps block IDs to Japanese translations.
 - **Quality Standard**: Use dignified, esoteric Japanese (e.g., "Sensual" -> "官能", "Architect" -> "建築家").
 
 ### 2.3 Glossary Schema (`{slug}.glossary.ja.json`)
-Defines vocabulary highlights.
-- **Property**: `glossary > {term} > text`: Detailed explanation in Japanese.
-- **Property**: `glossary > {term} > sentences`: Array of block IDs where the term appears.
+Defines vocabulary highlights as an ordered array.
+
+- **Structure**:
+| Property | Type | Description |
+| :--- | :--- | :--- |
+| `language` | `string` | Target language (e.g., `ja-JP`). |
+| `glossary` | `array` | List of entries. |
+
+- **Entry Properties**:
+  - `explanation`: Detailed explanation in the target language.
+  - `items`: An array of objects:
+    - `word`: The English word/phrase.
+    - `sentenceId`: The block ID to jump to for this specific word.
+
+- **Interaction Rules**: 
+  - Each `word` is individually clickable for **instant pronunciation** (Web Speech API).
+  - Each `word` can have a small **"Jump" icon** next to it to scroll the article to its specific `sentenceId`.
 
 ---
 

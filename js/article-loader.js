@@ -146,21 +146,62 @@ function renderGlossary(glossary) {
     const glossarySection = document.getElementById('glossary');
     const glossaryList = document.getElementById('glossary-list');
 
-    if (!glossary || Object.keys(glossary).length === 0) return;
+    if (!glossary || !Array.isArray(glossary) || glossary.length === 0) return;
 
     glossarySection.style.display = 'block';
     let html = '';
 
-    for (const [term, data] of Object.entries(glossary)) {
+    glossary.forEach(entry => {
+        const itemHtml = entry.items.map(item => {
+            return `
+                <div class="glossary-word-group">
+                    <span class="glossary-word" onclick="speakWord('${item.word.replace(/'/g, "\\'")}')">${item.word}</span>
+                    <button class="btn-jump" onclick="event.stopPropagation(); jumpToSentence(${item.sentenceId})" title="Jump to sentence">↗</button>
+                </div>
+            `;
+        }).join('<span class="separator">/</span>');
+
         html += `
             <div class="glossary-item">
-                <span class="glossary-term">${term}</span>
-                <div class="glossary-definition">${data.text}</div>
+                <div class="glossary-term-container">
+                    <div class="glossary-terms">${itemHtml}</div>
+                </div>
+                <div class="glossary-definition">${entry.explanation}</div>
             </div>
         `;
-    }
+    });
 
     glossaryList.innerHTML = html;
+}
+
+function jumpToSentence(id) {
+    const el = document.querySelector(`[data-id="${id}"]`);
+    if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        // Visual feedback
+        el.classList.add('playing');
+        setTimeout(() => {
+            if (playingSentenceId !== id) {
+                el.classList.remove('playing');
+            }
+        }, 2000);
+    }
+}
+
+function speakWord(text) {
+    // Stop any current speech
+    window.speechSynthesis.cancel();
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.9;
+
+    // Attempt to find a high-quality Google voice if available in the browser
+    const voices = window.speechSynthesis.getVoices();
+    const googleVoice = voices.find(v => v.name.includes('Google US English'));
+    if (googleVoice) utterance.voice = googleVoice;
+
+    window.speechSynthesis.speak(utterance);
 }
 
 loadArticle();

@@ -159,12 +159,61 @@ article h2 {
     border: 1px solid var(--glass-border);
 }
 
-.glossary-term {
+.glossary-term-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+}
+
+.glossary-terms {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.glossary-word-group {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.glossary-word {
     font-weight: 700;
     color: var(--accent);
     font-size: 1.1rem;
-    margin-bottom: 0.5rem;
-    display: block;
+    cursor: pointer;
+    border-bottom: 1px dashed transparent;
+    transition: all 0.2s;
+}
+
+.glossary-word:hover {
+    color: #fff;
+    border-bottom-color: var(--accent);
+}
+
+.btn-jump {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-muted);
+    border: 1px solid var(--glass-border);
+    border-radius: 4px;
+    padding: 0 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    line-height: normal;
+}
+
+.btn-jump:hover {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+}
+
+.separator {
+    color: var(--text-muted);
+    opacity: 0.5;
 }
 
 .glossary-definition {
