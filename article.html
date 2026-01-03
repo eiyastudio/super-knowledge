@@ -33,14 +33,18 @@
         <button class="modal-close" onclick="closeModal()">×</button>
         <div class="modal-nav nav-prev" onclick="prevSentence()">‹</div>
         <div class="modal-content">
-            <div id="modal-english" class="modal-text-en"></div>
-            <div id="modal-translation" class="modal-text-ja"></div>
-            <div class="modal-controls">
-                <button id="modal-play-pause" class="btn-play-large">
-                    <span class="icon">▶</span> Play
-                </button>
+            <div class="modal-header">
+                <div id="modal-english" class="modal-text-en"></div>
+                <div class="modal-controls">
+                    <button id="modal-play-pause" class="btn-play-large">
+                        <span class="icon">▶</span> Play
+                    </button>
+                </div>
             </div>
-            <div id="modal-glossary" class="modal-glossary-subset"></div>
+            <div class="modal-body">
+                <div id="modal-translation" class="modal-text-ja"></div>
+                <div id="modal-glossary" class="modal-glossary-subset"></div>
+            </div>
         </div>
         <div class="modal-nav nav-next" onclick="nextSentence()">›</div>
     </div>

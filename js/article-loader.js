@@ -226,25 +226,45 @@ function updateModalContent() {
     const block = allBlocks[currentModalIndex];
     if (!block || block.type !== 'sentence') return;
 
-    document.getElementById('modal-english').innerText = block.text;
+    const sentenceId = block.id;
+    const rawText = block.text;
+
+    // Filter relevant glossary for this sentence
+    const relevantGlossary = articleGlossary.filter(entry =>
+        entry.items.some(item => item.sentenceId === sentenceId)
+    );
+
+    // Decorate English sentence with interactive links
+    let decoratedText = rawText;
+    relevantGlossary.forEach(entry => {
+        entry.items.forEach(item => {
+            if (item.sentenceId === sentenceId) {
+                // Use regex for whole-word matching to avoid partial replacements
+                const escapedWord = item.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                const regex = new RegExp(`\\b(${escapedWord})\\b`, 'gi');
+                decoratedText = decoratedText.replace(regex, `<span class="glossary-link" onclick="selectGlossaryWord('$1')">$1</span>`);
+            }
+        });
+    });
+    document.getElementById('modal-english').innerHTML = decoratedText;
 
     // Get translation
-    const sentenceEl = document.querySelector(`.sentence[data-id="${block.id}"]`);
+    const sentenceEl = document.querySelector(`.sentence[data-id="${sentenceId}"]`);
     const translationOverlay = sentenceEl.querySelector('.translation-overlay');
     document.getElementById('modal-translation').innerText = translationOverlay ? translationOverlay.innerText : '';
 
-    // Filter glossary
-    const relevantGlossary = articleGlossary.filter(entry =>
-        entry.items.some(item => item.sentenceId === block.id)
-    );
-
+    // Render initial glossary area (hint or first term)
     const glossaryContainer = document.getElementById('modal-glossary');
     if (relevantGlossary.length > 0) {
         glossaryContainer.style.display = 'block';
-        glossaryContainer.innerHTML = '<h4>Key Vocabulary</h4>' + generateGlossaryHTML(relevantGlossary);
+        glossaryContainer.innerHTML = `<div class="glossary-hint">Click a <span style="color:var(--accent)">yellow word</span> above to see its definition.</div>`;
     } else {
         glossaryContainer.style.display = 'none';
     }
+
+    // Reset scroll
+    const modalBody = document.querySelector('.modal-body');
+    if (modalBody) modalBody.scrollTop = 0;
 
     // Play button
     const playBtn = document.getElementById('modal-play-pause');
@@ -253,10 +273,38 @@ function updateModalContent() {
             currentAudio.pause();
             playBtn.innerHTML = '<span class="icon">▶</span> Play';
         } else {
-            playSentence(block.id);
+            playSentence(sentenceId);
             playBtn.innerHTML = '<span class="icon">⏸</span> Pause';
         }
     };
+}
+
+function selectGlossaryWord(word) {
+    // Highlight active link
+    document.querySelectorAll('.glossary-link').forEach(el => {
+        el.classList.toggle('active', el.innerText.toLowerCase() === word.toLowerCase());
+    });
+
+    const entry = articleGlossary.find(e =>
+        e.items.some(i => i.word.toLowerCase() === word.toLowerCase() && i.sentenceId === allBlocks[currentModalIndex].id)
+    );
+
+    if (entry) {
+        const wordSlug = word.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-$/, '');
+        const glossaryContainer = document.getElementById('modal-glossary');
+
+        glossaryContainer.innerHTML = `
+            <div class="glossary-detail-card">
+                <div class="glossary-detail-header">
+                    <div class="glossary-detail-title">${word}</div>
+                    <button class="btn-play" onclick="playGlossaryWord('${wordSlug}')" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
+                        <span class="icon">🔊</span> Hear it
+                    </button>
+                </div>
+                <div class="glossary-detail-explanation">${entry.explanation}</div>
+            </div>
+        `;
+    }
 }
 
 function nextSentence() {
@@ -291,6 +339,7 @@ window.prevSentence = prevSentence;
 window.playSentence = playSentence;
 window.jumpToSentence = jumpToSentence;
 window.playGlossaryWord = playGlossaryWord;
+window.selectGlossaryWord = selectGlossaryWord;
 
 // Keyboard shortcuts
 document.addEventListener('keydown', (e) => {
