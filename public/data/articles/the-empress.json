@@ -1,0 +1,186 @@
+{
+    "slug": "the-empress",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "3. The Empress"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Architect of Manifestation"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered three, the Empress steps from the silence of the High Priestess into the radiant garden of the world.",
+            "paragraph_end": false
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "She represents the bridge between the ethereal and the corporeal—the moment inspiration takes on weight and form.",
+            "paragraph_end": false
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "She is the archetype of the Great Mother, ruling the domain where spirit densifies into matter.",
+            "paragraph_end": true
+        },
+        {
+            "id": 5,
+            "type": "heading",
+            "text": "The Sovereign of the Senses"
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "She sits upon a cushioned throne, surrounded by a lush forest and ripening wheat.",
+            "paragraph_end": false
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "Upon her heart-shaped shield rests the symbol of Venus, asserting dominion over love and beauty.",
+            "paragraph_end": false
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "Unlike the Priestess who dwells in the abstract, the Empress revels in the visible; she teaches that the divine is immanent in the beauty of the tangible world.",
+            "paragraph_end": true
+        },
+        {
+            "id": 9,
+            "type": "heading",
+            "text": "The Principle of Fruition"
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "Her scepter is raised to orchestrate life’s rhythm.",
+            "paragraph_end": false
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "The Empress embodies boundless creativity and the instinct that sustains growth.",
+            "paragraph_end": false
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "Where number two meant balance, three introduces synthesis—the child born from the union of opposites.",
+            "paragraph_end": false
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "She reminds us that life is not merely to be understood, but to be lived.",
+            "paragraph_end": true
+        },
+        {
+            "id": 14,
+            "type": "heading",
+            "text": "The Two Faces of Isis"
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "Esoteric tradition views the Empress and the High Priestess as two aspects of the goddess Isis.",
+            "paragraph_end": false
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "The Priestess corresponds to the inscription at the temple of Sais: \"I am all that has been, and is, and shall be, and no mortal has yet lifted my veil.\"",
+            "paragraph_end": false
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "She is the hidden mystery.",
+            "paragraph_end": false
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "The Empress, however, is Isis Unveiled or the pregnant Isis bearing Horus.",
+            "paragraph_end": false
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "She represents the mystery revealed as Nature itself.",
+            "paragraph_end": false
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "She takes the secret seed from the dark sanctuary and, through the act of gestation, brings it into the light of day.",
+            "paragraph_end": true
+        },
+        {
+            "id": 21,
+            "type": "heading",
+            "text": "The Agency of Vitality"
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "The flowing stream signifies the water of life, now running freely.",
+            "paragraph_end": false
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "Her power is the chaotic, beautiful vigor of existence.",
+            "paragraph_end": false
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "She rejects sterility; her presence ensures that ideas evolve into breathing realities.",
+            "paragraph_end": false
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "She is the antidote to stagnation, offering the relentless energy of spring that follows the harshest winter.",
+            "paragraph_end": true
+        },
+        {
+            "id": 26,
+            "type": "heading",
+            "text": "An Invitation to Feel"
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "Drawing the Empress is a call to ground yourself in the pleasure of existence.",
+            "paragraph_end": false
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "It asks you to step out of your head and into your body.",
+            "paragraph_end": false
+        },
+        {
+            "id": 29,
+            "type": "sentence",
+            "text": "She invites you to nurture what you have sown with patience, knowing that true abundance is experiencing the fullness of life with all your senses.",
+            "paragraph_end": true
+        }
+    ]
+}

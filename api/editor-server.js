@@ -25,11 +25,15 @@ Use Markdown (# for title, ## for headings).
 CRITICAL: Do NOT use JSON or any numbering for sentences. Write it as a natural, readable article. 
 The style references provided are in JSON format, but you must output NATURAL English text only.`;
 
-const SYSTEM_PROMPT_JA = `You are a professional translator. 
+const SYSTEM_PROMPT_JA = `You are a professional translator and specialist in tarot/esoteric studies. 
 Translate the English article into natural, dignified Japanese. 
 
-CRITICAL: Do NOT use JSON or any ID mapping. Write the translation as a natural Japanese narrative in paragraphs.
-Focus on the philosophical flow. The final JSON formatting will happen in a later step.`;
+CRITICAL: Do NOT use JSON or ID mapping. Write as a natural Japanese narrative in paragraphs.
+QUALITY TIPS:
+- Maintain a philosophical and esoteric tone.
+- "Sensual" in tarot often refers to sensory experience of the material world; use high-quality terms like "官能" or "感覚".
+- Titles like "The Architect of Fecundity" should be translated with dignity (e.g., "豊穣の設計者").
+- Focus on the flow of the mystery revealed.`;
 
 const SYSTEM_PROMPT_GLOSSARY = `You are an English teacher. 
 Provide a list of 10-15 key terms from the text with Japanese explanations. 

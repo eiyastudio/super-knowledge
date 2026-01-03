@@ -92,8 +92,13 @@ async function sendMessage(overrideText = null) {
                     body: JSON.stringify({ slugs: selectedStyleReferences })
                 });
                 const refData = await res.json();
-                referenceContext = "\n\n### STYLE REFERENCES (Emulate this structure and tone):\n" +
-                    refData.map(d => `--- ARTICLE: ${d.slug} ---\n${JSON.stringify(d.content, null, 2)}`).join('\n\n');
+                referenceContext = "\n\n### STYLE REFERENCES (Tone and Narrative Examples):\n" +
+                    refData.map(d => {
+                        const narrative = d.content.blocks
+                            .map(b => (b.type === 'title' ? `# ${b.text}` : b.type === 'heading' ? `## ${b.text}` : b.text))
+                            .join('\n');
+                        return `--- ARTICLE: ${d.slug} ---\n${narrative}`;
+                    }).join('\n\n');
             } catch (e) {
                 console.error('Failed to fetch reference context:', e);
             }

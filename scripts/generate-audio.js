@@ -40,6 +40,7 @@ async function generateAudio(slug) {
             };
 
             try {
+                // The client.synthesizeSpeech handles the mapping
                 const [response] = await client.synthesizeSpeech(request);
                 await fs.writeFile(filePath, response.audioContent, 'binary');
                 console.log(`Saved: ${fileName}`);
