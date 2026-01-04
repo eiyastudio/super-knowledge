@@ -1,0 +1,139 @@
+{
+    "slug": "the-hierophant",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "image": "images/articles/the-hierophant.jpg",
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "5. The Hierophant"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Bridge to the Divine"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered five, the Hierophant sits between two pillars, much like the High Priestess, but his temple is not one of secret silence but of shared belief."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "He is the pontiff, a word meaning \"bridge-builder,\" serving as the mediator between the divine and the human."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "While the Emperor rules the physical realm with laws, the Hierophant rules the spiritual realm with doctrine."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "He represents the established path to the sacred, offering a map to those who seek enlightenment through tradition rather than solitary discovery.",
+            "paragraph_end": true
+        },
+        {
+            "id": 6,
+            "type": "heading",
+            "text": "The Guardian of Tradition"
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "He wears the triple crown of the papacy and holds a triple cross, symbolizing his dominion over the three worlds: conscious, subconscious, and superconscious."
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "Unlike the High Priestess, who guards esoteric knowledge reserved for the few, the Hierophant represents exoteric knowledge—wisdom that is codified, written down, and taught to the masses."
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "He is the archetype of the Institution, preserving the rituals and cultural heritage that bind a community together.",
+            "paragraph_end": true
+        },
+        {
+            "id": 10,
+            "type": "heading",
+            "text": "The Keys to Knowledge"
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "At his feet lie two crossed keys, representing the keys to heaven and earth."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "These signify his authority to unlock the mysteries of the spirit and to interpret the will of the heavens for those on earth."
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "However, the keys are placed at his feet, suggesting that while he guards the door, he does not force you to enter."
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "He offers the structure of faith and the comfort of dogma, providing answers to life’s great questions so that the seeker need not wander alone in the dark.",
+            "paragraph_end": true
+        },
+        {
+            "id": 15,
+            "type": "heading",
+            "text": "The Power of Conformity"
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "Before him kneel two acolytes, representing the duality of human nature submitting to a higher authority."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "They symbolize the social contract of religion and education: the willingness to learn and to conform to a shared set of values."
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "The Hierophant teaches the power of group consciousness and the strength found in belonging."
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "He reminds us that sometimes, spiritual growth requires humility and the discipline to follow a path that has been walked by millions before.",
+            "paragraph_end": true
+        },
+        {
+            "id": 20,
+            "type": "heading",
+            "text": "The Voice of Education"
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "Drawing the Hierophant is often a call to study or to seek mentorship within an established system."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "It suggests that this is not a time for rebellion or reinventing the wheel, but for learning the fundamental principles from a trusted source."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "He invites you to honor the traditions that shaped you and to understand the frameworks of belief that govern your world, whether you choose to stay within them or eventually transcend them.",
+            "paragraph_end": true
+        }
+    ]
+}
