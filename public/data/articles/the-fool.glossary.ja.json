@@ -2,76 +2,52 @@
     "language": "ja-JP",
     "glossary": [
         {
-            "items": [
-                {
-                    "word": "ordered sequence",
-                    "sentenceId": 2
-                }
-            ],
-            "explanation": "ordered sequence は「整然とした順序、数列」を意味します。タロットの0番である愚者が、1から21までの決まった順番の外側にいることを示しています。"
+            "word": "ordered sequence",
+            "sentenceId": 2,
+            "definition": "整然とした順序、数列",
+            "explanation": "タロットの0番である愚者が、1から21までの決まった順番の外側にいることを示しています。"
         },
         {
-            "items": [
-                {
-                    "word": "potential",
-                    "sentenceId": 2
-                }
-            ],
-            "explanation": "potential は「潜在能力、可能性」を意味します。まだ何にもなっていないけれど、何にでもなれるエネルギーに満ちた状態を指します。"
+            "word": "potential",
+            "sentenceId": 2,
+            "definition": "潜在能力、可能性",
+            "explanation": "まだ何にもなっていないけれど、何にでもなれるエネルギーに満ちた状態を指します。"
         },
         {
-            "items": [
-                {
-                    "word": "manifestation",
-                    "sentenceId": 2
-                }
-            ],
-            "explanation": "manifestation は「現れ、具現化」を意味します。心の中にあるアイデアや可能性が、実際の形となってこの世に現れることを指します。"
+            "word": "manifestation",
+            "sentenceId": 2,
+            "definition": "現れ、具現化",
+            "explanation": "心の中にあるアイデアや可能性が、実際の形となってこの世に現れることを指します。"
         },
         {
-            "items": [
-                {
-                    "word": "liminal",
-                    "sentenceId": 2
-                }
-            ],
-            "explanation": "liminal は「境界の、あわいの」を意味します。過去の自分を脱ぎ捨て、新しい自分になる直前の、宙に浮いたような不思議な地点を指す言葉です。"
+            "word": "liminal",
+            "sentenceId": 2,
+            "definition": "境界の、あわいの",
+            "explanation": "過去の自分を脱ぎ捨て、新しい自分になる直前の、宙に浮いたような不思議な地点を指す言葉です。"
         },
         {
-            "items": [
-                {
-                    "word": "suspension",
-                    "sentenceId": 3
-                }
-            ],
-            "explanation": "suspension は「宙づり、中断、保留」を意味します。ここでは「まだ何も決めていないからこそ、何でも選べる」という贅沢な保留状態を指しています。"
+            "word": "suspension",
+            "sentenceId": 3,
+            "definition": "宙づり、中断、保留",
+            "explanation": "ここでは「まだ何も決めていないからこそ、何でも選べる」という贅沢な保留状態を指しています。"
         },
         {
-            "items": [
-                {
-                    "word": "radical openness",
-                    "sentenceId": 7
-                }
-            ],
-            "explanation": "radical openness は「徹底的な開放性」を意味します。自分の持っている偏見や知識をいったん脇に置いて、世界をありのままに受け入れようとする純粋な姿勢です。"
+            "word": "radical openness",
+            "sentenceId": 7,
+            "definition": "徹底的な開放性",
+            "explanation": "自分の持っている偏見や知識をいったん脇に置いて、世界をありのままに受け入れようとする純粋な姿勢です。"
         },
         {
-            "items": [
-                {
-                    "word": "congealed",
-                    "sentenceId": 7
-                }
-            ],
-            "explanation": "congeal は「凝固する、固まる」という意味。思考や前提が固まってしまい、新しいものが入らなくなった「硬直状態」を比喩的に表現しています。"
+            "word": "congealed",
+            "sentenceId": 7,
+            "definition": "凝固する、固まる",
+            "explanation": "思考や前提が固まってしまい、新しいものが入らなくなった「硬直状態」を比喩的に表現しています。"
         },
         {
-            "items": [
-                {
-                    "word": "existential declaration",
-                    "sentenceId": 14
-                }
-            ],
-            "explanation": "existential declaration は「存在をかけた宣言」を意味します。言葉ではなく、その「生き方」や「一歩」そのもので、自分が何者であるかを示すことを指します。"
+            "word": "existential declaration",
+            "sentenceId": 14,
+            "definition": "存在をかけた宣言",
+            "explanation": "言葉ではなく、その「生き方」や「一歩」そのもので、自分が何者であるかを示すことを指します。"
         }
     ]
 }

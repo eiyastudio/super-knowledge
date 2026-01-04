@@ -48,35 +48,93 @@ h1 {
 /* Article List (Index) */
 .article-grid {
     display: grid;
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+    margin-top: 2rem;
 }
 
 .article-card {
-    background: var(--surface);
-    padding: 2rem;
-    border-radius: 1rem;
+    background: var(--glass);
+    backdrop-filter: blur(10px);
     border: 1px solid var(--glass-border);
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration: none;
     color: inherit;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
 }
 
 .article-card:hover {
-    transform: translateY(-4px);
+    transform: translateY(-8px);
     border-color: var(--primary);
-    background: var(--glass);
-    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.08);
 }
 
-.article-card h2 {
+.card-number {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--primary);
+    opacity: 0.8;
+    font-family: 'Times New Roman', serif;
+}
+
+.card-thumb-container {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #000;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--glass-border);
+}
+
+.card-thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: all 0.5s ease;
+}
+
+.article-card:hover .card-thumbnail {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.article-card h3 {
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
+    color: #fff;
+    font-weight: 700;
 }
 
 .article-card p {
     color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+.card-tag {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    background: rgba(99, 102, 241, 0.1);
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--primary);
+    letter-spacing: 0.05em;
+    width: fit-content;
 }
 
 /* Article Page */
@@ -206,38 +264,43 @@ article h2 {
     border: 1px solid var(--glass-border);
 }
 
-.glossary-term-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-bottom: 0.75rem;
-}
-
-.glossary-terms {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.5rem;
-}
-
 .glossary-word-group {
     display: flex;
     align-items: center;
-    gap: 0.25rem;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .glossary-word {
     font-weight: 700;
     color: var(--accent);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     cursor: pointer;
-    border-bottom: 1px dashed transparent;
     transition: all 0.2s;
 }
 
 .glossary-word:hover {
     color: #fff;
-    border-bottom-color: var(--accent);
+    text-shadow: 0 0 10px rgba(245, 158, 11, 0.5);
+}
+
+.glossary-definition {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.short-definition {
+    font-weight: 800;
+    color: var(--primary);
+    font-size: 1.1rem;
+}
+
+.explanation {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
 }
 
 .btn-jump {
@@ -567,16 +630,29 @@ article h2 {
     padding-bottom: 0.8rem;
 }
 
+.glossary-detail-title-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
 .glossary-detail-title {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 800;
+    color: #fff;
+}
+
+.glossary-detail-definition {
+    font-size: 1.2rem;
+    font-weight: 700;
     color: var(--accent);
 }
 
 .glossary-detail-explanation {
     font-size: 1.1rem;
-    line-height: 1.7;
+    line-height: 1.8;
     color: rgba(255, 255, 255, 0.8);
+    margin: 1.5rem 0;
 }
 
 .btn-back-translation {

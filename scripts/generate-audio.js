@@ -30,7 +30,7 @@ async function generateAudio(slug) {
         }
     }
 
-    // 2. Process Glossary
+    // 2. Process Glossary (Updated for v2 Flat Schema)
     if (fs.existsSync(glossaryPath)) {
         await fs.ensureDir(glossaryOutputDir);
         const glossaryData = await fs.readJson(glossaryPath);
@@ -38,16 +38,14 @@ async function generateAudio(slug) {
 
         const entries = Array.isArray(glossaryData.glossary) ? glossaryData.glossary : [];
         for (const entry of entries) {
-            for (const item of entry.items) {
-                const word = item.word;
-                const wordSlug = word.toLowerCase().replace(/[^a-z0-9]/g, '-');
-                const filePath = path.join(glossaryOutputDir, `${wordSlug}.mp3`);
+            const word = entry.word;
+            const wordSlug = word.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-$/, '');
+            const filePath = path.join(glossaryOutputDir, `${wordSlug}.mp3`);
 
-                if (fs.existsSync(filePath)) continue;
+            if (fs.existsSync(filePath)) continue;
 
-                console.log(`Processing Word: ${word}...`);
-                await synthesize(word, filePath, "Pronounce this word clearly and naturally as if it were part of a high-quality academic dictionary entry. Ensure the tone is dignified and the articulation is perfect.");
-            }
+            console.log(`Processing Word: ${word}...`);
+            await synthesize(word, filePath, "Pronounce this word clearly and naturally as if it were part of a high-quality academic dictionary entry. Ensure the tone is dignified and the articulation is perfect.");
         }
     }
 

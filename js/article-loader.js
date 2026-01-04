@@ -194,23 +194,22 @@ function renderGlossary(glossary) {
 }
 
 function generateGlossaryHTML(glossary) {
-    return glossary.map(entry => {
-        const itemHtml = entry.items.map(item => {
-            const wordSlug = item.word.toLowerCase().replace(/[^a-z0-9]/g, '-');
-            return `
-                <div class="glossary-word-group">
-                    <span class="glossary-word" onclick="playGlossaryWord('${wordSlug}')">${item.word}</span>
-                    <button class="btn-jump" onclick="event.stopPropagation(); jumpToSentence(${item.sentenceId})" title="Jump to sentence">↗</button>
-                </div>
-            `;
-        }).join('<span class="separator">/</span>');
+    if (!glossary || glossary.length === 0) return '';
 
+    return glossary.map(entry => {
+        const wordSlug = entry.word.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-$/, '');
         return `
             <div class="glossary-item">
                 <div class="glossary-term-container">
-                    <div class="glossary-terms">${itemHtml}</div>
+                    <div class="glossary-word-group">
+                        <span class="glossary-word" onclick="playGlossaryWord('${wordSlug}')">${entry.word}</span>
+                        <button class="btn-jump" onclick="event.stopPropagation(); jumpToSentence(${entry.sentenceId})" title="Jump to sentence">↗</button>
+                    </div>
                 </div>
-                <div class="glossary-definition">${entry.explanation}</div>
+                <div class="glossary-definition">
+                    <span class="short-definition">${entry.definition}</span>
+                    <p class="explanation">${entry.explanation}</p>
+                </div>
             </div>
         `;
     }).join('');
@@ -291,21 +290,15 @@ function updateModalContent() {
     const sentenceId = block.id;
     const rawText = block.text;
 
-    // Filter relevant glossary for this sentence
-    const relevantGlossary = articleGlossary.filter(entry =>
-        entry.items.some(item => item.sentenceId === sentenceId)
-    );
+    // Filter relevant glossary for this sentence (Flat Schema v2)
+    const relevantGlossary = articleGlossary.filter(entry => entry.sentenceId === sentenceId);
 
     // Decorate English sentence with interactive links
     let decoratedText = rawText;
     relevantGlossary.forEach(entry => {
-        entry.items.forEach(item => {
-            if (item.sentenceId === sentenceId) {
-                const escapedWord = item.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-                const regex = new RegExp(`\\b(${escapedWord})\\b`, 'gi');
-                decoratedText = decoratedText.replace(regex, `<span class="glossary-link" onclick="event.stopPropagation(); selectGlossaryWord('$1')">$1</span>`);
-            }
-        });
+        const escapedWord = entry.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const regex = new RegExp(`\\b(${escapedWord})\\b`, 'gi');
+        decoratedText = decoratedText.replace(regex, `<span class="glossary-link" onclick="event.stopPropagation(); selectGlossaryWord('$1')">$1</span>`);
     });
     document.getElementById('modal-english').innerHTML = decoratedText;
 
@@ -343,7 +336,7 @@ function selectGlossaryWord(word) {
     });
 
     const entry = articleGlossary.find(e =>
-        e.items.some(i => i.word.toLowerCase() === word.toLowerCase() && i.sentenceId === allBlocks[currentModalIndex].id)
+        e.word.toLowerCase() === word.toLowerCase() && e.sentenceId === allBlocks[currentModalIndex].id
     );
 
     if (entry) {
@@ -354,7 +347,10 @@ function selectGlossaryWord(word) {
             infoContent.innerHTML = `
                 <div class="glossary-detail-card">
                     <div class="glossary-detail-header">
-                        <div class="glossary-detail-title">${word}</div>
+                        <div class="glossary-detail-title-group">
+                            <div class="glossary-detail-title">${word}</div>
+                            <div class="glossary-detail-definition">${entry.definition}</div>
+                        </div>
                         <button class="btn-play" onclick="playGlossaryWord('${wordSlug}')" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
                             <span class="icon">🔊</span> Listen
                         </button>

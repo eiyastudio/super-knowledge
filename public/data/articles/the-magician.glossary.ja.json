@@ -2,67 +2,46 @@
     "language": "ja-JP",
     "glossary": [
         {
-            "items": [
-                {
-                    "word": "potential",
-                    "sentenceId": 2
-                }
-            ],
-            "explanation": "potential は「潜在能力、可能性」を意味します。魔術師は、目の前にある無数の可能性を一つに絞り込み、現実にする力を象徴しています。"
+            "word": "potential",
+            "sentenceId": 2,
+            "definition": "潜在能力、可能性",
+            "explanation": "魔術師は、目の前にある無数の可能性を一つに絞り込み、現実にする力を象徴しています。"
         },
         {
-            "items": [
-                {
-                    "word": "intention",
-                    "sentenceId": 2
-                }
-            ],
-            "explanation": "intention は「意図、目的」を意味します。ただぼんやり願うのではなく、「これを成し遂げる」と明確に意識を向ける強い決意を指します。"
+            "word": "intention",
+            "sentenceId": 2,
+            "definition": "意図、目的",
+            "explanation": "ただぼんやり願うのではなく、「これを成し遂げる」と明確に意識を向ける強い決意を指します。"
         },
         {
-            "items": [
-                {
-                    "word": "condenses",
-                    "sentenceId": 2
-                }
-            ],
-            "explanation": "condense は「凝縮する、濃縮する」という意味。霧のように広がっていた想いが、意志の熱によってギュッと一箇所に集まり、形を成していく様子を表現しています。"
+            "word": "condenses",
+            "sentenceId": 2,
+            "definition": "凝縮する、濃縮する",
+            "explanation": "霧のように広がっていた想いが、意志の熱によってギュッと一箇所に集まり、形を成していく様子を表現しています。"
         },
         {
-            "items": [
-                {
-                    "word": "inaugurates",
-                    "sentenceId": 4
-                }
-            ],
-            "explanation": "inaugurate は「（新しい時代などを）開始する、発足させる」を意味します。単なる始まりではなく、公式で重みのあるスタートを切る、というニュアンスです。"
+            "word": "inaugurates",
+            "sentenceId": 4,
+            "definition": "開始する、発足させる",
+            "explanation": "単なる始まりではなく、公式で重みのあるスタートを切る、というニュアンスです。"
         },
         {
-            "items": [
-                {
-                    "word": "conduit",
-                    "sentenceId": 7
-                }
-            ],
-            "explanation": "conduit は「導管、パイプ」を意味します。魔術師は自ら力を生み出すのではなく、天上からのエネルギーを通す「媒体」であることを示しています。"
+            "word": "conduit",
+            "sentenceId": 7,
+            "definition": "導管、パイプ",
+            "explanation": "魔術師は自ら力を生み出すのではなく、天上からのエネルギーを通す「媒体」であることを示しています。"
         },
         {
-            "items": [
-                {
-                    "word": "syntax",
-                    "sentenceId": 12
-                }
-            ],
-            "explanation": "syntax は本来「構文、文法」を意味します。ここでは「意図には順序（ルール）がある」という意味で、デタラメではない、秩序ある創造のプロセスを指します。"
+            "word": "syntax",
+            "sentenceId": 12,
+            "definition": "構文、文法",
+            "explanation": "ここでは「意図には順序（ルール）がある」という意味で、デタラメではない、秩序ある創造のプロセスを指します。"
         },
         {
-            "items": [
-                {
-                    "word": "contingent",
-                    "sentenceId": 15
-                }
-            ],
-            "explanation": "contingent は「～に依存する、条件付きの」を意味します。魔術師の全能感は、実は「導管である」という特定の条件の上に成り立っている脆さも秘めています。"
+            "word": "contingent",
+            "sentenceId": 15,
+            "definition": "依存する、条件付きの",
+            "explanation": "魔術師の全能感は、実は「導管である」という特定の条件の上に成り立っている脆さも秘めています。"
         }
     ]
 }

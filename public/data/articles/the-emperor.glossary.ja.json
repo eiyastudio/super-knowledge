@@ -1,0 +1,185 @@
+{
+    "language": "ja-JP",
+    "glossary": [
+        {
+            "word": "cubic stone",
+            "sentenceId": 2,
+            "definition": "立方体の石",
+            "explanation": "丸い形（女性性・流動性）に対して、四角形（4）は最も安定した形とされます。感情や気分で揺らぐことのない、物理的現実の絶対的な安定性を象徴しています。"
+        },
+        {
+            "word": "foundation",
+            "sentenceId": 2,
+            "definition": "土台、基礎",
+            "explanation": "皇帝が座る石は、現実の強固な基盤を表しています。"
+        },
+        {
+            "word": "untamed",
+            "sentenceId": 3,
+            "definition": "飼いならされていない、野生のままの",
+            "explanation": "女帝の自然界は放っておけばジャングルになるような、手つかずの状態を指します。"
+        },
+        {
+            "word": "impose order",
+            "sentenceId": 4,
+            "definition": "秩序を課す、強制する",
+            "explanation": "皇帝は自然のままの場所に「道」を作り「壁」を築くことで、人間が住める「文明」へと変える力を持っています。自然の混沌をコントロールする父性の働きです。"
+        },
+        {
+            "word": "archetype",
+            "sentenceId": 4,
+            "definition": "元型、典型",
+            "explanation": "皇帝は個人の父親像を超えた、社会的な父の機能を象徴します。"
+        },
+        {
+            "word": "edifice",
+            "sentenceId": 5,
+            "definition": "壮大な建造物、体系",
+            "explanation": "皇帝が作ろうとしているのは、一時的な小屋ではなく、世代を超えて残り続ける（enduring）堅牢な文明や社会システムそのものです。"
+        },
+        {
+            "word": "vigilance",
+            "sentenceId": 7,
+            "definition": "不断の警戒、寝ずの番",
+            "explanation": "王であることは、常に外敵や無秩序の侵入を見張ることを意味します。"
+        },
+        {
+            "word": "boundaries",
+            "sentenceId": 7,
+            "definition": "境界線",
+            "explanation": "皇帝の甲冑は、自分の領土（責任範囲）と他者の領域を明確に分け、その境界線を死守する覚悟を表しています。"
+        },
+        {
+            "word": "tempered",
+            "sentenceId": 8,
+            "definition": "（鋼鉄などが）鍛えられた、焼き入れされた",
+            "explanation": "牡羊座（火星）の持つ爆発的な攻撃性や衝動を、ただ放出するのではなく、叩いて冷やして昇華させている状態です。"
+        },
+        {
+            "word": "discipline",
+            "sentenceId": 8,
+            "definition": "規律、自制",
+            "explanation": "衝動をコントロールし、「鋼（はがね）」のような強固な意志として維持する力です。"
+        },
+        {
+            "word": "stewardship",
+            "sentenceId": 10,
+            "definition": "管理、預かり守ること",
+            "explanation": "真の権威とは単なる支配ではなく、生命を守り育てるための「良き管理者」としての責任ある態度を指します。"
+        },
+        {
+            "word": "dominion",
+            "sentenceId": 9,
+            "definition": "支配権、領土",
+            "explanation": "皇帝が持つ宝珠（Orb）は世界支配を表しますが、それは私利私欲のためではなく、全体を統治する責務を伴います。"
+        },
+        {
+            "word": "embody",
+            "sentenceId": 12,
+            "definition": "具現化する、体現する",
+            "explanation": "皇帝は抽象的な概念ではなく、法律やルールそのものが人の形をとった存在です。"
+        },
+        {
+            "word": "regulation",
+            "sentenceId": 12,
+            "definition": "規制、調整",
+            "explanation": "彼の存在そのものが、社会を円滑に回すためのシステムとして機能しています。"
+        },
+        {
+            "word": "overgrown",
+            "sentenceId": 13,
+            "definition": "（植物が）茂りすぎた",
+            "explanation": "女帝の「産み出す力」にはブレーキがなく、放っておくと生活を圧迫するほど増殖してしまう状態です。"
+        },
+        {
+            "word": "unmanageable",
+            "sentenceId": 13,
+            "definition": "手に負えない、管理不能な",
+            "explanation": "皇帝の「剪定（せんてい）」や「枠組み」がなければ、豊かさそのものが暴走してしまう危険性を警告しています。"
+        },
+        {
+            "word": "Superego",
+            "sentenceId": 15,
+            "definition": "超自我",
+            "explanation": "心理学用語で、本能的な欲求（イド）を抑え、社会的なルールや道徳に従わせようとする理性的・道徳的良心です。"
+        },
+        {
+            "word": "framework",
+            "sentenceId": 15,
+            "definition": "枠組み、骨組み",
+            "explanation": "「あれも欲しい、これもしたい」という本能に対し、「それはルール違反だ」「予算内でやるべきだ」と判断を下し、安全に行動できる枠を提供します。"
+        },
+        {
+            "word": "bedrock",
+            "sentenceId": 19,
+            "definition": "岩盤、根底",
+            "explanation": "皇帝の背後の山に草木がないのは、彼が装飾や甘えを排除した、冷厳な事実に基づいていることを表しています。"
+        },
+        {
+            "word": "sentimentality",
+            "sentenceId": 19,
+            "definition": "感傷、情緒",
+            "explanation": "皇帝は「可哀想だから」といった感情（感傷）を削ぎ落とし、論理と事実に基づいて判断を下します。"
+        },
+        {
+            "word": "consolidation",
+            "sentenceId": 20,
+            "definition": "地固め、統合",
+            "explanation": "夢やビジョンを語る段階を終え、それを具体的な組織や形として固めるプロセスです。"
+        },
+        {
+            "word": "legacy",
+            "sentenceId": 22,
+            "definition": "遺産",
+            "explanation": "自分が死んだ後も機能し続けるシステムや、後世に残る実績を指します。"
+        },
+        {
+            "word": "indispensable",
+            "sentenceId": 24,
+            "definition": "不可欠な、絶対に必要な",
+            "explanation": "女帝と皇帝は対立するのではなく、セットで初めて機能します。どちらが欠けても車（人生）は走りません。"
+        },
+        {
+            "word": "regulating principle",
+            "sentenceId": 26,
+            "definition": "調整原理",
+            "explanation": "エンジンの爆発力（女帝）に対して、それを制御するハンドルやブレーキの役割を果たします。"
+        },
+        {
+            "word": "substance",
+            "sentenceId": 25,
+            "definition": "実質、中身",
+            "explanation": "水（実質）があっても、コップ（形式）がなければ飲むことはできません. 女帝が提供する生のエネルギーです。"
+        },
+        {
+            "word": "form",
+            "sentenceId": 25,
+            "definition": "形式、形",
+            "explanation": "コップだけあっても喉は潤いませんが、水を飲むためには必要です。皇帝が器を提供することで、現実は創造されます。"
+        },
+        {
+            "word": "alchemical marriage",
+            "sentenceId": 28,
+            "definition": "錬金術的結婚（結合）",
+            "explanation": "対立する二つの要素（男と女、火と水、精神と物質）が完全に融合し、より高次の完全な状態へと変化する神秘的なプロセスです。"
+        },
+        {
+            "word": "inhabit",
+            "sentenceId": 30,
+            "definition": "住まう、宿る",
+            "explanation": "権威を外から借りるのではなく、自分自身の内側に王としての自信と責任を住まわせることです。"
+        },
+        {
+            "word": "stand firm",
+            "sentenceId": 32,
+            "definition": "断固として立つ、揺るがない",
+            "explanation": "何が起きても動じない自分を確立せよという強いメッセージです。"
+        },
+        {
+            "word": "sovereign",
+            "sentenceId": 32,
+            "definition": "主権者、最高権力者",
+            "explanation": "他人の顔色を伺ったり、環境のせいにするのではなく、自分の人生という国の法律を自分で決め、全責任を負う「王」としての自覚を促す言葉です。"
+        }
+    ]
+}

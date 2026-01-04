@@ -2,71 +2,58 @@
     "language": "ja-JP",
     "glossary": [
         {
-            "items": [
-                {
-                    "word": "subconscious",
-                    "sentenceId": 2
-                }
-            ],
-            "explanation": "subconscious は「潜在意識、意識下の」を意味します。普段自覚することのできない、心の奥底に眠っている真実やイメージを指します。"
+            "word": "subconscious",
+            "sentenceId": 2,
+            "definition": "潜在意識、意識下の",
+            "explanation": "普段自覚することのできない、心の奥底に眠っている真実やイメージを指します。"
         },
         {
-            "items": [
-                {
-                    "word": "threshold",
-                    "sentenceId": 2
-                }
-            ],
-            "explanation": "threshold は「敷居、境界線」を意味します。意識と潜在意識、理性と直感、その二つの世界が交わる入り口のことを指しています。"
+            "word": "threshold",
+            "sentenceId": 2,
+            "definition": "敷居、境界線",
+            "explanation": "意識と潜在意識、理性と直感、その二つの世界が交わる入り口のことを指しています。"
         },
         {
-            "items": [
-                {
-                    "word": "counterpoise",
-                    "sentenceId": 2
-                }
-            ],
-            "explanation": "counterpoise は「均衡を保つための重り、対抗する勢力」を意味します。魔術師が外へ放つ力を象徴するのに対し、彼女はそれを内側で受け止めバランスを取る存在です。"
+            "word": "counterpoise",
+            "sentenceId": 2,
+            "definition": "均衡を保つ重り、対抗勢力",
+            "explanation": "魔術師が外へ放つ力を象徴するのに対し、彼女はそれを内側で受け止めバランスを取る存在です。"
         },
         {
-            "items": [
-                {
-                    "word": "assertive will",
-                    "sentenceId": 2
-                }
-            ],
-            "explanation": "assertive will は「主張の強い意志、積極的な意志」を意味します。魔術師が持つこの強すぎる力を、女教皇の静寂が中和して均衡を保っています。"
+            "word": "assertive will",
+            "sentenceId": 2,
+            "definition": "主張の強い意志、積極的な意志",
+            "explanation": "魔術師が持つこの強すぎる力を、女教皇の静寂が中和して均衡を保っています。"
         },
         {
-            "items": [
-                {
-                    "word": "ante-dates",
-                    "sentenceId": 4
-                }
-            ],
-            "explanation": "ante-date は「～より以前に起こる、日付をさかのぼる」を意味します。ここでは、すべての具体的な形が生まれるよりも「さらに古い」場所から真理が届いていることを示します。"
+            "word": "ante-dates",
+            "sentenceId": 4,
+            "definition": "より以前に起こる、さかのぼる",
+            "explanation": "ここでは、すべての具体的な形が生まれるよりも「さらに古い」場所から真理が届いていることを示します。"
         },
         {
-            "items": [
-                {
-                    "word": "ineffable",
-                    "sentenceId": 4
-                }
-            ],
-            "explanation": "ineffable は「言葉で言い表せない、あまりに神聖で口にできない」を意味します。理屈では説明しきれない、感覚でしか捉えられない真理を指す美しい言葉です。"
+            "word": "ineffable",
+            "sentenceId": 4,
+            "definition": "言い表せない、神聖な",
+            "explanation": "理屈では説明しきれない、感覚でしか捉えられない真理を指す美しい言葉です。"
         },
         {
-            "items": [
-                {
-                    "word": "Binary",
-                    "sentenceId": 8
-                },
-                {
-                    "word": "Mercy / Severity",
-                    "sentenceId": 8
-                }
-            ],
-            "explanation": "Binary（二元性）とは、Mercy（慈悲）とSeverity（峻厳）といった、世界の対極にある二つの原理を指します。女教皇は、そのどちらにも偏らない中央の地点に座っています。"
+            "word": "Binary",
+            "sentenceId": 8,
+            "definition": "二元性、二項対立",
+            "explanation": "世界を二つの極（善と悪、光と影など）で捉える考え方のこと。女教皇はその中心に位置します。"
+        },
+        {
+            "word": "Mercy",
+            "sentenceId": 8,
+            "definition": "慈悲",
+            "explanation": "カバラの生命の樹における「右の柱」。包容力や許しを象徴します。"
+        },
+        {
+            "word": "Severity",
+            "sentenceId": 8,
+            "definition": "峻厳",
+            "explanation": "カバラの生命の樹における「左の柱」。厳格さや公正な裁きを象徴します。"
         }
     ]
 }

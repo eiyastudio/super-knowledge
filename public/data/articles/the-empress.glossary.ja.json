@@ -2,116 +2,82 @@
     "language": "ja-JP",
     "glossary": [
         {
-            "items": [
-                {
-                    "word": "ethereal",
-                    "sentenceId": 2
-                },
-                {
-                    "word": "corporeal",
-                    "sentenceId": 3
-                }
-            ],
-            "explanation": "ethereal は「超俗的な、霊妙な」を、corporeal は「肉体的な、物質的な」を意味します。これらは対極の概念として密接に関連するため、セットで覚えるのが効果的です。女帝は、この精神（ethereal）と物質（corporeal）を結びつける存在です。"
+            "word": "ethereal",
+            "sentenceId": 2,
+            "definition": "超俗的な、霊妙な",
+            "explanation": "目に見えない精神の領域や、精妙なエネルギーの状態。女帝は、この霊的な本質を現実的な形にする役割を果たします。"
         },
         {
-            "items": [
-                {
-                    "word": "dwell",
-                    "sentenceId": 8
-                }
-            ],
-            "explanation": "dwell は「住む、居住する」という意味ですが、精神的な文脈では「（ある状態に）留まる、こだわり続ける」という意味になります。ここでは女教皇が「抽象的（abstract）」な世界に意識を置き続けていることを表します。"
+            "word": "corporeal",
+            "sentenceId": 3,
+            "definition": "肉体的な、物質的な",
+            "explanation": "五感で感じ取れる具体的な形、あるいは私たちの肉体そのもの。女帝は、精神的な想いに「体の重み」と「実体」を与えます。"
         },
         {
-            "items": [
-                {
-                    "word": "divine",
-                    "sentenceId": 8
-                }
-            ],
-            "explanation": "divine は「神聖な、神の」を意味します。タロットの文脈では、宗教的な神というより、宇宙の創造的なエネルギーや高次の知恵を指すことが多いです。"
+            "word": "dwell",
+            "sentenceId": 8,
+            "definition": "住む、留まる",
+            "explanation": "精神的な文脈では「（ある状態に）留まる、こだわり続ける」という意味。ここでは女教皇が「抽象的（abstract）」な世界に意識を置き続けていることを表します。"
         },
         {
-            "items": [
-                {
-                    "word": "immanent",
-                    "sentenceId": 8
-                }
-            ],
-            "explanation": "immanent は「内在する」という意味の哲学用語です。神聖さが遠い天国にあるのではなく、目の前の石や花、そして人間の中に最初から備わっているという考え方を示しています。"
+            "word": "divine",
+            "sentenceId": 8,
+            "definition": "神聖な、神の",
+            "explanation": "宇宙の創造的なエネルギーや高次の知恵。宗教的な神というより、生命の源流にある神聖な性質を指します。"
         },
         {
-            "items": [
-                {
-                    "word": "tangible",
-                    "sentenceId": 8
-                }
-            ],
-            "explanation": "tangible は「触れることができる、実体のある」を意味します。頭の中のアイデア（intangible）とは対照的に、手で触れ、五感で味わえる現実世界の豊かさを強調する言葉です。"
+            "word": "immanent",
+            "sentenceId": 8,
+            "definition": "内在する",
+            "explanation": "神聖さが遠い天国にあるのではなく、目の前の石や花、そして人間の中に最初から備わっているという考え方です。"
         },
         {
-            "items": [
-                {
-                    "word": "gestation",
-                    "sentenceId": 20
-                }
-            ],
-            "explanation": "gestation は「懐胎、妊娠期間」を意味します。アイデアが生まれてから、現実の形となって世に出るまでの「練り上げ、育む期間」を象徴する重要なキーワードです。"
+            "word": "tangible",
+            "sentenceId": 8,
+            "definition": "触れることができる、実体のある",
+            "explanation": "頭の中のアイデアとは対照的に、手で触れ、五感で味わえる現実世界の豊かさを強調する言葉です。"
         },
         {
-            "items": [
-                {
-                    "word": "sanctuary",
-                    "sentenceId": 20
-                }
-            ],
-            "explanation": "sanctuary は「聖域、避難所」を意味します。ここでは、生命やアイデアが外敵から守られ、静かに育まれる神聖な場所を指しています。"
+            "word": "gestation",
+            "sentenceId": 20,
+            "definition": "懐胎、育む期間",
+            "explanation": "アイデアが生まれてから、現実の形となって世に出るまでの「練り上げ、育む期間」を象徴する重要なキーワードです。"
         },
         {
-            "items": [
-                {
-                    "word": "sterility",
-                    "sentenceId": 24
-                }
-            ],
-            "explanation": "sterility は「不毛、無菌状態、不妊」を意味します。女帝は、生命力がなく、何も生み出さない冷たい完璧主義（sterility）を最も嫌います。"
+            "word": "sanctuary",
+            "sentenceId": 20,
+            "definition": "聖域、避難所",
+            "explanation": "生命やアイデアが外敵から守られ、静かに育まれる神聖な場所を指しています。"
         },
         {
-            "items": [
-                {
-                    "word": "evolve",
-                    "sentenceId": 24
-                }
-            ],
-            "explanation": "evolve は「進化する、徐々に発展する」を意味します。単なる変化ではなく、より複雑で高度な「生きている形」へと成長していくニュアンスがあります。"
+            "word": "sterility",
+            "sentenceId": 24,
+            "definition": "不毛、無菌状態",
+            "explanation": "生命力がなく、何も生み出さない冷たい完璧主義。女帝は、この停滞した純粋さを最も嫌います。"
         },
         {
-            "items": [
-                {
-                    "word": "antidote",
-                    "sentenceId": 25
-                }
-            ],
-            "explanation": "antidote は「解毒剤」ですが、転じて「（悪い状態に対する）解決策、対抗手段」として使われます。ここでは「停滞（stagnation）」を打ち破る薬を意味します。"
+            "word": "evolve",
+            "sentenceId": 24,
+            "definition": "進化する、発展する",
+            "explanation": "単なる変化ではなく、より複雑で高度な「生きている形」へと成長していくニュアンスがあります。"
         },
         {
-            "items": [
-                {
-                    "word": "stagnation",
-                    "sentenceId": 25
-                }
-            ],
-            "explanation": "stagnation は「（水の）よどみ、停滞」を意味します。物事が進まず、生命力が弱まっている状態を指します。"
+            "word": "antidote",
+            "sentenceId": 25,
+            "definition": "解毒剤、解決策",
+            "explanation": "悪い状態に対する特効薬。ここでは「停滞（stagnation）」を打ち破り、生命の循環を取り戻す手段を意味します。"
         },
         {
-            "items": [
-                {
-                    "word": "ground",
-                    "sentenceId": 27
-                }
-            ],
-            "explanation": "ground は名詞では「地面」ですが、スピリチュアルな文脈では「地に足をつける（グラウンディング）」という意味。浮ついた思考から離れ、現実感覚を取り戻すことを指します。"
+            "word": "stagnation",
+            "sentenceId": 25,
+            "definition": "よどみ、停滞",
+            "explanation": "物事が進まず、生命力が弱まっている状態。水が流れないと濁るように、生命も循環がないと腐敗してしまいます。"
+        },
+        {
+            "word": "ground",
+            "sentenceId": 27,
+            "definition": "地に足をつける",
+            "explanation": "スピリチュアルな文脈では「グラウンディング」。浮ついた思考から離れ、現実感覚をしっかりと取り戻すことを指します。"
         }
     ]
 }
