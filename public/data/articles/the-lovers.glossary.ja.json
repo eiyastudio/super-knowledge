@@ -1,0 +1,197 @@
+{
+    "language": "ja-JP",
+    "glossary": [
+        {
+            "word": "Union",
+            "sentenceId": 3,
+            "definition": "結合",
+            "explanation": "単にくっつくことではなく、全く異なる二つの存在が溶け合い、新しい「一つ」の状態になることです。1+1=2ではなく、無限大になるような化学反応を指します。"
+        },
+        {
+            "word": "Integration",
+            "sentenceId": 3,
+            "definition": "統合",
+            "explanation": "自分の中にある矛盾する要素（理性と感情、男性性と女性性など）を、どちらも否定せずにまとめ上げることです。"
+        },
+        {
+            "word": "Benediction",
+            "sentenceId": 7,
+            "definition": "祝福",
+            "explanation": "ラテン語で「良い（bene）言葉（diction）」を意味します。天使が二人の結合を認めて守ってくれることで、この恋や選択が神聖で正しいものであることを保証しています。"
+        },
+        {
+            "word": "Superconscious",
+            "sentenceId": 11,
+            "definition": "超意識",
+            "explanation": "顕在意識（ふだんの意識）、潜在意識（無意識）のさらに上にある、神や宇宙とつながる高次の意識レベルのことです。タロットでは天使として描かれます。"
+        },
+        {
+            "word": "Alignment",
+            "sentenceId": 15,
+            "definition": "整列、一致",
+            "explanation": "車輪がまっすぐ揃うように、自分の「考え（頭）」「気持ち（心）」「行動（体）」がピタリと一致すること。恋人たちのカードは、無理をして合わせるのではなく、自然と波長が合う状態を指します。"
+        },
+        {
+            "word": "Alchemical wedding",
+            "sentenceId": 16,
+            "definition": "錬金術的結婚",
+            "explanation": "卑金属を金に変えるように、対立する二つの魂が結合することで、より高次な精神的ゴールド（悟りや完全性）を生み出す神秘的なプロセスです。"
+        },
+        {
+            "word": "Agency",
+            "sentenceId": 20,
+            "definition": "作用、働き",
+            "explanation": "ここではカードが持つ「能動的な力」や「機能」のことです。恋人たちのカードは、ただ仲良くするだけでなく、人生の岐路で「選ぶ」という強い作用を持っています。"
+        },
+        {
+            "word": "Commitment",
+            "sentenceId": 21,
+            "definition": "誓約、コミットメント",
+            "explanation": "単なる約束よりも重い、全人格的な決意です。「他の可能性を捨てて、これ一つに賭ける」という覚悟を伴う選択を指します。"
+        },
+        {
+            "word": "Vulnerability",
+            "sentenceId": 28,
+            "definition": "無防備さ、脆弱性",
+            "explanation": "鎧を脱いで、傷つく可能性がある状態で相手の前に立つこと。タロットでは「裸」で表現されます。弱さのように見えますが、実は相手を完全に信頼していないとできない、最強の勇気です。"
+        },
+        {
+            "word": "Authentically",
+            "sentenceId": 27,
+            "definition": "真正に、本物として",
+            "explanation": "見栄や嘘偽りなく、自分の本音に従って行動すること。「本当の自分」で相手と向き合う誠実さを意味します。"
+        },
+        {
+            "word": "unashamed",
+            "sentenceId": 2,
+            "definition": "恥じることのない",
+            "explanation": "自分のありのままの姿を、隠したり恥じたりする必要がない状態。深い自己受容と信頼を象徴しています。"
+        },
+        {
+            "word": "presided over",
+            "sentenceId": 2,
+            "definition": "～に主宰された、見守られた",
+            "explanation": "高い地位にある者が場を司り、保護することを指します。ここでは大天使ラファエルが二人の結合を天から見守っている様子を表しています。"
+        },
+        {
+            "word": "archangel",
+            "sentenceId": 2,
+            "definition": "大天使",
+            "explanation": "天使の中でも高い階級に属する存在。神のメッセンジャーとして、人間に重大な天啓や癒やしをもたらします。"
+        },
+        {
+            "word": "Raphael",
+            "sentenceId": 2,
+            "definition": "ラファエル",
+            "explanation": "「神は癒やす」という意味の名を持つ大天使。旅人の守護者でもあり、魂の分断を癒やし、一つにまとめる力を象徴します。"
+        },
+        {
+            "word": "conformity",
+            "sentenceId": 4,
+            "definition": "同調、適合",
+            "explanation": "周囲やシステムに合わせること。法王が「組織への同調」を説いたのに対し、恋人たちは「自分自身の価値観」を優先することを教えます。"
+        },
+        {
+            "word": "counterpart",
+            "sentenceId": 5,
+            "definition": "片割れ、対応するもの",
+            "explanation": "パズルのピースがぴったり合うように、自分を補完してくれる存在。外界に見出す「魂のパートナー」を指します。"
+        },
+        {
+            "word": "resemble",
+            "sentenceId": 8,
+            "definition": "～に似ている",
+            "explanation": "外見や性質が似ていること。カードに描かれた男女が人類の祖であるアダムとイブに似ていることを示しています。"
+        },
+        {
+            "word": "allure",
+            "sentenceId": 9,
+            "definition": "誘惑、魅惑",
+            "explanation": "強く惹きつけられる力。ここでは蛇が象徴する、五感や物質的な快楽への惹きつきを指しています。"
+        },
+        {
+            "word": "serpent",
+            "sentenceId": 9,
+            "definition": "蛇",
+            "explanation": "知恵の樹に巻き付く象徴。誘惑や本能的なエネルギーを表すと同時に、変容や癒やしの力も秘めています。"
+        },
+        {
+            "word": "representing",
+            "sentenceId": 9,
+            "definition": "～を表している",
+            "explanation": "あるものが別の意味や概念の象徴となっていること。蛇が潜在意識を表している（representing the subconscious）ように、図像が持つ深い意味を指します。"
+        },
+        {
+            "word": "embody",
+            "sentenceId": 13,
+            "definition": "具現化する、体現する",
+            "explanation": "抽象的な概念（調和や愛）が、具体的な形（二人の男女や天使）として現れることです。"
+        },
+        {
+            "word": "imposed",
+            "sentenceId": 14,
+            "definition": "課された、押し付けられた",
+            "explanation": "外側から強制的に与えられること。皇帝の「力による秩序」は、法や権威によって外から課されたものです。"
+        },
+        {
+            "word": "born of",
+            "sentenceId": 14,
+            "definition": "～から生まれた",
+            "explanation": "ある原因や背景から自然に発生すること。恋人たちの秩序は、強制的ではなく、内側の惹き合い（attraction）から自然に生まれます。"
+        },
+        {
+            "word": "masculine",
+            "sentenceId": 17,
+            "definition": "男性的な",
+            "explanation": "能動性、理性、論理、太陽のエネルギーなどを指します。カードでは生命の樹を背負う男性がこれを象徴します。"
+        },
+        {
+            "word": "feminine",
+            "sentenceId": 17,
+            "definition": "女性的な",
+            "explanation": "受容性、直感、感情、月のエネルギーなどを指します。カードでは知恵の樹を背負う女性がこれを象徴します。"
+        },
+        {
+            "word": "depicting",
+            "sentenceId": 19,
+            "definition": "～を描写している",
+            "explanation": "絵画や言葉で、ある場面や人物を具体的に表現すること。古い時代のカードのデザインを説明する際に使われます。"
+        },
+        {
+            "word": "virtue",
+            "sentenceId": 19,
+            "definition": "美徳",
+            "explanation": "道徳的に正しいとされる性質や行い。歴史的なカードでは、一方の女性が「正しい道」を象徴していました。"
+        },
+        {
+            "word": "vice",
+            "sentenceId": 19,
+            "definition": "悪徳",
+            "explanation": "道徳に反する不徳な性質や、誘惑に負けること。もう一方の女性が「安易で危うい道」を象徴していました。"
+        },
+        {
+            "word": "vulnerability",
+            "sentenceId": 23,
+            "definition": "無防備さ、脆さ",
+            "explanation": "傷つくことを恐れず、自分をさらけ出す勇気。決断を下す際には、この脆さを受け入れることが必要になります。"
+        },
+        {
+            "word": "crossroads",
+            "sentenceId": 23,
+            "definition": "岐路、分岐点",
+            "explanation": "道が分かれている場所。人生を左右するような重大な選択を迫られている状況を象徴しています。"
+        },
+        {
+            "word": "distinct",
+            "sentenceId": 15,
+            "definition": "はっきりと異なる、独自の",
+            "explanation": "それぞれの個性が明確に分かれていること。恋人たちのカードでは、別々の「異なる力（distinct forces）」が、個性を消さずに整列することを意味します。"
+        },
+        {
+            "word": "duality",
+            "sentenceId": 16,
+            "definition": "二元性、二面性",
+            "explanation": "「男と女」「光と影」など、相反する二つの要素が対立している状態。恋人たちでは、この二元性が統合されることで新しい価値が生まれます。"
+        }
+    ]
+}

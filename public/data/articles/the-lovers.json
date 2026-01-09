@@ -1,0 +1,164 @@
+{
+    "slug": "the-lovers",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "image": "images/articles/the-lovers.jpg",
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "6. The Lovers"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Garden of Union"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered six, The Lovers stand naked and unashamed in a sunlit garden, presided over by the archangel Raphael."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "This is the archetype of Union—not merely romantic love, but the profound integration of opposites."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "While the Hierophant taught conformity to established systems, The Lovers represent the choice to connect based on personal values and mutual attraction."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "It is the moment where \"I\" becomes \"We,\" and the soul discovers its counterpart in the external world.",
+            "paragraph_end": true
+        },
+        {
+            "id": 6,
+            "type": "heading",
+            "text": "The Divine Blessing"
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "The angel Raphael, whose name means \"God heals,\" extends his hands in benediction, signaling that true union is a healing act."
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "Below him, the figures resemble Adam and Eve."
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "Behind the woman stands the Tree of Knowledge with the serpent, representing the subconscious and the allure of sensation."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "Behind the man stands the Tree of Life with its twelve flames, representing the conscious mind and passion."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "The woman looks up at the angel, while the man looks at the woman, suggesting that the conscious mind (man) can only reach the superconscious (angel) through the medium of the subconscious (woman).",
+            "paragraph_end": true
+        },
+        {
+            "id": 12,
+            "type": "heading",
+            "text": "The Principle of Harmony"
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "The Lovers embody the principle of harmony and synthesis."
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "Unlike the Emperor’s imposed order, this is an organic order born of attraction."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "It teaches that true power comes not from domination, but from the alignment of distinct forces."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "It is the alchemical wedding where duality is not erased but harmonized, creating a third energy that is greater than the sum of its parts."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "It suggests that we are most whole when we acknowledge and integrate the masculine and feminine aspects within ourselves.",
+            "paragraph_end": true
+        },
+        {
+            "id": 18,
+            "type": "heading",
+            "text": "The Agency of Choice"
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "Historically, this card was known as \"The Choice,\" depicting a man deciding between two women representing virtue and vice."
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "Although the imagery has evolved, the core agency remains one of decision."
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "This is not a trivial choice, but a moral commitment that defines who you are."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "It asks you to choose what you love and to stand by it."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "It represents the crossroads where one must sacrifice the safety of the known (the Hierophant’s tradition) for the vulnerability of the unknown path of the heart.",
+            "paragraph_end": true
+        },
+        {
+            "id": 24,
+            "type": "heading",
+            "text": "An Invitation to Vulnerability"
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "Drawing The Lovers is a call to drop your defenses and allow yourself to be seen."
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "The nakedness of the figures symbolizes a state of total transparency and trust."
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "It invites you to strip away the masks you wear for society and to engage with others (or with a passion project) authentically."
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "It reminds you that deep connection is only possible when you have the courage to be vulnerable.",
+            "paragraph_end": true
+        }
+    ]
+}
