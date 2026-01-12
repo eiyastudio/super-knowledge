@@ -6,9 +6,12 @@ let articleGlossary = [];
 let currentModalIndex = -1;
 
 async function loadArticle() {
-    const params = new URLSearchParams(window.location.search);
-    const slug = params.get('slug');
+    const { mode, slug } = parseUrl();
     currentSlug = slug;
+
+    // Set language mode class
+    document.body.classList.add(`mode-${mode}`);
+
     if (!slug) {
         document.getElementById('app').innerHTML = '<div class="error">Article not found.</div>';
         return;
@@ -16,9 +19,9 @@ async function loadArticle() {
 
     try {
         const [articleRes, transRes, glossaryRes] = await Promise.all([
-            fetch(`data/articles/${slug}.json`),
-            fetch(`data/articles/${slug}.translation.ja.json`),
-            fetch(`data/articles/${slug}.glossary.ja.json`)
+            fetch(`/data/articles/${slug}.json`),
+            fetch(`/data/articles/${slug}.translation.ja.json`),
+            fetch(`/data/articles/${slug}.glossary.ja.json`)
         ]);
 
         const article = await articleRes.json();
@@ -37,6 +40,28 @@ async function loadArticle() {
     }
 }
 
+function parseUrl() {
+    const path = window.location.pathname;
+    // Match /:mode/articles/:slug or /articles/:slug
+    // Modes: en-ja, en, ja, en-vn
+    const match = path.match(/^\/?(?:(en|ja|en-ja|en-vn)\/)?articles\/([^/]+)/);
+    if (match) {
+        return {
+            mode: match[1] || 'en', // Default to 'en' (Immersion) if no mode present
+            slug: match[2]
+        };
+    }
+
+    // Fallback for legacy or direct file access
+    const params = new URLSearchParams(window.location.search);
+    const slug = params.get('slug');
+    if (slug) {
+        return { mode: 'en-ja', slug };
+    }
+
+    return { mode: null, slug: null };
+}
+
 function renderArticle(article, translations) {
     const app = document.getElementById('app');
     let html = '';
@@ -46,8 +71,8 @@ function renderArticle(article, translations) {
             html += `
                 <header>
                     ${article.meta && article.meta.image ? `
-                        <div class="featured-image-container" style="--bg-image: url('${article.meta.image}')">
-                            <img src="${article.meta.image}" alt="${block.text}" class="featured-image">
+                        <div class="featured-image-container" style="--bg-image: url('/${article.meta.image}')">
+                            <img src="/${article.meta.image}" alt="${block.text}" class="featured-image">
                         </div>
                     ` : ''}
                     <h1>${block.text}</h1>
@@ -64,7 +89,7 @@ function renderArticle(article, translations) {
             const trans = translations[block.id] || '';
             html += `
                 <span class="sentence" data-id="${block.id}" onclick="openModal(${index})">
-                    ${block.text}
+                    <span class="en-text">${block.text}</span>
                     ${trans ? `<span class="translation-overlay">${trans}</span>` : ''}
                 </span> `;
             if (block.line_break) {
@@ -105,7 +130,7 @@ async function playSentence(id) {
         document.querySelectorAll('.sentence, h2').forEach(el => el.classList.remove('playing'));
     }
 
-    const audioUrl = `audio/${currentSlug}/${id}.mp3`;
+    const audioUrl = `/audio/${currentSlug}/${id}.mp3`;
     currentAudio = new Audio(audioUrl);
     playingSentenceId = id;
 
@@ -161,7 +186,7 @@ function playSequence(blocks, index) {
     const playAllBtn = document.getElementById('play-all');
     playAllBtn.innerHTML = '<span class="icon">⏸</span> Pause Article';
 
-    const audioUrl = `audio/${currentSlug}/${block.id}.mp3`;
+    const audioUrl = `/audio/${currentSlug}/${block.id}.mp3`;
     currentAudio = new Audio(audioUrl);
     playingSentenceId = block.id;
 
@@ -226,7 +251,7 @@ async function playGlossaryWord(wordSlug) {
     if (currentAudio) {
         currentAudio.pause();
     }
-    const audioUrl = `audio/${currentSlug}/glossary/${wordSlug}.mp3`;
+    const audioUrl = `/audio/${currentSlug}/glossary/${wordSlug}.mp3`;
     currentAudio = new Audio(audioUrl);
     currentAudio.play().catch(err => console.error('Glossary audio failed:', err));
 }

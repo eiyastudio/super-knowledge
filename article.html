@@ -5,57 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Article | Arcana English</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container fade-in">
-        <nav style="margin-bottom: 2rem;">
-            <a href="index.html" style="color: var(--primary); text-decoration: none; font-weight: 700;">← Back to
-                Index</a>
-        </nav>
+    <div class="container">
+        <header class="article-header">
+            <a href="/" class="back-link">← Back to Arcana</a>
+        </header>
 
-        <main id="app">
-            <div class="loading">Loading article...</div>
+        <!-- Article content will be injected here -->
+        <main id="app" class="fade-in">
+            <div class="loading"></div>
         </main>
 
-        <section id="glossary" class="glossary" style="display: none;">
-            <h3>Glossary</h3>
-            <div id="glossary-list"></div>
+        <!-- Glossary Section -->
+        <section id="glossary" class="glossary-section" style="display: none;">
+            <h2>Glossary</h2>
+            <div id="glossary-list" class="glossary-grid">
+                <!-- Glossary items injected here -->
+            </div>
         </section>
     </div>
 
-    <!-- Sentential Study Modal -->
-    <div id="study-modal" class="modal-overlay" style="display: none;">
-        <button id="modal-play-pause" class="btn-play-corner">
-            <span class="icon">▶</span> Play
-        </button>
-        <button id="modal-auto-toggle" class="btn-auto-toggle" onclick="toggleAutoMode()">
-            Auto Mode: OFF
-        </button>
-        <button id="modal-repeat-toggle" class="btn-repeat-toggle" onclick="toggleRepeatMode()">
-            Repeat: 1x
-        </button>
-        <button class="modal-close" onclick="closeModal()">×</button>
-        <div class="modal-nav nav-prev" onclick="prevSentence()">‹</div>
+    <!-- Modal for Sentence Study -->
+    <div id="study-modal" class="modal" style="display: none;">
         <div class="modal-content">
+            <button class="btn-play-corner" id="modal-play-pause">
+                <span class="icon">▶</span> Play
+            </button>
+
+            <button class="btn-auto-toggle" id="modal-auto-toggle" onclick="toggleAutoMode()">
+                Auto Mode: OFF
+            </button>
+
+            <button class="btn-repeat-toggle" id="modal-repeat-toggle" onclick="toggleRepeatMode()">
+                Repeat: 1x
+            </button>
+
+            <button class="modal-close" onclick="closeModal()">×</button>
+            <button class="nav-btn nav-prev" onclick="prevSentence()">←</button>
+            <button class="nav-btn nav-next" onclick="nextSentence()">→</button>
+
             <div class="modal-section-en">
-                <div id="modal-english" class="modal-text-en" onclick="resetToTranslation()"></div>
+                <div class="modal-text-en" id="modal-english"></div>
             </div>
 
             <div class="modal-info-area">
                 <div id="modal-info-content" class="info-content">
-                    <!-- Toggles between translation and glossary -->
+                    <!-- Dynamic Content -->
                 </div>
             </div>
         </div>
-        <div class="modal-nav nav-next" onclick="nextSentence()">›</div>
     </div>
 
-    <script type="module" src="js/article-loader.js"></script>
+    <script type="module" src="/js/article-loader.js"></script>
 </body>
 
 </html>

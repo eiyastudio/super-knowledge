@@ -81,7 +81,7 @@ A focused learning view triggered by clicking any sentence.
 
 ---
 
-## 3. Audio Specification (Gemini-TTS)
+## 4. Audio Specification (Gemini-TTS)
 Narration is pre-generated using Google Cloud's Gemini-powered Text-to-Speech.
 
 - **Model**: `Neural2` / `gemini-2.5-pro-tts` (Project Dependent)
@@ -94,7 +94,7 @@ Narration is pre-generated using Google Cloud's Gemini-powered Text-to-Speech.
 
 ---
 
-## 4. Content Creation Workflow
+## 5. Content Creation Workflow
 As the assistant, I handle the formatting of articles to ensure high standards:
 1. **Drafting**: Create natural English and Japanese narratives.
 2. **Formatting**: Manually convert text into the Three-JSON structure, strictly following the `paragraph_end` rules.
@@ -103,7 +103,27 @@ As the assistant, I handle the formatting of articles to ensure high standards:
 
 ---
 
-## 5. Design & CSS
+## 6. Design & CSS
 - **Typography**: Inter (Variable), focus on readability and weight.
 - **Layout**: Slate-900 background with deep indigo primary elements. 
 - **Animations**: Use `.fade-in` for content entry and `.playing` for active sentence highlighting.
+
+---
+
+## 7. Routing & URL Strategy
+The service uses path-based routing to define the "Learning Mode" (Language Configuration).
+
+### 7.1 URL Structure
+Format: `/{mode}/articles/{slug}`
+
+| Path | Mode Name | Description | Content Display |
+| :--- | :--- | :--- | :--- |
+| `/en-ja/` | **Dual Language** | Standard study mode. | English text + Japanese translation. |
+| `/en/` | **Immersion** | For advanced learners / native speakers. | English text only. Japanese hidden. |
+| `/ja/` | **Native Reader** | For reading the content as a localized article. | Japanese text only. English hidden. |
+| `/en-vn/` | **Vietnam Local** | (Future) For Vietnamese speakers. | English text + Vietnamese translation. |
+
+### 7.2 Default Routing Rules
+- **No Mode**: Accessing `/articles/{slug}` without a language prefix defaults to **Immersion Mode (`/en/`)**.
+  - *Behavior*: Redirect to `/en/articles/{slug}` OR render as English-only.
+- **Root**: Visiting `/` should redirect to or render the default listing (likely `/en-ja/` or user's last preference).

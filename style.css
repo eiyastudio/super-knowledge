@@ -714,6 +714,7 @@ article h2 {
     gap: 0.5rem;
 }
 
+
 .main-section-title::before {
     content: '';
     display: block;
@@ -721,4 +722,21 @@ article h2 {
     height: 1.5rem;
     background: var(--primary);
     border-radius: 2px;
+}
+
+/* Language Modes */
+/* Immersion Mode (English Only) */
+body.mode-en .translation-overlay {
+    display: none;
+}
+
+/* Native Reader Mode (Japanese Only) */
+body.mode-ja .en-text {
+    display: none;
+}
+
+body.mode-ja .translation-overlay {
+    color: var(--text);
+    font-size: 1.1rem;
+    padding-top: 0;
 }
