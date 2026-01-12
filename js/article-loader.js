@@ -11,6 +11,7 @@ async function loadArticle() {
 
     // Set language mode class
     document.body.classList.add(`mode-${mode}`);
+    renderLanguageSwitcher(mode, slug);
 
     if (!slug) {
         document.getElementById('app').innerHTML = '<div class="error">Article not found.</div>';
@@ -31,7 +32,7 @@ async function loadArticle() {
         allBlocks = article.blocks;
         articleGlossary = glossaryData.glossary || [];
 
-        renderArticle(article, translation.translations);
+        renderArticle(article, translation.translations, mode);
         renderGlossary(articleGlossary);
         setupAudio(allBlocks);
     } catch (error) {
@@ -62,12 +63,13 @@ function parseUrl() {
     return { mode: null, slug: null };
 }
 
-function renderArticle(article, translations) {
+function renderArticle(article, translations, mode) {
     const app = document.getElementById('app');
     let html = '';
 
     article.blocks.forEach((block, index) => {
         if (block.type === 'title') {
+            const trans = translations[block.id] || '';
             html += `
                 <header>
                     ${article.meta && article.meta.image ? `
@@ -75,7 +77,10 @@ function renderArticle(article, translations) {
                             <img src="/${article.meta.image}" alt="${block.text}" class="featured-image">
                         </div>
                     ` : ''}
-                    <h1>${block.text}</h1>
+                    <h1>
+                        <span class="en-text">${block.text}</span>
+                        ${trans ? `<span class="translation-overlay">${trans}</span>` : ''}
+                    </h1>
                     <div class="controls">
                         <button id="play-all" class="btn-play">
                             <span class="icon">▶</span> Play Article
@@ -84,11 +89,17 @@ function renderArticle(article, translations) {
                 </header>
                 <div class="article-content">`;
         } else if (block.type === 'heading') {
-            html += `<h2 data-id="${block.id}">${block.text}</h2>`;
-        } else if (block.type === 'sentence') {
             const trans = translations[block.id] || '';
             html += `
-                <span class="sentence" data-id="${block.id}" onclick="openModal(${index})">
+                <h2 data-id="${block.id}">
+                    <span class="en-text">${block.text}</span>
+                    ${trans ? `<span class="translation-overlay">${trans}</span>` : ''}
+                </h2>`;
+        } else if (block.type === 'sentence') {
+            const trans = translations[block.id] || '';
+            const onClickAttr = mode === 'ja' ? '' : `onclick="openModal(${index})"`;
+            html += `
+                <span class="sentence" data-id="${block.id}" ${onClickAttr}>
                     <span class="en-text">${block.text}</span>
                     ${trans ? `<span class="translation-overlay">${trans}</span>` : ''}
                 </span> `;
@@ -470,5 +481,26 @@ document.addEventListener('keydown', (e) => {
         }
     }
 });
+
+
+
+function renderLanguageSwitcher(currentMode, slug) {
+    const container = document.getElementById('lang-switcher');
+    if (!container) return;
+
+    const modes = [
+        { id: 'en', label: 'English' },
+        { id: 'en-ja', label: '英語学習' },
+        { id: 'ja', label: '日本語' }
+    ];
+
+    const html = modes.map(m => {
+        const isActive = m.id === currentMode;
+        const href = `/${m.id}/articles/${slug}`;
+        return `<a href="${href}" class="lang-btn ${isActive ? 'active' : ''}">${m.label}</a>`;
+    }).join('');
+
+    container.innerHTML = html;
+}
 
 loadArticle();

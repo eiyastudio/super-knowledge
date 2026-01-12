@@ -727,18 +727,51 @@ article h2 {
 }
 
 /* Language Modes */
+/* Language Modes */
 /* Immersion Mode (English Only) */
-body.mode-en .translation-overlay {
-    display: none;
+body.mode-en .translation-overlay,
+body.mode-en .modal-text-ja,
+body.mode-en .btn-back-translation,
+body.mode-en #glossary {
+    display: none !important;
 }
 
 /* Native Reader Mode (Japanese Only) */
-body.mode-ja .en-text {
-    display: none;
+body.mode-ja .controls {
+    display: none !important;
+}
+
+body.mode-ja .sentence {
+    cursor: default;
+}
+
+body.mode-ja .sentence:hover {
+    background-color: transparent !important;
+}
+
+body.mode-ja .en-text,
+body.mode-ja .modal-text-en,
+body.mode-ja .modal-section-en,
+body.mode-ja #glossary {
+    display: none !important;
 }
 
 body.mode-ja .translation-overlay {
+    display: block;
+    opacity: 1;
+    font-size: 1.2rem;
     color: var(--text);
-    font-size: 1.1rem;
-    padding-top: 0;
+    margin-top: 0;
+    line-height: 1.8;
+
+    /* Reset overlay styles for natural flow */
+    position: static;
+    transform: none;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    width: auto;
+    max-width: none;
+    padding: 0;
+    pointer-events: auto;
 }
