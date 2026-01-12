@@ -444,6 +444,8 @@ article h2 {
     transition: all 0.2s;
     padding: 2rem;
     z-index: 1010;
+    visibility: hidden;
+    /* Hidden by default to prevent flash */
 }
 
 .modal-nav:hover {

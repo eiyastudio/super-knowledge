@@ -344,6 +344,38 @@ function updateModalContent() {
             playBtn.innerHTML = '<span class="icon">⏸</span> Pause';
         }
     };
+
+    updateNavArrows();
+}
+
+function updateNavArrows() {
+    // Check for previous sentence
+    let hasPrev = false;
+    let i = currentModalIndex - 1;
+    while (i >= 0) {
+        if (allBlocks[i].type === 'sentence') {
+            hasPrev = true;
+            break;
+        }
+        i--;
+    }
+
+    // Check for next sentence
+    let hasNext = false;
+    let j = currentModalIndex + 1;
+    while (j < allBlocks.length) {
+        if (allBlocks[j].type === 'sentence') {
+            hasNext = true;
+            break;
+        }
+        j++;
+    }
+
+    const prevBtn = document.querySelector('.nav-prev');
+    const nextBtn = document.querySelector('.nav-next');
+
+    if (prevBtn) prevBtn.style.visibility = hasPrev ? 'visible' : 'hidden';
+    if (nextBtn) nextBtn.style.visibility = hasNext ? 'visible' : 'hidden';
 }
 
 function resetToTranslation() {
