@@ -30,6 +30,12 @@ export default defineConfig({
                         console.log(`[Middleware] Rewriting ${req.url} -> /article.html`);
                         req.url = '/article.html';
                     }
+
+                    // Handle Homepage Language Modes
+                    if (req.url.match(/^\/(en|ja|en-ja)\/?$/)) {
+                        console.log(`[Middleware] Rewriting ${req.url} -> /index.html`);
+                        req.url = '/index.html';
+                    }
                     next();
                 });
             }

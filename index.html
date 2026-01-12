@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arcana English | Immersive Learning</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
@@ -13,9 +13,15 @@
 
 <body>
     <div class="container fade-in">
-        <header>
-            <h1>Arcana</h1>
-            <p class="text-muted">Master English through the wisdom of Tarot.</p>
+        <header style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 2rem;">
+            <div>
+                <h1>Arcana</h1>
+                <p class="text-muted">
+                    <span class="en-text">Master English through the wisdom of Tarot.</span>
+                    <span class="ja-text">タロットの叡智を通じて英語をマスターする。</span>
+                </p>
+            </div>
+            <div id="lang-switcher" class="lang-switcher"></div>
         </header>
 
         <main>
@@ -26,78 +32,106 @@
                 <a href="/en-ja/articles/the-fool" class="article-card">
                     <div class="card-number">0</div>
                     <div class="card-thumb-container">
-                        <img src="images/articles/the-fool.jpg" alt="The Fool" class="card-thumbnail">
+                        <img src="/images/articles/the-fool.jpg" alt="The Fool" class="card-thumbnail">
                     </div>
-                    <h3>The Fool</h3>
-                    <p>A threshold marked by zero. Explore the philosophy of new beginnings and radical openness.</p>
-                    <div class="card-tag">BEGINNINGS</div>
+                    <h3><span class="en-text">The Fool</span><span class="ja-text">愚者</span></h3>
+                    <p>
+                        <span class="en-text">A threshold marked by zero. Explore the philosophy of new beginnings and
+                            radical openness.</span>
+                        <span class="ja-text">ゼロによって示される境界線。新たな始まりと根本的な開放性の哲学を探求します。</span>
+                    </p>
+                    <div class="card-tag"><span class="en-text">BEGINNINGS</span><span class="ja-text">始まり</span></div>
                 </a>
 
                 <!-- I. The Magician -->
                 <a href="/en-ja/articles/the-magician" class="article-card">
                     <div class="card-number">I</div>
                     <div class="card-thumb-container">
-                        <img src="images/articles/the-magician.jpg" alt="The Magician" class="card-thumbnail">
+                        <img src="/images/articles/the-magician.jpg" alt="The Magician" class="card-thumbnail">
                     </div>
-                    <h3>The Magician</h3>
-                    <p>A threshold claimed by will. Discover the power of focused intention and manifestation.</p>
-                    <div class="card-tag">WILLPOWER</div>
+                    <h3><span class="en-text">The Magician</span><span class="ja-text">魔術師</span></h3>
+                    <p>
+                        <span class="en-text">A threshold claimed by will. Discover the power of focused intention and
+                            manifestation.</span>
+                        <span class="ja-text">意志によって主張される境界線。集中した意図と具現化の力を発見します。</span>
+                    </p>
+                    <div class="card-tag"><span class="en-text">WILLPOWER</span><span class="ja-text">意志の力</span></div>
                 </a>
 
                 <!-- II. The High Priestess -->
                 <a href="/en-ja/articles/the-high-priestess" class="article-card">
                     <div class="card-number">II</div>
                     <div class="card-thumb-container">
-                        <img src="images/articles/the-high-priestess.jpg" alt="The High Priestess"
+                        <img src="/images/articles/the-high-priestess.jpg" alt="The High Priestess"
                             class="card-thumbnail">
                     </div>
-                    <h3>The High Priestess</h3>
-                    <p>The keeper of the unseen. Linger at the threshold of the subconscious and intuition.</p>
-                    <div class="card-tag">INTUITION</div>
+                    <h3><span class="en-text">The High Priestess</span><span class="ja-text">女教皇</span></h3>
+                    <p>
+                        <span class="en-text">The keeper of the unseen. Linger at the threshold of the subconscious and
+                            intuition.</span>
+                        <span class="ja-text">見えざるものの守り手。潜在意識と直感の境界線に留まります。</span>
+                    </p>
+                    <div class="card-tag"><span class="en-text">INTUITION</span><span class="ja-text">直感</span></div>
                 </a>
 
                 <!-- III. The Empress -->
                 <a href="/en-ja/articles/the-empress" class="article-card">
                     <div class="card-number">III</div>
                     <div class="card-thumb-container">
-                        <img src="images/articles/the-empress.jpg" alt="The Empress" class="card-thumbnail">
+                        <img src="/images/articles/the-empress.jpg" alt="The Empress" class="card-thumbnail">
                     </div>
-                    <h3>The Empress</h3>
-                    <p>The archetype of the Great Mother and the architecture of manifestation.</p>
-                    <div class="card-tag">CREATIVITY</div>
+                    <h3><span class="en-text">The Empress</span><span class="ja-text">女帝</span></h3>
+                    <p>
+                        <span class="en-text">The archetype of the Great Mother and the architecture of
+                            manifestation.</span>
+                        <span class="ja-text">太母の原型であり、具現化の構造。</span>
+                    </p>
+                    <div class="card-tag"><span class="en-text">CREATIVITY</span><span class="ja-text">創造性</span></div>
                 </a>
 
                 <!-- IV. The Emperor -->
                 <a href="/en-ja/articles/the-emperor" class="article-card">
                     <div class="card-number">IV</div>
                     <div class="card-thumb-container">
-                        <img src="images/articles/the-emperor.jpg" alt="The Emperor" class="card-thumbnail">
+                        <img src="/images/articles/the-emperor.jpg" alt="The Emperor" class="card-thumbnail">
                     </div>
-                    <h3>The Emperor</h3>
-                    <p>The Architect of Civilization. Explore the power of order, logic, and sovereignty.</p>
-                    <div class="card-tag">STRUCTURE</div>
+                    <h3><span class="en-text">The Emperor</span><span class="ja-text">皇帝</span></h3>
+                    <p>
+                        <span class="en-text">The Architect of Civilization. Explore the power of order, logic, and
+                            sovereignty.</span>
+                        <span class="ja-text">文明の建築家。秩序、論理、主権の力を探求します。</span>
+                    </p>
+                    <div class="card-tag"><span class="en-text">STRUCTURE</span><span class="ja-text">構造</span></div>
                 </a>
 
                 <!-- V. The Hierophant -->
                 <a href="/en-ja/articles/the-hierophant" class="article-card">
                     <div class="card-number">V</div>
                     <div class="card-thumb-container">
-                        <img src="images/articles/the-hierophant.jpg" alt="The Hierophant" class="card-thumbnail">
+                        <img src="/images/articles/the-hierophant.jpg" alt="The Hierophant" class="card-thumbnail">
                     </div>
-                    <h3>The Hierophant</h3>
-                    <p>The Bridge to the Divine. Discover the wisdom of tradition, education, and shared belief.</p>
-                    <div class="card-tag">TRADITION</div>
+                    <h3><span class="en-text">The Hierophant</span><span class="ja-text">教皇</span></h3>
+                    <p>
+                        <span class="en-text">The Bridge to the Divine. Discover the wisdom of tradition, education, and
+                            shared belief.</span>
+                        <span class="ja-text">神聖なるものへの架け橋。伝統、教育、共有された信念の知恵を発見します。</span>
+                    </p>
+                    <div class="card-tag"><span class="en-text">TRADITION</span><span class="ja-text">伝統</span></div>
                 </a>
 
                 <!-- VI. The Lovers -->
                 <a href="/en-ja/articles/the-lovers" class="article-card">
                     <div class="card-number">VI</div>
                     <div class="card-thumb-container">
-                        <img src="images/articles/the-lovers.jpg" alt="The Lovers" class="card-thumbnail">
+                        <img src="/images/articles/the-lovers.jpg" alt="The Lovers" class="card-thumbnail">
                     </div>
-                    <h3>The Lovers</h3>
-                    <p>The Garden of Union. Explore the alchemy of connection, choice, and vulnerability.</p>
-                    <div class="card-tag">UNION</div>
+                    <h3><span class="en-text">The Lovers</span><span class="ja-text">恋人たち</span></h3>
+                    <p>
+                        <span class="en-text">The Garden of Union. Explore the alchemy of connection, choice, and
+                            vulnerability.</span>
+                        <span class="ja-text">統合の庭。つながり、選択、そして脆弱性の錬金術を探求します。</span>
+                    </p>
+                    <div class="card-tag"><span class="en-text">UNION</span><span class="ja-text">統合</span></div>
                 </a>
             </div>
 
@@ -108,16 +142,72 @@
                 <a href="/en-ja/articles/debits-and-credits" class="article-card">
                     <div class="card-number">1</div>
                     <div class="card-thumb-container">
-                        <img src="images/articles/debits-and-credits.jpg" alt="Debits and Credits"
+                        <img src="/images/articles/debits-and-credits.jpg" alt="Debits and Credits"
                             class="card-thumbnail" style="object-position: top;">
                     </div>
-                    <h3>Debits and Credits</h3>
-                    <p>The Golden Rule of Accounting: Left is What, Right is How.</p>
-                    <div class="card-tag">ACCOUNTING</div>
+                    <h3><span class="en-text">Debits and Credits</span><span class="ja-text">借方と貸方</span></h3>
+                    <p>
+                        <span class="en-text">The Golden Rule of Accounting: Left is What, Right is How.</span>
+                        <span class="ja-text">会計の黄金律：左は何（What）、右はどうやって（How）。</span>
+                    </p>
+                    <div class="card-tag"><span class="en-text">ACCOUNTING</span><span class="ja-text">会計</span></div>
                 </a>
             </div>
         </main>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Determine mode
+            const path = window.location.pathname;
+            let mode = 'en-ja'; // Default to Dual/Learning
+
+            if (path.startsWith('/ja')) {
+                mode = 'ja';
+            } else if (path.startsWith('/en') && !path.startsWith('/en-ja')) {
+                mode = 'en';
+            }
+
+            // Apply Mode Class
+            document.body.classList.add(`mode-${mode}`);
+
+            // Render Language Switcher
+            const container = document.getElementById('lang-switcher');
+            const modes = [
+                { id: 'en', label: 'English' },
+                { id: 'en-ja', label: '英語学習' },
+                { id: 'ja', label: '日本語' }
+            ];
+
+            // Adjust href for homepage switching
+            const html = modes.map(m => {
+                const isActive = m.id === mode;
+                // Determine target link for homepage
+                // if id is 'en-ja', link to '/'? Or '/en-ja/'?
+                // Let's stick to explicit paths for consistency
+                let href = '/';
+                if (m.id === 'ja') href = '/ja/';
+                if (m.id === 'en') href = '/en/';
+                if (m.id === 'en-ja') href = '/'; // Default root is en-ja
+
+                return `<a href="${href}" class="lang-btn ${isActive ? 'active' : ''}">${m.label}</a>`;
+            }).join('');
+            container.innerHTML = html;
+
+            // Update Article Links
+            // Base links are /en-ja/articles/...
+            // If mode is different, replace /en-ja/ with /mode/
+            if (mode !== 'en-ja') {
+                document.querySelectorAll('.article-card').forEach(card => {
+                    const originalHref = card.getAttribute('href');
+                    if (originalHref.startsWith('/en-ja/')) {
+                        const newHref = originalHref.replace('/en-ja/', `/${mode}/`);
+                        card.setAttribute('href', newHref);
+                    }
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>

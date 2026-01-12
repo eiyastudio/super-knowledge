@@ -756,6 +756,19 @@ body.mode-ja #glossary {
     display: none !important;
 }
 
+/* Homepage Localization */
+.ja-text {
+    display: none;
+}
+
+body.mode-ja .ja-text {
+    display: block;
+}
+
+body.mode-ja span.ja-text {
+    display: inline;
+}
+
 body.mode-ja .translation-overlay {
     display: block;
     opacity: 1;
