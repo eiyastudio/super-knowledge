@@ -1,0 +1,199 @@
+{
+    "slug": "debits-and-credits",
+    "category": "accounting",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "image": "images/articles/debits-and-credits.jpg",
+        "tags": [
+            "accounting",
+            "business",
+            "finance"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "Debits and Credits"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Golden Rule: Left is What, Right is How"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Before diving into complex accounting terminology, start with this simple concept."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "Double-entry bookkeeping represents a logical flow of value that can be summarized by a single golden rule: Left is What, Right is How."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "In every business transaction, the Left side (Debit) tells you WHAT value the company received or holds, such as Cash, Computers, or Services."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "The Right side (Credit) tells you HOW the company funded that value, such as Bank Loans, Capital, or Sales.",
+            "paragraph_end": true
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "If you keep this fundamental logic in mind—'What did I get?' versus 'How did I fund it?'—the mechanics of accounting become much easier to understand.",
+            "paragraph_end": true
+        },
+        {
+            "id": 7,
+            "type": "heading",
+            "text": "The Basic Concept: Debit and Credit"
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "In modern accounting, the terms Debit (Dr.) and Credit (Cr.) have largely lost their literal meanings related to 'owing' or 'trusting'."
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "Today, they simply function as directional indicators for the accounting ledger."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "Debit always refers to the Left side of an account, and Credit always refers to the Right side of an account.",
+            "paragraph_end": true
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "While personal finance often uses Single-entry bookkeeping, businesses use Double-Entry Bookkeeping."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "This system tracks both sides of every transaction with the fundamental rule that total debits must always equal total credits.",
+            "paragraph_end": true
+        },
+        {
+            "id": 13,
+            "type": "heading",
+            "text": "The Logic of Flow: Sources and Uses"
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "To understand why an account is debited or credited, it is helpful to view business transactions as a flow of value based on the Golden Rule."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "We can categorize this flow into Uses (Left) and Sources (Right)."
+        },
+        {
+            "id": 16,
+            "type": "heading",
+            "text": "Debit (Left Side): The Use"
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "The Left side represents the Use of Funds."
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "It answers the question: 'What do we have now?' or 'What did we spend it on?'"
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "This includes Assets, which are resources the company currently owns, and Expenses, which is money spent to operate the business.",
+            "paragraph_end": true
+        },
+        {
+            "id": 20,
+            "type": "heading",
+            "text": "Credit (Right Side): The Source"
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "The Right side represents the Source of Funds."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "It answers the question: 'How did we get the money?'"
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "This includes Liabilities (money from external lenders), Equity (money from owners), and Revenue (money from sales).",
+            "paragraph_end": true
+        },
+        {
+            "id": 24,
+            "type": "heading",
+            "text": "Practical Example"
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "Imagine a company buys a new computer for $1,000 using Cash."
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "Since we got a Computer (an Asset), we debit Equipment."
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "Since we used our Cash to fund it, we credit Cash.",
+            "paragraph_end": true
+        },
+        {
+            "id": 28,
+            "type": "heading",
+            "text": "The Shopping Receipt Analogy"
+        },
+        {
+            "id": 29,
+            "type": "sentence",
+            "text": "If accounting terms feel abstract, think of a simple shopping receipt."
+        },
+        {
+            "id": 30,
+            "type": "sentence",
+            "text": "Double-entry bookkeeping essentially asks you to record two things for every purchase."
+        },
+        {
+            "id": 31,
+            "type": "sentence",
+            "text": "First, the Left Side asks 'What did you buy?'"
+        },
+        {
+            "id": 32,
+            "type": "sentence",
+            "text": "Second, the Right Side asks 'How did you pay?'",
+            "paragraph_end": true
+        },
+        {
+            "id": 33,
+            "type": "heading",
+            "text": "Conclusion"
+        },
+        {
+            "id": 34,
+            "type": "sentence",
+            "text": "The mysterious Double-Entry system is simply a rule that requires you to record the object of the transaction alongside the method of payment."
+        }
+    ]
+}

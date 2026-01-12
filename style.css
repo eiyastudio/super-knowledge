@@ -701,3 +701,24 @@ article h2 {
         display: none;
     }
 }
+
+.main-section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text);
+    margin: 3rem 0 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--glass-border);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.main-section-title::before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 1.5rem;
+    background: var(--primary);
+    border-radius: 2px;
+}
