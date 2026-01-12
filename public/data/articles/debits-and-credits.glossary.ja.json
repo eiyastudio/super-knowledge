@@ -4,13 +4,13 @@
         {
             "word": "Debit",
             "sentenceId": 4,
-            "definition": "借方 (Karikata)",
+            "definition": "借方",
             "explanation": "会計帳簿の「左側」。資産の増加や費用の発生を記録する場所。"
         },
         {
             "word": "Credit",
             "sentenceId": 5,
-            "definition": "貸方 (Kashikata)",
+            "definition": "貸方",
             "explanation": "会計帳簿の「右側」。負債・純資産の増加や収益の発生を記録する場所。"
         },
         {
@@ -40,7 +40,7 @@
         {
             "word": "Equity",
             "sentenceId": 23,
-            "definition": "純資産 (資本)",
+            "definition": "純資産",
             "explanation": "株主資本など、返済義務のない資金。資金の「内部（所有者）からの調達源泉」を表す。"
         },
         {

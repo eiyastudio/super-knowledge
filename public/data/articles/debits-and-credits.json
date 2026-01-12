@@ -35,12 +35,12 @@
         {
             "id": 4,
             "type": "sentence",
-            "text": "In every business transaction, the Left side (Debit) tells you WHAT value the company received or holds, such as Cash, Computers, or Services."
+            "text": "In every business transaction, the Left side, or Debit, tells you WHAT value the company received or holds, such as Cash, Computers, or Services."
         },
         {
             "id": 5,
             "type": "sentence",
-            "text": "The Right side (Credit) tells you HOW the company funded that value, such as Bank Loans, Capital, or Sales.",
+            "text": "The Right side, or Credit, tells you HOW the company funded that value, such as Bank Loans, Capital, or Sales.",
             "paragraph_end": true
         },
         {
@@ -57,7 +57,7 @@
         {
             "id": 8,
             "type": "sentence",
-            "text": "In modern accounting, the terms Debit (Dr.) and Credit (Cr.) have largely lost their literal meanings related to 'owing' or 'trusting'."
+            "text": "In modern accounting, the terms Debit and Credit have largely lost their literal meanings related to 'owing' or 'trusting'."
         },
         {
             "id": 9,
@@ -94,12 +94,12 @@
         {
             "id": 15,
             "type": "sentence",
-            "text": "We can categorize this flow into Uses (Left) and Sources (Right)."
+            "text": "We can categorize this flow into Uses, on the Left, and Sources, on the Right."
         },
         {
             "id": 16,
             "type": "heading",
-            "text": "Debit (Left Side): The Use"
+            "text": "Debit: The Use"
         },
         {
             "id": 17,
@@ -120,7 +120,7 @@
         {
             "id": 20,
             "type": "heading",
-            "text": "Credit (Right Side): The Source"
+            "text": "Credit: The Source"
         },
         {
             "id": 21,
@@ -135,7 +135,7 @@
         {
             "id": 23,
             "type": "sentence",
-            "text": "This includes Liabilities (money from external lenders), Equity (money from owners), and Revenue (money from sales).",
+            "text": "This includes Liabilities, representing money from external lenders; Equity, representing money from owners; and Revenue, representing money from sales.",
             "paragraph_end": true
         },
         {
@@ -151,7 +151,7 @@
         {
             "id": 26,
             "type": "sentence",
-            "text": "Since we got a Computer (an Asset), we debit Equipment."
+            "text": "Since we got a Computer, which is an Asset, we debit Equipment."
         },
         {
             "id": 27,

@@ -34,10 +34,14 @@ Defines the English narrative and block structure.
   - `false`: Omitted or set to false if the next block is another sentence in the same paragraph OR a `heading`/`title`.
 - `line_break`: (Boolean) Set to `true` to force a line break (`<br>`) within a paragraph narrative.
 
+**Content Style**:
+- **TTS Friendly**: Minimize parentheses. Rewrite parenthetical phrases as natural clauses (e.g., use "or Debit" instead of "(Debit)") to ensure natural reading by the TTS engine.
+
 ### 2.2 Translation Schema (`{slug}.translation.ja.json`)
 Maps block IDs to Japanese translations.
 - **Format**: `{ "language": "ja-JP", "translations": { "0": "...", "1": "..." } }`
 - **Quality Standard**: Use dignified, esoteric Japanese (e.g., "Sensual" -> "官能", "Architect" -> "建築家").
+- **No Redundant English**: Do NOT include English terms in parentheses within the Japanese translation (e.g., avoid "借方(Debit)" or "借方、英語で言うDebit"). Use the Japanese term only. The original English is already available in the UI.
 
 ### 2.3 Glossary Schema (`{slug}.glossary.ja.json`)
 Defines vocabulary highlights with a flat, high-focus structure.
