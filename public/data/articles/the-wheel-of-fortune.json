@@ -1,0 +1,149 @@
+{
+    "slug": "the-wheel-of-fortune",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "image": "images/articles/the-wheel-of-fortune.jpg",
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "10. The Wheel of Fortune"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Eternal Cycle"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered ten, The Wheel of Fortune hangs in the sky, marking the completion of the first cycle of the Major Arcana."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "Unlike the previous cards which focused on individual archetypes, this card represents the impersonal forces of destiny."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "It is the machine of the universe, constantly turning, grinding out the cycles of life, death, and rebirth."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "It teaches that nothing in the material world is permanent; the only constant is change itself.",
+            "paragraph_end": true
+        },
+        {
+            "id": 6,
+            "type": "heading",
+            "text": "The Center of the Storm"
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "The wheel spins, but its center remains still."
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "This represents the duality of existence: the chaotic flux of the external world versus the serene stability of the inner self."
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "Those who cling to the rim of the wheel are dizzy with the highs and lows of fortune, rising one moment and falling the next."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "However, those who find their way to the hub—the spiritual center—can observe the drama of life without being crushed by it."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "The card asks you to find your axis amidst the turning world.",
+            "paragraph_end": true
+        },
+        {
+            "id": 12,
+            "type": "heading",
+            "text": "The Agents of Karma"
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "Around the wheel sit three figures: the Sphinx atop, Anubis rising, and Typhon descending."
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "They symbolize the three states of fortune: ruling, rising, and falling."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "They remind us that success is not a permanent state but a phase, just as failure is not a final destination but a transition."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "This is the law of Karma in motion—what goes up must come down, and every action sets the wheel in motion for a corresponding reaction.",
+            "paragraph_end": true
+        },
+        {
+            "id": 17,
+            "type": "heading",
+            "text": "The Guardians of the Elements"
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "In the four corners of the card sit the four living creatures mentioned in the vision of Ezekiel: the Angel, the Eagle, the Lion, and the Bull."
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "They represent the four fixed signs of the zodiac (Aquarius, Scorpio, Leo, Taurus) and the four elements."
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "They are engaged in study, reading the Torah, suggesting that while fortune may seem random, it is actually governed by divine law."
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "They stand outside the wheel, witnessing the drama of time from the perspective of eternity.",
+            "paragraph_end": true
+        },
+        {
+            "id": 22,
+            "type": "heading",
+            "text": "An Invitation to Surrender"
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "Drawing The Wheel of Fortune is a call to surrender to the rhythm of the universe."
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "It asks you to stop resisting the changes that are sweeping through your life and to trust that the wheel is turning you toward your destiny."
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "It invites you to let go of the illusion of control and to ride the waves of fate with grace, knowing that winter always turns to spring.",
+            "paragraph_end": true
+        }
+    ]
+}

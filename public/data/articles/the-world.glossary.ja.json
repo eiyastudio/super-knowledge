@@ -1,0 +1,77 @@
+{
+    "language": "ja-JP",
+    "glossary": [
+        {
+            "word": "Completion",
+            "sentenceId": 3,
+            "definition": "完成、完了",
+            "explanation": "単に終わること（End）ではなく、必要なパーツがすべて揃い、欠けるものがない完璧な状態になること。ジグソーパズルの最後のピースがはまった瞬間の感覚です。"
+        },
+        {
+            "word": "Wholeness",
+            "sentenceId": 4,
+            "definition": "全体性",
+            "explanation": "自分が分裂していない状態。良い部分も悪い部分も、過去も未来もすべて含めて「これが私だ」と肯定できる、満ち足りた感覚を指します。"
+        },
+        {
+            "word": "Fulfillment",
+            "sentenceId": 4,
+            "definition": "充足、成就",
+            "explanation": "器がいっぱいになること。願望が叶うだけでなく、心の底から満たされ、「もうこれ以上何もいらない」と感じる深い満足感です。"
+        },
+        {
+            "word": "Androgynous",
+            "sentenceId": 8,
+            "definition": "両性具有の",
+            "explanation": "男性的な強さと女性的な優しさなど、対立する性質を完全に統合している状態。どちらか一方に偏ることなく、自由自在に振る舞える完璧なバランスを象徴します。"
+        },
+        {
+            "word": "Embody",
+            "sentenceId": 10,
+            "definition": "体現する",
+            "explanation": "概念や力を、自分の体を通じて表現すること。魔術師が力を「使う」人なら、世界の踊り手は力そのものに「なる」人です。"
+        },
+        {
+            "word": "Mastery",
+            "sentenceId": 12,
+            "definition": "熟達、マスタリー",
+            "explanation": "技術や知識を完全に自分のものにしている状態。努力して頑張る段階を超え、無意識のうちに自然に、遊ぶように実行できるレベルです。"
+        },
+        {
+            "word": "Wreath",
+            "sentenceId": 14,
+            "definition": "リース、花輪",
+            "explanation": "勝利者に与えられる冠であり、終わりのない永遠の循環の象徴。卵のように守られた神聖な空間を作り出し、その中で魂は自由に踊ることができます。"
+        },
+        {
+            "word": "Anima Mundi",
+            "sentenceId": 17,
+            "definition": "世界魂",
+            "explanation": "アニマ・ムンディ。宇宙全体を一つの生き物として捉え、すべての生命をつないでいる魂のようなエネルギーのこと。"
+        },
+        {
+            "word": "Mandala",
+            "sentenceId": 22,
+            "definition": "マンダラ",
+            "explanation": "宇宙の真理を図式化したもの。世界のカードは、中心（自分）と四隅（世界）が完璧な秩序で配置された、完成されたマンダラです。"
+        },
+        {
+            "word": "Synergy",
+            "sentenceId": 21,
+            "definition": "シナジー、相乗効果",
+            "explanation": "個々の要素が協力し合うことで、単なる足し算以上の大きな力を生むこと。四隅の動物たち（四大元素）が敵対せず、踊り手をサポートしている状態です。"
+        },
+        {
+            "word": "Culmination",
+            "sentenceId": 3,
+            "definition": "最高潮、集大成",
+            "explanation": "長いプロセスの頂点。山登りで言えば頂上に立ち、すべての景色を見渡している瞬間。これまでのすべてのカードの経験が、この一枚に集約されています。"
+        },
+        {
+            "word": "Cosmic order",
+            "sentenceId": 26,
+            "definition": "宇宙の秩序",
+            "explanation": "星の運行や季節の巡りのような、大いなる自然の法則。世界のカードは、自分がこの壮大なシステムの一部として、正しいタイミングで正しい場所にいるという安心感を与えます。"
+        }
+    ]
+}

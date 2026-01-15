@@ -1,0 +1,159 @@
+{
+    "slug": "the-world",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "image": "images/articles/the-world.jpg",
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "21. The World"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Dance of Completion"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered twenty-one, The World depicts a figure dancing joyfully inside a laurel wreath, surrounded by the four living creatures of the zodiac."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "This is the final card of the Major Arcana, representing the successful conclusion of the Fool's journey."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "It is the archetype of Wholeness and Fulfillment."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "Unlike the initial step of the Fool into the unknown, The World represents the arrival at the ultimate destination."
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "It signifies that the lessons have been learned, the challenges overcome, and the soul has achieved a state of perfect unity with the universe.",
+            "paragraph_end": true
+        },
+        {
+            "id": 7,
+            "type": "heading",
+            "text": "The Cosmic Dancer"
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "The central figure is often interpreted as androgynous, symbolizing the balance of masculine and feminine energies."
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "She holds two wands, similar to the one held by the Magician, but now she wields them with effortless grace."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "She is not directing power; she is embodying it."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "Her dance suggests that life is not a struggle to be won, but a rhythm to be joined."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "She is suspended in motion, lighter than air, indicating that true mastery feels like play.",
+            "paragraph_end": true
+        },
+        {
+            "id": 13,
+            "type": "heading",
+            "text": "The Wreath of Victory"
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "She is encircled by a green wreath, a symbol of victory and eternal life."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "It forms the shape of a lemniscate (infinity symbol) or an egg, marking the boundary of the sacred space."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "The wreath is bound by red ribbons, also forming infinity symbols, suggesting that while this cycle is complete, the energy is never destroyed but simply transforms."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "It represents the \"World Soul\" (Anima Mundi), the connecting force that binds all things together in a coherent whole.",
+            "paragraph_end": true
+        },
+        {
+            "id": 18,
+            "type": "heading",
+            "text": "The Four Corners of Reality"
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "In the corners, we see the same four figures from the Wheel of Fortune: the Angel, the Eagle, the Lion, and the Bull."
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "However, they are no longer studying books; they are fully present and looking at the dancer."
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "This signifies that the elemental forces of the universe—thought, feeling, spirit, and body—are now integrated and in harmony with the individual."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "The chaotic wheel has become a stable mandala of perfection.",
+            "paragraph_end": true
+        },
+        {
+            "id": 23,
+            "type": "heading",
+            "text": "An Invitation to Wholeness"
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "Drawing The World is a call to recognize your own completeness."
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "It asks you to celebrate your achievements and to feel the deep satisfaction of a job well done."
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "It invites you to step into your place in the cosmic order, knowing that you belong exactly where you are."
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "It is a reminder that you are not separate from the world, but a vital, dancing part of it.",
+            "paragraph_end": true
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "language": "ja-JP",
+    "glossary": [
+        {
+            "word": "Impersonal forces",
+            "sentenceId": 3,
+            "definition": "非個人的な力",
+            "explanation": "個人の努力や感情とは無関係に働く、大きな流れのこと。天気や景気、時代の変化など、自分の力ではどうしようもない外部要因を指します。"
+        },
+        {
+            "word": "Destiny",
+            "sentenceId": 24,
+            "definition": "運命",
+            "explanation": "あらかじめ定められた目的地。Fate（宿命）と似ていますが、Destinyは努力によってたどり着くべきポジティブな使命というニュアンスを含みます。"
+        },
+        {
+            "word": "Flux",
+            "sentenceId": 8,
+            "definition": "流動、絶え間ない変化",
+            "explanation": "液体のように常に形を変え、動き続けている状態。「万物は流転する」という思想に通じる言葉です。"
+        },
+        {
+            "word": "Hub",
+            "sentenceId": 10,
+            "definition": "ハブ、中心軸",
+            "explanation": "回転する車輪の真ん中にある動かない部分。タロットでは、周囲の状況がどれほど激変しても影響を受けない、自分自身の内なる平穏な場所を意味します。"
+        },
+        {
+            "word": "Karma",
+            "sentenceId": 16,
+            "definition": "カルマ、業",
+            "explanation": "「原因と結果の法則」。良いことをすれば良いことが、悪いことをすれば悪いことが返ってくるという宇宙のバランスシートのような仕組みです。"
+        },
+        {
+            "word": "Transition",
+            "sentenceId": 15,
+            "definition": "過渡期、移行",
+            "explanation": "ある状態から別の状態へと移り変わる途中の期間。失敗や不運に見える出来事も、実は次の成功へ向かうための通過点に過ぎないという視点です。"
+        },
+        {
+            "word": "Fixed signs",
+            "sentenceId": 19,
+            "definition": "不動宮",
+            "explanation": "占星術において、季節の盛りを司る安定したサイン（牡牛座、獅子座、蠍座、水瓶座）。変化する車輪（運命）を、四隅からガッチリと支える安定剤の役割を果たしています。"
+        },
+        {
+            "word": "Random",
+            "sentenceId": 20,
+            "definition": "ランダム、無作為",
+            "explanation": "法則性がなく、予測不能なこと。運命の輪は一見ランダムな不運や幸運に見えますが、四隅の守護者たちはそれが神の計画の一部であることを知っています。"
+        },
+        {
+            "word": "Surrender",
+            "sentenceId": 23,
+            "definition": "降伏する、身を委ねる",
+            "explanation": "負けて諦めることではなく、自分の小さなエゴによる抵抗をやめ、より大きな力（宇宙の流れ）を信頼して任せること。川の流れに逆らって泳ぐのをやめ、浮かんで運ばれるイメージです。"
+        },
+        {
+            "word": "Illusion of control",
+            "sentenceId": 25,
+            "definition": "コントロールの幻想",
+            "explanation": "「自分がすべてを管理・支配できる」という思い込み。運命の輪は、予期せぬトラブルやチャンスによって、この思い込みを打ち砕きます。"
+        }
+    ]
+}

@@ -1,0 +1,179 @@
+{
+    "slug": "the-moon",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "image": "images/articles/the-moon.jpg",
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "18. The Moon"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Realm of Illusion"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered eighteen, The Moon hangs high in the night sky, looking down upon a bleak landscape."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "Unlike the gentle guidance of The Star, the light of The Moon is dim and deceptive."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "It creates shadows that distort reality, making familiar objects appear monstrous."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "This is the archetype of the Subconscious and Illusion."
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "It represents the \"dark night of the soul,\" where logic fails and we must navigate by instinct alone."
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "It teaches that not everything we see can be trusted, for fear often projects its own monsters onto the path.",
+            "paragraph_end": true
+        },
+        {
+            "id": 8,
+            "type": "heading",
+            "text": "The Path Between the Towers"
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "A narrow path winds between two ominous towers, leading toward distant mountains."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "This is the threshold between the known and the unknown."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "The towers represent the limits of human consciousness and societal protection."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "Beyond them lies the wild, untamed wilderness of the psyche."
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "To reach the dawn (The Sun), one must pass through this valley of fear."
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "The card suggests a journey into the unknown, requiring the courage to face vague anxieties and formless terrors.",
+            "paragraph_end": true
+        },
+        {
+            "id": 15,
+            "type": "heading",
+            "text": "The Taming of Instinct"
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "In the foreground, a dog and a wolf bay at the moon."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "The dog represents the domesticated, civilized instincts, while the wolf represents the wild, feral nature."
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "They symbolize the duality of our animal nature—the part that seeks comfort and the part that seeks survival."
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "Both are agitated by the moon’s influence, illustrating how our primal instincts can be triggered by uncertainty."
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "They remind us that under the veneer of civilization, wild forces are still at play.",
+            "paragraph_end": true
+        },
+        {
+            "id": 21,
+            "type": "heading",
+            "text": "The Primordial Depths"
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "From a pool of water, a crayfish (or lobster) crawls onto the land."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "This creature emerges from the abyssal depths, representing the earliest stages of consciousness emerging from the primordial soup."
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "It signifies deep, buried memories or traumas surfacing to be processed."
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "Unlike the flowing water of The Star, this pool is dark and still."
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "It suggests that the journey of The Moon involves confronting what has been submerged in the deepest recesses of the mind.",
+            "paragraph_end": true
+        },
+        {
+            "id": 27,
+            "type": "heading",
+            "text": "An Invitation to the Unknown"
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "Drawing The Moon is a call to navigate the dark."
+        },
+        {
+            "id": 29,
+            "type": "sentence",
+            "text": "It asks you to trust your intuition when your eyes deceive you."
+        },
+        {
+            "id": 30,
+            "type": "sentence",
+            "text": "It invites you to embrace uncertainty and to walk through your fears rather than avoiding them."
+        },
+        {
+            "id": 31,
+            "type": "sentence",
+            "text": "It is a reminder that the shadows are merely an absence of light, and that the dawn is waiting on the other side of the mountains.",
+            "paragraph_end": true
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "language": "ja-JP",
+    "glossary": [
+        {
+            "word": "Impartiality",
+            "sentenceId": 5,
+            "definition": "公平無私",
+            "explanation": "個人的な感情や偏見を持たず、誰に対しても平等に接する態度。正義の剣は、友人も敵も区別なく、ただ「事実」のみに基づいて振り下ろされます。"
+        },
+        {
+            "word": "Equilibrium",
+            "sentenceId": 11,
+            "definition": "平衡、均衡",
+            "explanation": "左右の重さが完全に釣り合っている状態。正義の目的は誰かを痛めつけることではなく、崩れたバランスを元通りの「ゼロ（凪）」の状態に戻すことです。"
+        },
+        {
+            "word": "Causality",
+            "sentenceId": 3,
+            "definition": "因果関係",
+            "explanation": "「原因」があるから「結果」があるという物理的な法則。正義のカードにおいて、偶然というものは存在しません。すべての出来事には、過去の自分の選択という原因があります。"
+        },
+        {
+            "word": "Consequence",
+            "sentenceId": 15,
+            "definition": "結果、報い",
+            "explanation": "良きにつけ悪しきにつけ、自分の行いがもたらす必然的な結末。罰（Punishment）が他者から与えられるものであるのに対し、Consequenceは自分の行動の自然な延長線上にあります。"
+        },
+        {
+            "word": "Integrity",
+            "sentenceId": 26,
+            "definition": "誠実さ、高潔さ",
+            "explanation": "「完全な状態（Integer）」を語源とし、裏表がなく、自分の信念と言動が一致している状態。誰も見ていなくても正しいことを行う強さです。"
+        },
+        {
+            "word": "Accountability",
+            "sentenceId": 26,
+            "definition": "説明責任、責任",
+            "explanation": "自分の担当したことの結果に対して、言い訳せずに引き受ける能力。「私がやりました」「私の責任です」と胸を張って言える態度を指します。"
+        },
+        {
+            "word": "Rationalization",
+            "sentenceId": 22,
+            "definition": "合理化、正当化",
+            "explanation": "自分の過ちや失敗に対して、「だってこうだったから」「仕方がなかった」ともっともらしい理屈をつけて自分を守ろうとする心の働き。正義の剣はこれを容赦なく切り捨てます。"
+        },
+        {
+            "word": "Internalize",
+            "sentenceId": 21,
+            "definition": "内面化する",
+            "explanation": "外部のルール（法律や校則）を、自分の内側のルール（良心）として取り込むこと。「怒られるからやらない」のではなく、「自分が許せないからやらない」という自律的な段階です。"
+        },
+        {
+            "word": "Conscience",
+            "sentenceId": 26,
+            "definition": "良心",
+            "explanation": "善悪を判断する内なる声。正義のカードにおける最終的な裁判官は、神でも法律でもなく、自分自身の良心です。"
+        },
+        {
+            "word": "Ripple",
+            "sentenceId": 16,
+            "definition": "波紋",
+            "explanation": "水面に石を投げたときに広がる輪。自分の些細な一言や行動が、周囲や未来にまで影響を広げていき、やがて自分に返ってくる様子を象徴しています。"
+        },
+        {
+            "word": "Intellectual clarity",
+            "sentenceId": 4,
+            "definition": "知的明晰さ",
+            "explanation": "感情の霧が晴れ、物事の輪郭がはっきりと見えている状態。情に流されず、事実をドライに分析するクールな頭脳の働きです。"
+        },
+        {
+            "word": "Harvest",
+            "sentenceId": 17,
+            "definition": "収穫",
+            "explanation": "農業のメタファー。過去に蒔いた種（行動）が育ち、実り（結果）となって戻ってくること。良い種を蒔けば良い実を、悪い種を蒔けば悪い実を刈り取ることになります。"
+        }
+    ]
+}

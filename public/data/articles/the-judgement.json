@@ -1,0 +1,174 @@
+{
+    "slug": "the-judgement",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "image": "images/articles/the-judgement.jpg",
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "20. Judgement"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Great Awakening"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered twenty, Judgement depicts the Archangel Gabriel blowing a great trumpet in the sky, while below him, figures rise from their graves with arms outstretched."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "Unlike the cyclical change of the Wheel of Fortune or the destructive change of the Tower, this card represents a permanent, irreversible transformation."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "It is the archetype of Resurrection and Awakening."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "It signifies the moment when the dormant spirit hears the call of the divine and rises to a new level of existence, leaving the old self behind forever.",
+            "paragraph_end": true
+        },
+        {
+            "id": 6,
+            "type": "heading",
+            "text": "The Call of the Soul"
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "The central feature is the trumpet blast."
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "This is the \"Call\"—a summons that cannot be ignored."
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "It represents a moment of clarity where you realize your true vocation or purpose."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "The figures rising from the coffins (a man, a woman, and a child) symbolize the integration of the conscious, subconscious, and superconscious minds."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "They are not afraid; they are ecstatic."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "They understand that this judgment is not about punishment, but about liberation."
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "It is the end of an era and the beginning of a new life.",
+            "paragraph_end": true
+        },
+        {
+            "id": 14,
+            "type": "heading",
+            "text": "The Review of Life"
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "Judgement implies a reckoning, a review of the past."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "Before one can ascend, one must evaluate what has come before."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "This is not the logical weighing of Justice, but a deep, soulful understanding of one's journey."
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "It involves accepting one's past actions, forgiving oneself and others, and understanding how every experience has led to this moment."
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "It is the final cleansing of karma before the ultimate completion of the World.",
+            "paragraph_end": true
+        },
+        {
+            "id": 20,
+            "type": "heading",
+            "text": "The Agency of Absolution"
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "The agency of this card is absolution."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "It is the washing away of guilt and the release of old burdens."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "The figures are gray, the color of neutrality and spirit, suggesting they have transcended earthly passions."
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "The background is icy blue, representing the clarity of the mind and the coolness of truth."
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "Judgement offers a second chance, a clean slate, allowing you to shed the skin of your past identity and step into a higher vibration.",
+            "paragraph_end": true
+        },
+        {
+            "id": 26,
+            "type": "heading",
+            "text": "An Invitation to Rise"
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "Drawing Judgement is a call to rise up."
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "It asks you to stop playing small and to embrace your higher calling."
+        },
+        {
+            "id": 29,
+            "type": "sentence",
+            "text": "It invites you to forgive the past, to release your regrets, and to answer the summons of your soul."
+        },
+        {
+            "id": 30,
+            "type": "sentence",
+            "text": "It is a reminder that you are ready to be reborn, not as who you were, but as who you are meant to be.",
+            "paragraph_end": true
+        }
+    ]
+}

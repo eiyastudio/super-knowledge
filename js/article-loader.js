@@ -490,17 +490,60 @@ function renderLanguageSwitcher(currentMode, slug) {
 
     const modes = [
         { id: 'en', label: 'English' },
-        { id: 'en-ja', label: '英語学習' },
+        { id: 'en-ja', label: '英語学習 (Dual)' },
         { id: 'ja', label: '日本語' }
     ];
 
-    const html = modes.map(m => {
-        const isActive = m.id === currentMode;
-        const href = `/${m.id}/articles/${slug}`;
-        return `<a href="${href}" class="lang-btn ${isActive ? 'active' : ''}">${m.label}</a>`;
-    }).join('');
+    const currentModeObj = modes.find(m => m.id === currentMode) || modes[1]; // default en-ja
 
-    container.innerHTML = html;
+    container.innerHTML = `
+        <div class="lang-dropdown">
+            <button class="lang-btn-trigger" id="lang-btn">
+                ${currentModeObj.label} <span style="font-size: 0.8em; opacity: 0.7;">▼</span>
+            </button>
+            <div class="lang-menu" id="lang-menu">
+                ${modes.map(m => {
+        // Force slug relative path for correctness? 
+        // No, absolute path with mode prefix is safer.
+        // Special handling: if we rely on vite rewrites, /ja/articles/slug works.
+        // But standard link is /en-ja/articles/slug.
+        // Let's use the explicit prefixes.
+        let prefix = m.id === 'en-ja' ? '/en-ja' : ('/' + m.id);
+        // Actually wait, en-ja mode path is /en-ja/articles/...
+        // en mode path is /en/articles/...
+        // ja mode path is /ja/articles/...
+
+        const href = `/${m.id}/articles/${slug}`;
+        return `<a href="${href}" class="lang-option ${m.id === currentMode ? 'active' : ''}">${m.label}</a>`;
+    }).join('')}
+            </div>
+        </div>
+    `;
+
+    // Dropdown Interactivity
+    const btn = document.getElementById('lang-btn');
+    const menu = document.getElementById('lang-menu');
+
+    if (btn && menu) {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            menu.classList.toggle('show');
+        });
+
+        document.addEventListener('click', () => {
+            menu.classList.remove('show');
+        });
+    }
+
+    // Update Home Link
+    const homeLink = document.getElementById('home-link');
+    if (homeLink) {
+        let homeHref = '/';
+        if (currentMode === 'ja') homeHref = '/ja/';
+        if (currentMode === 'en') homeHref = '/en/';
+        // en-ja goes to root /
+        homeLink.setAttribute('href', homeHref);
+    }
 }
 
 loadArticle();

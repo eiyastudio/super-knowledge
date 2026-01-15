@@ -1,0 +1,179 @@
+{
+    "slug": "the-tower",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "image": "images/articles/the-tower.jpg",
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "16. The Tower"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Sudden Awakening"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered sixteen, The Tower depicts a tall stone structure struck by lightning, with flames erupting from the windows and figures falling to the ground."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "Following the stagnation of The Devil, The Tower represents a sudden, violent liberation."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "It is the archetype of Chaos and Awakening."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "It teaches that when we build our lives on false foundations—lies, illusions, or ego—the universe will eventually intervene to tear them down."
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "Though terrifying, this destruction is an act of divine grace, shattering the prison we could not leave on our own.",
+            "paragraph_end": true
+        },
+        {
+            "id": 7,
+            "type": "heading",
+            "text": "The Bolt of Truth"
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "A bolt of lightning strikes the tower, knocking off the golden crown that sits atop it."
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "The lightning symbolizes a flash of inspiration or divine truth that cuts through ignorance."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "It is swift, shocking, and uncontrollable."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "The falling crown represents the collapse of materialism and the arrogance of the intellect."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "It signifies that no human structure, no matter how high or fortified, can stand against the power of nature or spiritual law.",
+            "paragraph_end": true
+        },
+        {
+            "id": 13,
+            "type": "heading",
+            "text": "The Fall of the Ego"
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "Two figures are seen tumbling from the tower."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "One wears a crown and cloak, resembling the Emperor; the other is dressed plainly."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "This mirrors the \"democracy of death\" seen in the Death card, suggesting that catastrophe humbles everyone equally."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "These figures represent our falling masks, our personas, and our social statuses."
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "As they fall, they are forced to let go of everything they thought defined them."
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "It is the terrifying moment of ego death, where the false self is stripped away to reveal the naked soul beneath.",
+            "paragraph_end": true
+        },
+        {
+            "id": 20,
+            "type": "heading",
+            "text": "The Agency of Disruption"
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "The agency of this card is disruption."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "It is the unexpected crisis—the job loss, the breakup, the accident—that throws life into chaos."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "While we naturally fear such events, The Tower asks us to reframe them."
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "This force is not here to punish, but to clear."
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "It destroys the walls that were blocking the light."
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "It is the necessary demolition that must occur before any true rebuilding can begin.",
+            "paragraph_end": true
+        },
+        {
+            "id": 27,
+            "type": "heading",
+            "text": "An Invitation to Surrender"
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "Drawing The Tower is a call to let the walls come down."
+        },
+        {
+            "id": 29,
+            "type": "sentence",
+            "text": "It asks you not to try to rebuild the old structures that are crumbling, but to let them fall."
+        },
+        {
+            "id": 30,
+            "type": "sentence",
+            "text": "It invites you to find your footing in the rubble, knowing that the foundation of truth remains unshakeable."
+        },
+        {
+            "id": 31,
+            "type": "sentence",
+            "text": "It is a reminder that disaster is often the only way to clear the ground for a miracle.",
+            "paragraph_end": true
+        }
+    ]
+}

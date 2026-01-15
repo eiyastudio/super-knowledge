@@ -1,0 +1,164 @@
+{
+    "slug": "the-strength",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "image": "images/articles/the-strength.jpg",
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "8. Strength"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Taming of the Beast"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered eight, a woman stands calmly before a lion, gently closing its jaws with her hands."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "While The Chariot represented the conquest of enemies through force and armor, Strength represents the conquest of the self through love and patience."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "She is the archetype of Fortitude—not the physical power to destroy, but the spiritual power to endure."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "She teaches that the wildest beasts are not tamed by chains, but by the confident touch of compassion.",
+            "paragraph_end": true
+        },
+        {
+            "id": 6,
+            "type": "heading",
+            "text": "The Infinite Spirit"
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "Above her head floats the lemniscate, the symbol of infinity, which also appeared above the Magician."
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "This connects her to the divine source of energy."
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "It suggests that her strength is inexhaustible because it does not rely on muscle, but on spirit."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "The lion represents our primal nature—our rage, lust, and raw passion."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "She does not kill the lion, nor does she fear it; she honors it and integrates it, understanding that this animal energy is the fuel for her spiritual survival.",
+            "paragraph_end": true
+        },
+        {
+            "id": 12,
+            "type": "heading",
+            "text": "The Principle of Resilience"
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "Strength embodies the principle of resilience and sublimation."
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "It is the ability to face suffering or difficulty without breaking."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "Unlike the Chariot’s brittle armor which can be pierced, her strength is fluid and flexible."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "She demonstrates that true power is quiet."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "It is the courage to remain open and vulnerable in the face of danger, trusting in the supremacy of the higher self over the lower instincts.",
+            "paragraph_end": true
+        },
+        {
+            "id": 18,
+            "type": "heading",
+            "text": "The Agency of Persuasion"
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "The agency of this card is persuasion rather than coercion."
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "It represents the \"soft power\" that influences outcomes through character and presence."
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "It asks us to approach problems not with aggression, but with understanding."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "It suggests that the most effective way to control a situation is to first control one's own reaction to it."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "She holds the lion’s mouth not to silence it, but to guide its roar.",
+            "paragraph_end": true
+        },
+        {
+            "id": 24,
+            "type": "heading",
+            "text": "An Invitation to Softness"
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "Drawing Strength is a call to tame the beasts within you with kindness."
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "It asks you to forgive your own imperfections and to have patience with your own anger."
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "It invites you to approach conflict with a gentle hand, reminding you that a soft answer turns away wrath."
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "It is an assurance that you already possess the inner resources to weather any storm.",
+            "paragraph_end": true
+        }
+    ]
+}

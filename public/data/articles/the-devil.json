@@ -1,0 +1,164 @@
+{
+    "slug": "the-devil",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "image": "images/articles/the-devil.jpg",
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "15. The Devil"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Chains of Materialism"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered fifteen, The Devil stands on a stone altar to which two figures, a man and a woman, are chained."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "Unlike the liberating energy of the Fool or the spiritual ascent of the Hermit, this card represents the heavy descent into matter."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "The Devil is the archetype of Materialism—the belief that only the physical world is real and valuable."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "He represents the entrapment of the spirit by the flesh, symbolizing our addictions, obsessions, and the unchecked pursuit of pleasure that ultimately leads to slavery.",
+            "paragraph_end": true
+        },
+        {
+            "id": 6,
+            "type": "heading",
+            "text": "The Shadow Self"
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "The Devil takes the form of Baphomet, a goat-headed deity representing the primal, animalistic side of human nature."
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "He is the \"Shadow Self\" described by Jung—the parts of ourselves we refuse to acknowledge and therefore project onto others."
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "He is not an external monster, but an internal one."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "He is the sum of our fears, our shame, and our suppressed desires."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "By facing him, we are actually facing the darkest corners of our own psyche.",
+            "paragraph_end": true
+        },
+        {
+            "id": 12,
+            "type": "heading",
+            "text": "The Illusion of Bondage"
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "Look closely at the chains around the necks of the man and woman. They are loose."
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "The figures could easily slip them off and walk away, yet they remain."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "This is the central lesson of the card: the illusion of bondage."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "We are rarely held captive by external forces; rather, we are imprisoned by our own choices, our comfort zones, and our refusal to take responsibility."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "The Devil does not hold us against our will; he simply offers us a comfortable cage, and we choose to stay.",
+            "paragraph_end": true
+        },
+        {
+            "id": 18,
+            "type": "heading",
+            "text": "The Agency of Obsession"
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "The agency of this card is obsession."
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "While passion (The Lovers) expands us, obsession constricts us."
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "It is the narrow focus on a single desire—be it money, power, sex, or a person—to the exclusion of all else."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "The Devil creates a feedback loop where the more we feed the hunger, the hungrier we become."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "He represents the loss of perspective, where a part of life is mistaken for the whole of life.",
+            "paragraph_end": true
+        },
+        {
+            "id": 24,
+            "type": "heading",
+            "text": "An Invitation to Break Free"
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "Drawing The Devil is a call to liberation."
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "It is a harsh wake-up call asking you to examine where you have given away your power."
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "It invites you to acknowledge your shadow, to stop blaming circumstances, and to realize that the door to your prison is unlocked."
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "It reminds you that the first step to freedom is admitting that you are bound.",
+            "paragraph_end": true
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "slug": "the-hermit",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "image": "images/articles/the-hermit.jpg",
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "9. The Hermit"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Withdrawal to the Peaks"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered nine, The Hermit stands alone atop a snow-capped mountain, far removed from the bustling crowds below."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "While The Strength card taught us to tame our inner passions amidst the world, The Hermit teaches us that some truths can only be found in silence."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "He is the archetype of the Sage, representing the deliberate choice to withdraw from society not out of fear, but out of a need for deep introspection."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "He reminds us that to hear the voice of the soul, we must first turn down the volume of the world.",
+            "paragraph_end": true
+        },
+        {
+            "id": 6,
+            "type": "heading",
+            "text": "The Lamp of Inner Light"
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "In his right hand, he holds a lantern containing a six-pointed star, the Seal of Solomon."
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "This light is not the blinding sun of the external world, but the soft, steady glow of inner wisdom."
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "He holds it up not to illuminate the path for himself—he already knows the way—but to serve as a beacon for others who may be climbing the mountain behind him."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "The star symbolizes the synthesis of wisdom, suggesting that true enlightenment is not something we gain from outside, but something we kindle from within.",
+            "paragraph_end": true
+        },
+        {
+            "id": 11,
+            "type": "heading",
+            "text": "The Staff of Authority"
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "In his left hand, he leans on a golden staff, a symbol of his power and authority."
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "Unlike the Emperor’s scepter which commands others, The Hermit’s staff is used to support himself."
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "It represents the grounding of spiritual knowledge in practical reality."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "He is not a dreamer lost in the clouds; he is a grounded traveler who has walked the hard path of experience."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "His grey cloak symbolizes invisibility and humility, shielding his light from those who are not yet ready to see it.",
+            "paragraph_end": true
+        },
+        {
+            "id": 17,
+            "type": "heading",
+            "text": "The Agency of Solitude"
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "The agency of this card is solitude, distinct from isolation."
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "Isolation is a state of being alone when you wish to be together; solitude is a state of being alone when you wish to be with yourself."
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "The Hermit uses solitude as a tool for \"soul-making.\""
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "It is in this fertile emptiness that he processes his experiences and distills them into wisdom."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "He teaches that we must occasionally retreat from our roles and relationships to rediscover who we are when no one is watching.",
+            "paragraph_end": true
+        },
+        {
+            "id": 23,
+            "type": "heading",
+            "text": "An Invitation to Pause"
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "Drawing The Hermit is a call to step back and pause."
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "It asks you to stop seeking answers from experts, friends, or the internet, and to start looking inward."
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "It invites you to embrace a period of quiet contemplation, trusting that you have your own lantern to guide you."
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "It is a reminder that the most profound journey you will ever take is the one that leads you back to yourself.",
+            "paragraph_end": true
+        }
+    ]
+}

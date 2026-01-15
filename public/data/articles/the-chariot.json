@@ -1,0 +1,169 @@
+{
+    "slug": "the-chariot",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "image": "images/articles/the-chariot.jpg",
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "7. The Chariot"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Triumph of Will"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered seven, The Chariot bursts from the city gates, leaving behind the safety of the known world."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "While The Lovers represented the vulnerability of choice, The Chariot symbolizes the armor of determination."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "He is the archetype of the Conqueror, the focused ego marshalling all resources to achieve a single goal."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "He rejects passive acceptance, championing the active imposition of his will upon the environment.",
+            "paragraph_end": true
+        },
+        {
+            "id": 6,
+            "type": "heading",
+            "text": "Controlled Duality"
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "The charioteer is drawn by two sphinxes, black and white."
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "Like the pillars of the High Priestess, they symbolize opposing forces—mercy and severity, hope and fear."
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "However, unlike the Priestess who sat poised between them, the Chariot harnesses them to move forward."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "Note that he holds no reins; he steers them not by physical force, but by the sheer power of his mind and presence."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "This suggests that true control comes from mastering the contradictory natures within oneself.",
+            "paragraph_end": true
+        },
+        {
+            "id": 12,
+            "type": "heading",
+            "text": "The Armor of Persona"
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "He is encased in armor, protecting the soft, vulnerable self within."
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "The crescents on his shoulders and the crab symbol often associated with this card link him to Cancer."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "Just as the crab carries its home on its back, the Chariot carries his own psychological fortifications."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "He constructs a rigid ego-structure—a Persona—to navigate the world without being crushed by its harshness."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "The starry canopy above suggests that even in his earthly conquests, he is covered by celestial protection.",
+            "paragraph_end": true
+        },
+        {
+            "id": 18,
+            "type": "heading",
+            "text": "The Agency of Momentum"
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "The Chariot is the agency of movement and momentum."
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "Physics teaches that an object at rest stays at rest until acted upon by a force."
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "The Chariot is that force."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "It overcomes inertia, procrastination, and doubt."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "It represents the aggressive energy required to break orbit and launch into a new phase of life."
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "He does not look back at the city he leaves; his gaze is fixed unblinkingly on the horizon.",
+            "paragraph_end": true
+        },
+        {
+            "id": 25,
+            "type": "heading",
+            "text": "An Invitation to Conquer"
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "Drawing The Chariot is a call to harden your resolve and to push through obstacles."
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "It asks you to stop weighing options and to start moving."
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "It invites you to discipline your wandering thoughts and emotions, channeling them into a laser-like focus."
+        },
+        {
+            "id": 29,
+            "type": "sentence",
+            "text": "It reminds you that victory is not a matter of luck, but a matter of will.",
+            "paragraph_end": true
+        }
+    ]
+}

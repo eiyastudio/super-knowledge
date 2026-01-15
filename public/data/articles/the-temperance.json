@@ -1,0 +1,164 @@
+{
+    "slug": "the-temperance",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "image": "images/articles/the-temperance.jpg",
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "14. Temperance"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Great Alchemist"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered fourteen, Temperance depicts a winged angel, often identified as Michael, pouring liquid between two cups."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "Unlike Death, which was a sudden severance, Temperance is a slow, deliberate process of integration."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "This is the archetype of Alchemy—the art of blending opposites (fire and water, spirit and matter) in perfect proportion to create a third, higher substance."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "It teaches that true power lies not in force, but in the subtle mastery of balance.",
+            "paragraph_end": true
+        },
+        {
+            "id": 6,
+            "type": "heading",
+            "text": "The Union of Elements"
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "The angel stands with one foot on solid earth and the other submerged in flowing water."
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "This posture signifies the bridging of the conscious (earth) and subconscious (water) realms."
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "On the angel’s chest is a square containing a triangle, representing the spirit contained within matter."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "The fluid flowing between the cups defies gravity, suggesting that this is a magical act where spiritual laws supersede physical ones."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "It represents the \"middle way,\" avoiding the extremes of asceticism and indulgence.",
+            "paragraph_end": true
+        },
+        {
+            "id": 12,
+            "type": "heading",
+            "text": "The Principle of Moderation"
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "Temperance embodies the principle of moderation, known to the Greeks as the \"Golden Mean.\""
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "It is not about abstinence, but about correct use."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "It suggests that any virtue pushed to an extreme can become a vice."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "The card asks for adjustment, accommodation, and the careful management of resources."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "It is the steady hand that mixes the volatile ingredients of life without causing an explosion.",
+            "paragraph_end": true
+        },
+        {
+            "id": 18,
+            "type": "heading",
+            "text": "The Agency of Healing"
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "The agency of this card is healing and regeneration."
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "After the radical surgery of Death, Temperance is the convalescence."
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "It is the soothing balm that restores equilibrium to the system."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "It represents patience, knowing that some chemical reactions cannot be rushed."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "It teaches us to \"temper\" our steel—heating and cooling it repeatedly until it becomes both hard and flexible.",
+            "paragraph_end": true
+        },
+        {
+            "id": 24,
+            "type": "heading",
+            "text": "An Invitation to Blend"
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "Drawing Temperance is a call to find your center."
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "It asks you to verify if your life is out of balance—are you working too hard? Loving too obsessively? Thinking too rigidly?"
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "It invites you to mix a little water with your wine, to dilute your intensity with calm."
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "It is a reminder that the solution to your problem is not more effort, but a better mixture of ingredients.",
+            "paragraph_end": true
+        }
+    ]
+}

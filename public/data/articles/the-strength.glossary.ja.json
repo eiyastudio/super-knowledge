@@ -1,0 +1,77 @@
+{
+    "language": "ja-JP",
+    "glossary": [
+        {
+            "word": "Fortitude",
+            "sentenceId": 4,
+            "definition": "不屈の精神",
+            "explanation": "困難や痛みに対して、逃げ出さずに精神的に耐え抜く力のことです。単なる腕力（Force）とは区別される、心の強さを指す伝統的な美徳の一つです。"
+        },
+        {
+            "word": "Tame",
+            "sentenceId": 5,
+            "definition": "飼いならす",
+            "explanation": "野生の動物を殺すのではなく、人間と共存できるように訓練すること。タロットでは、自分の中にある「怒り」や「欲望」といった激しい感情を否定せず、自分の味方につけることを意味します。"
+        },
+        {
+            "word": "Lemniscate",
+            "sentenceId": 7,
+            "definition": "レムニスケート",
+            "explanation": "「∞（無限大）」の記号のこと。魔術師のカードにも登場しますが、ここでは「精神の力が尽きることなく循環し続ける」ことを象徴しています。"
+        },
+        {
+            "word": "Primal nature",
+            "sentenceId": 10,
+            "definition": "原始的な本性",
+            "explanation": "理性が発達する前の、本能的な衝動や生命力のこと。ライオンとして描かれていますが、これは悪いものではなく、私たちが生きるために必要なエネルギーの源（ガソリン）です。"
+        },
+        {
+            "word": "Integrate",
+            "sentenceId": 11,
+            "definition": "統合する",
+            "explanation": "自分の中にある「理性（女性）」と「本能（ライオン）」という対立する要素を、どちらも排除せずに一つにまとめること。"
+        },
+        {
+            "word": "Resilience",
+            "sentenceId": 13,
+            "definition": "復元力、レジリエンス",
+            "explanation": "竹のように、強い風が吹いても曲がるだけで折れず、また元に戻るしなやかな強さのこと。戦車の「鎧」が硬くて脆い強さなら、こちらは柔らかくて折れない強さです。"
+        },
+        {
+            "word": "Sublimation",
+            "sentenceId": 13,
+            "definition": "昇華",
+            "explanation": "心理学用語で、社会的に認められない衝動（性的欲求や攻撃性など）を、芸術やスポーツ、仕事など、より高次で価値のある活動エネルギーに変換することです。"
+        },
+        {
+            "word": "Coercion",
+            "sentenceId": 19,
+            "definition": "強制",
+            "explanation": "力ずくで相手を従わせること。戦車はこの方法を取ることがありますが、「力」のカードはこの対極に位置します。"
+        },
+        {
+            "word": "Persuasion",
+            "sentenceId": 19,
+            "definition": "説得",
+            "explanation": "相手の気持ちを理解し、納得させることで自発的に動いてもらうこと。北風と太陽の寓話における「太陽」のアプローチです。"
+        },
+        {
+            "word": "Soft power",
+            "sentenceId": 20,
+            "definition": "ソフト・パワー",
+            "explanation": "軍事力や経済力（ハード・パワー）ではなく、文化や価値観、魅力によって相手を惹きつけ、味方にする力のことです。"
+        },
+        {
+            "word": "Vulnerable",
+            "sentenceId": 17,
+            "definition": "無防備な、傷つきやすい",
+            "explanation": "鎧を着ていない状態。女性が素手でライオンに触れているように、相手を信頼して心をさらけ出すことは、実は最強の自信がないとできない行為です。"
+        },
+        {
+            "word": "Wrath",
+            "sentenceId": 27,
+            "definition": "激怒",
+            "explanation": "単なる怒り（anger）よりも激しい、災害のような怒り。七つの大罪の一つでもあります。「柔和な答えは激怒を鎮める」という言葉は、旧約聖書の格言に由来します。"
+        }
+    ]
+}

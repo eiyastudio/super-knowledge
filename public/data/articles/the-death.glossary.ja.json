@@ -1,0 +1,83 @@
+{
+    "language": "ja-JP",
+    "glossary": [
+        {
+            "word": "Transformation",
+            "sentenceId": 5,
+            "definition": "変容",
+            "explanation": "形が変わるだけでなく、質そのものが全く別のものに生まれ変わること。芋虫が蝶になるような、不可逆的で劇的な変化を指します。"
+        },
+        {
+            "word": "Harvester",
+            "sentenceId": 4,
+            "definition": "収穫者",
+            "explanation": "死神の本来の役割。命を奪うのではなく、十分に育った魂や、役割を終えた経験を刈り取り、次のサイクルのための種として保存する農夫のような存在です。"
+        },
+        {
+            "word": "Precursor",
+            "sentenceId": 5,
+            "definition": "先駆、前段階",
+            "explanation": "何かが起こる前に必ず起こらなければならないこと。新しい家を建てる前に古い家を取り壊さなければならないように、死（解体）は生の前提条件です。"
+        },
+        {
+            "word": "Democracy",
+            "sentenceId": 9,
+            "definition": "民主主義、平等",
+            "explanation": "ここでは「誰に対しても差別がない」という意味。死神の前では、王様も乞食も、金持ちも貧乏人も全く平等に扱われます。"
+        },
+        {
+            "word": "Inevitability",
+            "sentenceId": 10,
+            "definition": "不可避性",
+            "explanation": "避けることができないこと。どれだけ権力があっても、どれだけ逃げようとしても、変化と死だけは絶対に訪れるという宇宙の法則です。"
+        },
+        {
+            "word": "Mortality",
+            "sentenceId": 12,
+            "definition": "必滅性、死すべき運命",
+            "explanation": "人間はいずれ必ず死ぬ存在であるという事実。「メメント・モリ（死を忘れるな）」という言葉通り、限られた時間を意識することで、生の輝きが増します。"
+        },
+        {
+            "word": "Mystic Rose",
+            "sentenceId": 14,
+            "definition": "神秘の薔薇",
+            "explanation": "死神の旗に描かれた白い花。生命力、純粋さ、そして魂の不死を象徴します。死の中にこそ、永遠の命の種が含まれていることを示しています。"
+        },
+        {
+            "word": "Purification",
+            "sentenceId": 14,
+            "definition": "浄化",
+            "explanation": "不純物を取り除いてきれいにすること。死神は、私たちが溜め込んだ不要なプライド、執着、過去の遺恨を洗い流し、魂をピュアな状態に戻してくれます。"
+        },
+        {
+            "word": "Refinement",
+            "sentenceId": 15,
+            "definition": "精錬、洗練",
+            "explanation": "金属を溶かして不純物を除くように、魂を磨き上げること。苦しい経験や別れを通じて、人格がより高く深いものへと成長するプロセスです。"
+        },
+        {
+            "word": "Gateway",
+            "sentenceId": 20,
+            "definition": "入り口、門",
+            "explanation": "行き止まりではなく、次のステージへと続く通路。死神のカードは「THE END」のマークではなく、新しい世界へのドアです。"
+        },
+        {
+            "word": "Resurrection",
+            "sentenceId": 23,
+            "definition": "復活、再生",
+            "explanation": "一度死んだものが、新しい姿で蘇ること。背景の昇る太陽は、夜（死）の後には必ず朝（再生）が来ることを約束しています。"
+        },
+        {
+            "word": "Release",
+            "sentenceId": 25,
+            "definition": "解放、手放すこと",
+            "explanation": "握りしめていた手を離すこと。自分を守るために必死にしがみついていた古い殻や人間関係を、感謝と共に手放す勇気です。"
+        },
+        {
+            "word": "Renewal",
+            "sentenceId": 28,
+            "definition": "更新、リニューアル",
+            "explanation": "古くなったものを新しくすること。パソコンのOSをアップデートするように、人生も定期的な「死（再起動）」を経ないと、重くなって動かなくなってしまいます。"
+        }
+    ]
+}

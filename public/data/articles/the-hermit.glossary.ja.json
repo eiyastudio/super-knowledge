@@ -1,0 +1,77 @@
+{
+    "language": "ja-JP",
+    "glossary": [
+        {
+            "word": "Withdrawal",
+            "sentenceId": 4,
+            "definition": "撤退、引きこもり",
+            "explanation": "負けて逃げることではなく、戦略的あるいは精神的な目的のために、一時的に世俗から身を引くこと。隠者にとっての撤退は、より高い視点を得るための積極的なアクションです。"
+        },
+        {
+            "word": "Introspection",
+            "sentenceId": 4,
+            "definition": "内省",
+            "explanation": "自分の内側（Intro）を見つめる（Spect）こと。外の世界で何が起きているかではなく、それに対して自分がどう感じ、何を考えているのかを深く観察する行為です。"
+        },
+        {
+            "word": "Seal of Solomon",
+            "sentenceId": 7,
+            "definition": "ソロモンの封印（六芒星）",
+            "explanation": "上向きの三角形（火・男性性）と下向きの三角形（水・女性性）が重なった形。対立する要素が完全に統合され、調和した「知恵」の状態を表しています。"
+        },
+        {
+            "word": "Beacon",
+            "sentenceId": 9,
+            "definition": "かがり火、標識灯",
+            "explanation": "暗闇の中で方向を示すための目印となる光。隠者は教えを強制するのではなく、ただそこに立って光ることで、迷える人々の道しるべとなります。"
+        },
+        {
+            "word": "Kindle",
+            "sentenceId": 10,
+            "definition": "点火する、燃え立たせる",
+            "explanation": "火のないところに火をつけること。知恵は誰かから貰うものではなく、自分自身の経験と魂を摩擦させて、自ら火を起こすものだというニュアンスです。"
+        },
+        {
+            "word": "Grounding",
+            "sentenceId": 14,
+            "definition": "接地、グラウンディング",
+            "explanation": "精神的な高みにいながらも、現実感覚を失わないこと。隠者の杖は、彼の高遠な思想が単なる妄想ではなく、厳しい現実の経験に裏打ちされていることを示しています。"
+        },
+        {
+            "word": "Humility",
+            "sentenceId": 16,
+            "definition": "謙虚さ",
+            "explanation": "自分の能力をひけらかさないこと。隠者の灰色のマントは、彼が称賛や名声を求めず、ただ真理のみに奉仕する質素な態度を表しています。"
+        },
+        {
+            "word": "Solitude",
+            "sentenceId": 18,
+            "definition": "積極的孤独",
+            "explanation": "自ら望んで一人になること。自分自身と対話し、エネルギーを充電するための豊かで創造的な時間です。"
+        },
+        {
+            "word": "Isolation",
+            "sentenceId": 19,
+            "definition": "消極的孤立",
+            "explanation": "望まないのに一人ぼっちにされていると感じること。寂しさや疎外感を伴うネガティブな状態であり、Solitudeとは対極にあります。"
+        },
+        {
+            "word": "Soul-making",
+            "sentenceId": 20,
+            "definition": "魂作り",
+            "explanation": "詩人ジョン・キーツの言葉に由来する概念。人生の苦難や経験を通じて、未熟な精神を深みのある独自の「魂」へと鍛え上げていくプロセスのことです。"
+        },
+        {
+            "word": "Distill",
+            "sentenceId": 21,
+            "definition": "蒸留する",
+            "explanation": "液体を沸騰させて不純物を取り除き、純度を高めること。隠者は沈黙の中で、雑多な日常経験から「教訓」や「真理」というエッセンスだけを抽出します。"
+        },
+        {
+            "word": "Contemplation",
+            "sentenceId": 26,
+            "definition": "沈思黙考、観想",
+            "explanation": "特定の対象について深く静かに考え続けること。分析的な思考（Thinking）よりも受動的で、真理が向こうからやってくるのを待つような瞑想的な状態を指します。"
+        }
+    ]
+}

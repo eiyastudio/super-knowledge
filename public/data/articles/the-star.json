@@ -1,0 +1,174 @@
+{
+    "slug": "the-star",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "image": "images/articles/the-star.jpg",
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "17. The Star"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Calm After the Storm"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered seventeen, The Star depicts a naked woman kneeling by a pool of water under a starry sky."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "Coming after the violent destruction of The Tower, The Star represents the calm after the storm."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "It is the archetype of Hope and Healing."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "The woman is naked, not out of shame or vulnerability, but because she has nothing left to hide."
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "The Tower stripped away her masks and ego, leaving her in a state of pure, authentic truth.",
+            "paragraph_end": true
+        },
+        {
+            "id": 7,
+            "type": "heading",
+            "text": "The Waters of Life"
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "She holds two pitchers. From one, she pours water onto the dry land, nourishing it and allowing new life to grow."
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "From the other, she pours water back into the pool, returning energy to the source."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "This symbolizes the cycle of giving and receiving."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "She does not hoard her gifts but shares them freely, trusting that the supply is infinite."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "It represents a state of flow, where inspiration comes from the collective unconscious (the pool) and is grounded in reality (the land).",
+            "paragraph_end": true
+        },
+        {
+            "id": 13,
+            "type": "heading",
+            "text": "The Guiding Light"
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "Above her shines a massive yellow star, surrounded by seven smaller white stars."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "The large star represents the core essence or the Higher Self, while the smaller stars represent the seven chakras or centers of energy."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "Unlike the Moon which reflects light, or the Sun which can be blinding, the light of The Star is soft and guiding."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "It provides direction without force."
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "It is the distant beacon that tells the traveler they are on the right path, even if the destination is still far away.",
+            "paragraph_end": true
+        },
+        {
+            "id": 19,
+            "type": "heading",
+            "text": "The Agency of Inspiration"
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "The agency of this card is inspiration."
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "It is the connection to the divine that feels effortless and clear."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "It suggests that you are currently a channel for universal energy."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "This is not the fiery, active will of the Magician, but a receptive, serene openness."
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "It asks you to trust your intuition and to have faith in the future."
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "It is the promise that the universe is benevolent and that you are being looked after.",
+            "paragraph_end": true
+        },
+        {
+            "id": 26,
+            "type": "heading",
+            "text": "An Invitation to Shine"
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "Drawing The Star is a call to hope."
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "It asks you to keep your heart open, even after it has been broken."
+        },
+        {
+            "id": 29,
+            "type": "sentence",
+            "text": "It invites you to reveal your true self to the world, knowing that your authenticity is your greatest gift."
+        },
+        {
+            "id": 30,
+            "type": "sentence",
+            "text": "It is a reminder that even in the darkest night, there is always a light to guide you home.",
+            "paragraph_end": true
+        }
+    ]
+}

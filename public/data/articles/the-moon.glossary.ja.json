@@ -1,0 +1,89 @@
+{
+    "language": "ja-JP",
+    "glossary": [
+        {
+            "word": "Illusion",
+            "sentenceId": 5,
+            "definition": "幻想、錯覚",
+            "explanation": "現実ではないものを現実だと思い込むこと。月の薄暗い光の中では、ただの枯れ木が幽霊に見えるように、私たちの不安が事実を歪めて悪い方へと解釈させてしまいます。"
+        },
+        {
+            "word": "Subconscious",
+            "sentenceId": 5,
+            "definition": "潜在意識",
+            "explanation": "普段は意識していない心の奥底。月夜には、理性のガードが下がり、この領域から抑圧された感情や不思議なイメージが湧き上がってきます。"
+        },
+        {
+            "word": "Deceptive",
+            "sentenceId": 3,
+            "definition": "欺瞞的な、当てにならない",
+            "explanation": "見た目通りではないこと。月のカードが出るときは、状況がはっきりせず、誤解や嘘が隠されている可能性があります。"
+        },
+        {
+            "word": "Archetype",
+            "sentenceId": 5,
+            "definition": "原型",
+            "explanation": "人類共通のイメージ。「夜」や「月」は、太古の昔から人間にとって「神秘的だが怖いもの」の象徴でした。"
+        },
+        {
+            "word": "Dark night of the soul",
+            "sentenceId": 6,
+            "definition": "魂の暗夜",
+            "explanation": "精神的な成長の過程で訪れる、神に見放されたような深い孤独と絶望の時期。しかし、これは夜明け前の最も深い闇であり、覚醒のために必要なプロセスです。"
+        },
+        {
+            "word": "Instinct",
+            "sentenceId": 6,
+            "definition": "本能",
+            "explanation": "理屈ではなく、生存のために体が勝手に反応すること。犬や狼が吠えるのは、何か得体の知れない気配を感じ取って、神経が過敏になっている状態を表します。"
+        },
+        {
+            "word": "Project",
+            "sentenceId": 7,
+            "definition": "投影する",
+            "explanation": "自分の内側にある恐怖心を、外の世界に映し出すこと。「お化けが怖い」のではなく、自分の心が作り出した恐怖のイメージを見ているだけなのです。"
+        },
+        {
+            "word": "Ominous",
+            "sentenceId": 9,
+            "definition": "不吉な、不気味な",
+            "explanation": "何か悪いことが起きそうな予感がすること。塔の間の道は、安全な町を離れて危険な領域へ入っていく不安を煽ります。"
+        },
+        {
+            "word": "Threshold",
+            "sentenceId": 10,
+            "definition": "境界、敷居",
+            "explanation": "こちら側（日常）とあちら側（非日常・異界）の境目。ザリガニが水から陸へ上がるように、意識のレベルが切り替わるポイントです。"
+        },
+        {
+            "word": "Domesticated / Feral",
+            "sentenceId": 17,
+            "definition": "飼いならされた / 野生の",
+            "explanation": "私たちの中には、「社会に適応した自分（犬）」と「荒々しい本音の自分（狼）」が同居しています。月夜にはその両方がざわつき始めます。"
+        },
+        {
+            "word": "Primordial soup",
+            "sentenceId": 23,
+            "definition": "原初のスープ",
+            "explanation": "生命が誕生する前の、ドロドロした有機物の海。意識が形成される前の、混沌とした無意識の源泉を指します。"
+        },
+        {
+            "word": "Abyssal",
+            "sentenceId": 23,
+            "definition": "深淵の、底知れぬ",
+            "explanation": "光の届かない海の底。ザリガニは、忘れていた過去の記憶や、見たくなかったコンプレックスが、心の奥底から這い出してくる様子を象徴しています。"
+        },
+        {
+            "word": "Uncertainty",
+            "sentenceId": 19,
+            "definition": "不確実性",
+            "explanation": "先が見えない状態。人間にとって最もストレスがかかる状態ですが、月はこの「分からない」という不安の中に留まり、耐えることを要求します。"
+        },
+        {
+            "word": "Intuition",
+            "sentenceId": 29,
+            "definition": "直感",
+            "explanation": "論理的な思考（太陽の光）が使えない暗闇の中で、唯一の頼りになる「なんとなく感じる」センサーのこと。"
+        }
+    ]
+}

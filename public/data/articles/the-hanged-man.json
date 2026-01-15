@@ -1,0 +1,154 @@
+{
+    "slug": "the-hanged-man",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "image": "images/articles/the-hanged-man.jpg",
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "12. The Hanged Man"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Suspension of Will"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered twelve, The Hanged Man hangs upside down from a T-shaped cross of living wood."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "Unlike the forceful Chariot or the decisive Justice, he represents the voluntary suspension of action."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "He has not been forced into this position; he has chosen it."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "This is the archetype of the mystic who realizes that to move forward, one must sometimes stand still."
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "He teaches the power of pause, suggesting that the frantic activity of the ego often blocks the deeper currents of the spirit.",
+            "paragraph_end": true
+        },
+        {
+            "id": 7,
+            "type": "heading",
+            "text": "The Inversion of Perspective"
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "He hangs by one foot, his other leg crossed to form the shape of a \"4,\" while his arms form a triangle."
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "This posture symbolizes the descent of the spirit into matter."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "By inverting himself, he sees the world differently from everyone else."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "What others call important, he sees as trivial; what others fear, he embraces."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "He represents the radical shift in consciousness that occurs when we stop trying to control the world and instead allow ourselves to look at it from a new angle.",
+            "paragraph_end": true
+        },
+        {
+            "id": 13,
+            "type": "heading",
+            "text": "The Halo of Enlightenment"
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "Despite his precarious position, his face is calm, even serene."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "A radiant halo glows around his head, signifying that this is not a punishment, but a holy sacrifice."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "Like Odin who hung from the World Tree to gain the knowledge of the runes, The Hanged Man sacrifices his physical comfort to gain spiritual wisdom."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "The halo suggests that true enlightenment often comes through letting go, and that there is a profound peace found in surrender.",
+            "paragraph_end": true
+        },
+        {
+            "id": 18,
+            "type": "heading",
+            "text": "The Principle of Sacrifice"
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "The Hanged Man embodies the principle of sacrifice—a word that comes from \"to make sacred.\""
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "He gives up his need for control, his social status, or his old way of thinking in order to receive something higher."
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "He represents the necessary limbo between the old life and the new, a time of gestation where nothing seems to be happening on the surface, but a transformation is occurring in the depths.",
+            "paragraph_end": true
+        },
+        {
+            "id": 22,
+            "type": "heading",
+            "text": "An Invitation to Let Go"
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "Drawing The Hanged Man is a call to surrender."
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "It asks you to stop fighting against the current and to accept things as they are."
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "It invites you to release your rigid expectations and to be open to a reversal of your plans."
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "It is a reminder that you cannot force an epiphany; you can only wait for it with an open heart.",
+            "paragraph_end": true
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "slug": "the-justice",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "image": "images/articles/the-justice.jpg",
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "11. Justice"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Blade of Truth"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered eleven, Justice sits upon a stone throne, holding a sword in her right hand and scales in her left."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "Unlike the fluctuating Wheel of Fortune, she represents the unshakeable law of cause and effect."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "She is the archetype of intellectual clarity, cutting through confusion with the razor-sharp edge of truth."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "Her gaze is direct and piercing, signifying that nothing can be hidden from the eyes of cosmic law.",
+            "paragraph_end": true
+        },
+        {
+            "id": 6,
+            "type": "heading",
+            "text": "The Scales of Equilibrium"
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "In her left hand, she balances the golden scales."
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "These represent intuition and the weighing of evidence."
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "Before she strikes with the sword of action, she must first measure with the scales of contemplation."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "This balance suggests that true justice requires both logic and fairness."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "It is not about punishment, but about restoring equilibrium."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "If the scales have tipped due to past actions, Justice appears to set them right, ensuring that the energy put out into the world returns to its source.",
+            "paragraph_end": true
+        },
+        {
+            "id": 13,
+            "type": "heading",
+            "text": "The Law of Consequence"
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "Justice is the embodiment of Karma in its active form."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "While the Wheel represents the turning of fate, Justice represents the specific consequences of our choices."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "She teaches that every thought, word, and deed carries weight and creates a ripple in the fabric of reality."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "She asks us to accept responsibility for our current circumstances, acknowledging that they are the harvest of seeds we planted long ago.",
+            "paragraph_end": true
+        },
+        {
+            "id": 18,
+            "type": "heading",
+            "text": "The Veil of Clarity"
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "Behind her hangs a purple veil, signifying wisdom and the spiritual realm."
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "Unlike the High Priestess’s veil which hides mysteries, this veil serves as a backdrop, emphasizing her presence in the conscious world."
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "She stands between the pillars of duality, but unlike the Hierophant who interprets law for the masses, Justice demands that you internalize the law."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "She requires you to judge yourself with honesty, stripping away the excuses and rationalizations of the ego.",
+            "paragraph_end": true
+        },
+        {
+            "id": 23,
+            "type": "heading",
+            "text": "An Invitation to Integrity"
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "Drawing Justice is a call to align your actions with your values."
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "It asks you to seek the truth, even if it is uncomfortable, and to make decisions based on facts rather than emotions."
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "It invites you to act with integrity, knowing that you are always accountable to the high court of your own conscience."
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "It is a reminder that fairness begins within.",
+            "paragraph_end": true
+        }
+    ]
+}

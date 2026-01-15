@@ -1,0 +1,174 @@
+{
+    "slug": "the-sun",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "image": "images/articles/the-sun.jpg",
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "19. The Sun"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Radiance of Truth"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered nineteen, The Sun bursts forth in the sky, illuminating everything with its golden rays."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "After the confusion and illusions of The Moon, The Sun represents the arrival of absolute clarity."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "It is the archetype of Enlightenment and Joy."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "Under this light, shadows disappear, and fears evaporate."
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "It teaches that the ultimate reality of the universe is not complex or frightening, but simple, warm, and benevolent.",
+            "paragraph_end": true
+        },
+        {
+            "id": 7,
+            "type": "heading",
+            "text": "The Child of Promise"
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "In the foreground, a naked child rides a white horse, holding a red banner."
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "This child represents the new self that has been reborn after the dark night of the soul."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "The child is naked, symbolizing innocence and having nothing to hide."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "He rides without a saddle or reins, signifying perfect trust in his connection to nature and the divine."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "He is not controlling the horse with force (like the Chariot) but guiding it with harmony."
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "The child reminds us that at the core of our being, we are playful, free, and eternal.",
+            "paragraph_end": true
+        },
+        {
+            "id": 14,
+            "type": "heading",
+            "text": "The Walled Garden"
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "Behind the child is a gray stone wall, representing the limitations of the past and the safety of the garden he is leaving behind."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "Sunflowers bloom above the wall, turning their faces toward the light."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "The child has transcended the boundaries of the artificial world and is now moving freely in the open air of spirit."
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "It suggests that true safety does not come from walls or defenses, but from living openly in the light of truth.",
+            "paragraph_end": true
+        },
+        {
+            "id": 19,
+            "type": "heading",
+            "text": "The Agency of Vitality"
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "The agency of this card is vitality and success."
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "It is the life force itself—the energy that makes plants grow and hearts beat."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "Unlike the subtle inspiration of The Star, The Sun is active, vigorous power."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "It represents a time of action, expansion, and outward expression."
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "It asks us to shine, to be seen, and to radiate our energy outward without hesitation."
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "It is the confirmation that we are aligned with our purpose and that the universe is supporting our growth.",
+            "paragraph_end": true
+        },
+        {
+            "id": 26,
+            "type": "heading",
+            "text": "An Invitation to Celebrate"
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "Drawing The Sun is a call to celebration."
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "It asks you to drop your heavy burdens and serious demeanor, and to reconnect with your inner child."
+        },
+        {
+            "id": 29,
+            "type": "sentence",
+            "text": "It invites you to enjoy the simple pleasures of life—warmth, light, movement, and love."
+        },
+        {
+            "id": 30,
+            "type": "sentence",
+            "text": "It is a reminder that you were born to be happy, and that joy is your birthright.",
+            "paragraph_end": true
+        }
+    ]
+}

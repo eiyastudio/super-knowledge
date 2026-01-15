@@ -1,0 +1,164 @@
+{
+    "slug": "the-death",
+    "meta": {
+        "language": "en-US",
+        "version": 1,
+        "image": "images/articles/the-death.jpg",
+        "tags": [
+            "tarot",
+            "major-arcana"
+        ]
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "13. Death"
+        },
+        {
+            "id": 1,
+            "type": "heading",
+            "text": "The Great Transformer"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Numbered thirteen, Death rides a white horse, wearing black armor."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "Unlike the stagnant Hanged Man, Death represents dynamic movement and swift change."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "He is not a murderer, but a harvester; he does not kill for pleasure, but clears away the old to make way for the new."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "He is the archetype of Transformation, teaching us that in the cycle of nature, decay is the necessary precursor to growth."
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "Without death, life would be choked by its own history.",
+            "paragraph_end": true
+        },
+        {
+            "id": 7,
+            "type": "heading",
+            "text": "The Democracy of the End"
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "Beneath the horse’s hooves lies a king, while a child and a bishop plead for mercy."
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "This scene illustrates the democracy of death: it comes to all, regardless of status, wealth, or power."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "The king’s crown has fallen, signifying that earthly authority holds no sway in the face of the inevitable."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "Death strips us of our titles and possessions, leaving only the naked soul."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "He reminds us of our mortality, urging us to focus on what is truly essential.",
+            "paragraph_end": true
+        },
+        {
+            "id": 13,
+            "type": "heading",
+            "text": "The Mystic Rose"
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "Death carries a black flag emblazoned with the Mystic Rose, a symbol of life, purification, and immortality."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "This indicates that his true purpose is not destruction, but the refinement of the spirit."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "The white horse symbolizes purity, suggesting that death purifies the soul of its earthly attachments."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "He is the agent that separates the wheat from the chaff, removing what is dead within us so that what is alive can flourish.",
+            "paragraph_end": true
+        },
+        {
+            "id": 18,
+            "type": "heading",
+            "text": "The Gate of the Sun"
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "In the background, between two towers, a golden sun is rising (not setting)."
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "This is the key to understanding the card: Death is not an end, but a gateway."
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "The river flows toward this sun, symbolizing the journey of the soul across the Styx to the afterlife."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "It promises that every ending is merely the beginning of a new chapter."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "The darkness of the foreground is only a shadow cast by the brilliant light of resurrection on the horizon.",
+            "paragraph_end": true
+        },
+        {
+            "id": 24,
+            "type": "heading",
+            "text": "An Invitation to Release"
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "Drawing the Death card is a call to let go."
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "It asks you to release the relationships, jobs, or identities that have served their purpose and are now lifeless."
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "It invites you to embrace the grief of ending, knowing that it is the labor pain of a new beginning."
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "It is a reassurance that although change is frightening, it is the only path to renewal.",
+            "paragraph_end": true
+        }
+    ]
+}

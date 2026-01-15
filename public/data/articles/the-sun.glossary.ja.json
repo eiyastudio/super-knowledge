@@ -1,0 +1,77 @@
+{
+    "language": "ja-JP",
+    "glossary": [
+        {
+            "word": "Clarity",
+            "sentenceId": 3,
+            "definition": "明晰さ",
+            "explanation": "霧が晴れて視界がクリアになること。月のカードで感じていた不安や迷いが消え、「ああ、そうだったのか」とすべてがはっきりと理解できる状態です。"
+        },
+        {
+            "word": "Enlightenment",
+            "sentenceId": 4,
+            "definition": "啓蒙、悟り",
+            "explanation": "文字通り「光を当てること」。知識や理屈を積み重ねるのではなく、太陽の光のような直感的な理解によって、真実に目覚めることです。"
+        },
+        {
+            "word": "Innocence",
+            "sentenceId": 10,
+            "definition": "無邪気さ",
+            "explanation": "汚れのない純粋さ。罪悪感や疑いを知らない子供のような心。太陽のカードは、大人になる過程で身につけたシニカルな態度を捨て、この無邪気さに帰ることを促します。"
+        },
+        {
+            "word": "Rebirth",
+            "sentenceId": 9,
+            "definition": "再生",
+            "explanation": "死神で一度死に、月で胎内（無意識）を旅した魂が、新しい生命として再びこの世に生まれること。馬に乗った子供は、生まれ変わったばかりの新しい「私」です。"
+        },
+        {
+            "word": "Transcended",
+            "sentenceId": 17,
+            "definition": "超越した",
+            "explanation": "限界や枠組みを乗り越えること。子供が壁を背にしているのは、過去のトラウマや社会的な制限をすでに乗り越え、自由な世界にいることを示しています。"
+        },
+        {
+            "word": "Vitality",
+            "sentenceId": 20,
+            "definition": "生命力、活力",
+            "explanation": "生き生きとしたエネルギー。病気が治ったり、やる気が満ち溢れてきたりする状態。太陽はタロットの中で最もポジティブで強力なエネルギーカードの一つです。"
+        },
+        {
+            "word": "Vigorous",
+            "sentenceId": 22,
+            "definition": "精力的な、力強い",
+            "explanation": "弱々しさの対極にある、太くたくましい力強さ。太陽のエネルギーは繊細ではなく、圧倒的な肯定力で物事を推し進めます。"
+        },
+        {
+            "word": "Radiate",
+            "sentenceId": 24,
+            "definition": "放射する",
+            "explanation": "中心から外に向かって光や熱を放つこと。自分の魅力を隠したり遠慮したりせず、周りの人にも届くように堂々と表現することです。"
+        },
+        {
+            "word": "Inner child",
+            "sentenceId": 28,
+            "definition": "インナーチャイルド",
+            "explanation": "大人の中に住んでいる「内なる子供」。遊び心、好奇心、そして理由のない喜びを感じる能力。太陽のカードはこの部分を活性化させます。"
+        },
+        {
+            "word": "Birthright",
+            "sentenceId": 30,
+            "definition": "生得権",
+            "explanation": "生まれたときから持っている権利。「幸せになるために何かを達成しなければならない」のではなく、「生きているだけで幸せになる権利がある」という強い肯定です。"
+        },
+        {
+            "word": "Benevolent",
+            "sentenceId": 6,
+            "definition": "慈悲深い",
+            "explanation": "宇宙や世界が、自分に対して好意的であること。太陽の下では、世界は敵ではなく、遊び場になります。"
+        },
+        {
+            "word": "Simple pleasures",
+            "sentenceId": 29,
+            "definition": "単純な喜び",
+            "explanation": "美味しいものを食べる、日向ぼっこをする、笑うといった、複雑な理屈のいらない原始的な幸福。太陽は、幸せのハードルを下げることの重要性を説きます。"
+        }
+    ]
+}
