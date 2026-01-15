@@ -332,9 +332,13 @@ function updateModalContent() {
     // Decorate English sentence with interactive links
     let decoratedText = rawText;
     relevantGlossary.forEach(entry => {
-        const escapedWord = entry.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const matchTerm = entry.textMatch || entry.word;
+        const escapedWord = matchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
         const regex = new RegExp(`\\b(${escapedWord})\\b`, 'gi');
-        decoratedText = decoratedText.replace(regex, `<span class="glossary-link" onclick="event.stopPropagation(); selectGlossaryWord('$1')">$1</span>`);
+        decoratedText = decoratedText.replace(regex, (match) => {
+            const safeWord = entry.word.replace(/'/g, "\\'");
+            return `<span class="glossary-link" onclick="event.stopPropagation(); selectGlossaryWord('${safeWord}')">${match}</span>`;
+        });
     });
     document.getElementById('modal-english').innerHTML = decoratedText;
 

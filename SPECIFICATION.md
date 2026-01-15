@@ -63,6 +63,11 @@ Defines vocabulary highlights with a flat, high-focus structure.
   - Clicking a word replaces the translation with a card showing `word`, `definition`, and `explanation`.
   - Multiple terms separated by "/" are abolished in favor of single-word entries.
 
+- **Term Normalization Rules**:
+  - **Verbs**: Use the base form (remove -s, -ing, -ed).
+  - **Nouns**: Use the singular form unless the plural has a specific distinct meaning.
+  - **Text Match**: In cases where the normalization differs from the text, use the `textMatch` property to link the specific occurrence to the normalized term.
+
 ---
 
 ## 3. Sentential Study Modal

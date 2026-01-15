@@ -8,28 +8,155 @@
             "explanation": "単に勝つだけでなく、困難な遠征から成功を収めて戻ってくる、誇り高いパレードのような勝利を意味します。古代ローマの凱旋式がモデルになっています。"
         },
         {
+            "word": "Will",
+            "sentenceId": 1,
+            "definition": "意志",
+            "explanation": "「〜したい」という願望ではなく、「〜する」という強い決断力。戦車のドライバーを突き動かすエンジンであり、不可能を可能にする精神的な力です。"
+        },
+        {
+            "word": "City gates",
+            "sentenceId": 2,
+            "definition": "城門",
+            "explanation": "安全な場所と危険な外の世界を分ける境界線。これを出ることは、保護された子供時代や慣れ親しんだ環境から、自立した冒険へと旅立つことを意味します。"
+        },
+        {
+            "word": "Known world",
+            "sentenceId": 2,
+            "definition": "既知の世界",
+            "explanation": "自分がすでに知っていて、快適に過ごせる領域（コンフォートゾーン）。戦車は、成長のためにあえてこの居心地の良い場所を背にして進みます。"
+        },
+        {
+            "word": "Vulnerability",
+            "sentenceId": 3,
+            "definition": "脆弱さ、傷つきやすさ",
+            "explanation": "恋人のカードが裸（無防備）で愛を求めたのに対し、戦車は鎧を着て戦いに挑みます。傷つくことを恐れず心を開く強さとは対照的な、強さで身を守る姿勢です。"
+        },
+        {
+            "word": "Armor",
+            "sentenceId": 3,
+            "definition": "鎧",
+            "explanation": "外部の攻撃や批判から身を守るための心理的な防備。強さの象徴ですが、同時に自分の繊細な内面を隠し、他者を寄せ付けない壁にもなり得ます。"
+        },
+        {
             "word": "Determination",
             "sentenceId": 3,
             "definition": "決意、決定",
             "explanation": "迷いを断ち切り、一つの目的に向かって心を固めること。「決める（De-termine）」とは、他の可能性という境界線（termine）を切り捨てる行為でもあります。"
         },
         {
-            "word": "Marshal",
+            "word": "Conqueror",
             "sentenceId": 4,
-            "definition": "結集させる、整列させる",
-            "explanation": "元帥（Marshal）が軍隊を指揮するように、自分の中にあるバラバラな資源（時間、お金、体力、才能）を一つの目的のために総動員することです。"
+            "definition": "征服者",
+            "explanation": "困難や敵を打ち負かし、自分の支配下に置く人。受動的に受け入れるのではなく、能動的に環境を変えていこうとする英雄的な元型です。"
+        },
+        {
+            "word": "Ego",
+            "sentenceId": 4,
+            "definition": "エゴ、自我",
+            "explanation": "「私」という意識の中心。精神分析では、本能（イド）と良心（超自我）を調整する司令塔。戦車は、健全で強力なエゴが人生をコントロールしている状態を描いています。"
+        },
+        {
+            "word": "Marshal",
+            "textMatch": "marshalling",
+            "sentenceId": 4,
+            "definition": "結集させる、指揮する",
+            "explanation": "元帥（Marshal）として軍隊を整列させたり、資源を特定の目的のために集めたりすること。バラバラなものをまとめて、使える状態に組織化するというニュアンスです。"
+        },
+        {
+            "word": "Passive",
+            "sentenceId": 5,
+            "definition": "受動的な",
+            "explanation": "運命や他人の決定にただ流される態度。戦車はこの態度を拒絶し、自分の運命は自分で切り開くという能動的な姿勢を貫きます。"
+        },
+        {
+            "word": "Champion",
+            "textMatch": "championing",
+            "sentenceId": 5,
+            "definition": "擁護する、支持する",
+            "explanation": "名詞では「優勝者」ですが、動詞ではある考えや人々を熱心に支持し、守るために戦うことを意味します。"
+        },
+        {
+            "word": "Imposition",
+            "sentenceId": 5,
+            "definition": "押し付け、課すこと",
+            "explanation": "自分の意志やルールを、他者や環境に対して強制的に適用すること。"
+        },
+        {
+            "word": "Duality",
+            "sentenceId": 6,
+            "definition": "二元性",
+            "explanation": "白と黒、善と悪、光と影のように、相反する二つの要素が対になっていること。この世界を構成する基本的な仕組みであり、戦車はこれを統合して進みます。"
+        },
+        {
+            "word": "Charioteer",
+            "sentenceId": 7,
+            "definition": "戦車の御者",
+            "explanation": "二輪戦車（Chariot）を操縦する人。古代の戦争やレースにおいて、高度な技術とバランス感覚が求められる役割でした。"
         },
         {
             "word": "Sphinx",
+            "textMatch": "sphinxes",
             "sentenceId": 7,
             "definition": "スフィンクス",
-            "explanation": "ただの馬ではなく、知恵と謎の象徴です。御者が操っているのは物理的な動物ではなく、人生の「謎」や「運命の不可解さ」そのものです。"
+            "explanation": "ライオンの体に人間の頭を持つ神話上の生き物。謎かけをして通りかかる人を試す怪物として知られています。"
+        },
+        {
+            "word": "Pillar",
+            "textMatch": "pillars",
+            "sentenceId": 8,
+            "definition": "柱",
+            "explanation": "建物を支える太い柱。転じて、社会や組織を支える重要な人物や概念（大黒柱）を指すこともあります。"
+        },
+        {
+            "word": "Opposing forces",
+            "sentenceId": 8,
+            "definition": "対立する力",
+            "explanation": "自分の中で喧嘩している異なる欲求（例：休みたい気持ちと働きたい気持ち）。これらが互いに逆方向に引っ張り合うと動けなくなりますが、戦車はそれらを同じ方向づけます。"
+        },
+        {
+            "word": "Mercy",
+            "sentenceId": 8,
+            "definition": "慈悲",
+            "explanation": "罰を与える力がある強い立場の人が、あえて罰せず許してあげる優しさや憐れみの心。"
+        },
+        {
+            "word": "Severity",
+            "sentenceId": 8,
+            "definition": "厳格さ、深刻さ",
+            "explanation": "ルールを厳しく適用すること、または状況が非常に悪い（深刻である）こと。甘さを許さない厳しさです。"
+        },
+        {
+            "word": "Poise",
+            "textMatch": "poised",
+            "sentenceId": 9,
+            "definition": "平衡、落ち着き",
+            "explanation": "バランスが取れていて、崩れそうな状況でも冷静さを保っている状態。バレリーナのような優雅な安定感です。"
         },
         {
             "word": "Harness",
+            "textMatch": "harnesses",
             "sentenceId": 9,
-            "definition": "利用する、馬具をつける",
-            "explanation": "自然の力や動物のエネルギーを、道具を使って人間が使える形に制御すること。タロットでは、自分の中にある「怒り」や「欲望」といった荒々しい感情を否定せず、前進するエネルギーとしてうまく利用することを指します。"
+            "definition": "（自然力を）動力化する、馬具",
+            "explanation": "馬に馬具をつけること。転じて、風力や水力、あるいは人々の感情などのエネルギーを、コントロールして有効活用することを指します。"
+        },
+        {
+            "word": "Rein",
+            "textMatch": "reins",
+            "sentenceId": 10,
+            "definition": "手綱",
+            "explanation": "馬をコントロールするための道具。このカードでは手綱が描かれていない（または見えない）ことが多く、物理的な力ではなく精神力で制御していることを示唆しています。"
+        },
+        {
+            "word": "Presence",
+            "sentenceId": 10,
+            "definition": "存在感、威厳",
+            "explanation": "ただそこにいるだけで周囲を圧倒したり、納得させたりするエネルギー。言葉や暴力を使わなくても、その人の意志の強さが周囲を従わせます。"
+        },
+        {
+            "word": "Sheer",
+            "sentenceId": 10,
+            "definition": "純粋な、全くの",
+            "explanation": "他のものが混じっていないこと。「Sheer luck（全くの幸運）」や「Sheer force（純粋な力）」のように、その性質が強調される時に使います。"
         },
         {
             "word": "Contradictory",
@@ -38,10 +165,48 @@
             "explanation": "「行きたいけど行きたくない」「好きだけど嫌い」といった、心の中で綱引きをしている相反する感情のこと。戦車はこれらを強引にまとめて走らせます。"
         },
         {
+            "word": "Encased",
+            "sentenceId": 13,
+            "definition": "包まれた、覆われた",
+            "explanation": "ケースに入っているように、完全に保護されている状態。外界の厳しさから「中身」を守るための必要な措置ですが、同時に閉鎖的になるリスクもあります。"
+        },
+        {
+            "word": "Crescent",
+            "textMatch": "crescents",
+            "sentenceId": 14,
+            "definition": "三日月",
+            "explanation": "満ち欠けする月の形。感情の揺らぎや変化を象徴します。肩にあるこの印は、彼が感情（水）の影響を受けやすいことを示していますが、鎧でそれを制御しています。"
+        },
+        {
+            "word": "Cancer",
+            "sentenceId": 14,
+            "definition": "蟹座",
+            "explanation": "占星術における第四の星座。硬い殻（鎧）で柔らかい中身を守る性質、家庭や母親、感情的な保護本能を象徴します。戦車のカードと対応しています。"
+        },
+        {
+            "word": "Fortification",
+            "textMatch": "fortifications",
+            "sentenceId": 15,
+            "definition": "要塞、防壁",
+            "explanation": "敵の攻撃を防ぐための強固な守り。心理的には、傷つきたくないという思いから作る心の壁や、強気な態度などを指します。"
+        },
+        {
             "word": "Persona",
             "sentenceId": 16,
             "definition": "ペルソナ、仮面",
             "explanation": "社会の中で機能するために私たちが身につける「役割」や「外向きの顔」です。本当の自分（柔らかい中身）を守るための鎧として機能します。"
+        },
+        {
+            "word": "Rigid",
+            "sentenceId": 16,
+            "definition": "硬直した、頑固な",
+            "explanation": "曲がらないこと。信念が揺るがないという良い意味と、柔軟性がなく融通が利かないという悪い意味があります。戦車の鎧は硬いですが、動きを制限することもあります。"
+        },
+        {
+            "word": "Harshness",
+            "sentenceId": 16,
+            "definition": "厳しさ、過酷さ",
+            "explanation": "環境や言葉が、不快で耐えがたいほど強いこと。冬の寒さや、容赦ない批判などに使われます。"
         },
         {
             "word": "Canopy",
@@ -50,16 +215,102 @@
             "explanation": "王座やベッドの上にある覆いのこと。戦車の上の星空の布は、彼が宇宙の法則や天の意志に見守られていることを示しています。"
         },
         {
+            "word": "Celestial",
+            "sentenceId": 17,
+            "definition": "天上の、天体の",
+            "explanation": "地上の俗世間を超えた、神聖な領域。戦車は地上の征服を目指して走りますが、その頭上には常に宇宙の神秘が広がっています。"
+        },
+        {
+            "word": "Starry",
+            "sentenceId": 17,
+            "definition": "星の多い、星のような",
+            "explanation": "星が空いっぱいに輝いている様子。キラキラ輝く、希望に満ちた、という意味でも使われます。"
+        },
+        {
+            "word": "Earthly",
+            "sentenceId": 17,
+            "definition": "地上の、世俗の",
+            "explanation": "天国（Divine/Celestial）と対比される、私たちが住む現実世界のこと。物質的、肉体的な事柄を指します。"
+        },
+        {
             "word": "Momentum",
             "sentenceId": 19,
             "definition": "推進力、勢い",
             "explanation": "一度動き出したものが、そのまま動き続けようとする力。最初の一歩（初動）が一番重く、一度スピードに乗ればあとは楽に進めるという物理法則を人生に当てはめています。"
         },
         {
+            "word": "Physics",
+            "sentenceId": 20,
+            "definition": "物理学",
+            "explanation": "物質やエネルギーの法則を研究する学問。ここでは、精神的な世界においても、現実世界と同じように「力」や「作用・反作用」の法則が働くことを示唆しています。"
+        },
+        {
+            "word": "Force",
+            "sentenceId": 21,
+            "definition": "力",
+            "explanation": "物体の状態を変化させる働き。戦車は、停滞している現状（静止状態）に衝撃を与え、無理やり動かす「外力」として作用します。"
+        },
+        {
             "word": "Inertia",
             "sentenceId": 22,
             "definition": "慣性",
             "explanation": "止まっているものは止まり続けようとする性質。何かを始めようとする時に感じる「めんどくさい」「怖い」という心の重さのことです。戦車はこの慣性を打ち破る爆発的な力です。"
+        },
+        {
+            "word": "Procrastination",
+            "sentenceId": 22,
+            "definition": "先延ばし",
+            "explanation": "やるべきことを後回しにすること。慣性の一種であり、動き出すことへの抵抗です。戦車のエネルギーは、この「明日やろう」という怠け心を打ち砕きます。"
+        },
+        {
+            "word": "Aggressive",
+            "sentenceId": 23,
+            "definition": "攻撃的な、積極的な",
+            "explanation": "単に暴力的という意味ではなく、目標に向かってガツガツと進むエネルギーの強さ。遠慮したり待ったりせず、自分から掴み取りに行く姿勢です。"
+        },
+        {
+            "word": "Orbit",
+            "sentenceId": 23,
+            "definition": "軌道",
+            "explanation": "天体が決まった道を周り続けること。人生における「マンネリ」や「同じパターンの繰り返し」の比喩。ここから脱出するには、ロケットのような爆発的なエネルギーが必要です。"
+        },
+        {
+            "word": "Unblinkingly",
+            "sentenceId": 24,
+            "definition": "瞬きせずに、直視して",
+            "explanation": "恐怖や躊躇を感じず、対象をじっと見つめ続けること。強い決意や集中力を示します。"
+        },
+        {
+            "word": "Horizon",
+            "sentenceId": 24,
+            "definition": "地平線",
+            "explanation": "空と大地が接する遠くの線。目指すべき遠い目標や、まだ見ぬ未来の象徴。戦車の御者は手元（現在）ではなく、常にこの遠く（未来）を見つめています。"
+        },
+        {
+            "word": "Resolve",
+            "sentenceId": 26,
+            "definition": "決意、不屈の精神",
+            "explanation": "困難があっても諦めない強い気持ち。「解決する（Resolve）」と同じ語源で、問題を解きほぐし、意志を固めることを意味します。"
+        },
+        {
+            "word": "Weigh",
+            "textMatch": "weighing",
+            "sentenceId": 27,
+            "definition": "比較検討する、重さを量る",
+            "explanation": "決断する前に、それぞれの選択肢の良し悪し（重さ）を慎重に考えること。「Weigh options（選択肢を天秤にかける）」という表現でよく使われます。"
+        },
+        {
+            "word": "Discipline",
+            "sentenceId": 28,
+            "definition": "規律、自己鍛錬",
+            "explanation": "感情や欲望をコントロールし、目標のために自分を律すること。自由奔放に振る舞うのではなく、厳しい訓練によって能力を高める戦士の徳目です。"
+        },
+        {
+            "word": "Channel",
+            "textMatch": "channeling",
+            "sentenceId": 28,
+            "definition": "向ける、注ぐ",
+            "explanation": "水路（Channel）のように、散らばりそうなエネルギーを一つの方向に流すこと。感情の爆発をただの癇癪にせず、創造的なパワーとして活用する技術です。"
         },
         {
             "word": "Laser-like focus",
