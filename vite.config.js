@@ -10,6 +10,7 @@ export default defineConfig({
             input: {
                 main: resolve(__dirname, 'index.html'),
                 article: resolve(__dirname, 'article.html'),
+                category: resolve(__dirname, 'category.html'),
                 editor: resolve(__dirname, 'editor.html'),
             },
         },
@@ -23,7 +24,10 @@ export default defineConfig({
                     // Log every request to see what's happening
                     console.log(`[Middleware] Request: ${req.url}`);
 
-                    if (req.url.indexOf('/articles/') !== -1 &&
+                    if (req.url.match(/\/articles\/(?:tarot|finance|science)\/?$/)) {
+                        console.log(`[Middleware] Rewriting ${req.url} -> /category.html`);
+                        req.url = '/category.html';
+                    } else if (req.url.indexOf('/articles/') !== -1 &&
                         !req.url.includes('/data/') &&
                         !req.url.includes('/images/') &&
                         !req.url.includes('/audio/')) {

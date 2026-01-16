@@ -6,23 +6,48 @@ let articleGlossary = [];
 let currentModalIndex = -1;
 
 async function loadArticle() {
-    const { mode, slug } = parseUrl();
-    currentSlug = slug;
+    let { mode, category, slug } = parseUrl();
+
+    // Handle legacy URLs where category is missing: /articles/:slug
+    if (!slug && category) {
+        // e.g. /articles/the-fool -> category='the-fool', slug=undefined
+        slug = category;
+        category = '';
+    }
 
     // Set language mode class
     document.body.classList.add(`mode-${mode}`);
-    renderLanguageSwitcher(mode, slug);
+    renderLanguageSwitcher(mode, slug, category); // Updated signature
 
     if (!slug) {
         document.getElementById('app').innerHTML = '<div class="error">Article not found.</div>';
         return;
     }
 
+    // If category is missing, try to resolve it from the index
+    if (!category) {
+        try {
+            const indexRes = await fetch('/data/articles-index.json');
+            if (indexRes.ok) {
+                const index = await indexRes.json();
+                const found = index.find(a => a.slug === slug);
+                if (found) category = found.category;
+            }
+        } catch (e) {
+            console.warn('Failed to load index for category resolution', e);
+        }
+    }
+
+    currentSlug = slug;
+
+    // Construct path: if category found, use it. Else assume root (legacy backup) or fail.
+    const pathPrefix = category ? `/data/articles/${category}/${slug}` : `/data/articles/${slug}`;
+
     try {
         const [articleRes, transRes, glossaryRes] = await Promise.all([
-            fetch(`/data/articles/${slug}.json`),
-            fetch(`/data/articles/${slug}.translation.ja.json`),
-            fetch(`/data/articles/${slug}.glossary.ja.json`)
+            fetch(`${pathPrefix}.json`),
+            fetch(`${pathPrefix}.translation.ja.json`),
+            fetch(`${pathPrefix}.glossary.ja.json`)
         ]);
 
         if (!articleRes.ok) throw new Error('Article not found');
@@ -59,30 +84,42 @@ async function loadArticle() {
         setupAudio(allBlocks);
     } catch (error) {
         console.error('Error loading article:', error);
-        document.getElementById('app').innerHTML = '<div class="error">Error loading article content.</div>';
+        document.getElementById('app').innerHTML = `<div class="error">Error loading article content.<br><small>${error.message}</small></div>`;
     }
 }
 
 function parseUrl() {
     const path = window.location.pathname;
-    // Match /:mode/articles/:slug or /articles/:slug
-    // Modes: en-ja, en, ja, en-vn
-    const match = path.match(/^\/?(?:(en|ja|en-ja|en-vn)\/)?articles\/([^/]+)/);
-    if (match) {
-        return {
-            mode: match[1] || 'en', // Default to 'en' (Immersion) if no mode present
-            slug: match[2]
-        };
+    const parts = path.split('/').filter(p => p);
+
+    // Expected: [mode, 'articles', category, slug]  OR [mode, 'articles', slug]
+    // Or: ['articles', slug]
+
+    let mode = 'en'; // default
+    let category = '';
+    let slug = '';
+
+    const modeCandidates = ['en', 'ja', 'en-ja', 'en-vn'];
+    let startIndex = 0;
+
+    if (modeCandidates.includes(parts[0])) {
+        mode = parts[0];
+        startIndex = 1;
     }
 
-    // Fallback for legacy or direct file access
-    const params = new URLSearchParams(window.location.search);
-    const slug = params.get('slug');
-    if (slug) {
-        return { mode: 'en-ja', slug };
+    if (parts[startIndex] === 'articles') {
+        const remaining = parts.slice(startIndex + 1);
+        if (remaining.length === 2) {
+            category = remaining[0];
+            slug = remaining[1];
+        } else if (remaining.length === 1) {
+            // Ambiguous: could be category/index (future) or just slug
+            // For now assume it is slug (legacy URL)
+            slug = remaining[0];
+        }
     }
 
-    return { mode: null, slug: null };
+    return { mode, category, slug };
 }
 
 function renderArticle(article, translations, mode) {
