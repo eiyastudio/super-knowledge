@@ -1,0 +1,75 @@
+[
+    {
+        "word": "Emergence",
+        "definition": "創発。単純なルールに従う個体が集まることで、予期せぬ複雑な秩序や知性が生まれる現象。",
+        "example": "The emergent behavior of the flock of birds was mesmerizing.",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Bottom-up",
+        "definition": "ボトムアップ、下意上達。下層からの積み上げによって全体が形成されること。「トップダウン (Top-down)」の対義語。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Neighbor Interaction",
+        "definition": "近傍相互作用。システム全体ではなく、近くにいる個体同士だけで情報をやり取りすること。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Feedback Loop",
+        "definition": "フィードバック・ループ。出力が入力に戻って影響を与える循環。「Positive (正：増幅)」と「Negative (負：抑制)」がある。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Cowboy Coding",
+        "definition": "カウボーイ・コーディング。規律や設計プロセスを無視し、プログラマーが個人の裁量だけで突き進む開発スタイル。一般的に悪い意味（無秩序）で使われる。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Adaptive Complex System",
+        "definition": "適応複雑系。環境の変化に合わせて自らを適応させることができる複雑なシステム（脳、免疫系、都市など）。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "disparate",
+        "definition": "異種の、共通点のない。",
+        "example": "seemingly disparate phenomena (一見バラバラに見える現象)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "unravel",
+        "definition": "（謎などを）解く、解明する。（糸などを）ほどく。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "slime mold",
+        "definition": "粘菌。単細胞生物だが、集合して移動する性質を持つため、創発の研究でよく扱われる。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "aggregate",
+        "definition": "集合する、集まる。(名詞): 集合体。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "command tower",
+        "definition": "指令塔。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "affirmation",
+        "definition": "肯定、是認。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "jumble",
+        "definition": "ごちゃ混ぜ、寄せ集め。",
+        "example": "a jumble of miscellaneous functions (雑多な機能の寄せ集め)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "mesmerizing",
+        "definition": "魅了するような、催眠術にかかったような。",
+        "matchStrategy": "exact"
+    }
+]

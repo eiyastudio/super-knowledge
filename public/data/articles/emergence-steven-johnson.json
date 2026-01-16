@@ -1,0 +1,344 @@
+{
+    "slug": "emergence",
+    "meta": {
+        "tags": [
+            "CREATIVITY",
+            "SYSTEMS"
+        ],
+        "image": "images/articles/emergence.jpg"
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "Do Smart Systems Emerge on Their Own? Bottom-up Intelligence Taught by Steven Johnson's \"Emergence\""
+        },
+        {
+            "id": 1,
+            "type": "sentence",
+            "text": "Have you ever heard the word \"Emergence\"?",
+            "paragraph_end": true
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Steven Johnson's book, \"Emergence: The Connected Lives of Ants, Brains, Cities, and Software,\" is an intellectually stimulating volume that connects these seemingly disparate phenomena with a single thread.",
+            "paragraph_end": true
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "Today, while unraveling the contents of this book, I would like to consider a certain doubt that those of us who launch new services or projects tend to harbor."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "That doubt is: Does the concept of self-organization simply become an excuse for an unplanned way of working?",
+            "paragraph_end": true
+        },
+        {
+            "id": 5,
+            "type": "heading",
+            "text": "The Shock of Brainless Organisms"
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "At the beginning of this book, a very impressive organism appears."
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "It is the slime mold."
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "This organism lives separately as single-celled amoebas under normal conditions.",
+            "paragraph_end": true
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "However, when the environment deteriorates, they aggregate in units of tens of thousands and begin to move as if they were one giant organism."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "Why can they gather and move as if they had arranged it, despite having no brain or nervous system?",
+            "paragraph_end": true
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "There is no leader here."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "This is the core theme of the book: Bottom-up Intelligence.",
+            "paragraph_end": true
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "It is a phenomenon where high-level intelligence, which did not exist before, surfaces through the gathering of simple individuals at the lower level, rather than through orders from above."
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "The author calls this \"Emergence.\"",
+            "paragraph_end": true
+        },
+        {
+            "id": 15,
+            "type": "heading",
+            "text": "The Myth of the Ant Queen"
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "When we look at organizations or systems, we unintentionally look for \"who is giving the instructions.\""
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "The author named this \"The Myth of the Ant Queen.\"",
+            "paragraph_end": true
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "It is a selfish human assumption that because the ant colony is so brilliantly controlled, the queen ant must be giving orders to all the worker ants."
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "In reality, the queen ant is nothing more than an egg-laying machine.",
+            "paragraph_end": true
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "Smart systems in nature are created entirely from the bottom up, not top-down."
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "So, why is order maintained even though there is no command tower?",
+            "paragraph_end": true
+        },
+        {
+            "id": 22,
+            "type": "heading",
+            "text": "Three Keys to Creating Emergence"
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "The author lists several important keywords as mechanisms for emergence to occur.",
+            "paragraph_end": true
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "The first is Neighbor Interaction."
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "Ants do not overlook the entire colony."
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "They only see the fellows right next to them or the pheromones at their feet."
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "The basic rule is to exchange information only with local neighbors, not the entire system.",
+            "paragraph_end": true
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "The second is Feedback Loops."
+        },
+        {
+            "id": 29,
+            "type": "sentence",
+            "text": "There are two types of this."
+        },
+        {
+            "id": 30,
+            "type": "sentence",
+            "text": "Positive feedback, where an action accelerates the next action, and negative feedback, which suppresses excess."
+        },
+        {
+            "id": 31,
+            "type": "sentence",
+            "text": "By balancing these two, the system adapts without going out of control or stagnating.",
+            "paragraph_end": true
+        },
+        {
+            "id": 32,
+            "type": "sentence",
+            "text": "The third is Pattern Recognition."
+        },
+        {
+            "id": 33,
+            "type": "sentence",
+            "text": "Even if individual elements understand nothing, the system as a whole senses specific trends or shapes."
+        },
+        {
+            "id": 34,
+            "type": "sentence",
+            "text": "It is the same logic as our brain recognizing \"this is an apple\" as a whole, even though a single neuron understands nothing.",
+            "paragraph_end": true
+        },
+        {
+            "id": 35,
+            "type": "heading",
+            "text": "Is It an Excuse for Unplanned \"Cowboys\"?"
+        },
+        {
+            "id": 36,
+            "type": "sentence",
+            "text": "Now, this is where we apply this to our work.",
+            "paragraph_end": true
+        },
+        {
+            "id": 37,
+            "type": "sentence",
+            "text": "No leader, individuals moving as they please."
+        },
+        {
+            "id": 38,
+            "type": "sentence",
+            "text": "At first glance, this might sound like an affirmation of a chaotic state, often called \"Cowboy Coding\" in the software development world.",
+            "paragraph_end": true
+        },
+        {
+            "id": 39,
+            "type": "sentence",
+            "text": "Cowboy coding refers to a state where members write programs as they please, relying only on their own wits without discipline, much like cowboys in a Western movie."
+        },
+        {
+            "id": 40,
+            "type": "sentence",
+            "text": "In a business context, it would be a state of pushing forward with individual ideas without plans or manuals.",
+            "paragraph_end": true
+        },
+        {
+            "id": 41,
+            "type": "sentence",
+            "text": "However, Johnson's answer is NO."
+        },
+        {
+            "id": 42,
+            "type": "sentence",
+            "text": "Emergence and disorder are completely different.",
+            "paragraph_end": true
+        },
+        {
+            "id": 43,
+            "type": "sentence",
+            "text": "Disorderly projects have no rules."
+        },
+        {
+            "id": 44,
+            "type": "sentence",
+            "text": "On the other hand, emergent systems have strict rules.",
+            "paragraph_end": true
+        },
+        {
+            "id": 45,
+            "type": "sentence",
+            "text": "Borrowing the words of urban theorist Jane Jacobs, the author described this as a \"Street Ballet.\""
+        },
+        {
+            "id": 46,
+            "type": "sentence",
+            "text": "On the sidewalks of a vibrant city, people pass each other as if dancing a complex dance in silence, monitoring each other, and maintaining order and safety."
+        },
+        {
+            "id": 47,
+            "type": "sentence",
+            "text": "This works not because they are walking as they please, but because they are following shared local rules such as distance from others and manners.",
+            "paragraph_end": true
+        },
+        {
+            "id": 48,
+            "type": "heading",
+            "text": "Service Developers Become Gardeners"
+        },
+        {
+            "id": 49,
+            "type": "sentence",
+            "text": "What happens if you are creating a new service and continue to implement fragments of interesting features without deciding too much on the overall picture?",
+            "paragraph_end": true
+        },
+        {
+            "id": 50,
+            "type": "sentence",
+            "text": "If those fragments do not interact with each other, it is just a jumble of miscellaneous functions."
+        },
+        {
+            "id": 51,
+            "type": "sentence",
+            "text": "However, if you carefully design the fragments to cause neighbor interaction, fun and convenience beyond the developer's imagination will be born there.",
+            "paragraph_end": true
+        },
+        {
+            "id": 52,
+            "type": "sentence",
+            "text": "Johnson calls this an Emergent Property."
+        },
+        {
+            "id": 53,
+            "type": "sentence",
+            "text": "It is a magical characteristic that does not exist in individual parts but appears for the first time when they become a whole.",
+            "paragraph_end": true
+        },
+        {
+            "id": 54,
+            "type": "sentence",
+            "text": "It is the same as how individual water molecules do not have the property of being \"wet,\" but when they gather, the property of water appears.",
+            "paragraph_end": true
+        },
+        {
+            "id": 55,
+            "type": "sentence",
+            "text": "In this way, a system that changes itself according to the environment and creates unexpected order is called an Adaptive Complex System.",
+            "paragraph_end": true
+        },
+        {
+            "id": 56,
+            "type": "sentence",
+            "text": "If we aim for the development of emergent services, we need to have the perspective of a Gardener who sows seeds, prepares the environment, and watches over the plants as they grow, rather than an Architect who manages every movement.",
+            "paragraph_end": true
+        },
+        {
+            "id": 57,
+            "type": "heading",
+            "text": "Conclusion"
+        },
+        {
+            "id": 58,
+            "type": "sentence",
+            "text": "Steven Johnson's \"Emergence\" is not an optimistic book that says \"it will get better on its own if left alone.\""
+        },
+        {
+            "id": 59,
+            "type": "sentence",
+            "text": "It is an explanation of the precise mechanism of \"how simple rules create complex intelligence.\"",
+            "paragraph_end": true
+        },
+        {
+            "id": 60,
+            "type": "sentence",
+            "text": "Reading this book should reveal the borderline of where to control and where to let free in your project management or team building."
+        }
+    ]
+}
