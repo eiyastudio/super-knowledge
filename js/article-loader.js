@@ -404,7 +404,7 @@ function updateModalContent() {
     // Cache and set initial translation
     const sentenceEl = document.querySelector(`.sentence[data-id="${sentenceId}"]`);
     const translationOverlay = sentenceEl.querySelector('.translation-overlay');
-    currentSentenceTranslation = translationOverlay ? translationOverlay.innerText : '';
+    currentSentenceTranslation = translationOverlay ? translationOverlay.textContent.trim() : ''; // Use textContent to get text even if hidden
     resetToTranslation();
 
     // Play button

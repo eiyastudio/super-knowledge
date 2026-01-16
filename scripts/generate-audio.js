@@ -8,8 +8,19 @@ const client = new textToSpeech.TextToSpeechClient({
 });
 
 async function generateAudio(slug) {
-    const articlePath = path.join(__dirname, '../public/data/articles', `${slug}.json`);
-    const glossaryPath = path.join(__dirname, '../public/data/articles', `${slug}.glossary.ja.json`);
+    // Resolve category from index
+    const indexData = await fs.readJson(path.join(__dirname, '../public/data/articles-index.json'));
+    const entry = indexData.find(e => e.slug === slug);
+    const category = entry ? entry.category : '';
+
+    const basePath = category
+        ? path.join(__dirname, '../public/data/articles', category)
+        : path.join(__dirname, '../public/data/articles');
+
+    const articlePath = path.join(basePath, `${slug}.json`);
+    const glossaryPath = path.join(basePath, `${slug}.glossary.ja.json`);
+
+    // Output remains flat by slug (as per article-loader.js logic)
     const outputDir = path.join(__dirname, '../public/audio', slug);
     const glossaryOutputDir = path.join(outputDir, 'glossary');
 

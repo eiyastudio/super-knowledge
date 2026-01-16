@@ -58,10 +58,10 @@ function updateHeader(category, mode) {
             descEn: 'Master the language of business and value.',
             descJa: 'ビジネスと価値の言語を習得する。'
         },
-        'science': {
-            title: 'Science & Systems',
-            descEn: 'Understand the mechanisms of the world.',
-            descJa: '世界のメカニズムを理解する。'
+        'creativity': {
+            title: 'Creativity & Systems',
+            descEn: 'Understand the mechanisms of inspiration and complex systems.',
+            descJa: 'インスピレーションと複雑系のメカニズムを理解する。'
         }
     };
 

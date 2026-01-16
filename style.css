@@ -808,6 +808,11 @@ body.mode-en #glossary {
     display: none !important;
 }
 
+body.mode-en .modal-info-area {
+    min-height: 0 !important;
+    padding-bottom: 0 !important;
+}
+
 /* Native Reader Mode (Japanese Only) */
 body.mode-ja .controls {
     display: none !important;

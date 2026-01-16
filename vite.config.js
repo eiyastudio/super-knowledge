@@ -24,7 +24,7 @@ export default defineConfig({
                     // Log every request to see what's happening
                     console.log(`[Middleware] Request: ${req.url}`);
 
-                    if (req.url.match(/\/articles\/(?:tarot|finance|science)\/?$/)) {
+                    if (req.url.match(/\/articles\/(?:tarot|finance|creativity)\/?$/)) {
                         console.log(`[Middleware] Rewriting ${req.url} -> /category.html`);
                         req.url = '/category.html';
                     } else if (req.url.indexOf('/articles/') !== -1 &&
