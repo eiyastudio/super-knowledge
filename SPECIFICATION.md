@@ -100,21 +100,13 @@ Narration is pre-generated using Google Cloud's Gemini-powered Text-to-Speech.
 ---
 
 ## 5. Content Creation Workflow
-As the assistant, I handle the formatting of articles to ensure high standards:
+> **Note:** For detailed guidelines, naming conventions, and templates, please refer to [CONTENT_GUIDELINES.md](./CONTENT_GUIDELINES.md).
+
+The content creation process focuses on maintaining high standards of dignity and accuracy.
 1. **Drafting**: Create natural English and Japanese narratives.
-2. **Formatting**: Manually convert text into the Three-JSON structure, strictly following the `paragraph_end` rules.
+2. **Formatting**: Manually convert text into the Three-JSON structure.
 3. **Audio**: Run the generation script with the specific Style Prompt.
 4. **Integration**: Update `index.html` with the new article card.
-
-### 5.1 Draft Normalization Guidelines
-To ensure "stable" article creation from diverse draft formats, follow these normalization rules:
-
-- **Ignore Structural Markers**: Discard headers like "Part 1: English Text" or "Part 2: Translation". Only extract the actual content.
-- **Glossary Cleaning**:
-  - Remove part-of-speech tags (e.g., `(名詞)`, `(verb)`) from the `word` field.
-  - Simplify definitions. If the draft has `Word (Noun): Definition`, extract only `Word` as the key and `Definition` as the value.
-  - Flatten nested lists.
-- **Strict Schema Adherence**: regardless of how the draft uses bullet points or numbering, map the content strictly to the `sentences` (blocks), `translations`, and `glossary` arrays defined in Section 2.
 
 ---
 

@@ -25,14 +25,36 @@ async function loadArticle() {
             fetch(`/data/articles/${slug}.glossary.ja.json`)
         ]);
 
+        if (!articleRes.ok) throw new Error('Article not found');
+
         const article = await articleRes.json();
-        const translation = await transRes.json();
-        const glossaryData = await glossaryRes.json();
+
+        let translationsMap = {};
+        if (transRes.ok) {
+            try {
+                const translation = await transRes.json();
+                // Support both { translations: { ... } } and flat { "0": "..." } formats
+                translationsMap = translation.translations || translation || {};
+            } catch (e) {
+                console.warn('Failed to parse translation JSON', e);
+            }
+        }
+
+        let glossaryList = [];
+        if (glossaryRes.ok) {
+            try {
+                const glossaryData = await glossaryRes.json();
+                // Support both { glossary: [...] } and flat [...] formats
+                glossaryList = Array.isArray(glossaryData) ? glossaryData : (glossaryData.glossary || []);
+            } catch (e) {
+                console.warn('Failed to parse glossary JSON', e);
+            }
+        }
 
         allBlocks = article.blocks;
-        articleGlossary = glossaryData.glossary || [];
+        articleGlossary = glossaryList;
 
-        renderArticle(article, translation.translations, mode);
+        renderArticle(article, translationsMap, mode);
         renderGlossary(articleGlossary);
         setupAudio(allBlocks);
     } catch (error) {
