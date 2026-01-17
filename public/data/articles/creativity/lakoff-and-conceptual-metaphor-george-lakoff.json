@@ -1,0 +1,364 @@
+{
+    "slug": "lakoff-and-conceptual-metaphor-george-lakoff",
+    "meta": {
+        "tags": [
+            "CREATIVITY",
+            "COGNITION"
+        ],
+        "image": "images/articles/lakoff-and-conceptual-metaphor.jpg"
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "Words are the OS of Thought: George Lakoff Reveals the True Identity of Metaphor"
+        },
+        {
+            "id": 1,
+            "type": "sentence",
+            "text": "Have you recently argued with someone, refuted them, or perhaps found yourself on the defensive?",
+            "paragraph_end": true
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "If so, please stop and think for a moment."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "Why do we use war terms like refute, defensive, attack, win, and lose when talking about the intellectual activity of argumentation?",
+            "paragraph_end": true
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "An argument is not a fistfight. It is an exchange of words."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "Yet, we subconsciously perceive argumentation as war.",
+            "paragraph_end": true
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "Cognitive linguist George Lakoff points out the following in his book Metaphors We Live By."
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "\"Metaphor is not just a decoration of words. It is the operating system of thought itself by which we understand the world.\"",
+            "paragraph_end": true
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "Today, I will introduce the theory of Conceptual Metaphor, which is essential for creators to make intuitive designs.",
+            "paragraph_end": true
+        },
+        {
+            "id": 9,
+            "type": "heading",
+            "text": "1. Argument is War"
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "The most famous example Lakoff gives is the metaphor that Argument is War.",
+            "paragraph_end": true
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "Whether in English or Japanese, we borrow terms from war when talking about arguments."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "I attacked his claim."
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "I defended my position."
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "That opinion has weak defenses."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "I won the argument.",
+            "paragraph_end": true
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "According to Lakoff, this is not just a figure of speech."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "We understand the abstract act of arguing by fitting it into the structure of the concrete act of war."
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "That is why, in actual arguments, we regard the other person as an enemy, try to take territory, and try to decide the winner and loser.",
+            "paragraph_end": true
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "What if we had another metaphor that Argument is Dance?"
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "Perhaps the goal would be to cooperate with the partner to derive a beautiful conclusion, and the concept of winning or losing itself would disappear.",
+            "paragraph_end": true
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "In other words, depending on which metaphor we adopt, our perception of reality and our actions themselves change.",
+            "paragraph_end": true
+        },
+        {
+            "id": 22,
+            "type": "heading",
+            "text": "2. Thought Born from the Body"
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "So, where do these metaphors come from?"
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "Lakoff's answer is simple. They come from our Body.",
+            "paragraph_end": true
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "For example, there is a metaphor that Happy is Up, and Sad is Down."
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "We say feeling up, high spirits, feeling down, or sinking."
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "Why is good up and bad down in many languages around the world?",
+            "paragraph_end": true
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "It is because humans are upright animals."
+        },
+        {
+            "id": 29,
+            "type": "sentence",
+            "text": "When we are healthy, our backs stretch and our posture becomes good, which is up. When we approach sickness or death, we collapse to the ground, which is down.",
+            "paragraph_end": true
+        },
+        {
+            "id": 30,
+            "type": "sentence",
+            "text": "Another interesting example is the metaphor that Understanding is Digesting."
+        },
+        {
+            "id": 31,
+            "type": "sentence",
+            "text": "In Japanese, when we fully understand something, we say it falls into the intestines, or Fu ni Ochiru."
+        },
+        {
+            "id": 32,
+            "type": "sentence",
+            "text": "When we cannot accept something, we say we cannot swallow it."
+        },
+        {
+            "id": 33,
+            "type": "sentence",
+            "text": "In English, too, we use the phrase Gut feeling for intuition.",
+            "paragraph_end": true
+        },
+        {
+            "id": 34,
+            "type": "sentence",
+            "text": "Actually, there is a philosophical ancestor to this idea. It is the French philosopher Maurice Merleau-Ponty."
+        },
+        {
+            "id": 35,
+            "type": "sentence",
+            "text": "While Descartes famously said, I think, therefore I am, separating the mind from the body, Merleau-Ponty argued, I am my body."
+        },
+        {
+            "id": 36,
+            "type": "sentence",
+            "text": "He claimed that our perception is not a camera-like input, but a physical interaction between the body and the world."
+        },
+        {
+            "id": 37,
+            "type": "sentence",
+            "text": "Lakoff inherited this philosophical baton and proved it with the lens of modern linguistics.",
+            "paragraph_end": true
+        },
+        {
+            "id": 38,
+            "type": "heading",
+            "text": "3. UI Design is Metaphor Design"
+        },
+        {
+            "id": 39,
+            "type": "sentence",
+            "text": "This theory becomes the strongest weapon in game development and UI design."
+        },
+        {
+            "id": 40,
+            "type": "sentence",
+            "text": "This is because excellent UI is nothing but appropriate conceptual metaphor itself.",
+            "paragraph_end": true
+        },
+        {
+            "id": 41,
+            "type": "sentence",
+            "text": "Look at your computer screen. There are the Desktop, Folders, and the Trash Can."
+        },
+        {
+            "id": 42,
+            "type": "sentence",
+            "text": "These are all analogies of the physical bodily experience of office work to the digital world. That is why we can use them intuitively without a manual.",
+            "paragraph_end": true
+        },
+        {
+            "id": 43,
+            "type": "sentence",
+            "text": "Game UI is the same."
+        },
+        {
+            "id": 44,
+            "type": "sentence",
+            "text": "Why does the screen turn red when HP, or Hit Points, decrease? That is because of the metaphor that Life is Blood."
+        },
+        {
+            "id": 45,
+            "type": "sentence",
+            "text": "If the screen turned blue when HP decreased, players would intuitively misunderstand that they are freezing or that their MP decreased.",
+            "paragraph_end": true
+        },
+        {
+            "id": 46,
+            "type": "sentence",
+            "text": "A creator's job is nothing other than linking new rules and functions to the bodily memories users already possess, that is, choosing the correct metaphor.",
+            "paragraph_end": true
+        },
+        {
+            "id": 47,
+            "type": "heading",
+            "text": "4. The Link with Affordance"
+        },
+        {
+            "id": 48,
+            "type": "sentence",
+            "text": "Some of you might have noticed a connection with the concept of Affordance."
+        },
+        {
+            "id": 49,
+            "type": "sentence",
+            "text": "That intuition is sharp.",
+            "paragraph_end": true
+        },
+        {
+            "id": 50,
+            "type": "sentence",
+            "text": "James Gibson argued that the environment creates possibilities for action, or affordances, through the body."
+        },
+        {
+            "id": 51,
+            "type": "sentence",
+            "text": "Lakoff argues that the body creates possibilities for thought through metaphor.",
+            "paragraph_end": true
+        },
+        {
+            "id": 52,
+            "type": "sentence",
+            "text": "Especially in the digital world, these two are inseparable."
+        },
+        {
+            "id": 53,
+            "type": "sentence",
+            "text": "On a screen, there are no physical objects to grab or push."
+        },
+        {
+            "id": 54,
+            "type": "sentence",
+            "text": "However, by using the metaphor of a Button, we feel the affordance of pushing."
+        },
+        {
+            "id": 55,
+            "type": "sentence",
+            "text": "By using the metaphor of a Trash Can, we feel the affordance of throwing away.",
+            "paragraph_end": true
+        },
+        {
+            "id": 56,
+            "type": "sentence",
+            "text": "Metaphor is the bridge that brings physical affordance into the digital world.",
+            "paragraph_end": true
+        },
+        {
+            "id": 57,
+            "type": "heading",
+            "text": "5. Conclusion: New Metaphor, New Reality"
+        },
+        {
+            "id": 58,
+            "type": "sentence",
+            "text": "Lakoff says the following."
+        },
+        {
+            "id": 59,
+            "type": "sentence",
+            "text": "\"New metaphors have the power to create a new reality.\"",
+            "paragraph_end": true
+        },
+        {
+            "id": 60,
+            "type": "sentence",
+            "text": "If you are trying to make a new game or service that has never existed before, please look for a metaphor before explaining the functions.",
+            "paragraph_end": true
+        },
+        {
+            "id": 61,
+            "type": "sentence",
+            "text": "Is it War? Or is it Dance?"
+        },
+        {
+            "id": 62,
+            "type": "sentence",
+            "text": "Is it a Journey? Or is it Architecture?",
+            "paragraph_end": true
+        },
+        {
+            "id": 63,
+            "type": "sentence",
+            "text": "When an appropriate metaphor is found, users should intuitively understand the complex world you created as nostalgically as their own garden."
+        },
+        {
+            "id": 64,
+            "type": "sentence",
+            "text": "The shape of the world changes with just one choice of words.",
+            "paragraph_end": true
+        }
+    ]
+}

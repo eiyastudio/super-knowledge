@@ -1,0 +1,100 @@
+[
+    {
+        "word": "Conceptual Metaphor",
+        "definition": "概念メタファー。言葉だけの比喩ではなく、私たちの認識や思考のベースになっている比喩のこと。",
+        "example": "\"Argument is War\" (議論＝戦争)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Embodiment",
+        "definition": "身体性。心や思考は、脳だけでなく身体的な経験に基づいているという考え方。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Argument is War",
+        "definition": "議論は戦争である。レイコフが挙げた有名な概念メタファー。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "refute",
+        "definition": "論破する、反論する。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "defensive",
+        "definition": "防御的な、守勢の。",
+        "example": "on the defensive (守勢に回って)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "subconsciously",
+        "definition": "無意識に、潜在意識下で。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "figure of speech",
+        "definition": "言葉の綾、比喩的表現。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "derive",
+        "definition": "導き出す、得る。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "upright",
+        "definition": "直立した、まっすぐな。",
+        "example": "upright animals (直立する動物)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "digest",
+        "definition": "消化する。比喩的に「情報を理解する」という意味でも使われる。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Gut feeling",
+        "definition": "直感、予感。理屈ではなく腹の底から湧く感覚。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "ancestor",
+        "definition": "先祖、先駆者。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "interaction",
+        "definition": "相互作用。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "inseparable",
+        "definition": "切っても切れない、分離できない。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "intuitively",
+        "definition": "直感的に。説明されなくても感覚で分かること。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "nostalgically",
+        "definition": "懐かしく、郷愁を誘うように。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "George Lakoff",
+        "definition": "ジョージ・レイコフ。アメリカの認知言語学者。『レトリックと人生』の著者。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Maurice Merleau-Ponty",
+        "definition": "モーリス・メルロ＝ポンティ。フランスの哲学者。「身体こそが世界を知覚する主体である」と説いた。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Desktop Metaphor",
+        "definition": "デスクトップ・メタファー。PC画面を「オフィスの机の上」に見立てるUI設計思想。",
+        "matchStrategy": "exact"
+    }
+]

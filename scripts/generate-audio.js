@@ -47,7 +47,7 @@ async function generateAudio(slug) {
         const glossaryData = await fs.readJson(glossaryPath);
         console.log(`Generating glossary audio for: ${slug}...`);
 
-        const entries = Array.isArray(glossaryData.glossary) ? glossaryData.glossary : [];
+        const entries = Array.isArray(glossaryData) ? glossaryData : (Array.isArray(glossaryData.glossary) ? glossaryData.glossary : []);
         for (const entry of entries) {
             const word = entry.word;
             const wordSlug = word.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-$/, '');

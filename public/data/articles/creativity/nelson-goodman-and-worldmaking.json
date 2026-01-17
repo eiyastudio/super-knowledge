@@ -1,0 +1,324 @@
+{
+    "slug": "nelson-goodman-and-worldmaking",
+    "meta": {
+        "tags": [
+            "CREATIVITY",
+            "PHILOSOPHY"
+        ],
+        "image": "images/articles/nelson-goodman-and-worldmaking.jpg"
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "Breaking the Curse of Originality: Nelson Goodman's \"Ways of Worldmaking\""
+        },
+        {
+            "id": 1,
+            "type": "sentence",
+            "text": "Be original."
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Create something new from scratch.",
+            "paragraph_end": true
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "Anyone involved in making things has likely felt crushed by the pressure of these words."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "You might blame yourself for having no talent because you can only come up with ideas that look like something you have seen somewhere.",
+            "paragraph_end": true
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "To you, I present the words of Nelson Goodman, a philosopher representing the 20th century.",
+            "paragraph_end": true
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "\"Worldmaking is not creating something from nothing. It is making a new Version using the world at hand.\"",
+            "paragraph_end": true
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "Today, I will introduce Goodman's theory of Worldmaking, which serves as the strongest indulgence for all creators.",
+            "paragraph_end": true
+        },
+        {
+            "id": 8,
+            "type": "heading",
+            "text": "1. The World is Not One"
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "We usually think that there is only one world."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "We believe that cutting out that single reality accurately like a camera is the correct perception.",
+            "paragraph_end": true
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "However, Goodman denies this."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "The world is not one. There are only countless Versions.",
+            "paragraph_end": true
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "There is the physicist's world, a world of mathematical formulas where atoms and elementary particles fly around."
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "There is the painter's world, a visual world composed of color, light, and shadow."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "There is the musician's world, an auditory world filled with rhythm and harmony.",
+            "paragraph_end": true
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "These are all correct, and none of them contradict each other."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "The painting of twisted cypress trees drawn by Van Gogh might be wrong as a botanical encyclopedia, but it is a correct Version as an expression of his emotions.",
+            "paragraph_end": true
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "In other words, a creator's job is not to find the single correct answer, but to present your own Version.",
+            "paragraph_end": true
+        },
+        {
+            "id": 19,
+            "type": "heading",
+            "text": "2. Creation is Remaking"
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "Then, how do we create a new Version?"
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "Goodman says that the method is surprisingly concrete and, in a sense, manual work.",
+            "paragraph_end": true
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "According to him, Worldmaking is nothing but a process of Remaking the existing world."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "There is no need to create materials from scratch. You just need to apply operations like the following to the existing world, or Version.",
+            "paragraph_end": true
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "First is Composition and Decomposition."
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "You take the whole apart and stick it together in a different combination. For example, combining the wings of a bird and the body of a human to make an angel.",
+            "paragraph_end": true
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "Second is Weighting."
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "You emphasize certain parts and relegate others to the background. For example, drawing a characteristic nose large in a caricature.",
+            "paragraph_end": true
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "Third is Ordering."
+        },
+        {
+            "id": 29,
+            "type": "sentence",
+            "text": "You change the flow of time or the order of arrangement. For example, flashbacks in movies or narrative tricks in mystery novels.",
+            "paragraph_end": true
+        },
+        {
+            "id": 30,
+            "type": "sentence",
+            "text": "Fourth is Deletion and Supplementation."
+        },
+        {
+            "id": 31,
+            "type": "sentence",
+            "text": "You erase obstacles or supplement missing parts with imagination. For example, erasing buildings from a map to leave only the roads.",
+            "paragraph_end": true
+        },
+        {
+            "id": 32,
+            "type": "sentence",
+            "text": "These are all the same as what we do in our usual editing work or refinement."
+        },
+        {
+            "id": 33,
+            "type": "sentence",
+            "text": "Creation is not a miracle like God, but manual work like an editor.",
+            "paragraph_end": true
+        },
+        {
+            "id": 34,
+            "type": "heading",
+            "text": "3. Example: The Day Side B Became Dub"
+        },
+        {
+            "id": 35,
+            "type": "sentence",
+            "text": "The invention of the music genre Dub most vividly embodies this process.",
+            "paragraph_end": true
+        },
+        {
+            "id": 36,
+            "type": "sentence",
+            "text": "In Jamaica in the 1960s, an engineer named King Tubby started experimenting with existing reggae songs, or the A-side."
+        },
+        {
+            "id": 37,
+            "type": "sentence",
+            "text": "He did not compose a new song. He just added Goodman-like operations to the existing recording tape.",
+            "paragraph_end": true
+        },
+        {
+            "id": 38,
+            "type": "sentence",
+            "text": "Deletion. He boldly erased the vocals, which were the main character of the song."
+        },
+        {
+            "id": 39,
+            "type": "sentence",
+            "text": "Weighting. He extremely increased the volume of the drums and bass, which were just the background."
+        },
+        {
+            "id": 40,
+            "type": "sentence",
+            "text": "Deformation. He distorted the sound space by applying echo and reverb.",
+            "paragraph_end": true
+        },
+        {
+            "id": 41,
+            "type": "sentence",
+            "text": "At the time, these were literally called Versions for karaoke."
+        },
+        {
+            "id": 42,
+            "type": "sentence",
+            "text": "However, by erasing the main character, or vocals, another world called the pleasure of rhythm emerged conversely.",
+            "paragraph_end": true
+        },
+        {
+            "id": 43,
+            "type": "sentence",
+            "text": "This became the source of a huge culture called Dub, which later connected to hip hop and techno."
+        },
+        {
+            "id": 44,
+            "type": "sentence",
+            "text": "He created nothing from scratch. However, by making a Version of the existing world, he changed the history of music.",
+            "paragraph_end": true
+        },
+        {
+            "id": 45,
+            "type": "heading",
+            "text": "4. Your Filter Becomes Value"
+        },
+        {
+            "id": 46,
+            "type": "sentence",
+            "text": "You might feel anxious that this is just plagiarism or rehash.",
+            "paragraph_end": true
+        },
+        {
+            "id": 47,
+            "type": "sentence",
+            "text": "However, according to Goodman, Einstein's theory of relativity and Picasso's paintings are all remakes using the old world of past science and art as materials."
+        },
+        {
+            "id": 48,
+            "type": "sentence",
+            "text": "What is important is not whether the materials are new."
+        },
+        {
+            "id": 49,
+            "type": "sentence",
+            "text": "It is whether there is your own perspective, or style, in the way of reconstruction.",
+            "paragraph_end": true
+        },
+        {
+            "id": 50,
+            "type": "sentence",
+            "text": "Even if you depict the same city of Tokyo, the Tokyo seen by a photographer and the Tokyo narrated by a rapper become completely different Versions."
+        },
+        {
+            "id": 51,
+            "type": "sentence",
+            "text": "It does not matter if the subject is worn out. If it is output through your filter, it is already a new world that is unique in this world.",
+            "paragraph_end": true
+        },
+        {
+            "id": 52,
+            "type": "heading",
+            "text": "Conclusion: Unload the Burden"
+        },
+        {
+            "id": 53,
+            "type": "sentence",
+            "text": "Let's break the curse that we must make it from scratch."
+        },
+        {
+            "id": 54,
+            "type": "sentence",
+            "text": "You do not need to be God.",
+            "paragraph_end": true
+        },
+        {
+            "id": 55,
+            "type": "sentence",
+            "text": "Please decompose the world already in front of you a little, erase the main character, and emphasize the background, like King Tubby."
+        },
+        {
+            "id": 56,
+            "type": "sentence",
+            "text": "Making that separate Version is exactly what Goodman calls Worldmaking, and it is the true identity of the creation we should aim for.",
+            "paragraph_end": true
+        }
+    ]
+}

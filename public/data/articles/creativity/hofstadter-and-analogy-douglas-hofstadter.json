@@ -1,0 +1,380 @@
+{
+    "slug": "hofstadter-and-analogy-douglas-hofstadter",
+    "meta": {
+        "tags": [
+            "CREATIVITY",
+            "COGNITION"
+        ],
+        "image": "images/articles/hofstadter-and-analogy.jpg"
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "The True Identity of Thought is Analogy: The Mechanism of Creativity Revealed by Douglas Hofstadter"
+        },
+        {
+            "id": 1,
+            "type": "sentence",
+            "text": "It is said that Isaac Newton discovered the universal law of gravitation when he saw an apple fall from a tree.",
+            "paragraph_end": true
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "When we hear this episode, we imagine that some magical leap occurred inside the mind of a genius."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "An ordinary person sees an apple and only thinks it looks delicious, but a genius flashes with the idea of gravity."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "It seems like there is an insurmountable wall there.",
+            "paragraph_end": true
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "However, Douglas Hofstadter, a cognitive scientist known for Gödel, Escher, Bach, asserts the following in his book Surfaces and Essences."
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "\"There is no magic there. There is only analogy.\"",
+            "paragraph_end": true
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "Today, I will introduce Hofstadter's theory, which explains the true identity of our thought and creativity in the most simple and powerful way.",
+            "paragraph_end": true
+        },
+        {
+            "id": 8,
+            "type": "heading",
+            "text": "1. Thinking is Searching for Similarities"
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "Hofstadter's claim is radical."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "He declares that the entire act of human thinking is analogy.",
+            "paragraph_end": true
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "What is analogy?"
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "It is superimposing an unknown matter in front of you onto a known matter in your past memories.",
+            "paragraph_end": true
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "What happened inside Newton's head was not magic."
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "He found a common structure between the phenomenon of an apple falling to the ground happening in front of him and the phenomenon of the moon orbiting the earth in the sky.",
+            "paragraph_end": true
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "Superficially, an apple and the moon are completely different. Their sizes, colors, and locations are different."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "However, regarding the essential structure, that is, the point that they are being pulled toward the center by some force, aren't these two the same?"
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "The moment he thought so, the great discovery that the laws of the ground can be applied to the universe was born.",
+            "paragraph_end": true
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "According to Hofstadter, the processing taking place in the brain is the same for Einstein's theory of relativity and for deciding what to have for dinner today."
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "\"This is similar to that thing I ate a long time ago.\""
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "This pattern recognition is exactly the true identity of intelligence.",
+            "paragraph_end": true
+        },
+        {
+            "id": 21,
+            "type": "heading",
+            "text": "2. Surfaces and Essences"
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "Then, why can't we think like Newton?"
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "It is because we are trapped by the Surface of things and cannot see the Essence.",
+            "paragraph_end": true
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "For example, suppose you are a game developer."
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "When you think about wanting to make an interesting game like Mario, a person trapped by the surface thinks like this."
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "\"Mario is a game where a plumber wearing a red hat jumps. So, let's make a game where an electrician wearing a blue hat jumps.\"",
+            "paragraph_end": true
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "This is a superficial analogy. This will only result in a poor imitation.",
+            "paragraph_end": true
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "On the other hand, a person who sees the essence extracts the structure of Mario."
+        },
+        {
+            "id": 29,
+            "type": "sentence",
+            "text": "\"What is the essence of Mario? It is a sophisticated system where movement, attacking, and dodging are all solved by just one action of jumping.\"",
+            "paragraph_end": true
+        },
+        {
+            "id": 30,
+            "type": "sentence",
+            "text": "If you can understand that, there is no need for the character to be a plumber, or even for the action to be jumping."
+        },
+        {
+            "id": 31,
+            "type": "sentence",
+            "text": "If you make a shooting game where you can attack, defend, and move with just one button operation, it might become a masterpiece that inherits the essence of Mario, even if it looks completely different.",
+            "paragraph_end": true
+        },
+        {
+            "id": 32,
+            "type": "sentence",
+            "text": "This is the teaching of Surfaces and Essences preached by Hofstadter.",
+            "paragraph_end": true
+        },
+        {
+            "id": 33,
+            "type": "heading",
+            "text": "3. Creativity is Leaping Far"
+        },
+        {
+            "id": 34,
+            "type": "sentence",
+            "text": "Creativity is not creating something from nothing."
+        },
+        {
+            "id": 35,
+            "type": "sentence",
+            "text": "It is the power to find a common essence from distant memories that seem completely unrelated at first glance.",
+            "paragraph_end": true
+        },
+        {
+            "id": 36,
+            "type": "sentence",
+            "text": "If you make an analogy from a nearby memory, it becomes a common-sense idea."
+        },
+        {
+            "id": 37,
+            "type": "sentence",
+            "text": "If you make an analogy from a distant memory, it becomes an original idea.",
+            "paragraph_end": true
+        },
+        {
+            "id": 38,
+            "type": "sentence",
+            "text": "Seeing the mechanism of an ant colony and seeing through to the common points with an urban traffic system."
+        },
+        {
+            "id": 39,
+            "type": "sentence",
+            "text": "Seeing the mechanism of biological evolution and applying it to a robot learning program.",
+            "paragraph_end": true
+        },
+        {
+            "id": 40,
+            "type": "sentence",
+            "text": "These are all advanced analogies that ignore surface differences and extract only the essential structure."
+        },
+        {
+            "id": 41,
+            "type": "sentence",
+            "text": "It is, so to speak, the difference in the performance of the search engine in the brain."
+        },
+        {
+            "id": 42,
+            "type": "sentence",
+            "text": "Whether searching for \"apple\" only brings up \"pear,\" or whether it can even get a hit for \"moon.\""
+        },
+        {
+            "id": 43,
+            "type": "sentence",
+            "text": "The breadth of that search range is where a creator shows their skill.",
+            "paragraph_end": true
+        },
+        {
+            "id": 44,
+            "type": "heading",
+            "text": "4. The Moment of Enlightenment and Short Circuits"
+        },
+        {
+            "id": 45,
+            "type": "sentence",
+            "text": "Looking back at history, there is a strange commonality in moments of great discovery or religious enlightenment."
+        },
+        {
+            "id": 46,
+            "type": "sentence",
+            "text": "That is, they are often triggered by extremely trivial, casual events.",
+            "paragraph_end": true
+        },
+        {
+            "id": 47,
+            "type": "sentence",
+            "text": "Buddha, the founder of Buddhism, is said to have attained enlightenment the moment he saw the Morning Star shining in the sky at dawn after long training."
+        },
+        {
+            "id": 48,
+            "type": "sentence",
+            "text": "The Zen monk Kyogen Chikan attained enlightenment the moment a small stone hit a bamboo and made a clicking sound while he was cleaning the garden."
+        },
+        {
+            "id": 49,
+            "type": "sentence",
+            "text": "Archimedes of ancient Greece discovered the principle of buoyancy the moment he saw bathwater overflowing and shouted Eureka while naked.",
+            "paragraph_end": true
+        },
+        {
+            "id": 50,
+            "type": "sentence",
+            "text": "Why do trivial stimuli like starlight or the sound of a pebble lead to world-changing discoveries?"
+        },
+        {
+            "id": 51,
+            "type": "sentence",
+            "text": "Using Hofstadter's theory, this can also be explained.",
+            "paragraph_end": true
+        },
+        {
+            "id": 52,
+            "type": "sentence",
+            "text": "Inside their brains, the network regarding the structure of the problem had been stretched to the limit by long-term deep thinking."
+        },
+        {
+            "id": 53,
+            "type": "sentence",
+            "text": "Then, information of a completely unrelated surface enters from the outside.",
+            "paragraph_end": true
+        },
+        {
+            "id": 54,
+            "type": "sentence",
+            "text": "Usually, that trivial stimulus would be ignored."
+        },
+        {
+            "id": 55,
+            "type": "sentence",
+            "text": "However, it contacted the thought circuit stretched around inside the brain and played the role of a short circuit that forcibly connected concepts far apart.",
+            "paragraph_end": true
+        },
+        {
+            "id": 56,
+            "type": "sentence",
+            "text": "The twinkling of stars, the sound of a pebble, overflowing hot water."
+        },
+        {
+            "id": 57,
+            "type": "sentence",
+            "text": "The physical structure hidden within them overlapped in an instant with the structure of the difficult problem they were holding."
+        },
+        {
+            "id": 58,
+            "type": "sentence",
+            "text": "In other words, enlightenment or inspiration might be a phenomenon like an electrical short circuit, where memories in extremely distant places in the brain connect with a snap sound through analogy.",
+            "paragraph_end": true
+        },
+        {
+            "id": 59,
+            "type": "heading",
+            "text": "5. Conclusion: Geniuses are Masters of Metaphor"
+        },
+        {
+            "id": 60,
+            "type": "sentence",
+            "text": "Hofstadter's theory gives us courage."
+        },
+        {
+            "id": 61,
+            "type": "sentence",
+            "text": "When we cannot come up with ideas, we do not need to lament that we have no talent."
+        },
+        {
+            "id": 62,
+            "type": "sentence",
+            "text": "It might just be that the distance of the samples we are comparing is too close.",
+            "paragraph_end": true
+        },
+        {
+            "id": 63,
+            "type": "sentence",
+            "text": "Read books from completely different fields, not just your own specialty, watch movies, and go on trips."
+        },
+        {
+            "id": 64,
+            "type": "sentence",
+            "text": "And always ask yourself this question."
+        },
+        {
+            "id": 65,
+            "type": "sentence",
+            "text": "\"Is this phenomenon not the same structure as 'something' I know?\"",
+            "paragraph_end": true
+        },
+        {
+            "id": 66,
+            "type": "sentence",
+            "text": "Seeing the world through metaphor."
+        },
+        {
+            "id": 67,
+            "type": "sentence",
+            "text": "That is the only and strongest training for an ordinary person to approach the thinking of a genius.",
+            "paragraph_end": true
+        }
+    ]
+}

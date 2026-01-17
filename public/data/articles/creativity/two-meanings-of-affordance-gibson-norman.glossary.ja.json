@@ -1,0 +1,93 @@
+[
+    {
+        "word": "Affordance",
+        "definition": "アフォーダンス。動詞 afford (～を与える) に由来する造語。環境が動物に提供する「行動の可能性」のこと。",
+        "example": "This chair affords sitting. (この椅子は座ることをアフォードしている)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "afford",
+        "definition": "提供する、～する余裕がある。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Signifier",
+        "definition": "シグニファイア。言語学や記号論の用語で「記号表現」のこと。ノーマンは「ユーザーに適切な行動を伝えるための目印や合図」という意味で、アフォーダンスの代わりにこの言葉を使うべきだったと訂正した。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "False Affordance",
+        "definition": "誤ったアフォーダンス。見た目が伝えるメッセージと、実際の機能が食い違っている状態。「押せそうなのに押せないドア」など。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Perceived Affordance",
+        "definition": "知覚されたアフォーダンス。ノーマンが初期に提唱した概念。実際に何ができるか（物理的特性）よりも、ユーザーが「何ができそうだと感じるか（心理的特性）」を重視した言葉。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "coined word",
+        "definition": "造語。新しい概念のために作られた言葉。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "coin",
+        "definition": "（新語を）作り出す、（硬貨を）鋳造する。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "lurk",
+        "definition": "潜む、隠れている。",
+        "example": "lurking in every place (あらゆる場所に潜んでいる)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "clumsy",
+        "definition": "不器用な、ぎこちない。",
+        "example": "It is not because you are clumsy. (あなたが不器用なせいではありません)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "rattle",
+        "definition": "ガタガタ鳴らす。ドアが開かなくてガチャガチャする様子などに使われます。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "subconscious",
+        "definition": "潜在意識の、無意識の。副詞形の subconsciously (無意識に) もよく使われます。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "conversely",
+        "definition": "逆に、反対に。対比的な例を出す際によく使われるフォーマルな単語です。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "outrageous",
+        "definition": "とんでもない、法外な、常軌を逸した。ノーマンの訂正がいかに衝撃的だったかを強調しています。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "rooted",
+        "definition": "根付いた、定着した。",
+        "example": "deeply rooted (深く根付いた)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "contrast",
+        "definition": "対照、対比（名詞）、対照をなす（動詞）。",
+        "example": "contrasting (対照的な)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "reside",
+        "definition": "宿る、住む、存在する。",
+        "example": "The fun resides here. (面白さはここに宿る)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "emergent",
+        "definition": "創発的な。単純なルールの組み合わせから複雑な結果が生まれること。",
+        "matchStrategy": "exact"
+    }
+]

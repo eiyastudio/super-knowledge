@@ -1,0 +1,110 @@
+[
+    {
+        "word": "Worldmaking",
+        "definition": "世界制作。ネルソン・グッドマンの造語。世界は与えられるものではなく、私たちが作り上げる「バージョン」であるという考え方。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Version",
+        "definition": "バージョン。グッドマン哲学のキーワード。絶対的な真実ではなく、特定の視点から構成された世界のこと。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Remaking",
+        "definition": "作り直し。創造とはゼロからの出発ではなく、既存の世界の再構成である。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Weighting",
+        "definition": "重み付け。ある要素を強調し、他を背景化する世界制作の手法。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Dub",
+        "definition": "ダブ。レゲエから派生した音楽ジャンル。既存の楽曲を加工（リメイク）して新しい魅力を引き出す手法。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "curse",
+        "definition": "呪い。",
+        "example": "Break the curse (呪いを解く)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "from scratch",
+        "definition": "ゼロから、最初から。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "indulgence",
+        "definition": "免罪符、甘やかすこと。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "contradict",
+        "definition": "矛盾する、否定する。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "botanical",
+        "definition": "植物の、植物学の。",
+        "example": "botanical encyclopedia (植物図鑑)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "concrete",
+        "definition": "具体的な。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "relegate",
+        "definition": "追いやる、格下げする。",
+        "example": "relegate to the background (背景に追いやる)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "caricature",
+        "definition": "風刺画、似顔絵。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "supplement",
+        "definition": "補う、追加する。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "refinement",
+        "definition": "洗練、改善。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "embody",
+        "definition": "体現する、具現化する。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "distortion",
+        "definition": "歪み、変形。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "plagiarism",
+        "definition": "盗作、パクリ。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "rehash",
+        "definition": "焼き直し。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "perspective",
+        "definition": "視点、観点、遠近法。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Nelson Goodman",
+        "definition": "ネルソン・グッドマン。アメリカの哲学者。「世界制作の方法」で知られる。",
+        "matchStrategy": "exact"
+    }
+]

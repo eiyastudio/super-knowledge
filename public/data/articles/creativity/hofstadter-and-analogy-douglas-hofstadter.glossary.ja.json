@@ -1,0 +1,117 @@
+[
+    {
+        "word": "Analogy",
+        "definition": "類推、アナロジー。既知の事柄（ソース）を未知の事柄（ターゲット）に当てはめて理解する思考プロセス。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Surface",
+        "definition": "表層。物事の見た目や、表面的な属性のこと。",
+        "example": "trapped by the Surface (表層に囚われる)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Essence",
+        "definition": "本質。物事の深層にある構造やコアとなる機能のこと。",
+        "example": "extracts the structure (構造を抜き出す)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Short Circuit",
+        "definition": "ショート回路、短絡。思考のプロセスを飛び越えて、遠くの概念同士が一瞬でつながる現象の比喩。",
+        "matchStrategy": "fuzzy"
+    },
+    {
+        "word": "Enlightenment",
+        "definition": "悟り、啓蒙。仏教的な悟り（satori）や、知的に開眼すること。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "insurmountable",
+        "definition": "克服できない、乗り越えられない。",
+        "example": "insurmountable wall (乗り越えられない壁)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "assert",
+        "definition": "断言する、主張する。強くはっきりと言うニュアンス。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "radical",
+        "definition": "過激な、急進的な、または根本的な。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "superimpose",
+        "definition": "重ね合わせる。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "superficially",
+        "definition": "表面上は、うわべは。形容詞は superficial。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "plumber",
+        "definition": "配管工。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "sophisticated",
+        "definition": "洗練された、精巧な。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "imitation",
+        "definition": "模倣、真似。",
+        "example": "poor imitation (粗悪な模倣、二番煎じ)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "commonality",
+        "definition": "共通点、共通性。複数形は commonalities。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "trivial",
+        "definition": "些細な、取るに足らない。",
+        "example": "trivial events (些細な出来事)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "buoyancy",
+        "definition": "浮力。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "forcibly",
+        "definition": "強引に、力ずくで。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "lament",
+        "definition": "嘆く、悲しむ。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Douglas Hofstadter",
+        "definition": "ダグラス・ホフスタッター。アメリカの認知科学者。『ゲーデル、エッシャー、バッハ』の著者。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Surfaces and Essences",
+        "definition": "『表層と本質』。ホフスタッターとエマニュエル・ザンダーの共著。人間の思考の本質は「類推」であると説く。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Morning Star",
+        "definition": "明けの明星（金星）。仏教で釈迦が悟りを開いた際に見たとされる。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Eureka",
+        "definition": "エウレカ。「わかった！」「発見した！」を意味するギリシャ語。",
+        "matchStrategy": "exact"
+    }
+]

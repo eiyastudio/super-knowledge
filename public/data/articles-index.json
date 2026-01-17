@@ -14,6 +14,19 @@
     "image": "images/articles/debits-and-credits.jpg"
   },
   {
+    "slug": "simcity-will-wright",
+    "category": "games",
+    "title": "Masterpiece Games: \"SimCity\" and the Art of Gardening",
+    "titleJa": "名作ゲーム：『シムシティ』と庭師の芸術",
+    "summary": "Most video games have a clear goal: defeat the monster, rescue the princess, or get the highest score. But SimCity was different.",
+    "summaryJa": "ほとんどのビデオゲームには明確な目標がありますが、シムシティは違いました。",
+    "tags": [
+      "GAMES",
+      "SYSTEMS"
+    ],
+    "image": "images/articles/simcity.jpg"
+  },
+  {
     "slug": "emergence-steven-johnson",
     "category": "creativity",
     "title": "Do Smart Systems Emerge on Their Own? Bottom-up Intelligence Taught by Steven Johnson's \"Emergence\"",
@@ -25,6 +38,110 @@
       "SYSTEMS"
     ],
     "image": "images/articles/emergence.jpg"
+  },
+  {
+    "slug": "at-home-in-the-universe-stuart-kauffman",
+    "category": "creativity",
+    "title": "\"At Home in the Universe\": Accident or Inevitable Masterpiece?",
+    "titleJa": "『自己組織化と進化の論理』：偶然の産物か、必然の傑作か",
+    "summary": "When we try to create something new, we often feel like we are praying to the god of chance.",
+    "summaryJa": "新しい何かを生み出そうとするとき、私たちはしばしば、偶然の神様に祈るような気持ちになります。",
+    "tags": [
+      "CREATIVITY",
+      "COMPLEXITY"
+    ],
+    "image": "images/articles/at-home-in-the-universe.jpg"
+  },
+  {
+    "slug": "two-meanings-of-affordance-gibson-norman",
+    "category": "creativity",
+    "title": "Two Meanings of Affordance: Gibson vs Norman",
+    "titleJa": "アフォーダンスの二つの意味：ギブソンとノーマン",
+    "summary": "Have you ever felt embarrassed at the entrance of a department store or a restaurant because you did not know whether to push or pull a door?",
+    "summaryJa": "デパートやレストランの入り口で、ドアを引くべきか押すべきか分からず、恥ずかしい思いをしたことはありませんか？",
+    "tags": [
+      "CREATIVITY",
+      "DESIGN"
+    ],
+    "image": "images/articles/two-meanings-of-affordance.jpg"
+  },
+  {
+    "slug": "hofstadter-and-analogy-douglas-hofstadter",
+    "category": "creativity",
+    "title": "The True Identity of Thought is Analogy: The Mechanism of Creativity Revealed by Douglas Hofstadter",
+    "titleJa": "思考の正体は「類推」である：ダグラス・ホフスタッターが暴く創造性のメカニズム",
+    "summary": "It is said that Isaac Newton discovered the universal law of gravitation when he saw an apple fall from a tree.",
+    "summaryJa": "アイザック・ニュートンは、木から落ちるリンゴを見て、万有引力を発見したと言われています。",
+    "tags": [
+      "CREATIVITY",
+      "COGNITION"
+    ],
+    "image": "images/articles/hofstadter-and-analogy-douglas-hofstadter.jpg"
+  },
+  {
+    "slug": "lakoff-and-conceptual-metaphor-george-lakoff",
+    "category": "creativity",
+    "title": "Words are the OS of Thought: George Lakoff Reveals the True Identity of Metaphor",
+    "titleJa": "言葉は思考のOSである：ジョージ・レイコフが解き明かす「メタファー」の正体",
+    "summary": "Have you recently argued with someone, refuted them, or perhaps found yourself on the defensive?",
+    "summaryJa": "あなたは最近、誰かと議論をして、相手を論破したり、あるいは守勢に回ったりしたことはありますか？",
+    "tags": [
+      "CREATIVITY",
+      "COGNITION"
+    ],
+    "image": "images/articles/lakoff-and-conceptual-metaphor-george-lakoff.jpg"
+  },
+  {
+    "slug": "lateral-thinking-edward-de-bono",
+    "category": "creativity",
+    "title": "Breaking Through the Limits of Logic: Edward de Bono's \"Lateral Thinking\"",
+    "titleJa": "ロジックの限界を突破する：エドワード・デ・ボノの「ラテラル・シンキング」",
+    "summary": "Digging the same hole deeper cannot move it to a different location.",
+    "summaryJa": "穴を深く掘り続けても、場所を変えることはできない。",
+    "tags": [
+      "CREATIVITY",
+      "THINKING"
+    ],
+    "image": "images/articles/lateral-thinking-edward-de-bono.jpg"
+  },
+  {
+    "slug": "three-types-of-creativity-margaret-boden",
+    "category": "creativity",
+    "title": "Sorting the Magic: Margaret Boden's \"Three Types of Creativity\"",
+    "titleJa": "魔法を整理する：マーガレット・ボーデンの「創造性の3つの型」",
+    "summary": "What is creativity?",
+    "summaryJa": "創造性とは何でしょうか。",
+    "tags": [
+      "CREATIVITY",
+      "COGNITION"
+    ],
+    "image": "images/articles/three-types-of-creativity-margaret-boden.jpg"
+  },
+  {
+    "slug": "nelson-goodman-and-worldmaking",
+    "category": "creativity",
+    "title": "Breaking the Curse of Originality: Nelson Goodman's \"Ways of Worldmaking\"",
+    "titleJa": "オリジナリティの呪いを解く：ネルソン・グッドマンの「世界制作の方法」",
+    "summary": "Be original.",
+    "summaryJa": "独創的であれ。",
+    "tags": [
+      "CREATIVITY",
+      "PHILOSOPHY"
+    ],
+    "image": "images/articles/nelson-goodman-and-worldmaking.jpg"
+  },
+  {
+    "slug": "joseph-campbell-and-the-heros-journey",
+    "category": "creativity",
+    "title": "The OS of Storytelling: Joseph Campbell's \"The Hero with a Thousand Faces\"",
+    "titleJa": "物語のOS：ジョゼフ・キャンベルの「千の顔をもつ英雄」",
+    "summary": "Why are we crazy about Star Wars, obsessed with Harry Potter, and delighted to adventure in The Legend of Zelda?",
+    "summaryJa": "なぜ私たちは、スター・ウォーズに熱狂し、ハリー・ポッターに夢中になり、そしてゼルダの伝説で冒険することに喜びを感じるのでしょうか。",
+    "tags": [
+      "CREATIVITY",
+      "STORYTELLING"
+    ],
+    "image": "images/articles/joseph-campbell-and-the-heros-journey.jpg"
   },
   {
     "slug": "the-chariot",

@@ -1,0 +1,352 @@
+{
+    "slug": "three-types-of-creativity-margaret-boden",
+    "meta": {
+        "tags": [
+            "CREATIVITY",
+            "COGNITION"
+        ],
+        "image": "images/articles/three-types-of-creativity-margaret-boden.jpg"
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "Sorting the Magic: Margaret Boden's \"Three Types of Creativity\""
+        },
+        {
+            "id": 1,
+            "type": "sentence",
+            "text": "What is creativity?"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Is it a mysterious flash of inspiration that descends from heaven? Or is it a skill that can be analyzed logically?",
+            "paragraph_end": true
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "Margaret Boden, a leading expert in cognitive science and AI research, argues for the latter."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "She is the person who classified creativity, which had been treated as magic until then, into three clear patterns.",
+            "paragraph_end": true
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "By learning this classification, we creators can calmly analyze our own ideas."
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "Is this idea just a variation? Or is it a revolution?"
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "Let's look at the three types defined by Boden.",
+            "paragraph_end": true
+        },
+        {
+            "id": 8,
+            "type": "heading",
+            "text": "1. Exploratory Creativity: Walking the Map"
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "The first type is Exploratory Creativity."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "This is the act of exploring possibilities thoroughly within existing rules or styles.",
+            "paragraph_end": true
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "Imagine a map of a certain territory. Exploratory creativity is the act of traveling to corners of that map that no one has visited yet."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "For example, a chef who pushes the heat control and handling of ingredients to the limit of sophistication without stepping out of the framework of traditional recipes, reaching a perfect taste that no one has ever eaten.",
+            "paragraph_end": true
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "This produces stable quality and style."
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "Although it may look plain compared to transformation, Boden does not deny this."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "Rather, she highly evaluates it, saying that by digging deep into one specialized field and sharpening skills, one can reach refined beauty and perfection.",
+            "paragraph_end": true
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "For example, think of the music of Johann Sebastian Bach."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "He did not create new musical rules. As a result of exploring the strict rules of counterpoint of the time to the limit, he created The Art of Fugue, which can be said to be a treasure of humanity."
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "Or, the paintings of Johannes Vermeer are the same. He captured a serene beauty that no one could reach within the existing rules of light and perspective.",
+            "paragraph_end": true
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "In this way, mastering existing rules is also great creativity."
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "Most professional jobs fall into this category. It is a solid and profound world.",
+            "paragraph_end": true
+        },
+        {
+            "id": 21,
+            "type": "heading",
+            "text": "2. Combinational Creativity: Layering Maps"
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "The second type is Combinational Creativity."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "This is the act of connecting two or more completely different ideas or concepts.",
+            "paragraph_end": true
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "Imagine overlaying a city map on top of a mountain map. Unexpected connections appear there.",
+            "paragraph_end": true
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "For example, Gutenberg's printing press changed history."
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "This was born from the combination of two technologies that were completely unrelated until then: the wine press for making wine and the casting technology for making coins.",
+            "paragraph_end": true
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "Or, Conveyor Belt Sushi in Japan is also a wonderful example."
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "Seeing a conveyor belt at a brewery and bringing it into a sushi restaurant created a cheap and fun new food culture.",
+            "paragraph_end": true
+        },
+        {
+            "id": 29,
+            "type": "sentence",
+            "text": "Of course, the iPhone, which combined a phone and a music player, is a typical example of this.",
+            "paragraph_end": true
+        },
+        {
+            "id": 30,
+            "type": "sentence",
+            "text": "This is the same mechanism that past great thinkers have advocated."
+        },
+        {
+            "id": 31,
+            "type": "sentence",
+            "text": "For example, cognitive scientist Douglas Hofstadter said, \"Thought is Analogy.\" This is the power to find a common structure between seemingly unrelated events."
+        },
+        {
+            "id": 32,
+            "type": "sentence",
+            "text": "Also, thinking consultant Edward de Bono preached the importance of forcibly connecting unrelated words with a method called Random Entry.",
+            "paragraph_end": true
+        },
+        {
+            "id": 33,
+            "type": "sentence",
+            "text": "Combinational Creativity is exactly this process. By overlaying maps in different domains, we discover new routes in the brain."
+        },
+        {
+            "id": 34,
+            "type": "sentence",
+            "text": "It is the most popular form of creativity in advertising and game development. The surprise of \"A combined with B\" is easy for anyone to understand.",
+            "paragraph_end": true
+        },
+        {
+            "id": 35,
+            "type": "heading",
+            "text": "3. Transformational Creativity: Rewriting the Map"
+        },
+        {
+            "id": 36,
+            "type": "sentence",
+            "text": "The third and most powerful type is Transformational Creativity."
+        },
+        {
+            "id": 37,
+            "type": "sentence",
+            "text": "This is the act of changing the rules of the thinking space itself.",
+            "paragraph_end": true
+        },
+        {
+            "id": 38,
+            "type": "sentence",
+            "text": "It involves a two-step process: Dropping a constraint and Adding a new rule."
+        },
+        {
+            "id": 39,
+            "type": "sentence",
+            "text": "Merely breaking rules is destruction. To create a new world, you must establish a new order in the space where the old rule was removed.",
+            "paragraph_end": true
+        },
+        {
+            "id": 40,
+            "type": "sentence",
+            "text": "For example, Picasso's Cubism."
+        },
+        {
+            "id": 41,
+            "type": "sentence",
+            "text": "He dropped the constraint that painting must be drawn from a single fixed viewpoint."
+        },
+        {
+            "id": 42,
+            "type": "sentence",
+            "text": "Then, he added a new rule that multiple viewpoints coexist on one screen. This created a new dimension in painting.",
+            "paragraph_end": true
+        },
+        {
+            "id": 43,
+            "type": "sentence",
+            "text": "Or, Schoenberg's Atonal Music."
+        },
+        {
+            "id": 44,
+            "type": "sentence",
+            "text": "He dropped the constraint that music must have a key."
+        },
+        {
+            "id": 45,
+            "type": "sentence",
+            "text": "Then, he added a rigorous new rule called the twelve-tone technique, where all 12 notes are treated equally.",
+            "paragraph_end": true
+        },
+        {
+            "id": 46,
+            "type": "sentence",
+            "text": "A recent example is the Savannah Bananas' \"Banana Ball\"."
+        },
+        {
+            "id": 47,
+            "type": "sentence",
+            "text": "This baseball team dropped the constraints of \"bunting,\" \"walks,\" and \"long game times,\" which were considered sacred in traditional baseball."
+        },
+        {
+            "id": 48,
+            "type": "sentence",
+            "text": "Instead, they added new rules: \"If a fan catches a foul ball, it's an out\" and \"A strict two-hour time limit.\""
+        },
+        {
+            "id": 49,
+            "type": "sentence",
+            "text": "At first glance, this might look like a mere combination of baseball and jokes."
+        },
+        {
+            "id": 50,
+            "type": "sentence",
+            "text": "However, by daring to subtract the boring parts of the game, they transformed the structure of the sport itself. This is genuine Transformational Creativity.",
+            "paragraph_end": true
+        },
+        {
+            "id": 51,
+            "type": "sentence",
+            "text": "This is the essence of Transformational Creativity."
+        },
+        {
+            "id": 52,
+            "type": "sentence",
+            "text": "It creates a new history by rewriting the artificial rules we unconsciously follow.",
+            "paragraph_end": true
+        },
+        {
+            "id": 53,
+            "type": "heading",
+            "text": "Conclusion: Diagnosing Your Ideas"
+        },
+        {
+            "id": 54,
+            "type": "sentence",
+            "text": "Boden's classification serves as a medical chart for ideas."
+        },
+        {
+            "id": 55,
+            "type": "sentence",
+            "text": "When you come up with a new project, please ask yourself.",
+            "paragraph_end": true
+        },
+        {
+            "id": 56,
+            "type": "sentence",
+            "text": "Am I exploring the existing map?"
+        },
+        {
+            "id": 57,
+            "type": "sentence",
+            "text": "Am I combining different maps?"
+        },
+        {
+            "id": 58,
+            "type": "sentence",
+            "text": "Or am I trying to rewrite the map itself?",
+            "paragraph_end": true
+        },
+        {
+            "id": 59,
+            "type": "sentence",
+            "text": "Of course, Transformational is not always the best."
+        },
+        {
+            "id": 60,
+            "type": "sentence",
+            "text": "Sometimes we need a solid Exploration, and sometimes we need a witty Combination."
+        },
+        {
+            "id": 61,
+            "type": "sentence",
+            "text": "The important thing is to understand which game you are playing now.",
+            "paragraph_end": true
+        },
+        {
+            "id": 62,
+            "type": "sentence",
+            "text": "If you can classify your own magic, you are no longer a gambler of inspiration, but an engineer of creativity.",
+            "paragraph_end": true
+        }
+    ]
+}

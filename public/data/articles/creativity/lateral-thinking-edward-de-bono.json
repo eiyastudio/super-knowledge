@@ -1,0 +1,344 @@
+{
+    "slug": "lateral-thinking-edward-de-bono",
+    "meta": {
+        "tags": [
+            "CREATIVITY",
+            "THINKING"
+        ],
+        "image": "images/articles/lateral-thinking-edward-de-bono.jpg"
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "Breaking Through the Limits of Logic: Edward de Bono's \"Lateral Thinking\""
+        },
+        {
+            "id": 1,
+            "type": "sentence",
+            "text": "Digging the same hole deeper cannot move it to a different location.",
+            "paragraph_end": true
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "This is a famous quote left by Edward de Bono, an expert on thinking."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "When we run into a problem, we tend to try to dig deeper.",
+            "paragraph_end": true
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "Let's gather more data, let's analyze more logically, let's make it more efficient."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "This is Vertical Thinking, or what we call Logical Thinking. It is the strongest weapon for deepening existing correct answers.",
+            "paragraph_end": true
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "However, what if the place you are digging is wrong in the first place?"
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "Or, what if the treasure is buried in a place where no one is digging?",
+            "paragraph_end": true
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "In such cases, the effort to keep digging hard in the same place is meaningless. What is needed is to put down the shovel once and move to the side, or Lateral.",
+            "paragraph_end": true
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "Today, I will introduce a technique called Lateral Thinking to forcibly destroy solidified brain patterns and find veins of new ideas.",
+            "paragraph_end": true
+        },
+        {
+            "id": 10,
+            "type": "heading",
+            "text": "1. The Brain is Like \"Flowing Water\""
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "Why can't we come up with new ideas? De Bono blames the mechanism of the brain for this.",
+            "paragraph_end": true
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "The essence of the brain is a pattern-making machine."
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "When information comes in, the brain instantly organizes it based on past experiences and creates a smooth flowing water channel. Just as water naturally flows into a river when it rains, our thoughts also automatically flow along the channel called common sense once it is formed.",
+            "paragraph_end": true
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "For example, if someone says car, the brain automatically flows thoughts into the channels of tires, roads, and gasoline."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "Thanks to this function, we can lead our daily lives efficiently, but when it comes to new ideas, this becomes the biggest obstacle.",
+            "paragraph_end": true
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "Even if we try to get out of the channel, our thoughts are pulled back to the original common sense as if defying gravity.",
+            "paragraph_end": true
+        },
+        {
+            "id": 17,
+            "type": "heading",
+            "text": "2. A Jump in Thought: Start from a Mistake"
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "The essence of Lateral Thinking lies in intentionally breaking this smooth channel."
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "The biggest feature for that is the rule that it is okay to be wrong along the way.",
+            "paragraph_end": true
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "In Logical Thinking, we build up correctness one step at a time: because A, therefore B, and because B, therefore C. If you step off even one step, it is rejected as a mistake."
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "However, in Lateral Thinking, it is allowed to jump suddenly from A to F.",
+            "paragraph_end": true
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "One of the techniques proposed by de Bono is Provocation."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "You dare to say something that looks absurd at first glance and is obviously wrong.",
+            "paragraph_end": true
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "Common sense says car tires are round."
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "As a provocation, let's try making car tires square.",
+            "paragraph_end": true
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "A logical person would reject this here, saying there is no way it can run, and end it."
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "However, a lateral person uses this mistake as a stepping stone to move to a new place.",
+            "paragraph_end": true
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "How can we run with square tires?"
+        },
+        {
+            "id": 29,
+            "type": "sentence",
+            "text": "Maybe the tires shouldn't rotate, but the road should move? This leads to the idea of a conveyor belt road."
+        },
+        {
+            "id": 30,
+            "type": "sentence",
+            "text": "Or, maybe the tires themselves should change shape like caterpillar tracks?",
+            "paragraph_end": true
+        },
+        {
+            "id": 31,
+            "type": "sentence",
+            "text": "The current round tires are also flat where they touch the ground. Then, how about the idea of a suspension with transforming tires that change the contact area according to the situation?",
+            "paragraph_end": true
+        },
+        {
+            "id": 32,
+            "type": "sentence",
+            "text": "In this way, by going through the unrealistic jump of square tires, we can reach a destination, or correct answer, called a new variable suspension, which cannot be reached by normal thinking.",
+            "paragraph_end": true
+        },
+        {
+            "id": 33,
+            "type": "heading",
+            "text": "3. Random Entry: Making Chance an Ally"
+        },
+        {
+            "id": 34,
+            "type": "sentence",
+            "text": "Another powerful weapon is Random Entry."
+        },
+        {
+            "id": 35,
+            "type": "sentence",
+            "text": "This is a method of randomly choosing one word from a dictionary that is completely unrelated to the problem you want to solve and forcibly connecting them.",
+            "paragraph_end": true
+        },
+        {
+            "id": 36,
+            "type": "sentence",
+            "text": "For example, suppose you are a shonen manga artist and are worried because you cannot decide on the ability of a new rival character."
+        },
+        {
+            "id": 37,
+            "type": "sentence",
+            "text": "Abilities like controlling fire or stopping time are already overused and stuck in a rut.",
+            "paragraph_end": true
+        },
+        {
+            "id": 38,
+            "type": "sentence",
+            "text": "Here, you open a dictionary, and suppose the word you happen to point to is Advertisement."
+        },
+        {
+            "id": 39,
+            "type": "sentence",
+            "text": "Especially, imagine those unskippable ads that play when you are watching videos on your smartphone.",
+            "paragraph_end": true
+        },
+        {
+            "id": 40,
+            "type": "sentence",
+            "text": "In normal logic, hot-blooded battles and video ads are unrelated, and that is the end of it."
+        },
+        {
+            "id": 41,
+            "type": "sentence",
+            "text": "However, the brain has a habit of desperately trying to create logic to connect unrelated things when they are placed side by side. We hack this habit.",
+            "paragraph_end": true
+        },
+        {
+            "id": 42,
+            "type": "sentence",
+            "text": "Battle, ads, nuisance, forced to watch, wait five seconds."
+        },
+        {
+            "id": 43,
+            "type": "sentence",
+            "text": "I see! How about an ability that forcibly flows commercials into the opponent's brain?",
+            "paragraph_end": true
+        },
+        {
+            "id": 44,
+            "type": "sentence",
+            "text": "For example, the moment the protagonist concentrates to release a special move, a promotional CM of the Evil Empire is forcibly played inside his brain."
+        },
+        {
+            "id": 45,
+            "type": "sentence",
+            "text": "Superficially, this is just an obstruction. The protagonist cannot move for five seconds until he pushes the button to skip the ad inside his brain, and the tension of the special move is also ruined.",
+            "paragraph_end": true
+        },
+        {
+            "id": 46,
+            "type": "sentence",
+            "text": "However, the true terror starts here."
+        },
+        {
+            "id": 47,
+            "type": "sentence",
+            "text": "While being shown the Empire's CM and the caster's face many times, the brain is hacked by the Mere Exposure Effect, and his favorability toward the caster rises unconsciously. The more he fights, the less he wants to attack the opponent for some reason. It is a kind of subliminal effect.",
+            "paragraph_end": true
+        },
+        {
+            "id": 48,
+            "type": "sentence",
+            "text": "Furthermore, as a special move, it is also possible to dare to play an ad made like a drama that makes you wonder what happens next. You finish him off in the gap where the protagonist cannot press the skip button because he wants to see the continuation.",
+            "paragraph_end": true
+        },
+        {
+            "id": 49,
+            "type": "sentence",
+            "text": "What do you think? An ability user who shows forced ads would never come out of existing channels like fire or time, even if you stand on your head."
+        },
+        {
+            "id": 50,
+            "type": "sentence",
+            "text": "This is an idea born precisely because we took in the alien noise called advertisements and forcibly shifted our thinking sideways.",
+            "paragraph_end": true
+        },
+        {
+            "id": 51,
+            "type": "heading",
+            "text": "4. Conclusion: Dual Wielding Logic and Lateral"
+        },
+        {
+            "id": 52,
+            "type": "sentence",
+            "text": "De Bono says the following."
+        },
+        {
+            "id": 53,
+            "type": "sentence",
+            "text": "Lateral Thinking is not the enemy of Logical Thinking. It is a partner.",
+            "paragraph_end": true
+        },
+        {
+            "id": 54,
+            "type": "sentence",
+            "text": "You need Lateral to find a place to dig a new hole."
+        },
+        {
+            "id": 55,
+            "type": "sentence",
+            "text": "However, you need Logic to dig deep into the place you found and shape it into something practical.",
+            "paragraph_end": true
+        },
+        {
+            "id": 56,
+            "type": "sentence",
+            "text": "As a creator, which phase are you in now?"
+        },
+        {
+            "id": 57,
+            "type": "sentence",
+            "text": "If you are in the stage of shaping an idea, please take a shovel and dig deep.",
+            "paragraph_end": true
+        },
+        {
+            "id": 58,
+            "type": "sentence",
+            "text": "However, if you are groaning that you want something new, please put down the shovel once and dare to walk in a wrong direction, or in a random direction.",
+            "paragraph_end": true
+        },
+        {
+            "id": 59,
+            "type": "sentence",
+            "text": "The shortest route to the correct answer is not necessarily a straight line. Sometimes, a detour is the shortcut to a scenery no one has ever seen.",
+            "paragraph_end": true
+        }
+    ]
+}

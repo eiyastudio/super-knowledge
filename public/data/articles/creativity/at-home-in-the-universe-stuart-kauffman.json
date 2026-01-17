@@ -1,0 +1,358 @@
+{
+    "slug": "at-home-in-the-universe-stuart-kauffman",
+    "meta": {
+        "tags": [
+            "CREATIVITY",
+            "COMPLEXITY"
+        ],
+        "image": "images/articles/at-home-in-the-universe.jpg"
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "\"At Home in the Universe\": Accident or Inevitable Masterpiece?"
+        },
+        {
+            "id": 1,
+            "type": "sentence",
+            "text": "When we try to create something new, we often feel like we are praying to the god of chance.",
+            "paragraph_end": true
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Are great ideas just accidental products falling from the sky?"
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "Are hit products just lucky wins in the casino of the market?"
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "Is our existence itself nothing more than a miraculous accident that happened by chance in the long history of the universe?",
+            "paragraph_end": true
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "If so, creation is an incredibly lonely and unreliable activity.",
+            "paragraph_end": true
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "However, Stuart Kauffman, a theoretical biologist at the Santa Fe Institute, counters this sense of emptiness head-on in his main book, titled At Home in the Universe."
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "He says the following."
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "\"Life is not an improbable accident. It is an expected, inevitable result of the laws of physics and complexity.\"",
+            "paragraph_end": true
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "Today, I will introduce Kauffman's philosophy of Self-organization, which gives courage to everyone involved in making things.",
+            "paragraph_end": true
+        },
+        {
+            "id": 10,
+            "type": "heading",
+            "text": "1. Darwin is Merely an Editor"
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "For a long time in biology, Darwin's Natural Selection was considered the sole protagonist of evolution."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "Random mutations occur, and those suited to the environment survive."
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "It was thought that repeating this for billions of years created the complex life we see today.",
+            "paragraph_end": true
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "But Kauffman points out the following."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "\"Natural Selection is an excellent Editor, but not an Author.\"",
+            "paragraph_end": true
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "Natural selection can trim away the bad from what already exists, but it has no power to create complex order from scratch in the first place."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "So, who wrote the original draft of order?",
+            "paragraph_end": true
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "The true author Kauffman proposes is Self-organization.",
+            "paragraph_end": true
+        },
+        {
+            "id": 19,
+            "type": "heading",
+            "text": "2. Order for Free"
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "To make something complex, you need a complex blueprint."
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "We assume so."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "But Kauffman proved a shocking fact using computer simulations called Boolean Networks.",
+            "paragraph_end": true
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "Even with simple elements, if you connect enough of them, they do not become chaotic or disordered."
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "Instead, they spontaneously settle into stable, orderly patterns.",
+            "paragraph_end": true
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "He called this Order for Free."
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "Just as oil droplets naturally form beautiful spheres in water, when a system becomes complex beyond a certain threshold, order arises on its own, even without a designer.",
+            "paragraph_end": true
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "In other words, when you build an organization or run a community, you don't need to manage every detail rigidly."
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "As long as there are appropriate connections, order will come to you.",
+            "paragraph_end": true
+        },
+        {
+            "id": 29,
+            "type": "heading",
+            "text": "3. The Edge of Chaos is the Source of Creation"
+        },
+        {
+            "id": 30,
+            "type": "sentence",
+            "text": "So, is it enough just to be complex?"
+        },
+        {
+            "id": 31,
+            "type": "sentence",
+            "text": "Here appears Kauffman's most famous concept, The Edge of Chaos.",
+            "paragraph_end": true
+        },
+        {
+            "id": 32,
+            "type": "sentence",
+            "text": "He divided the state of systems into three categories.",
+            "paragraph_end": true
+        },
+        {
+            "id": 33,
+            "type": "sentence",
+            "text": "First is Order."
+        },
+        {
+            "id": 34,
+            "type": "sentence",
+            "text": "This corresponds to a solid state."
+        },
+        {
+            "id": 35,
+            "type": "sentence",
+            "text": "It is unchanging."
+        },
+        {
+            "id": 36,
+            "type": "sentence",
+            "text": "It is stable, but does not evolve."
+        },
+        {
+            "id": 37,
+            "type": "sentence",
+            "text": "Examples are rigid bureaucratic organizations or overly simple programs with no bugs.",
+            "paragraph_end": true
+        },
+        {
+            "id": 38,
+            "type": "sentence",
+            "text": "Second is Chaos."
+        },
+        {
+            "id": 39,
+            "type": "sentence",
+            "text": "This corresponds to a gas state."
+        },
+        {
+            "id": 40,
+            "type": "sentence",
+            "text": "It changes too much."
+        },
+        {
+            "id": 41,
+            "type": "sentence",
+            "text": "It cannot hold past information, and accumulation is impossible."
+        },
+        {
+            "id": 42,
+            "type": "sentence",
+            "text": "Examples are collapsed projects or stormy upheavals.",
+            "paragraph_end": true
+        },
+        {
+            "id": 43,
+            "type": "sentence",
+            "text": "Third is The Edge of Chaos."
+        },
+        {
+            "id": 44,
+            "type": "sentence",
+            "text": "This corresponds to a liquid state."
+        },
+        {
+            "id": 45,
+            "type": "sentence",
+            "text": "It is the boundary between order and chaos.",
+            "paragraph_end": true
+        },
+        {
+            "id": 46,
+            "type": "sentence",
+            "text": "Kauffman argues that Life, intelligence, and evolution always exist at The Edge of Chaos.",
+            "paragraph_end": true
+        },
+        {
+            "id": 47,
+            "type": "sentence",
+            "text": "It is a region stable enough to keep its shape, yet flexible enough to change its form according to the environment."
+        },
+        {
+            "id": 48,
+            "type": "sentence",
+            "text": "The best creative teams and long-loved products are always built on this precarious balance on the verge of collapse.",
+            "paragraph_end": true
+        },
+        {
+            "id": 49,
+            "type": "sentence",
+            "text": "Too safe is no good."
+        },
+        {
+            "id": 50,
+            "type": "sentence",
+            "text": "Too free is no good."
+        },
+        {
+            "id": 51,
+            "type": "sentence",
+            "text": "Identifying this Edge is the greatest job of a leader or creator.",
+            "paragraph_end": true
+        },
+        {
+            "id": 52,
+            "type": "heading",
+            "text": "4. We are At Home in the Universe"
+        },
+        {
+            "id": 53,
+            "type": "sentence",
+            "text": "The original title of the book, At Home in the Universe, contains a beautiful philosophy.",
+            "paragraph_end": true
+        },
+        {
+            "id": 54,
+            "type": "sentence",
+            "text": "If life is just a random accident, we are intruders who wandered into a cold, indifferent universe."
+        },
+        {
+            "id": 55,
+            "type": "sentence",
+            "text": "But what if self-organization is a fundamental law of the universe, and order, or life, is necessarily born when complex things gather?",
+            "paragraph_end": true
+        },
+        {
+            "id": 56,
+            "type": "sentence",
+            "text": "We are not an accident."
+        },
+        {
+            "id": 57,
+            "type": "sentence",
+            "text": "The universe expected beings like us to be born from the beginning.",
+            "paragraph_end": true
+        },
+        {
+            "id": 58,
+            "type": "sentence",
+            "text": "We are beings who are At Home in this universe and allowed to relax.",
+            "paragraph_end": true
+        },
+        {
+            "id": 59,
+            "type": "heading",
+            "text": "Conclusion: Trust in Creation"
+        },
+        {
+            "id": 60,
+            "type": "sentence",
+            "text": "Making things is not a lonely task of planting a flag alone in an empty wilderness."
+        },
+        {
+            "id": 61,
+            "type": "sentence",
+            "text": "It is an act of lending a hand to the huge flow of Self-organization that the universe originally possesses.",
+            "paragraph_end": true
+        },
+        {
+            "id": 62,
+            "type": "sentence",
+            "text": "Do not fear the Edge of Chaos."
+        },
+        {
+            "id": 63,
+            "type": "sentence",
+            "text": "If you pour in enough passion and complexity, an inevitable masterpiece beyond your imagination will surely rise there."
+        }
+    ]
+}

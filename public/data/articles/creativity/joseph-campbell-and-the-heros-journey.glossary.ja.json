@@ -1,0 +1,93 @@
+[
+    {
+        "word": "The Hero's Journey",
+        "definition": "英雄の旅（ヒーローズ・ジャーニー）。世界中の神話に共通する、分離・通過儀礼・帰還の3段階からなる物語の基本構造。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Monomyth",
+        "definition": "モノミス（単一神話）。すべての神話は一つの根源的な物語の変奏であるという概念。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Rite of Passage",
+        "definition": "通過儀礼（イニシエーション）。人生の節目に行われる一連の儀式。成長のプロセス。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Call to Adventure",
+        "definition": "冒険への召命。主人公に旅立ちや変化を促すきっかけ。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Threshold",
+        "definition": "境界、敷居。日常と非日常（冒険の世界）を隔てるライン。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Ultimate Boon",
+        "definition": "究極の恩恵（ブーン）。試練の果てに獲得する報酬や目的物。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "obsessed",
+        "definition": "取り憑かれた、夢中になった。",
+        "example": "obsessed with Harry Potter (ハリー・ポッターに夢中になっている)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "instinctively",
+        "definition": "本能的に、直感的に。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "progression",
+        "definition": "進行、進歩、発展。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "hesitate",
+        "definition": "躊躇する、ためらう。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "mentor",
+        "definition": "メンター、良き指導者、助言者。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "extraordinary",
+        "definition": "非日常の、並外れた。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "confrontation",
+        "definition": "対決、直面。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "recipient",
+        "definition": "受け手、受取人。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "predecessor",
+        "definition": "先人、前任者。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Joseph Campbell",
+        "definition": "ジョゼフ・キャンベル。アメリカの神話学者。『千の顔をもつ英雄』の著者で、英雄の旅の提唱者。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "The Epic of Gilgamesh",
+        "definition": "ギルガメッシュ叙事詩。古代メソポタミアの英雄譚。世界最古の文学作品の一つ。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Maui",
+        "definition": "マウイ。ポリネシア神話の英雄。トリックスター的性格を持つ半神半人。",
+        "matchStrategy": "exact"
+    }
+]

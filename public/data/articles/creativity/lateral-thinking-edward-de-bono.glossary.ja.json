@@ -1,0 +1,96 @@
+[
+    {
+        "word": "Lateral Thinking",
+        "definition": "ラテラル・シンキング（水平思考）。思考の前提を変えたり、異なる視点へ移動（水平）することで、新しいアイデアを生み出す思考法。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Vertical Thinking",
+        "definition": "バーティカル・シンキング（垂直思考）。論理的に正解を深掘りしていく思考プロセス（ロジカル・シンキング）。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Provocation",
+        "definition": "挑発。あえて「間違い」や「非現実的なこと」を出発点にして、新しい発想へジャンプする技法。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Random Entry",
+        "definition": "ランダム入力。課題と無関係な言葉を強制的に結びつけ、脳のリミッターを外す技法。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Mere Exposure Effect",
+        "definition": "単純接触効果。興味がない対象でも、何度も接触するうちに好感を持つようになる心理現象。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "solidified",
+        "definition": "凝り固まった、固化した。",
+        "example": "solidified brain patterns (凝り固まった脳のパターン)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "vein",
+        "definition": "鉱脈、静脈。",
+        "example": "veins of new ideas (新しいアイデアの鉱脈)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "obstacle",
+        "definition": "障害、邪魔なもの。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "defy",
+        "definition": "～に逆らう、反抗する。",
+        "example": "defy gravity (重力に逆らう)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "absurd",
+        "definition": "不合理な、バカげた、滑稽な。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "stepping stone",
+        "definition": "踏み石、足がかり。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "suspension",
+        "definition": "サスペンション（懸架装置）、一時停止。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "stuck in a rut",
+        "definition": "マンネリ化した、型にはまった。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "nuisance",
+        "definition": "迷惑、厄介なもの。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "obstruction",
+        "definition": "妨害、障害物。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "subliminal",
+        "definition": "サブリミナル、潜在意識の。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "detour",
+        "definition": "回り道、寄り道。",
+        "example": "Make a detour (回り道をする)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Edward de Bono",
+        "definition": "エドワード・デ・ボノ。「ラテラル・シンキング」の提唱者であり、創造性開発の世界的権威。",
+        "matchStrategy": "exact"
+    }
+]

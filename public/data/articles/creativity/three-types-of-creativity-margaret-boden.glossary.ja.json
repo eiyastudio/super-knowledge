@@ -1,0 +1,94 @@
+[
+    {
+        "word": "Exploratory Creativity",
+        "definition": "探索的創造性。既存のルールやスタイルの中で、新しいバリエーションや可能性を探る創造性。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Combinational Creativity",
+        "definition": "結合的創造性。全く異なる二つ以上のアイデアや概念を結びつけることで生まれる創造性。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Transformational Creativity",
+        "definition": "変革的創造性。既存のルール（制約）自体を変更・削除し、思考空間そのものを書き換える創造性。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Conceptual Space",
+        "definition": "概念空間。思考やアイデアが生まれるルールによって定義されたフィールド。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Constraint",
+        "definition": "制約。創造性を制限するものではなく、探索を可能にする構造そのもの。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "descend",
+        "definition": "降りる、降臨する。",
+        "example": "descend from heaven (天から降りてくる)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "classify",
+        "definition": "分類する。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "sophistication",
+        "definition": "洗練、教養。",
+        "example": "limit of sophistication (洗練の極み)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "counterpoint",
+        "definition": "対位法。複数の旋律を調和させる音楽理論。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "brewery",
+        "definition": "醸造所、ビール工場。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "casting",
+        "definition": "鋳造。金属を型に流し込む技術。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "advocate",
+        "definition": "提唱する、主張する。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "atonal music",
+        "definition": "無調音楽。調性（キー）を持たない音楽様式。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Cubism",
+        "definition": "キュビズム（立体派）。物体を複数の視点から同時に描く絵画様式。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "medical chart",
+        "definition": "カルテ、診療録。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "gambler",
+        "definition": "ギャンブラー、博打打ち。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Margaret Boden",
+        "definition": "マーガレット・ボーデン。イギリスの認知科学者。創造性を「探索」「結合」「変革」の3つに分類した。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Johannes Vermeer",
+        "definition": "ヨハネス・フェルメール。17世紀オランダの画家。卓越した光の表現で知られる。",
+        "matchStrategy": "exact"
+    }
+]

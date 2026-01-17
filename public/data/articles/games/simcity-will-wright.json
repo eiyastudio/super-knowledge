@@ -1,0 +1,270 @@
+{
+    "slug": "simcity-will-wright",
+    "meta": {
+        "tags": [
+            "GAMES",
+            "SYSTEMS"
+        ],
+        "image": "images/articles/simcity.jpg"
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "Masterpiece Games: \"SimCity\" and the Art of Gardening"
+        },
+        {
+            "id": 1,
+            "type": "sentence",
+            "text": "Most video games have a clear goal: defeat the monster, rescue the princess, or get the highest score."
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "But in 1989, a game appeared that broke all these rules.",
+            "paragraph_end": true
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "That game was SimCity, created by Will Wright.",
+            "paragraph_end": true
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "SimCity had no \"Game Over\" and no \"You Win.\""
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "It was a game about building and managing a city."
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "Players zoned land for residential, commercial, and industrial use, built power plants, and laid down roads.",
+            "paragraph_end": true
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "But the true genius of SimCity lay in what the player could not control.",
+            "paragraph_end": true
+        },
+        {
+            "id": 8,
+            "type": "heading",
+            "text": "The Accidental Discovery"
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "Will Wright was only 24 years old when he began developing the prototype for SimCity."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "Interestingly, the idea came by accident.",
+            "paragraph_end": true
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "While creating his first game, a helicopter shooter called \"Raid on Bungeling Bay,\" he built a tool to design the game's maps."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "He soon realized that designing the islands and cities with this \"Map Editor\" was far more fun than flying the helicopter and destroying them.",
+            "paragraph_end": true
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "Combined with his background in architecture and the influence of Montessori education—which values self-directed learning—he decided to turn this map editor into a game itself."
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "He wanted to create a \"software toy\" where players could explore and create, rather than just win or lose.",
+            "paragraph_end": true
+        },
+        {
+            "id": 15,
+            "type": "heading",
+            "text": "Steven Johnson and \"Emergence\""
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "To understand the magic of SimCity, we must first look at a concept popularized by science writer Steven Johnson.",
+            "paragraph_end": true
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "In his famous book \"Emergence,\" Johnson asks a simple question: How do ants create such complex colonies without a leader?",
+            "paragraph_end": true
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "Ant queens do not give orders."
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "Instead, each ant follows simple local rules."
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "When thousands of ants do this, a high-level intelligence \"emerges\" from the bottom up.",
+            "paragraph_end": true
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "This phenomenon is not just found in nature."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "It is also the secret behind SimCity.",
+            "paragraph_end": true
+        },
+        {
+            "id": 23,
+            "type": "heading",
+            "text": "The Architect vs. The Gardener"
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "In traditional games, the player is like a god or an Architect."
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "You decide exactly where everything goes and exactly what happens.",
+            "paragraph_end": true
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "However, Will Wright designed SimCity differently."
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "He adopted this Bottom-up approach, reflecting the biological systems described by Johnson.",
+            "paragraph_end": true
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "Wright often compared the role of the player not to an architect, but to a Gardener.",
+            "paragraph_end": true
+        },
+        {
+            "id": 29,
+            "type": "sentence",
+            "text": "A gardener can prepare the soil and plant the seeds, but they cannot force a flower to bloom."
+        },
+        {
+            "id": 30,
+            "type": "sentence",
+            "text": "They can only create the right environment for growth.",
+            "paragraph_end": true
+        },
+        {
+            "id": 31,
+            "type": "sentence",
+            "text": "Similarly, in SimCity, you cannot force people to move into your city."
+        },
+        {
+            "id": 32,
+            "type": "sentence",
+            "text": "You can only lower taxes, reduce crime, and build parks."
+        },
+        {
+            "id": 33,
+            "type": "sentence",
+            "text": "If the environment is good, the \"Sims\" (citizens) will move in on their own.",
+            "paragraph_end": true
+        },
+        {
+            "id": 34,
+            "type": "heading",
+            "text": "The Traffic Jam You Didn't Program"
+        },
+        {
+            "id": 35,
+            "type": "sentence",
+            "text": "A perfect example of this is the traffic jam.",
+            "paragraph_end": true
+        },
+        {
+            "id": 36,
+            "type": "sentence",
+            "text": "Will Wright did not write a specific line of code that said, \"Create a traffic jam at 5 PM.\""
+        },
+        {
+            "id": 37,
+            "type": "sentence",
+            "text": "Instead, he programmed simple rules for individual citizens: \"They hate long commutes\" and \"They want to go to the nearest workplace.\"",
+            "paragraph_end": true
+        },
+        {
+            "id": 38,
+            "type": "sentence",
+            "text": "When thousands of citizens followed these simple rules simultaneously, traffic jams emerged naturally on the screen.",
+            "paragraph_end": true
+        },
+        {
+            "id": 39,
+            "type": "sentence",
+            "text": "This is exactly what Steven Johnson calls \"Emergence.\""
+        },
+        {
+            "id": 40,
+            "type": "sentence",
+            "text": "It is a complex order arising from simple local rules.",
+            "paragraph_end": true
+        },
+        {
+            "id": 41,
+            "type": "heading",
+            "text": "Why It Matters Today"
+        },
+        {
+            "id": 42,
+            "type": "sentence",
+            "text": "Before SimCity, we thought of systems as things we needed to control perfectly from the top down."
+        },
+        {
+            "id": 43,
+            "type": "sentence",
+            "text": "But SimCity taught us that trying to control everything often leads to failure.",
+            "paragraph_end": true
+        },
+        {
+            "id": 44,
+            "type": "sentence",
+            "text": "Sometimes, the best way to build something great—whether it's a city, a software project, or a team—is to stop trying to be the Architect.",
+            "paragraph_end": true
+        },
+        {
+            "id": 45,
+            "type": "sentence",
+            "text": "Instead, we should become Gardeners."
+        },
+        {
+            "id": 46,
+            "type": "sentence",
+            "text": "We should set the rules, nurture the environment, and wait for the unexpected genius to emerge.",
+            "paragraph_end": true
+        }
+    ]
+}

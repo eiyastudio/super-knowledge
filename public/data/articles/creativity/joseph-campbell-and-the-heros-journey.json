@@ -1,0 +1,348 @@
+{
+    "slug": "joseph-campbell-and-the-heros-journey",
+    "meta": {
+        "tags": [
+            "CREATIVITY",
+            "STORYTELLING"
+        ],
+        "image": "images/articles/joseph-campbell-and-the-heros-journey.jpg"
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "The OS of Storytelling: Joseph Campbell's \"The Hero with a Thousand Faces\""
+        },
+        {
+            "id": 1,
+            "type": "sentence",
+            "text": "Why are we crazy about Star Wars, obsessed with Harry Potter, and delighted to adventure in The Legend of Zelda?",
+            "paragraph_end": true
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "There is a common secret hidden in these works, which differ in time, place, and even media."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "That is, the framework of the story is exactly the same.",
+            "paragraph_end": true
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "Mythologist Joseph Campbell studied all kinds of myths from all times and places and discovered a shocking fact."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "Greek mythology, Buddhist tales, and Native American legends are all just variations of a single story.",
+            "paragraph_end": true
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "He named it the Monomyth, or The Hero's Journey.",
+            "paragraph_end": true
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "Today, I will explain the structure of The Hero's Journey, which is essential knowledge for creators who make stories and games.",
+            "paragraph_end": true
+        },
+        {
+            "id": 8,
+            "type": "heading",
+            "text": "1. A Universal Template"
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "Campbell argued that a hero's story always goes through three stages."
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "They are Departure, Initiation, and Return.",
+            "paragraph_end": true
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "Is this really true everywhere? Let's look closely at two ancient stories.",
+            "paragraph_end": true
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "First is The Epic of Gilgamesh, the oldest story of mankind from ancient Mesopotamia."
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "Gilgamesh was a tyrannical king who had everything. However, when his best friend Enkidu died, he was confronted with the terror of death. This was his Call to Adventure."
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "He abandoned his throne and set out on a journey to the end of the world to find Utnapishtim, a wise man who possessed the secret of immortality."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "After overcoming trials such as fighting scorpion men and crossing the ocean of death, he finally obtained a plant that rejuvenated youth. This is the Ultimate Boon."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "However, on his way home, while he was bathing, a snake ate the plant. He lost everything."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "Gilgamesh returned to his country empty-handed. But looking at the magnificent walls of the city of Uruk he had built, he realized."
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "Individual life ends, but the civilization and achievements one builds remain forever."
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "He did not bring back the plant of immortality, but he brought back the wisdom of life and death as a true king.",
+            "paragraph_end": true
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "Second is the legend of Maui of the Maori people in New Zealand."
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "Maui was born prematurely and was thrown into the sea by his mother, wrapped in her topknot. However, when he was saved by the gods of the sea and raised. This is a typical departure of an exiled hero."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "He returned to his family, but to prove his worth, he challenged impossible trials."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "He made a hook from his grandmother's jawbone, beat the sun to slow it down and make the day longer, and fished up a giant island from the bottom of the sea."
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "Furthermore, he deceived the goddess of fire, Mahuika, and stole fire from her fingernails to give it to humanity."
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "He traveled back and forth between the ordinary world and the extraordinary world, bringing light, land, and fire to people.",
+            "paragraph_end": true
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "This is not a coincidence. It is the very process of growth in our lives."
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "A child leaves their parents, which is Departure. They are tossed about by the rough waves of society and grow, which is Initiation. And they become a parent and build a family, which is Return."
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "Because this universal cycle of life is at the base, our hearts are instinctively moved when we see stories of this pattern, whether in ancient Mesopotamia or the Amazon rainforest.",
+            "paragraph_end": true
+        },
+        {
+            "id": 29,
+            "type": "heading",
+            "text": "2. Steps of the Journey: Application to Game Design"
+        },
+        {
+            "id": 30,
+            "type": "sentence",
+            "text": "The world of screenwriting and game design utilizes this theory most in modern times."
+        },
+        {
+            "id": 31,
+            "type": "sentence",
+            "text": "Each step of The Hero's Journey matches the progression structure of games surprisingly well.",
+            "paragraph_end": true
+        },
+        {
+            "id": 32,
+            "type": "sentence",
+            "text": "Act 1: Departure from the Ordinary"
+        },
+        {
+            "id": 33,
+            "type": "sentence",
+            "text": "The story begins with a peaceful everyday life."
+        },
+        {
+            "id": 34,
+            "type": "sentence",
+            "text": "Then, a Call to Adventure arrives. In games, this is a request from a king or the occurrence of a quest such as a kidnapped princess."
+        },
+        {
+            "id": 35,
+            "type": "sentence",
+            "text": "The protagonist might hesitate at first, but meets a Mentor and receives items and advice. This corresponds to the tutorial and obtaining initial equipment.",
+            "paragraph_end": true
+        },
+        {
+            "id": 36,
+            "type": "sentence",
+            "text": "Act 2: The Road of Trials"
+        },
+        {
+            "id": 37,
+            "type": "sentence",
+            "text": "The protagonist crosses the First Threshold and steps into the extraordinary world. This is the entrance to the dungeon."
+        },
+        {
+            "id": 38,
+            "type": "sentence",
+            "text": "There spreads a dark and dangerous world called The Belly of the Whale."
+        },
+        {
+            "id": 39,
+            "type": "sentence",
+            "text": "The protagonist overcomes numerous trials, or small enemies, meets allies, and faces a confrontation with a supreme existence. This is the boss battle."
+        },
+        {
+            "id": 40,
+            "type": "sentence",
+            "text": "The victorious hero obtains the Ultimate Boon. It might be a legendary sword or a new skill from leveling up.",
+            "paragraph_end": true
+        },
+        {
+            "id": 41,
+            "type": "sentence",
+            "text": "Act 3: Return and Rebirth"
+        },
+        {
+            "id": 42,
+            "type": "sentence",
+            "text": "The hero who has fulfilled their purpose must return to the original world."
+        },
+        {
+            "id": 43,
+            "type": "sentence",
+            "text": "However, they do not just return. They bring back the wisdom and power obtained in the world beyond and share them with the people of the original world."
+        },
+        {
+            "id": 44,
+            "type": "sentence",
+            "text": "In games, this is the ending after clearing the game, or a mode where you can freely explore the world in a stronger state.",
+            "paragraph_end": true
+        },
+        {
+            "id": 45,
+            "type": "heading",
+            "text": "3. Structure Creates Freedom"
+        },
+        {
+            "id": 46,
+            "type": "sentence",
+            "text": "Some might worry that if they fit into a mold, it will become a boring work.",
+            "paragraph_end": true
+        },
+        {
+            "id": 47,
+            "type": "sentence",
+            "text": "However, Campbell's answer is the opposite."
+        },
+        {
+            "id": 48,
+            "type": "sentence",
+            "text": "Because there is a structure, we can tell stories without getting lost."
+        },
+        {
+            "id": 49,
+            "type": "sentence",
+            "text": "Because the framework is decided, we can pour all our efforts into expression, such as how to color the contents and what kind of characters to place.",
+            "paragraph_end": true
+        },
+        {
+            "id": 50,
+            "type": "sentence",
+            "text": "Star Wars was set in space. The Matrix was set in cyberspace."
+        },
+        {
+            "id": 51,
+            "type": "sentence",
+            "text": "Even if the outer shell is different, the content is all this Hero's Journey."
+        },
+        {
+            "id": 52,
+            "type": "sentence",
+            "text": "As long as this framework is solid, the games and novels you create should never collapse and should reach deep into the hearts of the recipients.",
+            "paragraph_end": true
+        },
+        {
+            "id": 53,
+            "type": "heading",
+            "text": "Conclusion: Start Your Journey"
+        },
+        {
+            "id": 54,
+            "type": "sentence",
+            "text": "Campbell says the following."
+        },
+        {
+            "id": 55,
+            "type": "sentence",
+            "text": "\"The treasure you seek is in the cave you fear to enter.\"",
+            "paragraph_end": true
+        },
+        {
+            "id": 56,
+            "type": "sentence",
+            "text": "Creating a story is also an adventure."
+        },
+        {
+            "id": 57,
+            "type": "sentence",
+            "text": "When we try to create a story from a blank sheet of paper, we are attacked by anxiety. It is exactly the same as the fear before stepping into a dark cave.",
+            "paragraph_end": true
+        },
+        {
+            "id": 58,
+            "type": "sentence",
+            "text": "However, do not be afraid."
+        },
+        {
+            "id": 59,
+            "type": "sentence",
+            "text": "On the path you proceed, there is already a map left by great predecessors.",
+            "paragraph_end": true
+        },
+        {
+            "id": 60,
+            "type": "sentence",
+            "text": "Now, through this article, you have received advice, or a map, from a Mentor."
+        },
+        {
+            "id": 61,
+            "type": "sentence",
+            "text": "Your equipment is ready."
+        },
+        {
+            "id": 62,
+            "type": "sentence",
+            "text": "The rest is your turn to cross the threshold and go on an adventure journey called creation.",
+            "paragraph_end": true
+        }
+    ]
+}

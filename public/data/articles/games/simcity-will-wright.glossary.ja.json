@@ -1,0 +1,83 @@
+[
+    {
+        "word": "Architect",
+        "definition": "建築家。ここでは「トップダウンですべてを完璧に設計・管理しようとする人」の比喩として使われている。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Gardener",
+        "definition": "庭師。「ボトムアップで環境を整え、自律的な成長を促す人」の比喩。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Zone",
+        "definition": "区分けする、ゾーン。都市計画において、土地の用途（住居、商業など）を決めること。",
+        "matchStrategy": "fuzzy"
+    },
+    {
+        "word": "Emergence",
+        "definition": "創発。単純なルールの集積から高度な秩序が生まれること。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "defeat",
+        "definition": "（敵などを）打ち負かす。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "power plant",
+        "definition": "発電所。",
+        "matchStrategy": "fuzzy"
+    },
+    {
+        "word": "lay down",
+        "definition": "（道路などを）敷設する、設置する。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "genius",
+        "definition": "天才性、非凡な才能。ここではゲームデザインの「妙」や「真価」というニュアンス。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "simultaneously",
+        "definition": "同時に。",
+        "example": "happen simultaneously (一斉に起こる)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "commute",
+        "definition": "通勤（する）、通学（する）。",
+        "example": "long commutes (長い通勤時間)",
+        "matchStrategy": "fuzzy"
+    },
+    {
+        "word": "nurture",
+        "definition": "育む、育成する。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "SimCity",
+        "definition": "シムシティ。1989年に発売された都市経営シミュレーションゲーム。",
+        "explanation": "開発者のウィル・ライトは、システム・ダイナミクス理論や都市計画理論を参考にし、既存のジャンルとは異なる「Software Toy」を確立した。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Will Wright",
+        "definition": "ウィル・ライト。『シムシティ』や『ザ・シムズ』の開発者。",
+        "explanation": "「ゲームは、プレイヤーが可能性の空間を探索するためのものである」という哲学を持つ。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Raid on Bungeling Bay",
+        "definition": "バンゲリングベイ。ウィル・ライトが最初に制作したシューティングゲーム。",
+        "explanation": "このゲームのマップ作成ツールでの遊びがシムシティの原型となった。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Montessori education",
+        "definition": "モンテッソーリ教育。子供の自主性・発見を重視する教育法。",
+        "explanation": "Google創業者やAmazon創業者など、多くのIT起業家が受けていたことで知られる。",
+        "matchStrategy": "exact"
+    }
+]

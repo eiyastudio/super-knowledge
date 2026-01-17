@@ -62,6 +62,11 @@ function updateHeader(category, mode) {
             title: 'Creativity & Systems',
             descEn: 'Understand the mechanisms of inspiration and complex systems.',
             descJa: 'インスピレーションと複雑系のメカニズムを理解する。'
+        },
+        'games': {
+            title: 'Masterpiece Games',
+            descEn: 'Learn from the design philosophy of legendary games.',
+            descJa: '伝説的な名作ゲームの設計思想から学ぶ。'
         }
     };
 

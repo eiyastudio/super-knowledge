@@ -1,0 +1,66 @@
+[
+    {
+        "word": "Self-organization",
+        "definition": "自己組織化。外部からの司令塔なしに、システムが自発的に秩序を形成するプロセスのことです。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Natural Selection",
+        "definition": "自然淘汰。ダーウィン進化論の核となる概念で、環境に適した個体が生き残る仕組みです。カウフマンはこれを否定したのではなく、秩序を生むのは自己組織化であり、それを磨くのが自然淘汰であると役割を再定義しました。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Order for Free",
+        "definition": "オーダー・フォー・フリー。秩序はタダ、または無償の秩序と訳されます。秩序形成に多大なエネルギーや設計は不要で、複雑さが一定を超えると物理法則として自然に発生するという概念です。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "The Edge of Chaos",
+        "definition": "カオスの縁。秩序である凍結状態と、カオスである混乱状態の境界領域です。生命が最も繁栄し、情報処理能力が最大化する場所とされています。クリエイティブな活動における、いわゆるゾーンの状態に近い概念です。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "improbable",
+        "definition": "ありそうもない、または起こりそうもない。",
+        "example": "improbable accident (ありそうもない事故)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "inevitable",
+        "definition": "避けられない、必然の。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "sole",
+        "definition": "唯一の。",
+        "example": "sole protagonist (唯一の主人公)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "spontaneously",
+        "definition": "自発的に、または自然に。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "threshold",
+        "definition": "閾値、または境界。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "rigid",
+        "definition": "硬直した、または厳格な。",
+        "example": "rigid bureaucratic organizations (硬直した官僚組織)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "precarious",
+        "definition": "不安定な、または危なっかしい。",
+        "example": "precarious balance (危ういバランス)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "intruder",
+        "definition": "侵入者。",
+        "matchStrategy": "exact"
+    }
+]

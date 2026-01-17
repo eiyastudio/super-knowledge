@@ -1,0 +1,464 @@
+{
+    "slug": "two-meanings-of-affordance-gibson-norman",
+    "meta": {
+        "tags": [
+            "CREATIVITY",
+            "DESIGN"
+        ],
+        "image": "images/articles/two-meanings-of-affordance.jpg"
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "Two Meanings of Affordance: Gibson vs Norman"
+        },
+        {
+            "id": 1,
+            "type": "sentence",
+            "text": "Have you ever felt embarrassed at the entrance of a department store or a restaurant because you did not know whether to push or pull a door and ended up rattling it?",
+            "paragraph_end": true
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "If so, rest assured."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "It is not because you are clumsy, nor is it because you are careless."
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "It is because the design of the door is bad. More precisely, the affordance of the door is wrong.",
+            "paragraph_end": true
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "Affordance."
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "This word, used in the worlds of design and psychology, refers to an invisible force lurking in every place of our lives.",
+            "paragraph_end": true
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "Today, I will talk about the meaning of this mysterious word and the two different philosophies hidden within it.",
+            "paragraph_end": true
+        },
+        {
+            "id": 8,
+            "type": "heading",
+            "text": "What is Affordance?"
+        },
+        {
+            "id": 9,
+            "type": "sentence",
+            "text": "The word Affordance is a coined word made from the English verb afford, which means to give or provide.",
+            "paragraph_end": true
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "For example, suppose there is a chair of a reasonable height in front of you."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "You look at the chair and feel that you can sit on it without thinking too deeply."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "This is because the object called a chair affords, or provides, you with the action of sitting.",
+            "paragraph_end": true
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "Alternatively, a flat floor affords walking, and a mug with a handle affords grasping.",
+            "paragraph_end": true
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "In other words, affordance is the possibility of action that the environment or objects provide to us humans and animals."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "We live our lives while subconsciously receiving these messages emitted by the environment, without thinking about them one by one.",
+            "paragraph_end": true
+        },
+        {
+            "id": 16,
+            "type": "heading",
+            "text": "Objects Speak Louder than Words"
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "Well-designed products allow you to understand how to use them without reading the manual."
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "This is because the shape itself speaks to you about how to use it as an affordance.",
+            "paragraph_end": true
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "For instance, look at the handle of a pair of scissors."
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "If one hole is small and the other is large, you instantly know how to put your fingers in, even without verbal explanation.",
+            "paragraph_end": true
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "Conversely, a representative example of bad design is the door mentioned at the beginning where you do not know whether to push or pull."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "If the door has a flat metal plate, we subconsciously try to push it."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "If it has a handle, we subconsciously grab it and try to pull.",
+            "paragraph_end": true
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "However, what if there is a door that has a handle but will not open unless you push it?"
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "Our brains get confused, and we take the wrong action."
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "In technical terms, this is called a False Affordance.",
+            "paragraph_end": true
+        },
+        {
+            "id": 27,
+            "type": "heading",
+            "text": "Two Schools: Gibson and Norman"
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "Now, this is the main topic of today."
+        },
+        {
+            "id": 29,
+            "type": "sentence",
+            "text": "Regarding the affordance I have explained so far, did you know that there are actually two largely different interpretations among experts?",
+            "paragraph_end": true
+        },
+        {
+            "id": 30,
+            "type": "sentence",
+            "text": "One is the school of the psychologist James J. Gibson, the creator of this word."
+        },
+        {
+            "id": 31,
+            "type": "sentence",
+            "text": "The other is the school of the cognitive scientist Don Norman, who popularized this word in the design world.",
+            "paragraph_end": true
+        },
+        {
+            "id": 32,
+            "type": "sentence",
+            "text": "Actually, although these two use the same word, their perspectives are surprisingly contrasting.",
+            "paragraph_end": true
+        },
+        {
+            "id": 33,
+            "type": "heading",
+            "text": "Norman's Affordance: Guidance as Design"
+        },
+        {
+            "id": 34,
+            "type": "sentence",
+            "text": "When we say affordance in business or UI design fields, 90 percent of the time it is used in the meaning of Don Norman."
+        },
+        {
+            "id": 35,
+            "type": "sentence",
+            "text": "In 1988, he made this word widely known to the world in his masterpiece, The Design of Everyday Things.",
+            "paragraph_end": true
+        },
+        {
+            "id": 36,
+            "type": "sentence",
+            "text": "For him, affordance is a message indicating how the object should be treated.",
+            "paragraph_end": true
+        },
+        {
+            "id": 37,
+            "type": "sentence",
+            "text": "If a website link is blue and underlined, it is a message saying please click."
+        },
+        {
+            "id": 38,
+            "type": "sentence",
+            "text": "If there is a cracked wall in a game, it is a message saying you can break it with a bomb.",
+            "paragraph_end": true
+        },
+        {
+            "id": 39,
+            "type": "sentence",
+            "text": "The true identity of Norman's affordance is a Perceived Hint for the designer to encourage the user to take action."
+        },
+        {
+            "id": 40,
+            "type": "sentence",
+            "text": "The protagonist here is the Designer's Intent."
+        },
+        {
+            "id": 41,
+            "type": "sentence",
+            "text": "There is a correct answer that they want the user to perform, and affordance is discussed as a technique to guide them there without hesitation.",
+            "paragraph_end": true
+        },
+        {
+            "id": 42,
+            "type": "heading",
+            "text": "Shocking Fact: It Was a Signifier"
+        },
+        {
+            "id": 43,
+            "type": "sentence",
+            "text": "However, here I must tell you a fact that will make designers all over the world fall off their chairs.",
+            "paragraph_end": true
+        },
+        {
+            "id": 44,
+            "type": "sentence",
+            "text": "Norman, the very person who popularized this word, made an outrageous correction in his book later in 2013.",
+            "paragraph_end": true
+        },
+        {
+            "id": 45,
+            "type": "sentence",
+            "text": "He said the following."
+        },
+        {
+            "id": 46,
+            "type": "sentence",
+            "text": "\"That thing everyone calls affordance should have really been called a signifier, or a symbol.\"",
+            "paragraph_end": true
+        },
+        {
+            "id": 47,
+            "type": "sentence",
+            "text": "Surprisingly, Norman himself admitted that it was not affordance.",
+            "paragraph_end": true
+        },
+        {
+            "id": 48,
+            "type": "sentence",
+            "text": "True affordance is a possibility that exists there even if it is hidden and invisible."
+        },
+        {
+            "id": 49,
+            "type": "sentence",
+            "text": "However, what Norman emphasized in the design world was a mark that informs the user of an action, like the shadow of a button or the handle of a door."
+        },
+        {
+            "id": 50,
+            "type": "sentence",
+            "text": "He argued that he should have renamed it a signifier, not affordance.",
+            "paragraph_end": true
+        },
+        {
+            "id": 51,
+            "type": "sentence",
+            "text": "But a word once spread does not stop."
+        },
+        {
+            "id": 52,
+            "type": "sentence",
+            "text": "Even now, the habit of calling this signifier an affordance remains deeply rooted in the field.",
+            "paragraph_end": true
+        },
+        {
+            "id": 53,
+            "type": "heading",
+            "text": "Gibson's Affordance: Possibility in the Environment"
+        },
+        {
+            "id": 54,
+            "type": "sentence",
+            "text": "On the other hand, the world of the creator James J. Gibson is more philosophical and vast.",
+            "paragraph_end": true
+        },
+        {
+            "id": 55,
+            "type": "sentence",
+            "text": "For him, affordance is the value or possibility itself that the environment provides to animals."
+        },
+        {
+            "id": 56,
+            "type": "sentence",
+            "text": "Whether humans notice it or the designer's intent does not matter there.",
+            "paragraph_end": true
+        },
+        {
+            "id": 57,
+            "type": "sentence",
+            "text": "For example, suppose there is a rock of a reasonable height in the forest."
+        },
+        {
+            "id": 58,
+            "type": "sentence",
+            "text": "No one designed that rock as something to sit on."
+        },
+        {
+            "id": 59,
+            "type": "sentence",
+            "text": "However, if that rock has the height and hardness to be sat on, that rock objectively affords, or provides, the act of sitting.",
+            "paragraph_end": true
+        },
+        {
+            "id": 60,
+            "type": "sentence",
+            "text": "Even if you do not notice it, the possibility actually exists there."
+        },
+        {
+            "id": 61,
+            "type": "sentence",
+            "text": "The true identity of Gibsonian affordance is an objective relationship that exists between animals and the environment.",
+            "paragraph_end": true
+        },
+        {
+            "id": 62,
+            "type": "sentence",
+            "text": "The protagonist here is Environment and Exploration."
+        },
+        {
+            "id": 63,
+            "type": "sentence",
+            "text": "There is no correct answer."
+        },
+        {
+            "id": 64,
+            "type": "sentence",
+            "text": "Users or animals explore the environment and discover their own way of using it."
+        },
+        {
+            "id": 65,
+            "type": "sentence",
+            "text": "That is Gibson's world.",
+            "paragraph_end": true
+        },
+        {
+            "id": 66,
+            "type": "heading",
+            "text": "Which Should Creators Look At?"
+        },
+        {
+            "id": 67,
+            "type": "sentence",
+            "text": "How should we, game developers and designers, use these two properly?"
+        },
+        {
+            "id": 68,
+            "type": "sentence",
+            "text": "The answer is that both are necessary, but mixing them is dangerous.",
+            "paragraph_end": true
+        },
+        {
+            "id": 69,
+            "type": "sentence",
+            "text": "User interfaces such as menu screens and tutorials should be made from Norman's perspective, or signifiers."
+        },
+        {
+            "id": 70,
+            "type": "sentence",
+            "text": "Do not let the user get lost."
+        },
+        {
+            "id": 71,
+            "type": "sentence",
+            "text": "Buttons that can be pressed should look like they can be pressed, and you should place guidance thoroughly and clearly.",
+            "paragraph_end": true
+        },
+        {
+            "id": 72,
+            "type": "sentence",
+            "text": "On the other hand, the core of gameplay and highly free experiences should be made from Gibson's perspective."
+        },
+        {
+            "id": 73,
+            "type": "sentence",
+            "text": "The fun of games like The Legend of Zelda: Breath of the Wild or Minecraft resides here.",
+            "paragraph_end": true
+        },
+        {
+            "id": 74,
+            "type": "sentence",
+            "text": "Can I slide if I get on my shield on this slope?"
+        },
+        {
+            "id": 75,
+            "type": "sentence",
+            "text": "Will this electric enemy get electrocuted if I throw it into water?",
+            "paragraph_end": true
+        },
+        {
+            "id": 76,
+            "type": "sentence",
+            "text": "Instead of the developer putting out an arrow and guiding you to slide, they bury only the possibility in the environment called physics and wait for the player's discovery."
+        },
+        {
+            "id": 77,
+            "type": "sentence",
+            "text": "This is exactly the true identity of emergent play that gives players the supreme joy of thinking of it themselves.",
+            "paragraph_end": true
+        },
+        {
+            "id": 78,
+            "type": "heading",
+            "text": "Conclusion: Having Two Pairs of Glasses"
+        },
+        {
+            "id": 79,
+            "type": "sentence",
+            "text": "When you use the word affordance, please stop for a moment.",
+            "paragraph_end": true
+        },
+        {
+            "id": 80,
+            "type": "sentence",
+            "text": "Are you talking about the technique to convey clearly to the user, which is Norman's signifier?"
+        },
+        {
+            "id": 81,
+            "type": "sentence",
+            "text": "Or are you talking about the depth of possibility that the user can discover, which is Gibson's affordance?",
+            "paragraph_end": true
+        },
+        {
+            "id": 82,
+            "type": "sentence",
+            "text": "If you can use these two pairs of glasses properly, the world you create will be kind, yet possess bottomless depth."
+        }
+    ]
+}
