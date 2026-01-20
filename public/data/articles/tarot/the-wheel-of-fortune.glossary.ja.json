@@ -60,6 +60,92 @@
             "sentenceId": 25,
             "definition": "コントロールの幻想",
             "explanation": "「自分がすべてを管理・支配できる」という思い込み。運命の輪は、予期せぬトラブルやチャンスによって、この思い込みを打ち砕きます。"
+        },
+        {
+            "word": "grind out",
+            "sentenceId": 4,
+            "definition": "ひねり出す、（機械的に）生み出す",
+            "explanation": "苦労して何かを作り出したり、機械が製品を次々と生産するように物事を生み出し続けること。ここでは運命の輪が、人生のサイクルを冷徹に作り出し続けている様子を表しています。",
+            "textMatch": "grinding out"
+        },
+        {
+            "word": "serene",
+            "sentenceId": 8,
+            "definition": "穏やかな、平穏な",
+            "explanation": "嵐のない静かな海のような状態。外界がどれほど騒がしくても、心の中は静まり返り、動じない安らぎに満ちていることです。"
+        },
+        {
+            "word": "cling to",
+            "sentenceId": 9,
+            "definition": "〜にしがみつく、執着する",
+            "explanation": "手放したくないものを必死で掴んで離さないこと。運命の輪の「ふち」にしがみつくとは、変化する状況や地位、感情に執着し、振り回されてしまう状態を意味します。"
+        },
+        {
+            "word": "rim",
+            "sentenceId": 9,
+            "definition": "（車輪などの）縁、外周",
+            "explanation": "車輪の一番外側の部分。回転のスピード（遠心力）を最も強く受ける場所であり、運命の浮き沈みに最も翻弄されやすい「現世的な視点」の象徴です。"
+        },
+        {
+            "word": "dizzy",
+            "sentenceId": 9,
+            "definition": "めまいがする、目が回る",
+            "explanation": "目が回ってふらふらすること。状況が激しく変化しすぎて、何が起きているのか理解できず、混乱している精神状態を表します。"
+        },
+        {
+            "word": "axis",
+            "sentenceId": 11,
+            "definition": "軸、中心線",
+            "explanation": "回転体の中心を貫く動かない線。激動の人生（回る車輪）の中で、唯一ブレない自分自身の信念や精神的中心を指します。"
+        },
+        {
+            "word": "Sphinx",
+            "sentenceId": 13,
+            "definition": "スフィンクス",
+            "explanation": "知恵と謎の象徴。車輪の頂点に座り、運命のバランスと均衡を冷静に見守っています。"
+        },
+        {
+            "word": "Anubis",
+            "sentenceId": 13,
+            "definition": "アヌビス",
+            "explanation": "エジプト神話の冥界の神。ジャッカルの頭を持ち、車輪の右側で上昇していく姿は、新たな生や成功へ向かうエネルギーを象徴しています。"
+        },
+        {
+            "word": "Typhon",
+            "sentenceId": 13,
+            "definition": "テュポン",
+            "explanation": "ギリシャ神話の怪物（蛇のような姿）。車輪の左側で下降していく姿は、衰退や死、物質界への沈降を象徴しています。"
+        },
+        {
+            "word": "Ezekiel",
+            "sentenceId": 18,
+            "definition": "エゼキエル",
+            "explanation": "旧約聖書の予言者。彼の幻視（ビジョン）に現れた四つの生き物（人間、獅子、牛、鷲）は、タロットにおける運命の輪の四隅の守護者と対応しています。"
+        },
+        {
+            "word": "Torah",
+            "sentenceId": 20,
+            "definition": "トーラー（律法）",
+            "explanation": "ユダヤ教の聖典。運命というカオス（混沌）の中にも、実は神聖な法則や秩序が存在していることを示唆しています。"
+        },
+        {
+            "word": "sweep through",
+            "sentenceId": 24,
+            "definition": "吹き荒れる、一掃する",
+            "explanation": "風や嵐が通り過ぎるように、変化が人生を勢いよく通過していくこと。抵抗できない大きな力の動きを表します。",
+            "textMatch": "sweeping through"
+        },
+        {
+            "word": "let go of",
+            "sentenceId": 25,
+            "definition": "〜を手放す",
+            "explanation": "握っていた手を離すこと。執着やコントロール欲求を捨て、現状を受け入れる精神的な態度の変化を指します。"
+        },
+        {
+            "word": "with grace",
+            "sentenceId": 25,
+            "definition": "優雅に、潔く",
+            "explanation": "パニックになったり無様に抵抗したりせず、落ち着いて気品を保ったまま状況を受け入れること。"
         }
     ]
 }

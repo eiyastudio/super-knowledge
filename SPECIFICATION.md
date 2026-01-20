@@ -1,6 +1,6 @@
-# Technical Specification: Arcana English
+# Technical Specification & Content Guidelines: Arcana English
 
-This document defines the architecture, data structures, and content standards for the Arcana English web service.
+This document defines the architecture, data structures, naming conventions, and workflows for the Arcana English web service.
 
 ---
 
@@ -12,10 +12,29 @@ Arcana English is a premium, static-first learning platform. It emphasizes:
 
 ---
 
-## 2. Data Structures (The "Three-JSON" Model)
-Each article is defined by three distinct JSON files located in `public/data/articles/`.
+## 2. Naming Conventions
 
-### 2.1 Content Schema (`{slug}.json`)
+### 2.1 Slug Format
+The article slug must uniquely identify the content.
+- **Format**: `kebab-case`.
+- **General Rule**: `[title]-[author]` (e.g., `emergence-steven-johnson`).
+- **Exception**: Unique concepts or specific series (like Tarot) may use just `[title]` (e.g., `the-fool`).
+
+### 2.2 File Naming
+All data files reside in `public/data/articles/`.
+
+| File Type | Naming Pattern | Description |
+| :--- | :--- | :--- |
+| **Content** | `[slug].json` | Main English text and metadata. |
+| **Translation** | `[slug].translation.ja.json` | Japanese translation mapped by block ID. |
+| **Glossary** | `[slug].glossary.ja.json` | Vocabulary definitions. |
+
+---
+
+## 3. Data Structures (The "Three-JSON" Model)
+Each article is defined by three distinct JSON files.
+
+### 3.1 Content Schema (`{slug}.json`)
 Defines the English narrative and block structure.
 
 | Property | Type | Description |
@@ -31,19 +50,19 @@ Defines the English narrative and block structure.
 - `text`: The raw text content.
 - `paragraph_end`: (Boolean)
   - `true`: When the sentence definitively ends a paragraph.
-  - `false`: Omitted or set to false if the next block is another sentence in the same paragraph OR a `heading`/`title`.
-- `line_break`: (Boolean) Set to `true` to force a line break (`<br>`) within a paragraph narrative.
+  - `false`/omitted: If the next block is part of the same paragraph.
+- `line_break`: (Boolean) Set to `true` to force a line break (`<br>`) within a paragraph.
 
 **Content Style**:
-- **TTS Friendly**: Minimize parentheses. Rewrite parenthetical phrases as natural clauses (e.g., use "or Debit" instead of "(Debit)") to ensure natural reading by the TTS engine.
+- **TTS Friendly**: Minimize parentheses. Rewrite parenthetical phrases as natural clauses.
 
-### 2.2 Translation Schema (`{slug}.translation.ja.json`)
+### 3.2 Translation Schema (`{slug}.translation.ja.json`)
 Maps block IDs to Japanese translations.
 - **Format**: `{ "language": "ja-JP", "translations": { "0": "...", "1": "..." } }`
-- **Quality Standard**: Use dignified, esoteric Japanese (e.g., "Sensual" -> "官能", "Architect" -> "建築家").
-- **No Redundant English**: Do NOT include English terms in parentheses within the Japanese translation (e.g., avoid "借方(Debit)" or "借方、英語で言うDebit"). Use the Japanese term only. The original English is already available in the UI.
+- **Quality Standard**: Use dignified, esoteric Japanese (e.g., "Sensual" -> "官能").
+- **No Redundant English**: Do NOT include English terms in parentheses (e.g., avoid "借方(Debit)").
 
-### 2.3 Glossary Schema (`{slug}.glossary.ja.json`)
+### 3.3 Glossary Schema (`{slug}.glossary.ja.json`)
 Defines vocabulary highlights with a flat, high-focus structure.
 
 - **Structure**:
@@ -53,84 +72,62 @@ Defines vocabulary highlights with a flat, high-focus structure.
 | `glossary` | `array` | List of entries. |
 
 - **Entry Properties**:
-  - `word`: (String) The English word/phrase to highlight.
+  - `word`: (String) The English word/phrase to highlight (Normalized).
   - `sentenceId`: (Integer) The block ID where this word first appears.
-  - `definition`: (String) Short translation or immediate meaning (e.g., " 土台、基礎").
+  - `definition`: (String) Short translation or immediate meaning.
   - `explanation`: (String) Detailed narrative or philosophical context.
+  - `textMatch`: (String, Optional) **CRITICAL**: Use this if the actual text in the article differs from the `word` (e.g., "grinding out" in text vs "grind out" in word).
 
 - **Interaction Rules**: 
   - Each `word` is individually clickable for **high-quality pronunciation** (Static MP3).
   - Clicking a word replaces the translation with a card showing `word`, `definition`, and `explanation`.
-  - Multiple terms separated by "/" are abolished in favor of single-word entries.
 
 - **Term Normalization Rules**:
   - **Verbs**: Use the base form (remove -s, -ing, -ed).
   - **Nouns**: Use the singular form unless the plural has a specific distinct meaning.
-  - **Text Match**: In cases where the normalization differs from the text, use the `textMatch` property to link the specific occurrence to the normalized term.
+  - **Constraint**: If `word` differs from the article text, you MUST provide `textMatch` containing the exact string from the text to ensure the UI can locate and highlight it.
 
 ---
 
-## 3. Sentential Study Modal
+## 4. Sentential Study Modal
 A focused learning view triggered by clicking any sentence.
-
-- **Content**:
-  - **English Sentence**: Large, clear display for focused study.
-  - **Translation**: High-contrast display below the English text.
-  - **Audio**: Play/Pause button for the block's pre-rendered MP3.
-  - **Navigation**: "Previous" and "Next" arrows to move through the article's sentences sequentially.
-  - **Glossary Filter**: Lists glossary items that specifically belong to the current `sentenceId`.
-- **Logic**:
-  - Triggered by clicking any `.sentence` in the main article.
-  - State (current sentence) persists within the modal during navigation.
-  - Keyboard: `ArrowLeft` / `ArrowRight` for navigation, `Space` for toggle play.
+- **Content**: English Sentence, Translation, Audio (Pre-rendered MP3).
+- **Navigation**: Arrow keys to move through sentences.
+- **Glossary Filter**: Lists glossary items belonging to the current `sentenceId`.
 
 ---
 
-## 4. Audio Specification (Gemini-TTS)
+## 5. Audio Specification (Gemini-TTS)
 Narration is pre-generated using Google Cloud's Gemini-powered Text-to-Speech.
 
-- **Model**: `Neural2` / `gemini-2.5-pro-tts` (Project Dependent)
-- **Voice**: `en-US-Neural2-F` / `Charon`
-- **Article Narration Prompt**: *"Narrate this in a calm, authoritative, and dignified tone, suitable for a professional philosophical lecture on tarot and esoteric mysteries."*
-- **Glossary Pronunciation Prompt**: *"Pronounce this word clearly and naturally as if it were part of a high-quality academic dictionary entry. Ensure the tone is dignified and the articulation is perfect."*
+- **Model**: `Neural2` / `gemini-2.5-pro-tts`
+- **Voice**: `en-US-Neural2-F` / `Charon` (Dignified, Authoritative)
 - **Storage**: 
   - Article Blocks: `public/audio/{slug}/{id}.mp3`
   - Glossary Words: `public/audio/{slug}/glossary/{word_slug}.mp3`
 
 ---
 
-## 5. Content Creation Workflow
-> **Note:** For detailed guidelines, naming conventions, and templates, please refer to [CONTENT_GUIDELINES.md](./CONTENT_GUIDELINES.md).
+## 6. Content Creation Workflow & Verification
 
-The content creation process focuses on maintaining high standards of dignity and accuracy.
+### 6.1 Workflow
 1. **Drafting**: Create natural English and Japanese narratives.
 2. **Formatting**: Manually convert text into the Three-JSON structure.
-3. **Audio**: Run the generation script with the specific Style Prompt.
-4. **Integration**: Update `index.html` with the new article card.
+   - *Draft Normalization*: Discard headers, clean glossary terms, flatten lists.
+3. **Audio**: Run the generation script.
+4. **Integration**: Update `index.html`.
 
----
-
-## 6. Design & CSS
-- **Typography**: Inter (Variable), focus on readability and weight.
-- **Layout**: Slate-900 background with deep indigo primary elements. 
-- **Animations**: Use `.fade-in` for content entry and `.playing` for active sentence highlighting.
+### 6.2 Verification Checklist
+- [ ] **Slug Check**: Does the slug follow the naming convention?
+- [ ] **ID Matching**: All `blocks` IDs must exist in the translation JSON.
+- [ ] **Paragraph Ends**: `paragraph_end: true` flags set correctly?
+- [ ] **Glossary Match**: Do glossary terms appear in the text?
+    - If the form differs (e.g. conjugation), is `textMatch` provided?
 
 ---
 
 ## 7. Routing & URL Strategy
-The service uses path-based routing to define the "Learning Mode" (Language Configuration).
-
-### 7.1 URL Structure
-Format: `/{mode}/articles/{slug}`
-
-| Path | Mode Name | Description | Content Display |
-| :--- | :--- | :--- | :--- |
-| `/en-ja/` | **Dual Language** | Standard study mode. | English text + Japanese translation. |
-| `/en/` | **Immersion** | For advanced learners / native speakers. | English text only. Japanese hidden. |
-| `/ja/` | **Native Reader** | For reading the content as a localized article. | Japanese text only. English hidden. |
-| `/en-vn/` | **Vietnam Local** | (Future) For Vietnamese speakers. | English text + Vietnamese translation. |
-
-### 7.2 Default Routing Rules
-- **No Mode**: Accessing `/articles/{slug}` without a language prefix defaults to **Immersion Mode (`/en/`)**.
-  - *Behavior*: Redirect to `/en/articles/{slug}` OR render as English-only.
-- **Root**: Visiting `/` should redirect to or render the default listing (likely `/en-ja/` or user's last preference).
+- **Dual Language**: `/en-ja/articles/{slug}`
+- **Immersion**: `/en/articles/{slug}`
+- **Native Reader**: `/ja/articles/{slug}`
+- **Default**: No prefix redirects to `/en/` or defaults to Immersion.
