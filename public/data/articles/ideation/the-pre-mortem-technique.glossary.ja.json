@@ -1,0 +1,127 @@
+[
+    {
+        "word": "Pre-mortem",
+        "definition": "死前死因分析。プロジェクト開始前に失敗を想定して原因を探る手法。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Prospective Hindsight",
+        "definition": "未来的事後認識。未来の出来事を、あたかも過去に起きたことのように想像して理由を考えること。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Blind Spot",
+        "definition": "盲点。自分では気づいていない欠点やリスクのこと。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Psychological Safety",
+        "definition": "心理的安全性。チーム内で否定を恐れずに発言できる安心感。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Pivot",
+        "definition": "ピボット。プロジェクトの軸足を変え、方向転換すること。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Miserably",
+        "definition": "みじめに、ひどく。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Backward",
+        "definition": "後ろ向きに、逆方向に。work backward で、結果から逆算する、という意味になります。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Analytical mode",
+        "definition": "分析モード。脳の状態を指します。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Prescription",
+        "definition": "処方箋。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Wreck",
+        "definition": "残骸、難破船。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Ambitious",
+        "definition": "野心的な、大がかりな。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Premise",
+        "definition": "前提。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Neutralized",
+        "definition": "中和した、無効にした。日本語の「殺した」に対応します。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Raw and unfiltered information",
+        "definition": "加工不能な生の情報。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Enthusiasm",
+        "definition": "熱意、意欲。ここでは「温度差」の文脈で使われています。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Self-display",
+        "definition": "自己顕示。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Pampered",
+        "definition": "チヤホヤされた。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Talent show",
+        "definition": "のど自慢、隠し芸大会。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Desperation",
+        "definition": "必死さ。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Painfulness",
+        "definition": "痛々しさ。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Lawless",
+        "definition": "無法な、無法地帯の。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Unbridgeable",
+        "definition": "橋を架けられないほどの、埋められない。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Redefinition",
+        "definition": "再定義。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Sublimated",
+        "definition": "昇華された。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Contradiction",
+        "definition": "矛盾。",
+        "matchStrategy": "exact"
+    }
+]

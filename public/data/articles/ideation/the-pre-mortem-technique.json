@@ -1,0 +1,264 @@
+{
+    "slug": "the-pre-mortem-technique",
+    "meta": {
+        "tags": [
+            "IDEATION",
+            "MANAGEMENT"
+        ],
+        "image": "images/articles/the-pre-mortem-technique.jpg"
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "Predicting Disaster: The Power of the Pre-mortem"
+        },
+        {
+            "id": 1,
+            "type": "sentence",
+            "text": "A pre-mortem is, in short, a mental hack where you imagine that a project has ended in total failure before it even begins, allowing everyone to guess the cause of death."
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "Usually, when facing a new challenge, we tend to subconsciously ignore risks because we try so hard to stay positive."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "This method, proposed by psychologist Gary Klein, is designed to deliberately target that psychological blind spot and dramatically increase the success rate.",
+            "paragraph_end": true
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "This technique utilizes a psychological property called prospective hindsight."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "Research shows that we can think much more specifically and logically when explaining why something has already happened than when simply predicting the future."
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "By treating a failed future as a settled fact, the brain shifts from vague anxiety to a sharp, analytical mode."
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "Through this process, concerns that are usually left unsaid appear on the table as valuable solutions."
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "Identifying these causes of death before taking the first step creates a prescription for success.",
+            "paragraph_end": true
+        },
+        {
+            "id": 9,
+            "type": "heading",
+            "text": "Practice: Four Steps to a Successful Pre-mortem"
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "Let us confirm the practical format and what kind of procedure you should follow."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "Step 1, Setting the Stage for Time Travel."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "First, gather the members before the project starts."
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "Then, have the leader declare that the project failed miserably after one year and the wreck is lying right in front of you."
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "The trick is to assume a total failure from which you cannot recover.",
+            "paragraph_end": true
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "Step 2, Listing the Causes of Death."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "Next, each person writes down the reasons why it failed."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "The point is to write in the past tense as if you are recalling the past, such as it failed because of something.",
+            "paragraph_end": true
+        },
+        {
+            "id": 18,
+            "type": "sentence",
+            "text": "Step 3, Sharing and Integrating Information."
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "Share the causes of death that each person wrote down."
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "At this time, criticism is strictly forbidden."
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "This ensures psychological safety and allows you to expose all the anxieties you were vaguely feeling but found hard to say.",
+            "paragraph_end": true
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "Step 4, Formulating Prevention Measures."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "Finally, look at the list of causes of death and discuss how you could have prevented that death."
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "This becomes a strategic checklist to protect your project.",
+            "paragraph_end": true
+        },
+        {
+            "id": 25,
+            "type": "heading",
+            "text": "Death Analysis of the Sing and Match Metaverse"
+        },
+        {
+            "id": 26,
+            "type": "sentence",
+            "text": "Now, let us consider how to actually use this method by taking one specific virtual project as an example."
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "We are now about to launch an ambitious metaverse app that combines karaoke and matchmaking."
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "Since we are combining three services with steady needs, it seems that success is guaranteed if we think normally.",
+            "paragraph_end": true
+        },
+        {
+            "id": 29,
+            "type": "sentence",
+            "text": "However, we will now dare to perform an analysis based on the premise of the death of this service."
+        },
+        {
+            "id": 30,
+            "type": "sentence",
+            "text": "Let us list five fatal causes of death that collapsed the project in the future.",
+            "paragraph_end": true
+        },
+        {
+            "id": 31,
+            "type": "sentence",
+            "text": "Cause 1, The human voice, as raw and unfiltered information, completely neutralized the benefits of anonymity provided by avatars.",
+            "paragraph_end": true
+        },
+        {
+            "id": 32,
+            "type": "sentence",
+            "text": "Cause 2, A fatal gap in enthusiasm emerged between those who wanted to show off their singing out of self-display and those who wanted to have conversations for matchmaking purposes.",
+            "paragraph_end": true
+        },
+        {
+            "id": 33,
+            "type": "sentence",
+            "text": "Cause 3, The curse of the talent show destroyed the community, where only talented people were pampered while average users immediately logged out due to a sense of shame.",
+            "paragraph_end": true
+        },
+        {
+            "id": 34,
+            "type": "sentence",
+            "text": "Cause 4, The compatibility between the desperation of matchmaking and the entertainment of karaoke was worse than expected, and the overall sense of painfulness drove away new users.",
+            "paragraph_end": true
+        },
+        {
+            "id": 35,
+            "type": "sentence",
+            "text": "Cause 5, Sexual harassment unique to voice chat and bullying using volume became lawless in areas where the management could not see.",
+            "paragraph_end": true
+        },
+        {
+            "id": 36,
+            "type": "heading",
+            "text": "Survival Strategy: The Decision to Pivot"
+        },
+        {
+            "id": 37,
+            "type": "sentence",
+            "text": "As a result of the pre-mortem, we faced a shocking truth."
+        },
+        {
+            "id": 38,
+            "type": "sentence",
+            "text": "That was not a defect in individual functions, but a structural flaw in the concept of the fusion of karaoke and matchmaking itself."
+        },
+        {
+            "id": 39,
+            "type": "sentence",
+            "text": "What we saw by listing the causes of death was an unbridgeable deep gap lying between the layer that wants to enjoy entertainment and the layer that wants to find a life partner.",
+            "paragraph_end": true
+        },
+        {
+            "id": 40,
+            "type": "sentence",
+            "text": "Therefore, we decided to pivot, which means to rebuild this project from the root."
+        },
+        {
+            "id": 41,
+            "type": "sentence",
+            "text": "Specifically, we decided to completely remove the matchmaking element and evolve this service into a Virtual Stage Metaverse.",
+            "paragraph_end": true
+        },
+        {
+            "id": 42,
+            "type": "sentence",
+            "text": "We will not perform a correction of functions for the purpose of dating, but a redefinition of the meaning of existence."
+        },
+        {
+            "id": 43,
+            "type": "sentence",
+            "text": "The human voice changes from a risk to anonymity into the strongest weapon for self-expression through avatars, and the fire seeds of an unhealthy community were sublimated into a fan community with a shared passion.",
+            "paragraph_end": true
+        },
+        {
+            "id": 44,
+            "type": "sentence",
+            "text": "This is the survival strategy derived by the pre-mortem."
+        },
+        {
+            "id": 45,
+            "type": "sentence",
+            "text": "Looking at the cause of death sometimes gives you the courage to abandon an idea you loved."
+        },
+        {
+            "id": 46,
+            "type": "sentence",
+            "text": "Being able to notice this fatal contradiction before taking the first step is the greatest and only victory that the pre-mortem has given us.",
+            "paragraph_end": true
+        }
+    ]
+}

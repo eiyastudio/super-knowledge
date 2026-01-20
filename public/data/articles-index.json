@@ -144,6 +144,32 @@
     "image": "images/articles/joseph-campbell-and-the-heros-journey.jpg"
   },
   {
+    "slug": "the-scamper-technique",
+    "category": "ideation",
+    "title": "Forcing Ideas Out: The Magic of the SCAMPER Method",
+    "titleJa": "アイデアを強制的にひねり出す、最強のツール「スキャンパー法」",
+    "summary": "Have you ever found yourself staring at a blank screen, waiting for a brilliant idea to arrive?",
+    "summaryJa": "いいアイデアが、なかなか降りてこない。",
+    "tags": [
+      "IDEATION",
+      "CREATIVITY"
+    ],
+    "image": "images/articles/the-scamper-technique.jpg"
+  },
+  {
+    "slug": "the-pre-mortem-technique",
+    "category": "ideation",
+    "title": "Predicting Disaster: The Power of the Pre-mortem",
+    "titleJa": "失敗を予言して成功を掴む、クリエイターのための「プレモータム」",
+    "summary": "A pre-mortem is a mental hack where you imagine that a project has failed miserably before it even begins.",
+    "summaryJa": "プレモータムとは、一言で言えば、プロジェクトが始まる前に、あえて大失敗に終わったと仮定して、その死因を全員で推理する思考のハックです。",
+    "tags": [
+      "IDEATION",
+      "MANAGEMENT"
+    ],
+    "image": "images/articles/the-pre-mortem-technique.jpg"
+  },
+  {
     "slug": "the-chariot",
     "category": "tarot",
     "title": "7. The Chariot",

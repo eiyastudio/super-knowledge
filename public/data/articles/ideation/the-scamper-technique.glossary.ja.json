@@ -1,0 +1,188 @@
+[
+    {
+        "word": "Acronym",
+        "definition": "頭字語。単語の頭文字を繋げて作られた言葉。SCAMPER法そのものがこの形式。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Substitute",
+        "definition": "代用する、置き換える。何かを別のパーツに変更すること。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Combine",
+        "definition": "結合する、組み合わせる。複数の要素を一つにすること。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Adapt",
+        "definition": "応用する、適応させる。別の場所にある仕組みを自分の問題に当てはめること。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Modify",
+        "definition": "修正する、変更する。形や性質を変えること。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Put to other uses",
+        "definition": "他の用途に使う、転用する。本来の目的とは違う使い道を見つけること。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Eliminate",
+        "definition": "削除する、排除する。不要なものや当たり前だと思われているものを消すこと。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Reverse",
+        "definition": "逆転させる。反対の方向にしたり、役割を入れ替えたりすること。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Rearrange",
+        "definition": "再配列する、並べ替える。順番や構成を変えること。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Brilliant",
+        "definition": "光り輝くような、素晴らしい。",
+        "example": "brilliant idea (素晴らしいアイデア)",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Descend",
+        "definition": "降りてくる、降臨する。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Brainstorming",
+        "definition": "ブレインストーミング、集団発想法。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Hunting",
+        "definition": "狩猟、探し求めること。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Drive",
+        "definition": "駆動させる、駆り立てる。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Extraordinary",
+        "definition": "並外れた、非日常的な。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Assumption",
+        "definition": "思い込み、前提、仮定。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Assemble",
+        "definition": "組み立てる。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Drastically",
+        "definition": "劇的に、徹底的に。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Affordable",
+        "definition": "入手しやすい、手頃な価格の。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Origin",
+        "definition": "起源、ルーツ。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "United",
+        "definition": "統合された、結びついた。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Attached",
+        "definition": "取り付けられた、付属の。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Case",
+        "definition": "事例、場合。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Echolocation",
+        "definition": "反響定位。音の跳ね返りを利用して位置を知ること。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Navigate",
+        "definition": "航行する、進む道を決める。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Invisible",
+        "definition": "目に見えない。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Forecast",
+        "definition": "予測、予報。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Extreme",
+        "definition": "極端な、過激な。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Transformation",
+        "definition": "変容、大転換。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Adhesive",
+        "definition": "接着剤。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Infrastructure",
+        "definition": "インフラ、基盤。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Subtraction",
+        "definition": "引き算、控除。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Revolutionary",
+        "definition": "革命的な。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Eliminating",
+        "definition": "排除すること、取り除くこと。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Fundamental",
+        "definition": "根本的な、基本的な。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Nostalgically",
+        "definition": "懐かしく、郷愁を感じるように。",
+        "matchStrategy": "exact"
+    },
+    {
+        "word": "Treasure",
+        "definition": "宝、貴重なもの。",
+        "matchStrategy": "exact"
+    }
+]

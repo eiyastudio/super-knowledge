@@ -1,0 +1,365 @@
+{
+    "slug": "the-scamper-technique",
+    "meta": {
+        "tags": [
+            "IDEATION",
+            "CREATIVITY"
+        ],
+        "image": "images/articles/the-scamper-technique.jpg"
+    },
+    "blocks": [
+        {
+            "id": 0,
+            "type": "title",
+            "text": "Forcing Ideas Out: The Magic of the SCAMPER Method"
+        },
+        {
+            "id": 1,
+            "type": "sentence",
+            "text": "Have you ever found yourself staring at a blank screen, waiting for a brilliant idea to arrive?"
+        },
+        {
+            "id": 2,
+            "type": "sentence",
+            "text": "For many creators, the fear of the blank page is a common enemy."
+        },
+        {
+            "id": 3,
+            "type": "sentence",
+            "text": "We often treat ideas as mysterious sparks that descend from heaven, leaving our success to luck.",
+            "paragraph_end": true
+        },
+        {
+            "id": 4,
+            "type": "sentence",
+            "text": "However, Alex Osborn, a legendary figure in the advertising world and the father of brainstorming, believed otherwise."
+        },
+        {
+            "id": 5,
+            "type": "sentence",
+            "text": "He famously said that ideas are not something you wait for, but something you go hunting for."
+        },
+        {
+            "id": 6,
+            "type": "sentence",
+            "text": "He developed a checklist to trigger the brain, which was later organized by Bob Eberle into the acronym SCAMPER."
+        },
+        {
+            "id": 7,
+            "type": "sentence",
+            "text": "This method is a powerful tool to forcibly drive your thinking and extract new possibilities.",
+            "paragraph_end": true
+        },
+        {
+            "id": 8,
+            "type": "sentence",
+            "text": "Let us explore the seven lenses of SCAMPER to see how they can transform the ordinary into the extraordinary.",
+            "paragraph_end": true
+        },
+        {
+            "id": 9,
+            "type": "heading",
+            "text": "1. Substitute"
+        },
+        {
+            "id": 10,
+            "type": "sentence",
+            "text": "The first step is to substitute."
+        },
+        {
+            "id": 11,
+            "type": "sentence",
+            "text": "This means replacing an element of your project with something else."
+        },
+        {
+            "id": 12,
+            "type": "sentence",
+            "text": "It could be a material, a person, a rule, or a location."
+        },
+        {
+            "id": 13,
+            "type": "sentence",
+            "text": "The goal is to challenge the assumption that it must be done in a certain way.",
+            "paragraph_end": true
+        },
+        {
+            "id": 14,
+            "type": "sentence",
+            "text": "For example, traditional ceramic plates were heavy and easy to break."
+        },
+        {
+            "id": 15,
+            "type": "sentence",
+            "text": "By substituting the material with paper, the paper plate was born."
+        },
+        {
+            "id": 16,
+            "type": "sentence",
+            "text": "On a larger scale, the furniture company IKEA made a massive impact by substituting the person who assembles the furniture."
+        },
+        {
+            "id": 17,
+            "type": "sentence",
+            "text": "By having the customers themselves do the assembly, they drastically reduced shipping costs and made high-end design affordable for everyone.",
+            "paragraph_end": true
+        },
+        {
+            "id": 18,
+            "type": "heading",
+            "text": "2. Combine"
+        },
+        {
+            "id": 19,
+            "type": "sentence",
+            "text": "Next is to combine."
+        },
+        {
+            "id": 20,
+            "type": "sentence",
+            "text": "This involves merging two or more different elements to create a new value.",
+            "paragraph_end": true
+        },
+        {
+            "id": 21,
+            "type": "sentence",
+            "text": "A perfect example is Katsu Curry."
+        },
+        {
+            "id": 22,
+            "type": "sentence",
+            "text": "This dish combines a fried pork cutlet, which has roots in the French côtelette, with curry rice that was introduced to Japan via Britain."
+        },
+        {
+            "id": 23,
+            "type": "sentence",
+            "text": "These two elements, both with international origins, evolved uniquely in Japan before being united."
+        },
+        {
+            "id": 24,
+            "type": "sentence",
+            "text": "Today, this combination is so popular that it is even considered a national dish in the United Kingdom."
+        },
+        {
+            "id": 25,
+            "type": "sentence",
+            "text": "On a simpler level, the pencil with an attached eraser is a classic product born from this type of combination.",
+            "paragraph_end": true
+        },
+        {
+            "id": 26,
+            "type": "heading",
+            "text": "3. Adapt"
+        },
+        {
+            "id": 27,
+            "type": "sentence",
+            "text": "The third lens is to adapt."
+        },
+        {
+            "id": 28,
+            "type": "sentence",
+            "text": "This means borrowing a mechanism or a logic from nature or a completely different industry.",
+            "paragraph_end": true
+        },
+        {
+            "id": 29,
+            "type": "sentence",
+            "text": "The invention of Velcro is a famous case."
+        },
+        {
+            "id": 30,
+            "type": "sentence",
+            "text": "It was inspired by the way plant seeds stick to clothing."
+        },
+        {
+            "id": 31,
+            "type": "sentence",
+            "text": "Another powerful example is the development of radar and sonar."
+        },
+        {
+            "id": 32,
+            "type": "sentence",
+            "text": "By studying how bats use echolocation to navigate in the dark by listening to reflected sound waves, scientists created technology that allows us to see the invisible."
+        },
+        {
+            "id": 33,
+            "type": "sentence",
+            "text": "This adaptation from biology has fundamentally improved navigation and weather forecasting.",
+            "paragraph_end": true
+        },
+        {
+            "id": 34,
+            "type": "heading",
+            "text": "4. Modify"
+        },
+        {
+            "id": 35,
+            "type": "sentence",
+            "text": "The fourth step is to modify."
+        },
+        {
+            "id": 36,
+            "type": "sentence",
+            "text": "This asks you to change the shape or size of something to its extreme.",
+            "paragraph_end": true
+        },
+        {
+            "id": 37,
+            "type": "sentence",
+            "text": "When someone decided to make a hamburger much larger than usual, the Big Mac was created."
+        },
+        {
+            "id": 38,
+            "type": "sentence",
+            "text": "On the other hand, the passion for making music players and calculators extremely small and thin led to the development of the Walkman and the pocket calculator."
+        },
+        {
+            "id": 39,
+            "type": "sentence",
+            "text": "These were not just changes in size, but a transformation in how we live with technology every day.",
+            "paragraph_end": true
+        },
+        {
+            "id": 40,
+            "type": "heading",
+            "text": "5. Put to other uses"
+        },
+        {
+            "id": 41,
+            "type": "sentence",
+            "text": "The fifth lens is to put to other uses."
+        },
+        {
+            "id": 42,
+            "type": "sentence",
+            "text": "This is the magic of finding a new purpose for something that already exists, or even for a failed product.",
+            "paragraph_end": true
+        },
+        {
+            "id": 43,
+            "type": "sentence",
+            "text": "The most famous story is about a failed adhesive that was too weak to stay stuck."
+        },
+        {
+            "id": 44,
+            "type": "sentence",
+            "text": "By finding a use for its ability to be easily peeled off, it was transformed into the Post-it note."
+        },
+        {
+            "id": 45,
+            "type": "sentence",
+            "text": "In modern times, services like Uber Eats and Airbnb are brilliant examples of this."
+        },
+        {
+            "id": 46,
+            "type": "sentence",
+            "text": "They took personal cars and spare rooms, which were meant for private use, and put them to other uses as a commercial delivery infrastructure or a hotel.",
+            "paragraph_end": true
+        },
+        {
+            "id": 47,
+            "type": "heading",
+            "text": "6. Eliminate"
+        },
+        {
+            "id": 48,
+            "type": "sentence",
+            "text": "The sixth step is to eliminate."
+        },
+        {
+            "id": 49,
+            "type": "sentence",
+            "text": "In the modern world, subtraction is often more powerful than addition."
+        },
+        {
+            "id": 50,
+            "type": "sentence",
+            "text": "Innovation often comes from throwing away things that everyone takes for granted.",
+            "paragraph_end": true
+        },
+        {
+            "id": 51,
+            "type": "sentence",
+            "text": "For instance, James Dyson created a revolutionary fan by eliminating the blades themselves."
+        },
+        {
+            "id": 52,
+            "type": "sentence",
+            "text": "Even more dramatically, the decision to completely remove the physical number buttons from a mobile phone led to the creation of the original iPhone, which fundamentally changed our lifestyle.",
+            "paragraph_end": true
+        },
+        {
+            "id": 53,
+            "type": "heading",
+            "text": "7. Reverse and Rearrange"
+        },
+        {
+            "id": 54,
+            "type": "sentence",
+            "text": "The final step is to reverse or rearrange."
+        },
+        {
+            "id": 55,
+            "type": "sentence",
+            "text": "This means turning the order, roles, or cause-and-effect upside down.",
+            "paragraph_end": true
+        },
+        {
+            "id": 56,
+            "type": "sentence",
+            "text": "Consider the safari park."
+        },
+        {
+            "id": 57,
+            "type": "sentence",
+            "text": "It reversed the traditional zoo experience where people go to see animals in cages."
+        },
+        {
+            "id": 58,
+            "type": "sentence",
+            "text": "In a safari park, humans enter a cage, which is the car, to be seen by the animals."
+        },
+        {
+            "id": 59,
+            "type": "sentence",
+            "text": "In the business world, crowdfunding reversed the common logic of making a product first and then selling it."
+        },
+        {
+            "id": 60,
+            "type": "sentence",
+            "text": "By selling the idea first to raise funds and then making the product, it became a powerful weapon for creators.",
+            "paragraph_end": true
+        },
+        {
+            "id": 61,
+            "type": "heading",
+            "text": "Conclusion"
+        },
+        {
+            "id": 62,
+            "type": "sentence",
+            "text": "The beauty of the SCAMPER method is that it does not require special talent."
+        },
+        {
+            "id": 63,
+            "type": "sentence",
+            "text": "A vague question like what is an interesting idea is hard to answer."
+        },
+        {
+            "id": 64,
+            "type": "sentence",
+            "text": "However, a specific question like what if we reverse the roles is something anyone can answer."
+        },
+        {
+            "id": 65,
+            "type": "sentence",
+            "text": "If you get stuck, look through these seven lenses."
+        },
+        {
+            "id": 66,
+            "type": "sentence",
+            "text": "You will find a treasure of ideas hidden in the familiar scenery.",
+            "paragraph_end": true
+        }
+    ]
+}
