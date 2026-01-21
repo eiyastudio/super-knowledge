@@ -81,7 +81,7 @@ async function loadArticle() {
         articleGlossary = glossaryList;
 
         // Render with new capabilities
-        renderArticle(article, translationsMap, mode, category, categoryIndex);
+        renderArticle(article, translationsMap, mode, category, categoryIndex, categoryData);
         renderGlossary(articleGlossary);
         setupAudio(allBlocks);
 
@@ -127,7 +127,7 @@ function parseUrl() {
     return { mode, category, slug };
 }
 
-function renderArticle(article, translations, mode, category, categoryIndex) {
+function renderArticle(article, translations, mode, category, categoryIndex, categoryData) {
     const app = document.getElementById('app');
     let html = '';
 
@@ -242,6 +242,25 @@ function renderArticle(article, translations, mode, category, categoryIndex) {
                 html += `<div class="nav-spacer"></div>`;
             }
             html += `</nav>`;
+
+            // Category List Table of Contents
+            html += `
+            <div class="category-index-section">
+                <h3>In this Collection: ${categoryData?.category || category}</h3>
+                <ul class="category-list">
+                    ${categoryIndex.map(item => {
+                const isCurrent = item.slug === article.slug;
+                const itemUrl = `/${mode}/articles/${category}/${item.slug}`;
+                return `
+                        <li>
+                            <a href="${itemUrl}" class="category-list-link ${isCurrent ? 'current' : ''}">
+                                ${item.title}
+                                ${isCurrent ? '<span class="current-indicator">(Current)</span>' : ''}
+                            </a>
+                        </li>`;
+            }).join('')}
+                </ul>
+            </div>`;
         }
     }
 
