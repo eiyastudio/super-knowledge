@@ -1,0 +1,95 @@
+{
+    "category": "Major Arcana",
+    "slug": "major-arcana",
+    "description": "The 22 cards of the Major Arcana depict the Fool's Journey from innocence to enlightenment.",
+    "items": [
+        {
+            "slug": "the-fool",
+            "title": "0. The Fool"
+        },
+        {
+            "slug": "the-magician",
+            "title": "1. The Magician"
+        },
+        {
+            "slug": "the-high-priestess",
+            "title": "2. The High Priestess"
+        },
+        {
+            "slug": "the-empress",
+            "title": "3. The Empress"
+        },
+        {
+            "slug": "the-emperor",
+            "title": "4. The Emperor"
+        },
+        {
+            "slug": "the-hierophant",
+            "title": "5. The Hierophant"
+        },
+        {
+            "slug": "the-lovers",
+            "title": "6. The Lovers"
+        },
+        {
+            "slug": "the-chariot",
+            "title": "7. The Chariot"
+        },
+        {
+            "slug": "the-strength",
+            "title": "8. The Strength"
+        },
+        {
+            "slug": "the-hermit",
+            "title": "9. The Hermit"
+        },
+        {
+            "slug": "the-wheel-of-fortune",
+            "title": "10. The Wheel of Fortune"
+        },
+        {
+            "slug": "the-justice",
+            "title": "11. The Justice"
+        },
+        {
+            "slug": "the-hanged-man",
+            "title": "12. The Hanged Man"
+        },
+        {
+            "slug": "the-death",
+            "title": "13. The Death"
+        },
+        {
+            "slug": "the-temperance",
+            "title": "14. The Temperance"
+        },
+        {
+            "slug": "the-devil",
+            "title": "15. The Devil"
+        },
+        {
+            "slug": "the-tower",
+            "title": "16. The Tower"
+        },
+        {
+            "slug": "the-star",
+            "title": "17. The Star"
+        },
+        {
+            "slug": "the-moon",
+            "title": "18. The Moon"
+        },
+        {
+            "slug": "the-sun",
+            "title": "19. The Sun"
+        },
+        {
+            "slug": "the-judgement",
+            "title": "20. The Judgement"
+        },
+        {
+            "slug": "the-world",
+            "title": "21. The World"
+        }
+    ]
+}

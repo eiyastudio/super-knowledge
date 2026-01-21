@@ -42,12 +42,17 @@ Defines the English narrative and block structure.
 | `slug` | `string` | URL-friendly identifier. |
 | `meta.tags` | `array` | Category tags (e.g., `major-arcana`). |
 | `meta.image` | `string` | Path to the featured image (e.g., `images/articles/the-fool.jpg`). |
+| `meta.related` | `array` | List of slugs for related articles (e.g., `["the-fool", "the-magician"]`). |
 | `blocks` | `array` | List of content objects (Title, Heading, Sentence). |
 
 **Block Properties**:
 - `id`: (Integer) Unique ID used for translation mapping and audio file naming.
 - `type`: One of `title`, `heading`, or `sentence`.
 - `text`: The raw text content.
+- `links`: (Array, Optional) Definitions for inline hyperlinks.
+  - `textMatch`: (String) Substring within `text` to make clickable.
+  - `slug`: (String) Target article slug.
+  - `type`: (String) `internal` or `external` (default: `internal`).
 - `paragraph_end`: (Boolean)
   - `true`: When the sentence definitively ends a paragraph.
   - `false`/omitted: If the next block is part of the same paragraph.
@@ -86,6 +91,18 @@ Defines vocabulary highlights with a flat, high-focus structure.
   - **Verbs**: Use the base form (remove -s, -ing, -ed).
   - **Nouns**: Use the singular form unless the plural has a specific distinct meaning.
   - **Constraint**: If `word` differs from the article text, you MUST provide `textMatch` containing the exact string from the text to ensure the UI can locate and highlight it.
+
+### 3.4 Category Index Schema (`indices/{category}.json`)
+Defines the sequential order for article series, enabling automatic "Next/Previous" navigation without manual linking.
+
+- **File Path**: `public/data/indices/{category_slug}.json`
+- **Structure**:
+  - `category`: (String) Human-readable name (e.g., "Major Arcana").
+  - `slug`: (String) URL-friendly identifier.
+  - `description`: (String) Brief overview of the collection.
+  - `items`: (Array) Ordered list of articles.
+    - `slug`: (String) Article file name.
+    - `title`: (String) Display title.
 
 ---
 

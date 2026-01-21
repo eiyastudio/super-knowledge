@@ -7,6 +7,10 @@
         "tags": [
             "tarot",
             "major-arcana"
+        ],
+        "related": [
+            "the-lovers",
+            "the-high-priestess"
         ]
     },
     "blocks": [
@@ -28,7 +32,13 @@
         {
             "id": 3,
             "type": "sentence",
-            "text": "While The Lovers represented the vulnerability of choice, The Chariot symbolizes the armor of determination."
+            "text": "While The Lovers represented the vulnerability of choice, The Chariot symbolizes the armor of determination.",
+            "links": [
+                {
+                    "textMatch": "The Lovers",
+                    "slug": "the-lovers"
+                }
+            ]
         },
         {
             "id": 4,
@@ -54,12 +64,24 @@
         {
             "id": 8,
             "type": "sentence",
-            "text": "Like the pillars of the High Priestess, they symbolize opposing forces—mercy and severity, hope and fear."
+            "text": "Like the pillars of the High Priestess, they symbolize opposing forces—mercy and severity, hope and fear.",
+            "links": [
+                {
+                    "textMatch": "High Priestess",
+                    "slug": "the-high-priestess"
+                }
+            ]
         },
         {
             "id": 9,
             "type": "sentence",
-            "text": "However, unlike the Priestess who sat poised between them, the Chariot harnesses them to move forward."
+            "text": "However, unlike the Priestess who sat poised between them, the Chariot harnesses them to move forward.",
+            "links": [
+                {
+                    "textMatch": "the Priestess",
+                    "slug": "the-high-priestess"
+                }
+            ]
         },
         {
             "id": 10,

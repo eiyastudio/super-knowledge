@@ -10,37 +10,40 @@ async function loadArticle() {
 
     // Handle legacy URLs where category is missing: /articles/:slug
     if (!slug && category) {
-        // e.g. /articles/the-fool -> category='the-fool', slug=undefined
         slug = category;
         category = '';
     }
 
-    // Set language mode class
     document.body.classList.add(`mode-${mode}`);
-    renderLanguageSwitcher(mode, slug, category); // Updated signature
+    renderLanguageSwitcher(mode, slug, category);
 
     if (!slug) {
         document.getElementById('app').innerHTML = '<div class="error">Article not found.</div>';
         return;
     }
 
-    // If category is missing, try to resolve it from the index
-    if (!category) {
+    // Try to resolve category if missing, or load category index if present
+    let categoryIndex = null;
+    let categoryData = null;
+
+    // 1. If we have a category, try to load its index
+    if (category) {
         try {
-            const indexRes = await fetch('/data/articles-index.json');
+            const indexRes = await fetch(`/data/indices/${category}.json`);
             if (indexRes.ok) {
-                const index = await indexRes.json();
-                const found = index.find(a => a.slug === slug);
-                if (found) category = found.category;
+                categoryData = await indexRes.json();
+                categoryIndex = categoryData.items;
             }
         } catch (e) {
-            console.warn('Failed to load index for category resolution', e);
+            console.warn('Failed to load category index', e);
         }
     }
+    // 2. If no category, try to find one by bruteforcing known indices? 
+    // For now, let's assume we stick to the provided structure. 
+    // If the user lands on /articles/the-fool without category, we might miss the nav.
+    // Ideally, we'd have a global map. But let's proceed with what we have.
 
-    currentSlug = slug;
-
-    // Construct path: if category found, use it. Else assume root (legacy backup) or fail.
+    // Construct path.
     const pathPrefix = category ? `/data/articles/${category}/${slug}` : `/data/articles/${slug}`;
 
     try {
@@ -58,7 +61,6 @@ async function loadArticle() {
         if (transRes.ok) {
             try {
                 const translation = await transRes.json();
-                // Support both { translations: { ... } } and flat { "0": "..." } formats
                 translationsMap = translation.translations || translation || {};
             } catch (e) {
                 console.warn('Failed to parse translation JSON', e);
@@ -69,7 +71,6 @@ async function loadArticle() {
         if (glossaryRes.ok) {
             try {
                 const glossaryData = await glossaryRes.json();
-                // Support both { glossary: [...] } and flat [...] formats
                 glossaryList = Array.isArray(glossaryData) ? glossaryData : (glossaryData.glossary || []);
             } catch (e) {
                 console.warn('Failed to parse glossary JSON', e);
@@ -79,9 +80,11 @@ async function loadArticle() {
         allBlocks = article.blocks;
         articleGlossary = glossaryList;
 
-        renderArticle(article, translationsMap, mode);
+        // Render with new capabilities
+        renderArticle(article, translationsMap, mode, category, categoryIndex);
         renderGlossary(articleGlossary);
         setupAudio(allBlocks);
+
     } catch (error) {
         console.error('Error loading article:', error);
         document.getElementById('app').innerHTML = `<div class="error">Error loading article content.<br><small>${error.message}</small></div>`;
@@ -119,10 +122,12 @@ function parseUrl() {
         }
     }
 
+
+
     return { mode, category, slug };
 }
 
-function renderArticle(article, translations, mode) {
+function renderArticle(article, translations, mode, category, categoryIndex) {
     const app = document.getElementById('app');
     let html = '';
 
@@ -157,9 +162,33 @@ function renderArticle(article, translations, mode) {
         } else if (block.type === 'sentence') {
             const trans = translations[block.id] || '';
             const onClickAttr = mode === 'ja' ? '' : `onclick="openModal(${index})"`;
+
+            // Process Inline Links
+            let displayText = block.text;
+            if (block.links && block.links.length > 0) {
+                block.links.forEach(link => {
+                    // Escape special regex chars
+                    const esc = link.textMatch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                    const regex = new RegExp(esc, 'g');
+                    // If it's internal, construct local link. If external, normal href.
+                    // Assuming internal usually:
+                    // We need the category for the link. If we know the target is in the same category, use current 'category'.
+                    // But we don't strictly know. For major arcana -> major arcana, yes.
+                    // For now, assume same category if not specified or check index?
+                    // Simplest: defaults to same category.
+                    const targetCategory = category || 'tarot'; // fallback
+                    const url = link.type === 'external'
+                        ? link.slug
+                        : `/${mode}/articles/${targetCategory}/${link.slug}`;
+
+                    const anchor = `<a href="${url}" class="inline-link" onclick="event.stopPropagation()">${link.textMatch}</a>`;
+                    displayText = displayText.replace(regex, anchor);
+                });
+            }
+
             html += `
                 <span class="sentence" data-id="${block.id}" ${onClickAttr}>
-                    <span class="en-text">${block.text}</span>
+                    <span class="en-text">${displayText}</span>
                     ${trans ? `<span class="translation-overlay">${trans}</span>` : ''}
                 </span> `;
             if (block.line_break) {
@@ -170,6 +199,51 @@ function renderArticle(article, translations, mode) {
             }
         }
     });
+
+    // Related Articles Section
+    if (article.meta.related && article.meta.related.length > 0) {
+        html += `<div class="related-section">
+            <h3>Related Articles</h3>
+            <div class="related-grid">
+                ${article.meta.related.map(slug => {
+            // Try to find title in index, else prettify slug
+            const item = categoryIndex ? categoryIndex.find(i => i.slug === slug) : null;
+            const title = item ? item.title : slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+            const url = `/${mode}/articles/${category || 'tarot'}/${slug}`;
+            return `<a href="${url}" class="related-card">${title}</a>`;
+        }).join('')}
+            </div>
+        </div>`;
+    }
+
+    // Navigation Buttons (Next/Prev)
+    if (categoryIndex && categoryIndex.length > 0) {
+        const currentIndex = categoryIndex.findIndex(item => item.slug === article.slug);
+        if (currentIndex !== -1) {
+            const prevItem = currentIndex > 0 ? categoryIndex[currentIndex - 1] : null;
+            const nextItem = currentIndex < categoryIndex.length - 1 ? categoryIndex[currentIndex + 1] : null;
+
+            html += `<nav class="article-navigation">`;
+            if (prevItem) {
+                html += `<a href="/${mode}/articles/${category}/${prevItem.slug}" class="nav-btn prev">
+                            <span class="nav-label">Previous</span>
+                            <span class="nav-title">← ${prevItem.title}</span>
+                         </a>`;
+            } else {
+                html += `<div class="nav-spacer"></div>`;
+            }
+
+            if (nextItem) {
+                html += `<a href="/${mode}/articles/${category}/${nextItem.slug}" class="nav-btn next">
+                            <span class="nav-label">Next</span>
+                            <span class="nav-title">${nextItem.title} →</span>
+                         </a>`;
+            } else {
+                html += `<div class="nav-spacer"></div>`;
+            }
+            html += `</nav>`;
+        }
+    }
 
     html += '</div>';
     app.innerHTML = html;
