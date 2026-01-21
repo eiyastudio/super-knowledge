@@ -6,13 +6,16 @@ let articleGlossary = [];
 let currentModalIndex = -1;
 
 async function loadArticle() {
-    let { mode, category, slug } = parseUrl();
+    let { mode, category, slug: urlSlug } = parseUrl();
+    currentSlug = urlSlug;
 
     // Handle legacy URLs where category is missing: /articles/:slug
-    if (!slug && category) {
-        slug = category;
+    if (!currentSlug && category) {
+        currentSlug = category;
         category = '';
     }
+
+    const slug = currentSlug; // local alias for rest of function
 
     document.body.classList.add(`mode-${mode}`);
     renderLanguageSwitcher(mode, slug, category);
