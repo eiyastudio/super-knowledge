@@ -41,6 +41,7 @@
             "word": "Rationalization",
             "sentenceId": 22,
             "definition": "合理化、正当化",
+            "textMatch": "rationalizations",
             "explanation": "自分の過ちや失敗に対して、「だってこうだったから」「仕方がなかった」ともっともらしい理屈をつけて自分を守ろうとする心の働き。正義の剣はこれを容赦なく切り捨てます。"
         },
         {
@@ -72,6 +73,114 @@
             "sentenceId": 17,
             "definition": "収穫",
             "explanation": "農業のメタファー。過去に蒔いた種（行動）が育ち、実り（結果）となって戻ってくること。良い種を蒔けば良い実を、悪い種を蒔けば悪い実を刈り取ることになります。"
+        },
+        {
+            "word": "Throne",
+            "sentenceId": 2,
+            "definition": "玉座",
+            "explanation": "権威と支配の象徴。正義が椅子に「座っている」ことは、彼女が一時的な訪問者ではなく、その場に留まり、揺るぎない権限を持って裁定を下す存在であることを示しています。"
+        },
+        {
+            "word": "Scales",
+            "sentenceId": 2,
+            "definition": "天秤",
+            "explanation": "証拠を計り、バランスをとるための道具。行動には必ず対価が必要であることを示し、感情的な慈悲ではなく、機械的な正確さで物事を判断します。"
+        },
+        {
+            "word": "Fluctuating",
+            "sentenceId": 3,
+            "definition": "変動する、定まらない",
+            "explanation": "状況や運次第でコロコロと変わること。運命の輪（Wheel of Fortune）が予測不能な変化を表すのに対し、正義の法則は常に一定であることを対比させています。"
+        },
+        {
+            "word": "Unshakeable",
+            "sentenceId": 3,
+            "definition": "揺るぎない",
+            "explanation": "どんな外圧や感情にも動じない強さ。正義の法則は、私たちが何を願おうと、どんな言い訳をしようと、決して曲がることがありません。"
+        },
+        {
+            "word": "Law of cause and effect",
+            "sentenceId": 3,
+            "definition": "因果律",
+            "textMatch": "cause and effect",
+            "explanation": "すべての結果には必ず原因があるという宇宙の鉄則。蒔いた種は自分で刈り取らねばならない（You reap what you sow）というカルマの法則そのものです。"
+        },
+        {
+            "word": "Cut through",
+            "sentenceId": 4,
+            "definition": "切り開く、断ち切る",
+            "textMatch": "cutting through",
+            "explanation": "曖昧さや混乱を、鋭い知性で一刀両断すること。正義の剣は、嘘やごまかしのヴェールを裂き、その下にある真実を白日の下に晒します。"
+        },
+        {
+            "word": "Piercing",
+            "sentenceId": 5,
+            "definition": "貫くような、鋭い",
+            "explanation": "表面的な嘘を見抜き、本質（核心）まで届く視線。彼女の前では、どんな隠し事も無意味であることを示唆しています。"
+        },
+        {
+            "word": "Weigh",
+            "sentenceId": 8,
+            "definition": "重さを計る、熟考する",
+            "textMatch": "weighing",
+            "explanation": "物理的な重さを計ることと、証拠の重要性を吟味することのダブルミーニング。結論を急がず、すべての要素を慎重に検討するプロセスです。"
+        },
+        {
+            "word": "Tip",
+            "sentenceId": 12,
+            "definition": "傾く",
+            "textMatch": "tipped",
+            "explanation": "バランスが崩れ、どちらか一方に重みがかかること。過去の悪行や不誠実な行動によって生じた「借金」があれば、正義はそれを修正しようとします。"
+        },
+        {
+            "word": "Put out into the world",
+            "sentenceId": 12,
+            "definition": "世に送り出す",
+            "explanation": "自分の内側から外の世界へエネルギーを放出すること。言葉、行動、あるいは意図（thought）であっても、一度外に出せば、それは独立した力として作用し始めます。"
+        },
+        {
+            "word": "Embodiment",
+            "sentenceId": 14,
+            "definition": "具現化、化身",
+            "explanation": "抽象的な概念（ここではカルマや法則）が、目に見える具体的な形をとったもの。正義の女神は、目に見えない宇宙の法則を人間界で体現しています。"
+        },
+        {
+            "word": "Deed",
+            "sentenceId": 16,
+            "definition": "行い",
+            "explanation": "単なる動作（Action）よりも重みのある言葉で、特に善行や悪行として記録されるような行為。一つ一つのDeedが、人生の天秤に載せられます。"
+        },
+        {
+            "word": "Carry weight",
+            "sentenceId": 16,
+            "definition": "重みを持つ、重要である",
+            "textMatch": "carries weight",
+            "explanation": "無視できない影響力や責任があること。私たちの何気ない一言も、宇宙の視点からは「質量」を持ち、現実を歪める力があることを示しています。"
+        },
+        {
+            "word": "Backdrop",
+            "sentenceId": 20,
+            "definition": "背景",
+            "explanation": "舞台の後ろにある幕。ここでは、知恵や霊的な世界が彼女の背後（基盤）にあることを示しますが、彼女自身はあくまで「現世」の舞台に立って活動しています。"
+        },
+        {
+            "word": "The masses",
+            "sentenceId": 21,
+            "definition": "大衆",
+            "explanation": "個々の顔を持たない、一般的な人々。法王（Hierophant）は大衆に向けて教義を説きますが、正義（Justice）は「あなた個人」と1対1で向き合います。"
+        },
+        {
+            "word": "Strip away",
+            "sentenceId": 22,
+            "definition": "剥ぎ取る",
+            "textMatch": "stripping away",
+            "explanation": "表面を覆っているもの（嘘、虚栄、言い訳）を無理やり取り除くこと。痛みを伴うプロセスですが、真実の姿を露わにするためには避けて通れません。"
+        },
+        {
+            "word": "Align",
+            "sentenceId": 24,
+            "definition": "一致させる、整列させる",
+            "explanation": "ズレているものを一直線に直すこと。頭で考えていること（価値観）と、実際にやっていること（行動）をピタリと重ね合わせる、誠実な生き方を求めています。"
         }
     ]
 }

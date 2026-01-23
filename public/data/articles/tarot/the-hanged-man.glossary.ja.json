@@ -66,6 +66,80 @@
             "sentenceId": 21,
             "definition": "懐胎、潜伏期間",
             "explanation": "目に見える成果は出ていないが、水面下で生命やアイデアが育っている期間。「何もしていない」ように見えて、実は最も重要な創造が行われている時間です。"
+        },
+        {
+            "word": "Decisive",
+            "sentenceId": 3,
+            "definition": "決断力のある、決定的な",
+            "explanation": "迷いなくバサッと切り捨てる強さ。正義（Justice）の持つ「白黒はっきりつける」性質を表します。吊るされた男の「保留する」態度とは対極にあります。"
+        },
+        {
+            "word": "Mystic",
+            "sentenceId": 5,
+            "definition": "神秘家",
+            "explanation": "理屈や言葉を超えた直接的な体験を通じて、神や宇宙の真理と一体化しようとする人。世俗的な成功よりも、内面的な悟りを追求します。"
+        },
+        {
+            "word": "Frantic",
+            "sentenceId": 6,
+            "definition": "狂乱した、必死の",
+            "explanation": "焦ってバタバタと動き回ること。現代社会の「何かをしていないと不安」という強迫観念を指します。このノイズが、静かな霊的メッセージをかき消してしまいます。"
+        },
+        {
+            "word": "Embrace",
+            "sentenceId": 11,
+            "definition": "受け入れる、抱擁する",
+            "textMatch": "embraces",
+            "explanation": "恐れや痛みを避けるのではなく、あえて自分の一部として抱きしめること。苦しみを成長の糧として歓迎する、能動的な受容です。"
+        },
+        {
+            "word": "Precarious",
+            "sentenceId": 14,
+            "definition": "不安定な、危険な",
+            "explanation": "いつ落ちてもおかしくないような危うい状態。しかし彼はその不安定さを楽しんでいるかのように、平然としています。"
+        },
+        {
+            "word": "Serene",
+            "sentenceId": 14,
+            "definition": "穏やかな、平静な",
+            "explanation": "嵐の中でも揺らがない静けさ。外側の状況（逆さ吊り）がどれほど苦しくても、内側の平和（心のあり方）は誰にも乱せないことを示しています。"
+        },
+        {
+            "word": "Embody",
+            "sentenceId": 19,
+            "definition": "体現する",
+            "textMatch": "embodies",
+            "explanation": "抽象的な概念を、生身の体で表現すること。彼は単に犠牲について語るのではなく、自らの身をもってその精神を示しています。"
+        },
+        {
+            "word": "Sacred",
+            "sentenceId": 19,
+            "definition": "神聖な",
+            "explanation": "俗世間とは切り離された、侵しがたい尊さ。犠牲（Sacrifice）とは、自分の大切なものを神に捧げて「聖化（make sacred）」するプロセスです。"
+        },
+        {
+            "word": "Need for",
+            "sentenceId": 20,
+            "definition": "～への欲求、必要性",
+            "explanation": "「こうでなければならない」という執着。コントロールへの欲求、認められたいという欲求を手放したとき、初めて本当に必要なものが手に入ります。"
+        },
+        {
+            "word": "Way of thinking",
+            "sentenceId": 20,
+            "definition": "考え方、思考様式",
+            "explanation": "物事を捉える枠組み（マインドセット）。「常識的」な考え方を捨てて、非常識な視点を受け入れることが、このカードの教えです。"
+        },
+        {
+            "word": "Reversal",
+            "sentenceId": 25,
+            "definition": "逆転",
+            "explanation": "進行方向が180度変わること。計画が頓挫したり、予想外の方向に事態が進んだりすることを、嘆くのではなく「新しい機会」として捉え直します。"
+        },
+        {
+            "word": "Be open to",
+            "sentenceId": 25,
+            "definition": "～に対して開かれている",
+            "explanation": "拒絶せずに可能性を受け入れる姿勢。予想外の展開（Reversal）が来たときに、心を閉ざさず「それも面白い」と迎え入れる柔軟さです。"
         }
     ]
 }
