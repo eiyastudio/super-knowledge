@@ -66,6 +66,69 @@
             "sentenceId": 27,
             "definition": "薄める、希釈する",
             "explanation": "濃すぎるものを薄めて飲みやすくすること。情熱や怒りが強すぎて自分が苦しいとき、少しの「遊び」や「客観性」を混ぜて、濃度を下げる知恵です。"
+        },
+        {
+            "word": "Temperance",
+            "sentenceId": 2,
+            "definition": "節制",
+            "explanation": "カーディナル・バーチュー（枢要徳）の一つ。単なる我慢ではなく、相反する要素（熱さと冷たさ、男と女、精神と肉体）を適切な比率で混ぜ合わせ、調和させる能力です。"
+        },
+        {
+            "word": "Depict",
+            "sentenceId": 2,
+            "definition": "描く、表現する",
+            "textMatch": "depicts",
+            "explanation": "絵画や物語の中で、ある姿や状況を表すこと。タロットカードは絵（シンボル）を通じて、言葉にしにくい抽象的な概念を私たちに見せてくれます。"
+        },
+        {
+            "word": "Severance",
+            "sentenceId": 3,
+            "definition": "切断、断絶",
+            "explanation": "バッサリと切り離されること。死神（Death）のカードが容赦なく関係や状況を終わらせるのに対し、節制は物事をむしろ繋ぎ合わせようとします。"
+        },
+        {
+            "word": "Deliberate",
+            "sentenceId": 3,
+            "definition": "慎重な、意図的な",
+            "explanation": "急がず、よく考えて行動すること。錬金術の実験のように、一滴の分量間違えが失敗につながるため、非常に丁寧で意識的なプロセスが必要です。"
+        },
+        {
+            "word": "Subtle",
+            "sentenceId": 5,
+            "definition": "微妙な、繊細な",
+            "explanation": "一見わかりにくいが、重要な違い。力任せに押す（Force）のではなく、ほんの少しの調整で全体のバランスを整える、達人の技です。"
+        },
+        {
+            "word": "Submerge",
+            "sentenceId": 7,
+            "definition": "沈める、浸す",
+            "textMatch": "submerged",
+            "explanation": "水の中に入れること。ここでは、意識（足）の一部を無意識（水）の中に浸している状態。現実世界にいながら、精神世界ともつながっていることを示します。"
+        },
+        {
+            "word": "Bridging",
+            "sentenceId": 8,
+            "definition": "架け橋となる",
+            "explanation": "離れている二つの場所や概念をつなぐこと。節制の天使は、天と地、意識と無意識、過去と未来といった対立する世界の間の「メッセンジャー」です。"
+        },
+        {
+            "word": "Defy",
+            "sentenceId": 10,
+            "definition": "反抗する、無視する",
+            "textMatch": "defies",
+            "explanation": "常識や法則に従わないこと。重力に逆らって水が流れる様子は、精神の力が物理法則を超越し、不可能なこと（奇跡）を起こせることを示唆しています。"
+        },
+        {
+            "word": "Moderation",
+            "sentenceId": 13,
+            "definition": "中庸、適度",
+            "explanation": "「過ぎたるは及ばざるが如し」。何事も極端に走らず、ほどほどの状態を保つこと。これが最も安定的で、長く続けられる秘訣です。"
+        },
+        {
+            "word": "Soothing balm",
+            "sentenceId": 21,
+            "definition": "癒やしの香油、慰め",
+            "explanation": "痛みや炎症を鎮める塗り薬。激動の人生で傷ついた心に塗る、優しい言葉や休息の時間。ヒリヒリした神経をクールダウンさせてくれます。"
         }
     ]
 }
