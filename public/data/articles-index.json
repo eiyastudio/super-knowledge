@@ -170,71 +170,6 @@
     "image": "images/articles/the-pre-mortem-technique.jpg"
   },
   {
-    "slug": "the-chariot",
-    "category": "tarot",
-    "title": "7. The Chariot",
-    "titleJa": "7. 戦車",
-    "summary": "Numbered seven, The Chariot bursts from the city gates, leaving behind the safety of the known world.",
-    "summaryJa": "「7」という数字を冠する戦車は、城門を勢いよく飛び出し、既知の世界の安全を背後に置き去りにする。",
-    "tags": [
-      "tarot",
-      "major-arcana"
-    ],
-    "image": "images/articles/the-chariot.jpg"
-  },
-  {
-    "slug": "the-death",
-    "category": "tarot",
-    "title": "13. Death",
-    "titleJa": "13. 死神",
-    "summary": "Numbered thirteen, Death rides a white horse, wearing black armor.",
-    "summaryJa": "「13」という数字を冠する死神は、黒い鎧をまとい、白馬に乗っている。",
-    "tags": [
-      "tarot",
-      "major-arcana"
-    ],
-    "image": "images/articles/the-death.jpg"
-  },
-  {
-    "slug": "the-devil",
-    "category": "tarot",
-    "title": "15. The Devil",
-    "titleJa": "15. 悪魔",
-    "summary": "Numbered fifteen, The Devil stands on a stone altar to which two figures, a man and a woman, are chained.",
-    "summaryJa": "「15」という数字を冠する悪魔は、男と女の二人の人物が鎖で繋がれた石の祭壇の上に立っている。",
-    "tags": [
-      "tarot",
-      "major-arcana"
-    ],
-    "image": "images/articles/the-devil.jpg"
-  },
-  {
-    "slug": "the-emperor",
-    "category": "tarot",
-    "title": "4. The Emperor",
-    "titleJa": "4. 皇帝",
-    "summary": "Numbered four, the Emperor sits upon a cubic stone, representing the solid foundation of reality.",
-    "summaryJa": "「4」という数字を冠する皇帝は、現実の強固な基盤を表す立方体の石の上に座している。",
-    "tags": [
-      "tarot",
-      "major-arcana"
-    ],
-    "image": "images/articles/the-emperor.jpg"
-  },
-  {
-    "slug": "the-empress",
-    "category": "tarot",
-    "title": "3. The Empress",
-    "titleJa": "3. 女帝",
-    "summary": "Numbered three, the Empress steps from the silence of the High Priestess into the radiant garden of the world.",
-    "summaryJa": "「3」という数字を冠する女帝は、女教皇の静寂から、物理的世界の輝ける庭園へと歩み出る。",
-    "tags": [
-      "tarot",
-      "major-arcana"
-    ],
-    "image": "images/articles/the-empress.jpg"
-  },
-  {
     "slug": "the-fool",
     "category": "tarot",
     "title": "0. The Fool",
@@ -246,97 +181,6 @@
       "major-arcana"
     ],
     "image": "images/articles/the-fool.jpg"
-  },
-  {
-    "slug": "the-hanged-man",
-    "category": "tarot",
-    "title": "12. The Hanged Man",
-    "titleJa": "12. 吊るされた男",
-    "summary": "Numbered twelve, The Hanged Man hangs upside down from a T-shaped cross of living wood.",
-    "summaryJa": "「12」という数字を冠する吊るされた男は、生きた木のT字型十字架から逆さまに吊るされている。",
-    "tags": [
-      "tarot",
-      "major-arcana"
-    ],
-    "image": "images/articles/the-hanged-man.jpg"
-  },
-  {
-    "slug": "the-hermit",
-    "category": "tarot",
-    "title": "9. The Hermit",
-    "titleJa": "9. 隠者",
-    "summary": "Numbered nine, The Hermit stands alone atop a snow-capped mountain, far removed from the bustling crowds below.",
-    "summaryJa": "「9」という数字を冠する隠者は、雪を頂いた山の頂に一人立ち、遥か眼下の賑やかな群衆から離れている。",
-    "tags": [
-      "tarot",
-      "major-arcana"
-    ],
-    "image": "images/articles/the-hermit.jpg"
-  },
-  {
-    "slug": "the-hierophant",
-    "category": "tarot",
-    "title": "5. The Hierophant",
-    "titleJa": "5. 法王",
-    "summary": "Numbered five, the Hierophant sits between two pillars, much like the High Priestess, but his temple is not one of secret silence but of shared belief.",
-    "summaryJa": "「5」という数字を冠する法王は、女教皇と同じく二本の柱の間に座しているが、彼の神殿は秘められた静寂の場ではなく、共有された信仰の場である。",
-    "tags": [
-      "tarot",
-      "major-arcana"
-    ],
-    "image": "images/articles/the-hierophant.jpg"
-  },
-  {
-    "slug": "the-high-priestess",
-    "category": "tarot",
-    "title": "2. The High Priestess",
-    "titleJa": "2. The High Priestess（女教皇）",
-    "summary": "Numbered two, the High Priestess resides at the threshold of the subconscious, serving as the counterpoise to the Magician’s assertive will.",
-    "summaryJa": "「2」という数字を与えられた女教皇は、潜在意識の境界に位置し、魔術師の積極的な意志に対する「均衡（カウンターポイズ）」としての役割を果たす。",
-    "tags": [
-      "tarot",
-      "major-arcana"
-    ],
-    "image": "images/articles/the-high-priestess.jpg"
-  },
-  {
-    "slug": "the-judgement",
-    "category": "tarot",
-    "title": "20. Judgement",
-    "titleJa": "20. 審判",
-    "summary": "Numbered twenty, Judgement depicts the Archangel Gabriel blowing a great trumpet in the sky, while below him, figures rise from their graves with arms outstretched.",
-    "summaryJa": "「20」という数字を冠する審判は、空で大天使ガブリエルが巨大なラッパを吹き鳴らし、その下で人々が腕を広げて墓から蘇る様子を描いている。",
-    "tags": [
-      "tarot",
-      "major-arcana"
-    ],
-    "image": "images/articles/the-judgement.jpg"
-  },
-  {
-    "slug": "the-justice",
-    "category": "tarot",
-    "title": "11. Justice",
-    "titleJa": "11. 正義",
-    "summary": "Numbered eleven, Justice sits upon a stone throne, holding a sword in her right hand and scales in her left.",
-    "summaryJa": "「11」という数字を冠する正義は、石の玉座に座り、右手に剣を、左手に天秤を持っている。",
-    "tags": [
-      "tarot",
-      "major-arcana"
-    ],
-    "image": "images/articles/the-justice.jpg"
-  },
-  {
-    "slug": "the-lovers",
-    "category": "tarot",
-    "title": "6. The Lovers",
-    "titleJa": "6. 恋人たち",
-    "summary": "Numbered six, The Lovers stand naked and unashamed in a sunlit garden, presided over by the archangel Raphael.",
-    "summaryJa": "「6」という数字を冠する恋人たちは、大天使ラファエルの加護のもと、陽の光が降り注ぐ庭園に裸で、恥じることなく立っている。",
-    "tags": [
-      "tarot",
-      "major-arcana"
-    ],
-    "image": "images/articles/the-lovers.jpg"
   },
   {
     "slug": "the-magician",
@@ -352,30 +196,82 @@
     "image": "images/articles/the-magician.jpg"
   },
   {
-    "slug": "the-moon",
+    "slug": "the-high-priestess",
     "category": "tarot",
-    "title": "18. The Moon",
-    "titleJa": "18. 月",
-    "summary": "Numbered eighteen, The Moon hangs high in the night sky, looking down upon a bleak landscape.",
-    "summaryJa": "「18」という数字を冠する月は、夜空高くにかかり、荒涼とした風景を見下ろしている。",
+    "title": "2. The High Priestess",
+    "titleJa": "2. The High Priestess（女教皇）",
+    "summary": "Numbered two, the High Priestess resides at the threshold of the subconscious, serving as the counterpoise to the Magician’s assertive will.",
+    "summaryJa": "「2」という数字を与えられた女教皇は、潜在意識の境界に位置し、魔術師の積極的な意志に対する「均衡（カウンターポイズ）」としての役割を果たす。",
     "tags": [
       "tarot",
       "major-arcana"
     ],
-    "image": "images/articles/the-moon.jpg"
+    "image": "images/articles/the-high-priestess.jpg"
   },
   {
-    "slug": "the-star",
+    "slug": "the-empress",
     "category": "tarot",
-    "title": "17. The Star",
-    "titleJa": "17. 星",
-    "summary": "Numbered seventeen, The Star depicts a naked woman kneeling by a pool of water under a starry sky.",
-    "summaryJa": "「17」という数字を冠する星は、星空の下、水辺にひざまずく裸の女性を描いている。",
+    "title": "3. The Empress",
+    "titleJa": "3. 女帝",
+    "summary": "Numbered three, the Empress steps from the silence of the High Priestess into the radiant garden of the world.",
+    "summaryJa": "「3」という数字を冠する女帝は、女教皇の静寂から、物理的世界の輝ける庭園へと歩み出る。",
     "tags": [
       "tarot",
       "major-arcana"
     ],
-    "image": "images/articles/the-star.jpg"
+    "image": "images/articles/the-empress.jpg"
+  },
+  {
+    "slug": "the-emperor",
+    "category": "tarot",
+    "title": "4. The Emperor",
+    "titleJa": "4. 皇帝",
+    "summary": "Numbered four, the Emperor sits upon a cubic stone, representing the solid foundation of reality.",
+    "summaryJa": "「4」という数字を冠する皇帝は、現実の強固な基盤を表す立方体の石の上に座している。",
+    "tags": [
+      "tarot",
+      "major-arcana"
+    ],
+    "image": "images/articles/the-emperor.jpg"
+  },
+  {
+    "slug": "the-hierophant",
+    "category": "tarot",
+    "title": "5. The Hierophant",
+    "titleJa": "5. 法王",
+    "summary": "Numbered five, the Hierophant sits between two pillars, much like the High Priestess, but his temple is not one of secret silence but of shared belief.",
+    "summaryJa": "「5」という数字を冠する法王は、女教皇と同じく二本の柱の間に座しているが、彼の神殿は秘められた静寂の場ではなく、共有された信仰の場である。",
+    "tags": [
+      "tarot",
+      "major-arcana"
+    ],
+    "image": "images/articles/the-hierophant.jpg"
+  },
+  {
+    "slug": "the-lovers",
+    "category": "tarot",
+    "title": "6. The Lovers",
+    "titleJa": "6. 恋人たち",
+    "summary": "Numbered six, The Lovers stand naked and unashamed in a sunlit garden, presided over by the archangel Raphael.",
+    "summaryJa": "「6」という数字を冠する恋人たちは、大天使ラファエルの加護のもと、陽の光が降り注ぐ庭園に裸で、恥じることなく立っている。",
+    "tags": [
+      "tarot",
+      "major-arcana"
+    ],
+    "image": "images/articles/the-lovers.jpg"
+  },
+  {
+    "slug": "the-chariot",
+    "category": "tarot",
+    "title": "7. The Chariot",
+    "titleJa": "7. 戦車",
+    "summary": "Numbered seven, The Chariot bursts from the city gates, leaving behind the safety of the known world.",
+    "summaryJa": "「7」という数字を冠する戦車は、城門を勢いよく飛び出し、既知の世界の安全を背後に置き去りにする。",
+    "tags": [
+      "tarot",
+      "major-arcana"
+    ],
+    "image": "images/articles/the-chariot.jpg"
   },
   {
     "slug": "the-strength",
@@ -391,17 +287,69 @@
     "image": "images/articles/the-strength.jpg"
   },
   {
-    "slug": "the-sun",
+    "slug": "the-hermit",
     "category": "tarot",
-    "title": "19. The Sun",
-    "titleJa": "19. 太陽",
-    "summary": "Numbered nineteen, The Sun bursts forth in the sky, illuminating everything with its golden rays.",
-    "summaryJa": "「19」という数字を冠する太陽は、空で爆発するように輝き、その黄金の光線ですべてを照らし出している。",
+    "title": "9. The Hermit",
+    "titleJa": "9. 隠者",
+    "summary": "Numbered nine, The Hermit stands alone atop a snow-capped mountain, far removed from the bustling crowds below.",
+    "summaryJa": "「9」という数字を冠する隠者は、雪を頂いた山の頂に一人立ち、遥か眼下の賑やかな群衆から離れている。",
     "tags": [
       "tarot",
       "major-arcana"
     ],
-    "image": "images/articles/the-sun.jpg"
+    "image": "images/articles/the-hermit.jpg"
+  },
+  {
+    "slug": "the-wheel-of-fortune",
+    "category": "tarot",
+    "title": "10. The Wheel of Fortune",
+    "titleJa": "10. 運命の輪",
+    "summary": "Numbered ten, The Wheel of Fortune hangs in the sky, marking the completion of the first cycle of the Major Arcana.",
+    "summaryJa": "「10」という数字を冠する運命の輪は、大アルカナの最初のサイクルの完了を告げるように空に掛かっている。",
+    "tags": [
+      "tarot",
+      "major-arcana"
+    ],
+    "image": "images/articles/the-wheel-of-fortune.jpg"
+  },
+  {
+    "slug": "the-justice",
+    "category": "tarot",
+    "title": "11. Justice",
+    "titleJa": "11. 正義",
+    "summary": "Numbered eleven, Justice sits upon a stone throne, holding a sword in her right hand and scales in her left.",
+    "summaryJa": "「11」という数字を冠する正義は、石の玉座に座り、右手に剣を、左手に天秤を持っている。",
+    "tags": [
+      "tarot",
+      "major-arcana"
+    ],
+    "image": "images/articles/the-justice.jpg"
+  },
+  {
+    "slug": "the-hanged-man",
+    "category": "tarot",
+    "title": "12. The Hanged Man",
+    "titleJa": "12. 吊るされた男",
+    "summary": "Numbered twelve, The Hanged Man hangs upside down from a T-shaped cross of living wood.",
+    "summaryJa": "「12」という数字を冠する吊るされた男は、生きた木のT字型十字架から逆さまに吊るされている。",
+    "tags": [
+      "tarot",
+      "major-arcana"
+    ],
+    "image": "images/articles/the-hanged-man.jpg"
+  },
+  {
+    "slug": "the-death",
+    "category": "tarot",
+    "title": "13. Death",
+    "titleJa": "13. 死神",
+    "summary": "Numbered thirteen, Death rides a white horse, wearing black armor.",
+    "summaryJa": "「13」という数字を冠する死神は、黒い鎧をまとい、白馬に乗っている。",
+    "tags": [
+      "tarot",
+      "major-arcana"
+    ],
+    "image": "images/articles/the-death.jpg"
   },
   {
     "slug": "the-temperance",
@@ -417,6 +365,19 @@
     "image": "images/articles/the-temperance.jpg"
   },
   {
+    "slug": "the-devil",
+    "category": "tarot",
+    "title": "15. The Devil",
+    "titleJa": "15. 悪魔",
+    "summary": "Numbered fifteen, The Devil stands on a stone altar to which two figures, a man and a woman, are chained.",
+    "summaryJa": "「15」という数字を冠する悪魔は、男と女の二人の人物が鎖で繋がれた石の祭壇の上に立っている。",
+    "tags": [
+      "tarot",
+      "major-arcana"
+    ],
+    "image": "images/articles/the-devil.jpg"
+  },
+  {
     "slug": "the-tower",
     "category": "tarot",
     "title": "16. The Tower",
@@ -430,17 +391,56 @@
     "image": "images/articles/the-tower.jpg"
   },
   {
-    "slug": "the-wheel-of-fortune",
+    "slug": "the-star",
     "category": "tarot",
-    "title": "10. The Wheel of Fortune",
-    "titleJa": "10. 運命の輪",
-    "summary": "Numbered ten, The Wheel of Fortune hangs in the sky, marking the completion of the first cycle of the Major Arcana.",
-    "summaryJa": "「10」という数字を冠する運命の輪は、大アルカナの最初のサイクルの完了を告げるように空に掛かっている。",
+    "title": "17. The Star",
+    "titleJa": "17. 星",
+    "summary": "Numbered seventeen, The Star depicts a naked woman kneeling by a pool of water under a starry sky.",
+    "summaryJa": "「17」という数字を冠する星は、星空の下、水辺にひざまずく裸の女性を描いている。",
     "tags": [
       "tarot",
       "major-arcana"
     ],
-    "image": "images/articles/the-wheel-of-fortune.jpg"
+    "image": "images/articles/the-star.jpg"
+  },
+  {
+    "slug": "the-moon",
+    "category": "tarot",
+    "title": "18. The Moon",
+    "titleJa": "18. 月",
+    "summary": "Numbered eighteen, The Moon hangs high in the night sky, looking down upon a bleak landscape.",
+    "summaryJa": "「18」という数字を冠する月は、夜空高くにかかり、荒涼とした風景を見下ろしている。",
+    "tags": [
+      "tarot",
+      "major-arcana"
+    ],
+    "image": "images/articles/the-moon.jpg"
+  },
+  {
+    "slug": "the-sun",
+    "category": "tarot",
+    "title": "19. The Sun",
+    "titleJa": "19. 太陽",
+    "summary": "Numbered nineteen, The Sun bursts forth in the sky, illuminating everything with its golden rays.",
+    "summaryJa": "「19」という数字を冠する太陽は、空で爆発するように輝き、その黄金の光線ですべてを照らし出している。",
+    "tags": [
+      "tarot",
+      "major-arcana"
+    ],
+    "image": "images/articles/the-sun.jpg"
+  },
+  {
+    "slug": "the-judgement",
+    "category": "tarot",
+    "title": "20. Judgement",
+    "titleJa": "20. 審判",
+    "summary": "Numbered twenty, Judgement depicts the Archangel Gabriel blowing a great trumpet in the sky, while below him, figures rise from their graves with arms outstretched.",
+    "summaryJa": "「20」という数字を冠する審判は、空で大天使ガブリエルが巨大なラッパを吹き鳴らし、その下で人々が腕を広げて墓から蘇る様子を描いている。",
+    "tags": [
+      "tarot",
+      "major-arcana"
+    ],
+    "image": "images/articles/the-judgement.jpg"
   },
   {
     "slug": "the-world",

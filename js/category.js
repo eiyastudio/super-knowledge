@@ -18,7 +18,18 @@ async function initCategoryPage() {
         const articles = await res.json();
 
         // Filter by category
-        const filtered = articles.filter(a => a.category === category);
+        let filtered = articles.filter(a => a.category === category);
+
+        // Sort by number in title if available (e.g. "0. The Fool", "11. Justice")
+        filtered.sort((a, b) => {
+            const numA = extractNumber(a.title);
+            const numB = extractNumber(b.title);
+            if (numA !== null && numB !== null) {
+                return numA - numB;
+            }
+            return 0; // Keep original order if no numbers
+        });
+
         renderGrid(filtered, mode);
     } catch (e) {
         console.error(e);
@@ -164,3 +175,8 @@ function renderLanguageSwitcher(currentMode, category) {
 }
 
 initCategoryPage();
+
+function extractNumber(title) {
+    const match = title.match(/^(\d+)\./);
+    return match ? parseInt(match[1], 10) : null;
+}
