@@ -643,7 +643,7 @@ document.addEventListener('keydown', (e) => {
 
 
 
-function renderLanguageSwitcher(currentMode, slug) {
+function renderLanguageSwitcher(currentMode, slug, category) {
     const container = document.getElementById('lang-switcher');
     if (!container) return;
 
@@ -662,17 +662,13 @@ function renderLanguageSwitcher(currentMode, slug) {
             </button>
             <div class="lang-menu" id="lang-menu">
                 ${modes.map(m => {
-        // Force slug relative path for correctness? 
-        // No, absolute path with mode prefix is safer.
-        // Special handling: if we rely on vite rewrites, /ja/articles/slug works.
-        // But standard link is /en-ja/articles/slug.
-        // Let's use the explicit prefixes.
-        let prefix = m.id === 'en-ja' ? '/en-ja' : ('/' + m.id);
-        // Actually wait, en-ja mode path is /en-ja/articles/...
-        // en mode path is /en/articles/...
-        // ja mode path is /ja/articles/...
-
-        const href = `/${m.id}/articles/${slug}`;
+        let href;
+        if (category) {
+            href = `/${m.id}/articles/${category}/${slug}`;
+        } else {
+            // Fallback for legacy URLs or if category truly missing
+            href = `/${m.id}/articles/${slug}`;
+        }
         return `<a href="${href}" class="lang-option ${m.id === currentMode ? 'active' : ''}">${m.label}</a>`;
     }).join('')}
             </div>
