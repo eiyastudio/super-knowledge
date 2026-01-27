@@ -17,6 +17,7 @@
             "word": "Nourish",
             "sentenceId": 8,
             "definition": "栄養を与える、育む",
+            "textMatch": "nourishing",
             "explanation": "単に水を与えるだけでなく、成長に必要なケアをすること。女性が大地に水を注ぐ行為は、荒れ果てた現実（塔の跡地）に新しい生命を吹き込む愛の行為です。"
         },
         {
@@ -29,6 +30,7 @@
             "word": "Chakra",
             "sentenceId": 15,
             "definition": "チャクラ",
+            "textMatch": "chakras",
             "explanation": "サンスクリット語で「車輪」。人間の体にある7つのエネルギーセンター。7つの小さな星は、心身のエネルギーバランスが整い、健康な状態に戻ることを示唆しています。"
         },
         {
@@ -66,6 +68,62 @@
             "sentenceId": 29,
             "definition": "真正性、自分らしさ",
             "explanation": "「自分らしくあること」そのもの。星のカードにおいて、あなたが世界に貢献できる最高の方法は、何かを成し遂げることではなく、ただ「あなた自身でいること」だと教えています。"
+        },
+        {
+            "word": "Kneel",
+            "sentenceId": 2,
+            "definition": "ひざまずく",
+            "textMatch": "kneeling",
+            "explanation": "大地に対して体を低くする姿勢。降伏ではなく、大いなる自然や神聖なものへの謙虚な献身を表します。"
+        },
+        {
+            "word": "Starry",
+            "sentenceId": 2,
+            "definition": "星の輝く、星が多い",
+            "explanation": "希望やインスピレーションに満ちた状態。暗闇（無知や絶望）の中で、無数の可能性が輝き始めたことを示します。"
+        },
+        {
+            "word": "Vulnerability",
+            "sentenceId": 5,
+            "definition": "脆弱性、傷つきやすさ",
+            "explanation": "攻撃されたら傷ついてしまう、無防備な状態。しかしタロットでは、この「鎧を脱いだ状態」こそが、宇宙のエネルギーを受け取るための最強の強さとされています。"
+        },
+        {
+            "word": "Pitcher",
+            "sentenceId": 8,
+            "definition": "水差し",
+            "textMatch": "pitchers",
+            "explanation": "生命の水を運ぶ器。二つの水差しは、意識と無意識、感情と理性など、異なる領域の間でエネルギーを循環させる道具です。"
+        },
+        {
+            "word": "Hoard",
+            "sentenceId": 11,
+            "definition": "溜め込む、隠匿する",
+            "explanation": "自分だけで独占して、出し惜しみすること。星の女性は水を惜しみなく注ぎます。水源（宇宙の愛）が無限であることを知っているからです。"
+        },
+        {
+            "word": "Higher Self",
+            "sentenceId": 15,
+            "definition": "ハイヤーセルフ、高次の自己",
+            "explanation": "日常の小さな自我（エゴ）を超えた、より高い視点を持つ本来の自分。人生の目的や魂の計画を知っている内なるガイドです。"
+        },
+        {
+            "word": "Effortless",
+            "sentenceId": 21,
+            "definition": "努力を要しない、楽な",
+            "explanation": "頑張らなくても自然にできる状態。正しい道（フロー状態）にいるときは、物事が摩擦なく、スムーズに進みます。"
+        },
+        {
+            "word": "Fiery",
+            "sentenceId": 23,
+            "definition": "火のような、激しい",
+            "explanation": "「魔術師」や「戦車」のような、メラメラと燃える能動的な意志の力。星のエネルギーはそれとは対照的な、静かで冷涼な光です。"
+        },
+        {
+            "word": "Receptive",
+            "sentenceId": 23,
+            "definition": "受容的な",
+            "explanation": "受け入れる姿勢。自らガツガツ取りに行くのではなく、器を空けて待つことで、向こうからやってくるメッセージや恵みを受け取ります。"
         }
     ]
 }
