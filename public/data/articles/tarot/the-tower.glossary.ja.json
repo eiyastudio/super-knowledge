@@ -57,7 +57,7 @@
         },
         {
             "word": "Surrender",
-            "sentenceId": 27,
+            "sentenceId": 28,
             "definition": "降伏",
             "explanation": "抵抗をやめること。崩れる壁を必死で支えようとする努力をやめ、重力に従って落ちるに任せること。底まで落ちれば、もう落ちる心配はありません。"
         },
@@ -66,6 +66,102 @@
             "sentenceId": 30,
             "definition": "揺るぎない",
             "explanation": "すべての飾りが剥がれ落ちた後に残る、唯一のもの。塔が崩れても、その下の「大地」や「魂」そのものは傷つきません。それが本当のあなたです。"
+        },
+        {
+            "word": "Depict",
+            "sentenceId": 2,
+            "definition": "描く、表現する",
+            "textMatch": "depicts",
+            "explanation": "絵や言葉で表現すること。タロットでは、抽象的な概念を劇的なシーンとして「描写」しています。"
+        },
+        {
+            "word": "Erupt",
+            "sentenceId": 2,
+            "definition": "噴火する、噴出する",
+            "textMatch": "erupting",
+            "explanation": "抑圧されていたものが一気に外へ飛び出すこと。窓からの炎は、内部に溜まっていた怒りや情熱の爆発です。"
+        },
+        {
+            "word": "Stagnation",
+            "sentenceId": 3,
+            "definition": "停滞、澱み",
+            "explanation": "水が流れないで腐るように、変化がなく成長が止まっている状態。悪魔のカードの「居心地の良さ」の成れの果てです。"
+        },
+        {
+            "word": "Intervene",
+            "sentenceId": 5,
+            "definition": "介入する",
+            "explanation": "外から割って入ること。自分ではどうしようもなくなった時、宇宙（運命）が強制的に手出しをして状況を動かします。"
+        },
+        {
+            "word": "Atop",
+            "sentenceId": 8,
+            "definition": "～の頂上に",
+            "explanation": "てっぺんに。王冠が「最も高い場所」にあることは、それが権力やプライドの象徴であることを強調しています。"
+        },
+        {
+            "word": "Fortified",
+            "sentenceId": 12,
+            "definition": "要塞化された、強化された",
+            "explanation": "壁を厚くして守りを固めた状態。しかし、どれほど心を閉ざして守っても、内側からの崩壊や天からの雷は防げません。"
+        },
+        {
+            "word": "Tumble",
+            "sentenceId": 14,
+            "definition": "転げ落ちる",
+            "textMatch": "tumbling",
+            "explanation": "制御不能な状態で落下すること。自分の意志ではなく、重力（運命）に翻弄されて落ちていく様子です。"
+        },
+        {
+            "word": "Cloak",
+            "sentenceId": 15,
+            "definition": "マント、外套",
+            "explanation": "身分や地位を隠す（あるいは誇示する）ための服。落ちるときは、王様のマントもただの布切れに過ぎません。"
+        },
+        {
+            "word": "Resemble",
+            "sentenceId": 15,
+            "definition": "～に似ている",
+            "textMatch": "resembling",
+            "explanation": "皇帝に似ている人物が描かれることで、どんなに偉い人でも運命の力には逆らえないことを示唆しています。"
+        },
+        {
+            "word": "Catastrophe",
+            "sentenceId": 16,
+            "definition": "大惨事、破局",
+            "explanation": "ギリシャ語の「転覆」が語源。劇的な結末。避けるべき最悪の事態に見えますが、物語（人生）を次の章へ進めるための必須イベントです。"
+        },
+        {
+            "word": "Humble",
+            "sentenceId": 16,
+            "definition": "謙虚にする",
+            "textMatch": "humbles",
+            "explanation": "鼻をへし折ること。災害や病気が、金持ちも貧乏人も区別なく襲うように、塔の崩壊は人間に限界を教え、謙虚さを取り戻させます。"
+        },
+        {
+            "word": "Let go of",
+            "sentenceId": 18,
+            "definition": "～を手放す",
+            "explanation": "握りしめているものを離すこと。自分から離すのが難しいとき、塔のカードは強制的に手をこじ開けさせます。"
+        },
+        {
+            "word": "Beneath",
+            "sentenceId": 19,
+            "definition": "～の下に、裏側に",
+            "explanation": "仮面や瓦礫の下にあるもの。表面的な建物が壊れたことで、初めてその下にあった「本当の土台（真実）」が姿を現します。"
+        },
+        {
+            "word": "Come down",
+            "sentenceId": 28,
+            "definition": "崩れ落ちる、降りてくる",
+            "explanation": "高いところから地面に落ちること。プライドの高さから、現実の地面（Grounding）へと引き戻されるプロセスです。"
+        },
+        {
+            "word": "Crumble",
+            "sentenceId": 29,
+            "definition": "ボロボロに崩れる",
+            "textMatch": "crumbling",
+            "explanation": "形あるものが粉々になること。修復不可能な壊れ方。未練を断ち切るために、原型を留めないほどの破壊が必要です。"
         }
     ]
 }
