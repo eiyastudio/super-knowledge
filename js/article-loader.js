@@ -720,7 +720,7 @@ function renderLanguageSwitcher(currentMode, slug, category) {
         `;
     }
 
-    container.innerHTML = `<div class="lang-switcher-group">${dropdownHtml}${toggleHtml}</div>`;
+    container.innerHTML = `<div class="lang-switcher-group">${toggleHtml}${dropdownHtml}</div>`;
 
     // Dropdown Interactivity
     const btn = document.getElementById('lang-btn');
