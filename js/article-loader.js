@@ -137,6 +137,7 @@ function renderArticle(article, translations, mode, category, categoryIndex, cat
     article.blocks.forEach((block, index) => {
         if (block.type === 'title') {
             const trans = translations[block.id] || '';
+            const onClickAttr = mode === 'ja' ? '' : `onclick="openModal(${index})"`;
             html += `
                 <header>
                     ${article.meta && article.meta.image ? `
@@ -144,7 +145,7 @@ function renderArticle(article, translations, mode, category, categoryIndex, cat
                             <img src="/${article.meta.image}" alt="${block.text}" class="featured-image">
                         </div>
                     ` : ''}
-                    <h1>
+                    <h1 data-id="${block.id}" ${onClickAttr} class="${mode !== 'ja' ? 'clickable' : ''}">
                         <span class="en-text">${block.text}</span>
                         ${trans ? `<span class="translation-overlay">${trans}</span>` : ''}
                     </h1>
@@ -157,8 +158,9 @@ function renderArticle(article, translations, mode, category, categoryIndex, cat
                 <div class="article-content">`;
         } else if (block.type === 'heading') {
             const trans = translations[block.id] || '';
+            const onClickAttr = mode === 'ja' ? '' : `onclick="openModal(${index})"`;
             html += `
-                <h2 data-id="${block.id}">
+                <h2 data-id="${block.id}" ${onClickAttr} class="${mode !== 'ja' ? 'clickable' : ''}">
                     <span class="en-text">${block.text}</span>
                     ${trans ? `<span class="translation-overlay">${trans}</span>` : ''}
                 </h2>`;
@@ -476,7 +478,8 @@ function closeModal() {
 
 function updateModalContent() {
     const block = allBlocks[currentModalIndex];
-    if (!block || block.type !== 'sentence') return;
+    // Allow sentence, heading, and title
+    if (!block || (block.type !== 'sentence' && block.type !== 'heading' && block.type !== 'title')) return;
 
     const sentenceId = block.id;
     const rawText = block.text;
@@ -498,8 +501,9 @@ function updateModalContent() {
     document.getElementById('modal-english').innerHTML = decoratedText;
 
     // Cache and set initial translation
-    const sentenceEl = document.querySelector(`.sentence[data-id="${sentenceId}"]`);
-    const translationOverlay = sentenceEl.querySelector('.translation-overlay');
+    // Use generic selector to find element by data-id, handling sentences, h1, h2
+    const sentenceEl = document.querySelector(`[data-id="${sentenceId}"]`);
+    const translationOverlay = sentenceEl ? sentenceEl.querySelector('.translation-overlay') : null;
     currentSentenceTranslation = translationOverlay ? translationOverlay.textContent.trim() : ''; // Use textContent to get text even if hidden
     resetToTranslation();
 
@@ -519,11 +523,13 @@ function updateModalContent() {
 }
 
 function updateNavArrows() {
+    const isPlayable = (b) => b.type === 'sentence' || b.type === 'heading' || b.type === 'title';
+
     // Check for previous sentence
     let hasPrev = false;
     let i = currentModalIndex - 1;
     while (i >= 0) {
-        if (allBlocks[i].type === 'sentence') {
+        if (isPlayable(allBlocks[i])) {
             hasPrev = true;
             break;
         }
@@ -534,7 +540,7 @@ function updateNavArrows() {
     let hasNext = false;
     let j = currentModalIndex + 1;
     while (j < allBlocks.length) {
-        if (allBlocks[j].type === 'sentence') {
+        if (isPlayable(allBlocks[j])) {
             hasNext = true;
             break;
         }
@@ -591,8 +597,9 @@ function selectGlossaryWord(word) {
 }
 
 function nextSentence() {
+    const isPlayable = (b) => b.type === 'sentence' || b.type === 'heading' || b.type === 'title';
     let nextIndex = currentModalIndex + 1;
-    while (nextIndex < allBlocks.length && allBlocks[nextIndex].type !== 'sentence') {
+    while (nextIndex < allBlocks.length && !isPlayable(allBlocks[nextIndex])) {
         nextIndex++;
     }
     if (nextIndex < allBlocks.length) {
@@ -603,8 +610,9 @@ function nextSentence() {
 }
 
 function prevSentence() {
+    const isPlayable = (b) => b.type === 'sentence' || b.type === 'heading' || b.type === 'title';
     let prevIndex = currentModalIndex - 1;
-    while (prevIndex >= 0 && allBlocks[prevIndex].type !== 'sentence') {
+    while (prevIndex >= 0 && !isPlayable(allBlocks[prevIndex])) {
         prevIndex--;
     }
     if (prevIndex >= 0) {
@@ -613,6 +621,7 @@ function prevSentence() {
         playSentence(allBlocks[currentModalIndex].id);
     }
 }
+
 
 // Global exposure
 window.openModal = openModal;
