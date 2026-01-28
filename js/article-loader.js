@@ -656,33 +656,71 @@ function renderLanguageSwitcher(currentMode, slug, category) {
     const container = document.getElementById('lang-switcher');
     if (!container) return;
 
-    const modes = [
-        { id: 'en', label: 'English' },
-        { id: 'en-ja', label: '英語学習 (Dual)' },
-        { id: 'ja', label: '日本語' }
+    // Configuration: Add new languages here
+    const languages = [
+        { code: 'en', label: 'English' },
+        { code: 'ja', label: '日本語' }
+        // Example: { code: 'vn', label: 'Vietnamese' }
     ];
 
-    const currentModeObj = modes.find(m => m.id === currentMode) || modes[1]; // default en-ja
+    // Helper: Determine the "Base Language" (dropdown selection) from the current mode
+    // en -> en
+    // ja -> ja
+    // en-ja -> ja (Dual mode belongs to the specific language context)
+    const getBaseLangCode = (mode) => {
+        if (mode === 'en') return 'en';
+        if (mode.startsWith('en-')) return mode.split('-')[1];
+        return mode;
+    };
 
-    container.innerHTML = `
+    const currentBaseLangCode = getBaseLangCode(currentMode);
+    const currentLangObj = languages.find(l => l.code === currentBaseLangCode) || languages[0];
+
+    // Build Dropdown
+    const dropdownHtml = `
         <div class="lang-dropdown">
             <button class="lang-btn-trigger" id="lang-btn">
-                ${currentModeObj.label} <span style="font-size: 0.8em; opacity: 0.7;">▼</span>
+                ${currentLangObj.label} <span style="font-size: 0.8em; opacity: 0.7;">▼</span>
             </button>
             <div class="lang-menu" id="lang-menu">
-                ${modes.map(m => {
+                ${languages.map(l => {
+        // Switching language in dropdown always resets to that language's base mode (Learning OFF)
         let href;
         if (category) {
-            href = `/${m.id}/articles/${category}/${slug}`;
+            href = `/${l.code}/articles/${category}/${slug}`;
         } else {
-            // Fallback for legacy URLs or if category truly missing
-            href = `/${m.id}/articles/${slug}`;
+            href = `/${l.code}/articles/${slug}`;
         }
-        return `<a href="${href}" class="lang-option ${m.id === currentMode ? 'active' : ''}">${m.label}</a>`;
+        const isActive = l.code === currentBaseLangCode;
+        return `<a href="${href}" class="lang-option ${isActive ? 'active' : ''}">${l.label}</a>`;
     }).join('')}
             </div>
         </div>
     `;
+
+    // Build Learning Toggle (Visible for any non-English base language)
+    let toggleHtml = '';
+    // We assume any non-English language potentially supports "English Learning Mode" (en-{code})
+    if (currentBaseLangCode !== 'en') {
+        const isLearningMode = currentMode === `en-${currentBaseLangCode}`;
+        const targetMode = isLearningMode ? currentBaseLangCode : `en-${currentBaseLangCode}`;
+
+        let href;
+        if (category) {
+            href = `/${targetMode}/articles/${category}/${slug}`;
+        } else {
+            href = `/${targetMode}/articles/${slug}`;
+        }
+
+        toggleHtml = `
+            <a href="${href}" class="btn-learning-toggle ${isLearningMode ? 'active' : ''}">
+                <span class="toggle-icon">${isLearningMode ? '✓' : ''}</span>
+                <span class="toggle-label">English Learning</span>
+            </a>
+        `;
+    }
+
+    container.innerHTML = `<div class="lang-switcher-group">${dropdownHtml}${toggleHtml}</div>`;
 
     // Dropdown Interactivity
     const btn = document.getElementById('lang-btn');
@@ -703,9 +741,11 @@ function renderLanguageSwitcher(currentMode, slug, category) {
     const homeLink = document.getElementById('home-link');
     if (homeLink) {
         let homeHref = '/';
-        if (currentMode === 'ja') homeHref = '/ja/';
-        if (currentMode === 'en') homeHref = '/en/';
-        // en-ja goes to root /
+        if (currentBaseLangCode !== 'en') {
+            homeHref = `/${currentBaseLangCode}/`; // e.g., /ja/, /vn/
+        } else {
+            homeHref = '/en/';
+        }
         homeLink.setAttribute('href', homeHref);
     }
 }

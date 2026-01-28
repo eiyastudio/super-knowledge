@@ -1136,3 +1136,44 @@ body.mode-ja .translation-overlay {
     opacity: 0.7;
     color: var(--primary);
 }
+
+/* Language Switcher Group */
+.lang-switcher-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Learning Mode Toggle */
+.btn-learning-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    border-radius: 0.5rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.btn-learning-toggle:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-color: var(--primary);
+}
+
+.btn-learning-toggle.active {
+    background: rgba(99, 102, 241, 0.15);
+    border-color: var(--primary);
+    color: #fff;
+    box-shadow: 0 0 10px rgba(99, 102, 241, 0.2);
+}
+
+.toggle-icon {
+    font-weight: 800;
+    font-family: serif; 
+}
