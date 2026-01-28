@@ -1,0 +1,32 @@
+{
+    "rewrites": [
+        {
+            "source": "/:lang(en|ja|en-ja)/articles/:category(tarot|finance|creativity|games|ideation)/:slug",
+            "destination": "/article.html"
+        },
+        {
+            "source": "/articles/:category(tarot|finance|creativity|games|ideation)/:slug",
+            "destination": "/article.html"
+        },
+        {
+            "source": "/:lang(en|ja|en-ja)/articles/:category(tarot|finance|creativity|games|ideation)",
+            "destination": "/category.html"
+        },
+        {
+            "source": "/articles/:category(tarot|finance|creativity|games|ideation)",
+            "destination": "/category.html"
+        },
+        {
+            "source": "/:lang(en|ja|en-ja)/articles/:slug",
+            "destination": "/article.html"
+        },
+        {
+            "source": "/articles/:slug",
+            "destination": "/article.html"
+        },
+        {
+            "source": "/:lang(en|ja|en-ja)",
+            "destination": "/index.html"
+        }
+    ]
+}
