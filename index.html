@@ -609,67 +609,96 @@
         document.addEventListener('DOMContentLoaded', () => {
             // Determine mode
             const path = window.location.pathname;
+            const parts = path.split('/').filter(p => p);
             let mode = 'en-ja'; // Default to Dual/Learning
 
-            if (path.startsWith('/ja')) {
-                mode = 'ja';
-            } else if (path.startsWith('/en') && !path.startsWith('/en-ja')) {
-                mode = 'en';
-            }
+            // Detect mode from first path segment
+            if (parts.length > 0) {
+                if (parts[0] === 'ja') mode = 'ja';
+                else if (parts[0] === 'en') mode = 'en';
+                else if (parts[0] === 'en-ja') mode = 'en-ja';
+                // If path is just '/' it defaults to en-ja
+            } else if (path === '/en/') mode = 'en'; // explicit helper
+            else if (path === '/ja/') mode = 'ja';
 
             // Apply Mode Class
             document.body.classList.add(`mode-${mode}`);
 
-            // Render Language Switcher (Dropdown)
+            // Render Language Switcher (Generic Logic adapted for Index)
             const container = document.getElementById('lang-switcher');
-            const modes = [
-                { id: 'en', label: 'English' },
-                { id: 'en-ja', label: '英語学習 (Dual)' },
-                { id: 'ja', label: '日本語' }
+
+            // Config
+            const languages = [
+                { code: 'en', label: 'English' },
+                { code: 'ja', label: '日本語' }
             ];
 
-            const currentModeObj = modes.find(m => m.id === mode) || modes[1]; // default en-ja
+            const getBaseLangCode = (m) => {
+                if (m === 'en') return 'en';
+                if (m.startsWith('en-')) return m.split('-')[1];
+                return m;
+            };
 
-            container.innerHTML = `
+            const currentBaseLangCode = getBaseLangCode(mode);
+            const currentLangObj = languages.find(l => l.code === currentBaseLangCode) || languages[0];
+
+            // Dropdown
+            const dropdownHtml = `
                 <div class="lang-dropdown">
                     <button class="lang-btn-trigger" id="lang-btn">
-                        ${currentModeObj.label} <span style="font-size: 0.8em; opacity: 0.7;">▼</span>
+                        ${currentLangObj.label} <span style="font-size: 0.8em; opacity: 0.7;">▼</span>
                     </button>
                     <div class="lang-menu" id="lang-menu">
-                        ${modes.map(m => {
-                let href = '/';
-                if (m.id === 'ja') href = '/ja/';
-                if (m.id === 'en') href = '/en/';
-                return `<a href="${href}" class="lang-option ${m.id === mode ? 'active' : ''}">${m.label}</a>`;
+                        ${languages.map(l => {
+                // Link to Index Home of that language
+                // en -> /en/
+                // ja -> /ja/
+                let href = (l.code === 'en') ? '/en/' : `/${l.code}/`;
+                const isActive = l.code === currentBaseLangCode;
+                return `<a href="${href}" class="lang-option ${isActive ? 'active' : ''}">${l.label}</a>`;
             }).join('')}
                     </div>
                 </div>
             `;
 
-            // Dropdown Interactivity
+            // Toggle
+            let toggleHtml = '';
+            if (currentBaseLangCode !== 'en') {
+                const isLearningMode = mode === `en-${currentBaseLangCode}`;
+                const targetMode = isLearningMode ? currentBaseLangCode : `en-${currentBaseLangCode}`;
+                let href = `/${targetMode}/`;
+
+                toggleHtml = `
+                    <a href="${href}" class="btn-learning-toggle ${isLearningMode ? 'active' : ''}">
+                        <span class="toggle-icon">${isLearningMode ? '✓' : ''}</span>
+                        <span class="toggle-label">English Learning</span>
+                    </a>
+                `;
+            }
+
+            container.innerHTML = `<div class="lang-switcher-group">${toggleHtml}${dropdownHtml}</div>`;
+
+            // Interactivity
             const btn = document.getElementById('lang-btn');
             const menu = document.getElementById('lang-menu');
-
             if (btn && menu) {
                 btn.addEventListener('click', (e) => {
                     e.stopPropagation();
                     menu.classList.toggle('show');
                 });
-
                 document.addEventListener('click', () => {
                     menu.classList.remove('show');
                 });
             }
 
-            // Update Article Links
-            // Base links are /en-ja/articles/...
-            // If mode is different, replace /en-ja/ with /mode/
+            // Update Article Links to match current mode
+            // Default links are /en-ja/articles/...
             if (mode !== 'en-ja') {
-                document.querySelectorAll('.article-card').forEach(card => {
-                    const originalHref = card.getAttribute('href');
-                    if (originalHref.startsWith('/en-ja/')) {
-                        const newHref = originalHref.replace('/en-ja/', `/${mode}/`);
-                        card.setAttribute('href', newHref);
+                // Select only article links (logic: starts with /en-ja/articles/)
+                document.querySelectorAll('a').forEach(link => {
+                    const href = link.getAttribute('href');
+                    if (href && href.startsWith('/en-ja/')) {
+                        link.setAttribute('href', href.replace('/en-ja/', `/${mode}/`));
                     }
                 });
             }
