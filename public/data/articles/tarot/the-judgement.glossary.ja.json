@@ -14,10 +14,16 @@
             "explanation": "眠りから覚めること。今まで気づかなかった自分の才能や使命に突然気づき、視界が一気に開ける感覚。「私はこれをするために生まれてきたんだ」という確信です。"
         },
         {
-            "word": "Call / Summons",
+            "word": "Call",
             "sentenceId": 8,
-            "definition": "召命、呼び出し",
+            "definition": "召命、呼び声",
             "explanation": "英語の \"Calling\" は「天職」とも訳されます。職業的な仕事に限らず、魂が「これをやりなさい」と強く訴えかけてくる内なる声のこと。ガブリエルのラッパはこれを象徴しています。"
+        },
+        {
+            "word": "Summons",
+            "sentenceId": 8,
+            "definition": "召喚、呼び出し",
+            "explanation": "法廷への出頭命令のように、無視できない強力な呼びかけ。ここでは魂レベルでの「集合」の号令であり、運命からの絶対的な招待状です。"
         },
         {
             "word": "Irreversible",
@@ -60,6 +66,49 @@
             "sentenceId": 23,
             "definition": "超越した",
             "explanation": "ある領域を通り抜けて、その外に出ること。地上の悩み（人間関係やお金のことなど）が、もはや自分を縛るものではなくなり、より大きな視点から物事を見られるようになった状態です。"
+        },
+        {
+            "word": "Outstretched",
+            "sentenceId": 2,
+            "definition": "差し出された、広げられた",
+            "explanation": "救いを求めて、あるいは歓喜して両手を天に伸ばす姿。受け入れる準備ができている、オープンな状態を表します。"
+        },
+        {
+            "word": "Cyclical",
+            "sentenceId": 3,
+            "definition": "周期的な",
+            "explanation": "繰り返されること。運命の輪のように上がったり下がったりする変化ではなく、次元が変わる（直線的な）進化であることを対比させています。"
+        },
+        {
+            "word": "Dormant",
+            "sentenceId": 5,
+            "definition": "休眠中の",
+            "explanation": "活動を停止している状態。死んだように見えても、実は力を蓄えて目覚めの時を待っていた可能性（才能や夢）のことです。"
+        },
+        {
+            "word": "Vocation",
+            "sentenceId": 9,
+            "definition": "天職、使命",
+            "explanation": "語源はラテン語の「声（vocare）」。神（あるいは内なる声）に呼ばれて就く仕事や役割のこと。"
+        },
+        {
+            "word": "Coffin",
+            "sentenceId": 10,
+            "definition": "棺桶",
+            "textMatch": "coffins",
+            "explanation": "狭い箱。過去の自分、古い価値観、制限された環境の象徴。ここから出ることは、古い殻を破ることを意味します。"
+        },
+        {
+            "word": "Earthly",
+            "sentenceId": 23,
+            "definition": "地上の、俗世の",
+            "explanation": "物質的な欲望や執着。審判の段階では、これらの「人間的な重り」を脱ぎ捨てて、霊的な軽さを手に入れます。"
+        },
+        {
+            "word": "Shed",
+            "sentenceId": 25,
+            "definition": "脱ぎ捨てる",
+            "explanation": "蛇が脱皮するように、古くなった自分の一部を捨て去ること。新生のために必要なプロセスです。"
         }
     ]
 }

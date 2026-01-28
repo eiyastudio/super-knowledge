@@ -56,10 +56,16 @@
             "explanation": "こちら側（日常）とあちら側（非日常・異界）の境目。ザリガニが水から陸へ上がるように、意識のレベルが切り替わるポイントです。"
         },
         {
-            "word": "Domesticated / Feral",
+            "word": "Domesticated",
             "sentenceId": 17,
-            "definition": "飼いならされた / 野生の",
-            "explanation": "私たちの中には、「社会に適応した自分（犬）」と「荒々しい本音の自分（狼）」が同居しています。月夜にはその両方がざわつき始めます。"
+            "definition": "飼いならされた",
+            "explanation": "人間に従順な犬のように、社会のルールや常識に適応した自分。理性的で安全ですが、本能的なパワーは抑えられています。"
+        },
+        {
+            "word": "Feral",
+            "sentenceId": 17,
+            "definition": "野生化した、凶暴な",
+            "explanation": "飼いならされていない狼のように、荒々しい本音や衝動。普段は隠していますが、月の光（不安や狂気）を浴びると、この野生が目覚めます。"
         },
         {
             "word": "Primordial soup",
@@ -84,6 +90,63 @@
             "sentenceId": 29,
             "definition": "直感",
             "explanation": "論理的な思考（太陽の光）が使えない暗闇の中で、唯一の頼りになる「なんとなく感じる」センサーのこと。"
+        },
+        {
+            "word": "Bleak",
+            "sentenceId": 2,
+            "definition": "荒涼とした、寒々しい",
+            "explanation": "希望がなく、殺風景な様子。月の光に照らされた風景は、色彩を失い、死の世界のように静まり返っています。"
+        },
+        {
+            "word": "Look down upon",
+            "sentenceId": 2,
+            "definition": "見下ろす",
+            "textMatch": "looking down upon",
+            "explanation": "高いところから下を見ること。月が地上を冷ややかに観察している様子。感情のない超越的な視点を表します。"
+        },
+        {
+            "word": "Monstrous",
+            "sentenceId": 4,
+            "definition": "怪物のような、異様な",
+            "explanation": "普段は見慣れた木や岩が、闇の中で恐ろしい怪物のように歪んで見えること。恐怖心が作り出す幻影です。"
+        },
+        {
+            "word": "Untamed",
+            "sentenceId": 12,
+            "definition": "飼いならされていない",
+            "explanation": "野生のままの。社会的なルールや教育によってコントロールされていない、生々しい精神領域のこと。"
+        },
+        {
+            "word": "Bay",
+            "sentenceId": 16,
+            "definition": "（犬や狼が）吠える",
+            "explanation": "月に向かって本能的に吠える行為は、不安や恐怖、あるいは野生への抗いがたい衝動を表現しています。"
+        },
+        {
+            "word": "Agitate",
+            "sentenceId": 19,
+            "definition": "動揺させる、ざわつかせる",
+            "textMatch": "agitated",
+            "explanation": "穏やかな状態をかき乱すこと。月の引力が潮の満ち引きを起こすように、私たちの感情や神経をざわつかせ、落ち着かなくさせます。"
+        },
+        {
+            "word": "Veneer",
+            "sentenceId": 20,
+            "definition": "上辺の飾り、張り板",
+            "explanation": "表面だけを良く見せる薄い層。私たちの「理性」や「文明」は薄い皮一枚に過ぎず、その下には野獣（本能）が潜んでいることを示唆します。"
+        },
+        {
+            "word": "At play",
+            "sentenceId": 20,
+            "definition": "作用している、活動している",
+            "explanation": "隠れたところで影響力を及ぼしていること。見えなくても、無意識の力は確かにそこで動いています。"
+        },
+        {
+            "word": "Surface",
+            "sentenceId": 24,
+            "definition": "表面化する、浮上する",
+            "textMatch": "surfacing",
+            "explanation": "水面下に沈んでいたものが浮かび上がってくること。抑圧していたトラウマや記憶が、意識の表面に現れてくるプロセスです。"
         }
     ]
 }

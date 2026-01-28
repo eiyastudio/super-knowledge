@@ -72,6 +72,38 @@
             "sentenceId": 29,
             "definition": "単純な喜び",
             "explanation": "美味しいものを食べる、日向ぼっこをする、笑うといった、複雑な理屈のいらない原始的な幸福。太陽は、幸せのハードルを下げることの重要性を説きます。"
+        },
+        {
+            "word": "Burst forth",
+            "sentenceId": 2,
+            "definition": "飛び出す、突発する",
+            "textMatch": "bursts forth",
+            "explanation": "勢いよく現れること。雲の間から太陽が顔を出し、一気に世界を照らす劇的な瞬間を描写しています。"
+        },
+        {
+            "word": "Evaporate",
+            "sentenceId": 5,
+            "definition": "蒸発する",
+            "explanation": "熱によって水が消えるように、太陽（真実）の光の下では、恐怖や疑念といった実体のない影は存在できなくなります。"
+        },
+        {
+            "word": "Life force",
+            "sentenceId": 21,
+            "definition": "生命力",
+            "explanation": "すべての生き物を生かしている根本的なエネルギー。プラーナや気（チ）と同じもの。太陽はこの源泉です。"
+        },
+        {
+            "word": "Be aligned with",
+            "sentenceId": 25,
+            "definition": "～と一致している",
+            "textMatch": "aligned with",
+            "explanation": "ズレがなく、真っ直ぐにつながっている状態。自分の行動と魂の目的がピタリと重なったとき、宇宙の支援が得られます。"
+        },
+        {
+            "word": "Demeanor",
+            "sentenceId": 28,
+            "definition": "物腰、態度",
+            "explanation": "外に見せている表情や態度。ここでは「深刻ぶった大人の態度」のこと。太陽のカードは、そんな仮面を脱ぎ捨てるよう促します。"
         }
     ]
 }

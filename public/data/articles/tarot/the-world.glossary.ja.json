@@ -32,16 +32,43 @@
             "explanation": "概念や力を、自分の体を通じて表現すること。魔術師が力を「使う」人なら、世界の踊り手は力そのものに「なる」人です。"
         },
         {
+            "word": "Wield",
+            "sentenceId": 9,
+            "definition": "巧みに使う、振るう",
+            "textMatch": "wields",
+            "explanation": "道具や武器を意のままに操ること。魔術師のように力を誇示するのではなく、体の一部のように自然に使いこなしている状態です。"
+        },
+        {
+            "word": "Suspend in motion",
+            "sentenceId": 12,
+            "definition": "空中に静止する",
+            "textMatch": "suspended in motion",
+            "explanation": "動きの中の一瞬が切り取られ、浮いているような状態。重力を感じさせない軽やかさは、精神的な自由を表します。"
+        },
+        {
             "word": "Mastery",
             "sentenceId": 12,
             "definition": "熟達、マスタリー",
             "explanation": "技術や知識を完全に自分のものにしている状態。努力して頑張る段階を超え、無意識のうちに自然に、遊ぶように実行できるレベルです。"
         },
         {
-            "word": "Wreath",
-            "sentenceId": 14,
-            "definition": "リース、花輪",
+            "word": "Laurel wreath",
+            "sentenceId": 2,
+            "definition": "月桂冠、リース",
+            "textMatch": "wreath",
             "explanation": "勝利者に与えられる冠であり、終わりのない永遠の循環の象徴。卵のように守られた神聖な空間を作り出し、その中で魂は自由に踊ることができます。"
+        },
+        {
+            "word": "Lemniscate",
+            "sentenceId": 15,
+            "definition": "レムニスケート",
+            "explanation": "「∞（無限大）」の記号のこと。終わりも始まりもない、永遠に循環するエネルギーの流れを象徴する数学的な図形です。"
+        },
+        {
+            "word": "Coherent",
+            "sentenceId": 17,
+            "definition": "まとまりのある",
+            "explanation": "バラバラだった要素が論理的につじつまが合い、一つの全体として機能している状態。世界のカードが示す「調和」の質です。"
         },
         {
             "word": "Anima Mundi",
