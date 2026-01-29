@@ -1177,3 +1177,10 @@ body.mode-ja .translation-overlay {
     font-weight: 800;
     font-family: serif; 
 }
+
+/* Dual Mode Visibility */
+body.mode-en-ja .ja-text {
+    display: block;
+    opacity: 0.8;
+    margin-top: 0.2rem;
+}
