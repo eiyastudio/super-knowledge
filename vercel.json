@@ -25,6 +25,10 @@
             "destination": "/article.html"
         },
         {
+            "source": "/:lang(en|ja|en-ja)/",
+            "destination": "/index.html"
+        },
+        {
             "source": "/:lang(en|ja|en-ja)",
             "destination": "/index.html"
         }
